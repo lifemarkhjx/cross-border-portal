@@ -1,0 +1,233 @@
+[
+  {
+    "id": "C001",
+    "title": "跨境电商入门：从选品到开店",
+    "title_en": "Cross-border E-commerce 101: From Sourcing to Launch",
+    "category": "入门必修",
+    "level": "初级",
+    "audience": "零基础卖家 / 工厂转型外贸",
+    "summary": "系统了解跨境电商全流程：平台选择、选品逻辑、物流方案、收款渠道，建立整体框架认知。",
+    "chapters": [
+      {
+        "no": 1,
+        "title": "跨境电商全景图：主流平台与市场选择",
+        "duration_min": 18,
+        "video": "",
+        "points": [
+          "亚马逊/TikTok Shop/Shopee/Lazada/独立站适用场景对比",
+          "东南亚、欧美、中东、拉美市场特点与增长趋势",
+          "新手避坑：从「铺货」到「精品」的策略演进"
+        ]
+      },
+      {
+        "no": 2,
+        "title": "选品方法论：数据驱动的产品决策",
+        "duration_min": 22,
+        "video": "",
+        "points": [
+          "市场调研工具与关键词分析",
+          "选品六维评估：需求/竞争/利润/物流/合规/供应链",
+          "工厂型卖家与贸易型卖家的差异化选品路径"
+        ]
+      },
+      {
+        "no": 3,
+        "title": "物流与合规：头程、海外仓与税务基础",
+        "duration_min": 20,
+        "video": "",
+        "points": [
+          "小包专线/海外仓/FBA 的成本与时效对比",
+          "各国进口税务基础：VAT/GST 与低价值商品免税线",
+          "产品认证红线：CE/FCC/RoHS 等常见要求"
+        ]
+      },
+      {
+        "no": 4,
+        "title": "收款与利润测算：把账算清楚",
+        "duration_min": 15,
+        "video": "",
+        "points": [
+          "PayPal/Stripe/PingPong/连连等收款渠道对比与费率",
+          "利润测算表实操：头程+平台佣金+推广+退货率",
+          "现金流管理：备货周期与回款周期匹配"
+        ]
+      }
+    ],
+    "related_quiz": "QZ001",
+    "tags": [
+      "入门",
+      "选品",
+      "物流",
+      "收款"
+    ],
+    "status": "publish"
+  },
+  {
+    "id": "C002",
+    "title": "亚马逊运营实战：Listing 与广告",
+    "title_en": "Amazon Operations: Listing & PPC in Practice",
+    "category": "平台运营",
+    "level": "中级",
+    "audience": "有初步上架经验的卖家",
+    "summary": "从 Listing 优化到广告投放的完整打法：关键词体系、转化率提升、ACOS 控制与复盘迭代。",
+    "chapters": [
+      {
+        "no": 1,
+        "title": "关键词体系：从调研到埋词",
+        "duration_min": 25,
+        "video": "",
+        "points": [
+          "核心词/长尾词/竞品ASIN词的三层结构",
+          "搜索词报告与ABA数据的用法",
+          "标题/五点/ST 的埋词规范"
+        ]
+      },
+      {
+        "no": 2,
+        "title": "Listing 转化率优化：图片、文案与价格",
+        "duration_min": 20,
+        "video": "",
+        "points": [
+          "主图点击率（CTR）的七要素",
+          "A+ 页面与视频位的转化作用",
+          "定价策略与促销工具（Coupon/Deal）搭配"
+        ]
+      },
+      {
+        "no": 3,
+        "title": "PPC 广告：结构设计与 ACOS 控制",
+        "duration_min": 30,
+        "video": "",
+        "points": [
+          "自动/手动广告的组网结构",
+          "Bid 与预算的调价节奏",
+          "ACOS/TACOS 的目标拆解与盈亏平衡"
+        ]
+      },
+      {
+        "no": 4,
+        "title": "数据复盘：周会报表与迭代机制",
+        "duration_min": 18,
+        "video": "",
+        "points": [
+          "广告报表四张表的复盘路径",
+          "否定词的清理纪律",
+          "从数据异常反查 listing/库存/评论"
+        ]
+      }
+    ],
+    "related_quiz": "QZ002",
+    "tags": [
+      "亚马逊",
+      "Listing",
+      "PPC广告",
+      "运营"
+    ],
+    "status": "publish"
+  },
+  {
+    "id": "C003",
+    "title": "东南亚市场合规与税务要点",
+    "title_en": "Southeast Asia Compliance & Tax Essentials",
+    "category": "合规专题",
+    "level": "初级",
+    "audience": "计划进入东南亚市场的卖家 / 合规负责人",
+    "summary": "东南亚六国电商税与合规红线速览：LVG、GST、VAT、进口门槛与平台代扣机制，定价前必看。",
+    "chapters": [
+      {
+        "no": 1,
+        "title": "税制总览：各国 VAT/GST 与低值免税线",
+        "duration_min": 16,
+        "video": "",
+        "points": [
+          "新加坡 GST 9%：进口低值商品由平台/卖家代收",
+          "马来西亚 LVG 10%：≤500令吉低价值商品税",
+          "泰国 VAT 7% 与越南 2025 起取消小包免税"
+        ]
+      },
+      {
+        "no": 2,
+        "title": "印尼与菲律宾：门槛与平台责任",
+        "duration_min": 14,
+        "video": "",
+        "points": [
+          "印尼进口最低门槛 100 美元与正面清单管控",
+          "菲律宾数字平台 VAT 12% 代扣代缴机制",
+          "平台代扣模式下卖家定价的换算方法"
+        ]
+      },
+      {
+        "no": 3,
+        "title": "落地动作：注册、申报与定价合规",
+        "duration_min": 15,
+        "video": "",
+        "points": [
+          "什么情况下必须注册当地税号",
+          "定价公式：到岸成本+税负+平台费+利润",
+          "常见违规案例与整改思路"
+        ]
+      }
+    ],
+    "related_quiz": "QZ003",
+    "tags": [
+      "东南亚",
+      "税务",
+      "合规",
+      "GST",
+      "VAT"
+    ],
+    "status": "publish"
+  },
+  {
+    "id": "C004",
+    "title": "TikTok Shop 起号实战（东南亚）",
+    "title_en": "TikTok Shop Launch Playbook (SEA)",
+    "category": "平台运营",
+    "level": "中级",
+    "audience": "内容电商转型卖家",
+    "summary": "东南亚五国 TikTok Shop 的账号搭建、短视频带货与直播间运营全流程。",
+    "chapters": [
+      {
+        "no": 1,
+        "title": "开店与账号矩阵：五国站点差异",
+        "duration_min": 15,
+        "video": "",
+        "points": [
+          "本土店与跨境店的权限与税负差异",
+          "类目资质与审核材料清单",
+          "账号安全与关联风控"
+        ]
+      },
+      {
+        "no": 2,
+        "title": "短视频带货：脚本结构与投流",
+        "duration_min": 22,
+        "video": "",
+        "points": [
+          "3秒开头-痛点-卖点-行动号召的四段脚本",
+          "达人建联与样品寄送策略",
+          "本地化语言与字幕的处理"
+        ]
+      },
+      {
+        "no": 3,
+        "title": "直播间运营：话术、排品与数据",
+        "duration_min": 25,
+        "video": "",
+        "points": [
+          "直播排品的引流款/利润款/福利款结构",
+          "常见催单话术与合规边界",
+          "直播复盘五项核心数据"
+        ]
+      }
+    ],
+    "related_quiz": "",
+    "tags": [
+      "TikTok",
+      "短视频",
+      "直播",
+      "东南亚"
+    ],
+    "status": "publish"
+  }
+]

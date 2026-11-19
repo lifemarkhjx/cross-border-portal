@@ -1,0 +1,970 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="环球优选：工厂直供跨境出口产品目录 + 跨境电商实战培训与在线测验门户">
+<title>环球优选 · 跨境出口门户</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2312507a'/%3E%3Ccircle cx='32' cy='32' r='15' fill='none' stroke='%23ff7a1a' stroke-width='7'/%3E%3Ccircle cx='44' cy='20' r='7' fill='%23ff7a1a'/%3E%3C/svg%3E">
+<style>/* ============ 环球优选 · 跨境出口门户 ============ */
+:root{
+  --pri:#12507a; --pri-d:#0d3d5e; --pri-l:#e8f1f8;
+  --acc:#ff7a1a; --acc-d:#e5660d; --acc-l:#fff3e8;
+  --bg:#f5f7fa; --card:#ffffff; --tx:#1c2b36; --tx2:#5a6b7a; --tx3:#8a99a8;
+  --line:#e4eaf0; --ok:#2e9e5b; --ok-l:#e8f6ee; --err:#d9534f; --err-l:#fdeaea;
+  --rad:12px; --shadow:0 1px 3px rgba(16,42,67,.08),0 4px 14px rgba(16,42,67,.06);
+  --shadow-h:0 4px 10px rgba(16,42,67,.12),0 10px 26px rgba(16,42,67,.10);
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font-family:system-ui,-apple-system,"Segoe UI","Microsoft YaHei","PingFang SC","Noto Sans SC",sans-serif;background:var(--bg);color:var(--tx);font-size:15px;line-height:1.6;-webkit-font-smoothing:antialiased}
+a{color:inherit;text-decoration:none;cursor:pointer}
+img{max-width:100%;display:block}
+button{font-family:inherit;cursor:pointer;border:none;background:none}
+.wrap{max-width:1200px;margin:0 auto;padding:0 20px}
+.boot-loading{padding:120px 0;text-align:center;color:var(--tx3)}
+
+/* ---------- 顶部公告条 ---------- */
+#announce{background:linear-gradient(90deg,var(--pri-d),var(--pri));color:#fff;font-size:13px;text-align:center;padding:7px 14px;letter-spacing:.5px}
+#announce:empty{display:none}
+
+/* ---------- 头部导航 ---------- */
+#site-header{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.94);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.hd{display:flex;align-items:center;gap:26px;height:64px}
+.brand{display:flex;align-items:center;gap:10px;flex-shrink:0}
+.brand-mark{width:34px;height:34px;border-radius:9px;background:var(--pri);position:relative;flex-shrink:0}
+.brand-mark::after{content:"";position:absolute;inset:7px;border-radius:50%;border:4px solid var(--acc)}
+.brand-name{font-weight:800;font-size:17px;letter-spacing:.3px;color:var(--pri-d)}
+.brand-name small{display:block;font-size:10px;font-weight:500;color:var(--tx3);letter-spacing:1.6px}
+.nav{display:flex;gap:4px;flex:1}
+.nav a{padding:8px 14px;border-radius:8px;font-size:14.5px;color:var(--tx2);font-weight:500;transition:.15s}
+.nav a:hover{background:var(--pri-l);color:var(--pri)}
+.nav a.on{background:var(--pri-l);color:var(--pri);font-weight:700}
+.hd-r{display:flex;align-items:center;gap:10px;flex-shrink:0}
+.lang-btn{border:1px solid var(--line);border-radius:20px;padding:6px 14px;font-size:13px;font-weight:700;color:var(--pri);background:#fff;transition:.15s}
+.lang-btn:hover{border-color:var(--pri);background:var(--pri-l)}
+.burger{display:none;width:40px;height:40px;border-radius:8px;font-size:20px;color:var(--pri);align-items:center;justify-content:center}
+.burger:hover{background:var(--pri-l)}
+
+/* ---------- 通用组件 ---------- */
+.btn{display:inline-flex;align-items:center;gap:7px;border-radius:9px;padding:10px 20px;font-size:14.5px;font-weight:700;transition:.15s;line-height:1.2}
+.btn-pri{background:var(--acc);color:#fff}
+.btn-pri:hover{background:var(--acc-d);box-shadow:var(--shadow-h)}
+.btn-pri-l{background:var(--pri);color:#fff}
+.btn-pri-l:hover{background:var(--pri-d);box-shadow:var(--shadow-h)}
+.btn-ghost{border:1.5px solid var(--line);color:var(--tx2);background:#fff}
+.btn-ghost:hover{border-color:var(--pri);color:var(--pri);background:var(--pri-l)}
+.btn-sm{padding:6px 13px;font-size:13px;border-radius:8px}
+.btn[disabled]{opacity:.5;cursor:not-allowed}
+.chip{display:inline-block;padding:6px 15px;border-radius:20px;border:1.5px solid var(--line);background:#fff;font-size:13.5px;color:var(--tx2);transition:.15s;font-weight:500}
+.chip:hover{border-color:var(--pri);color:var(--pri)}
+.chip.on{background:var(--pri);border-color:var(--pri);color:#fff;font-weight:700}
+.tag{display:inline-block;padding:2px 10px;border-radius:6px;background:var(--pri-l);color:var(--pri);font-size:12px;font-weight:600}
+.tag-acc{background:var(--acc-l);color:var(--acc-d)}
+.sec{padding:56px 0}
+.sec-head{text-align:center;margin-bottom:34px}
+.sec-head h2{font-size:26px;color:var(--pri-d);letter-spacing:.5px}
+.sec-head p{color:var(--tx2);margin-top:8px;font-size:14.5px}
+.page-head{background:linear-gradient(135deg,var(--pri-d) 0%,var(--pri) 70%);color:#fff;padding:44px 0 40px}
+.page-head h1{font-size:28px;letter-spacing:.5px}
+.page-head p{opacity:.85;margin-top:8px;font-size:14.5px}
+.crumb{font-size:13px;color:var(--tx3);margin-bottom:14px}
+.crumb a{color:var(--tx3)}
+.crumb a:hover{color:var(--pri)}
+.card{background:var(--card);border-radius:var(--rad);box-shadow:var(--shadow)}
+input[type=text],textarea{font-family:inherit;font-size:14px;width:100%;border:1.5px solid var(--line);border-radius:9px;padding:10px 14px;outline:none;transition:.15s;background:#fff;color:var(--tx)}
+input[type=text]:focus,textarea:focus{border-color:var(--pri);box-shadow:0 0 0 3px rgba(18,80,122,.12)}
+.toast{position:fixed;bottom:28px;left:50%;transform:translateX(-50%) translateY(20px);background:var(--tx);color:#fff;padding:10px 22px;border-radius:24px;font-size:13.5px;opacity:0;pointer-events:none;transition:.25s;z-index:99}
+.toast.show{opacity:.95;transform:translateX(-50%) translateY(0)}
+
+/* ---------- 首页 ---------- */
+.hero{background:linear-gradient(135deg,var(--pri-d) 0%,var(--pri) 60%,#1a6a9e 100%);color:#fff;position:relative;overflow:hidden}
+.hero::before{content:"";position:absolute;right:-140px;top:-140px;width:420px;height:420px;border-radius:50%;border:64px solid rgba(255,122,26,.16)}
+.hero::after{content:"";position:absolute;left:-90px;bottom:-160px;width:320px;height:320px;border-radius:50%;background:rgba(255,255,255,.05)}
+.hero-in{position:relative;z-index:1;padding:74px 0 66px;max-width:660px}
+.hero-badge{display:inline-block;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.25);border-radius:20px;padding:5px 16px;font-size:13px;letter-spacing:1px;margin-bottom:18px}
+.hero h1{font-size:38px;line-height:1.25;letter-spacing:1px}
+.hero p{margin:16px 0 28px;font-size:16px;opacity:.88;line-height:1.7}
+.hero-ctas{display:flex;gap:14px;flex-wrap:wrap}
+.hero .btn{padding:12px 26px;font-size:15px}
+.stats{position:relative;z-index:1;display:flex;gap:0;border:1px solid rgba(255,255,255,.2);border-radius:14px;overflow:hidden;margin-top:44px;background:rgba(255,255,255,.07);backdrop-filter:blur(4px)}
+.stat{flex:1;text-align:center;padding:18px 8px;border-right:1px solid rgba(255,255,255,.14)}
+.stat:last-child{border-right:none}
+.stat b{font-size:24px;color:#fff;display:block}
+.stat b .u{font-size:12px;font-weight:500;margin-left:2px;opacity:.8}
+.stat span{font-size:12.5px;opacity:.75}
+.why-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.why-card{padding:26px 22px;transition:.2s}
+.why-card:hover{box-shadow:var(--shadow-h);transform:translateY(-3px)}
+.why-ico{width:46px;height:46px;border-radius:12px;background:var(--pri-l);color:var(--pri);font-size:22px;display:flex;align-items:center;justify-content:center;margin-bottom:14px}
+.why-card h3{font-size:16.5px;color:var(--pri-d);margin-bottom:7px}
+.why-card p{font-size:13.5px;color:var(--tx2)}
+.cat-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:16px}
+.cat-card{padding:26px 14px;text-align:center;transition:.2s;display:block}
+.cat-card:hover{box-shadow:var(--shadow-h);transform:translateY(-3px);border:1px solid var(--pri-l)}
+.cat-ico{font-size:30px;margin-bottom:10px}
+.cat-card b{display:block;font-size:15.5px;color:var(--pri-d)}
+.cat-card span{font-size:12.5px;color:var(--tx3)}
+.cta-band{background:linear-gradient(120deg,var(--acc) 0%,#ff9540 100%);border-radius:16px;color:#fff;padding:34px 40px;display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap}
+.cta-band h3{font-size:21px}
+.cta-band p{opacity:.92;font-size:14px;margin-top:5px}
+.cta-band .btn{background:#fff;color:var(--acc-d)}
+
+/* ---------- 产品 ---------- */
+.toolbar{display:flex;gap:12px;flex-wrap:wrap;align-items:center;margin-bottom:14px}
+.search-box{position:relative;flex:1;min-width:230px;max-width:420px}
+.search-box input{padding-left:38px}
+.search-box::before{content:"🔍";position:absolute;left:12px;top:50%;transform:translateY(-50%);font-size:14px;opacity:.55}
+.sort-sel{border:1.5px solid var(--line);border-radius:9px;padding:9px 12px;font-size:13.5px;color:var(--tx2);background:#fff;font-family:inherit;outline:none}
+.chips-row{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:26px}
+.chips-row + .chips-row{margin-top:-18px}
+.grid-prod{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
+.pcard{overflow:hidden;display:flex;flex-direction:column;transition:.2s;position:relative}
+.pcard:hover{box-shadow:var(--shadow-h);transform:translateY(-3px)}
+.pimg{position:relative;aspect-ratio:1/1;background:var(--pri-l);overflow:hidden}
+.pimg img{width:100%;height:100%;object-fit:cover}
+.ptag{position:absolute;top:10px;left:10px;background:var(--acc);color:#fff;font-size:11.5px;font-weight:700;padding:3px 10px;border-radius:6px;letter-spacing:1px}
+.pbody{padding:14px 16px 16px;display:flex;flex-direction:column;flex:1}
+.pcat-line{font-size:12px;color:var(--tx3);margin-bottom:5px}
+.pname{font-size:14.5px;font-weight:600;color:var(--tx);line-height:1.45;min-height:42px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.pprice{display:flex;align-items:baseline;gap:6px;margin:10px 0 4px}
+.pprice b{color:var(--acc-d);font-size:18px}
+.pprice span{font-size:11.5px;color:var(--tx3)}
+.pmoq{font-size:12.5px;color:var(--tx2)}
+.pacts{margin-top:12px;display:flex;gap:8px}
+.pacts .btn{flex:1;justify-content:center}
+.no-result{text-align:center;padding:70px 0;color:var(--tx3);font-size:15px}
+.pager{display:flex;gap:7px;justify-content:center;margin-top:36px;flex-wrap:wrap}
+.pager button{min-width:38px;height:38px;border-radius:9px;border:1.5px solid var(--line);background:#fff;color:var(--tx2);font-size:14px;font-weight:600;transition:.15s;padding:0 8px}
+.pager button:hover{border-color:var(--pri);color:var(--pri)}
+.pager button.on{background:var(--pri);border-color:var(--pri);color:#fff}
+.pager button:disabled{opacity:.35;cursor:default}
+/* 详情页 */
+.pd{display:grid;grid-template-columns:460px 1fr;gap:38px;padding:34px;background:var(--card);border-radius:var(--rad);box-shadow:var(--shadow)}
+.pd-imgs .main-img{border-radius:10px;overflow:hidden;background:var(--pri-l);aspect-ratio:1/1}
+.pd-imgs .main-img img{width:100%;height:100%;object-fit:cover}
+.pd-info h1{font-size:23px;line-height:1.4;color:var(--pri-d)}
+.pd-meta{display:flex;gap:8px;margin:10px 0 16px;flex-wrap:wrap}
+.pd-price-band{background:var(--acc-l);border:1px solid #ffd9b8;border-radius:10px;padding:16px 20px;display:flex;gap:34px;flex-wrap:wrap;align-items:center;margin-bottom:18px}
+.pd-price-band .lbl{font-size:12px;color:var(--tx2);display:block}
+.pd-price-band .val{font-size:24px;font-weight:800;color:var(--acc-d)}
+.pd-price-band .val small{font-size:13px;font-weight:500;color:var(--tx2)}
+.pd-acts{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:22px}
+.pd-sec{margin-top:26px}
+.pd-sec h3{font-size:16px;color:var(--pri-d);margin-bottom:12px;padding-left:10px;border-left:4px solid var(--acc)}
+.spec-table{width:100%;border-collapse:collapse;font-size:14px}
+.spec-table td{border:1px solid var(--line);padding:9px 14px}
+.spec-table td:first-child{background:var(--pri-l);color:var(--pri-d);font-weight:600;width:38%}
+.pd-desc{color:var(--tx2);line-height:1.85;white-space:pre-wrap}
+.rel-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+
+/* ---------- 公司介绍 ---------- */
+.about-story{padding:36px;background:var(--card);border-radius:var(--rad);box-shadow:var(--shadow);font-size:15px;color:var(--tx2);line-height:1.9}
+.about-story p+p{margin-top:14px}
+.cap-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:16px}
+.cap-card{padding:20px;text-align:center}
+.cap-card b{display:block;font-size:15px;color:var(--pri-d);margin-bottom:6px}
+.cap-card span{font-size:13px;color:var(--tx2)}
+.mile{position:relative;margin-left:10px;padding-left:28px;border-left:2px solid var(--line)}
+.mile-item{position:relative;padding-bottom:22px}
+.mile-item:last-child{padding-bottom:0}
+.mile-item::before{content:"";position:absolute;left:-35px;top:4px;width:12px;height:12px;border-radius:50%;background:var(--acc);border:3px solid #fff;box-shadow:0 0 0 2px var(--acc-l)}
+.mile-item b{color:var(--pri-d);margin-right:10px}
+.mile-item span{color:var(--tx2);font-size:14.5px}
+.compliance-tb{width:100%;border-collapse:collapse;background:var(--card);box-shadow:var(--shadow);border-radius:var(--rad);overflow:hidden;font-size:14px}
+.compliance-tb th{background:var(--pri);color:#fff;padding:13px 16px;text-align:left;font-weight:600}
+.compliance-tb td{padding:13px 16px;border-bottom:1px solid var(--line);vertical-align:top}
+.compliance-tb tr:last-child td{border-bottom:none}
+.compliance-tb td:first-child{font-weight:700;color:var(--pri-d);white-space:nowrap}
+.compliance-tb .rule-cell{color:var(--acc-d);font-weight:600}
+.compliance-note{font-size:12.5px;color:var(--tx3);margin-top:10px}
+
+/* ---------- 课程 ---------- */
+.course-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.ccard{padding:24px;display:flex;flex-direction:column;gap:10px;transition:.2s}
+.ccard:hover{box-shadow:var(--shadow-h);transform:translateY(-3px)}
+.ccard-top{display:flex;gap:8px;align-items:center}
+.ccard h3{font-size:17px;color:var(--pri-d);line-height:1.45}
+.ccard .csum{font-size:13.5px;color:var(--tx2);flex:1;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.cmeta{display:flex;gap:14px;font-size:12.5px;color:var(--tx3)}
+.ccard-acts{display:flex;gap:10px;margin-top:4px}
+.ccard-acts .btn{flex:1;justify-content:center}
+.cd-head{padding:32px 36px;border-radius:var(--rad);box-shadow:var(--shadow);display:flex;justify-content:space-between;gap:20px;align-items:flex-start;flex-wrap:wrap}
+.cd-head h1{font-size:24px;color:var(--pri-d)}
+.cd-head .csum{color:var(--tx2);margin-top:10px;font-size:14.5px}
+.chapter{padding:22px 26px;margin-bottom:16px}
+.ch-title{display:flex;align-items:center;gap:12px;margin-bottom:12px;flex-wrap:wrap}
+.ch-no{width:30px;height:30px;border-radius:50%;background:var(--pri);color:#fff;font-size:14px;font-weight:700;display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.ch-title b{font-size:15.5px;color:var(--tx)}
+.ch-dur{margin-left:auto;font-size:12.5px;color:var(--tx3);background:var(--bg);padding:3px 10px;border-radius:12px}
+.video-ph{aspect-ratio:16/9;background:linear-gradient(135deg,#22374a,#123047);border-radius:10px;display:flex;flex-direction:column;align-items:center;justify-content:center;color:#fff;gap:10px;margin-bottom:14px}
+.vp-play{width:62px;height:62px;border-radius:50%;background:rgba(255,122,26,.9);display:flex;align-items:center;justify-content:center;font-size:24px;box-shadow:0 6px 20px rgba(255,122,26,.4)}
+.video-ph b{font-size:15px;letter-spacing:.5px}
+.video-ph span{font-size:12px;opacity:.7}
+.ch-points{background:var(--pri-l);border-radius:10px;padding:16px 20px}
+.ch-points b{color:var(--pri-d);font-size:13.5px;display:block;margin-bottom:8px}
+.ch-points li{list-style:none;font-size:13.5px;color:var(--tx2);padding:3px 0 3px 20px;position:relative}
+.ch-points li::before{content:"✓";position:absolute;left:0;color:var(--acc-d);font-weight:700}
+.quiz-cta{background:var(--acc-l);border:1.5px dashed var(--acc);border-radius:12px;padding:18px 24px;display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-top:20px}
+.quiz-cta span{color:var(--acc-d);font-weight:600;font-size:14.5px}
+
+/* ---------- 测验 ---------- */
+.quiz-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.qcard{padding:24px;display:flex;flex-direction:column;gap:10px}
+.qcard h3{font-size:16.5px;color:var(--pri-d)}
+.qcard .qmeta{font-size:12.5px;color:var(--tx3)}
+.qcard .qbest{font-size:13px;color:var(--acc-d);font-weight:700}
+.qrun-head{background:var(--card);border-radius:var(--rad);box-shadow:var(--shadow);padding:20px 26px;display:flex;justify-content:space-between;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:22px}
+.qrun-head h1{font-size:20px;color:var(--pri-d)}
+.qprog{font-size:13px;color:var(--tx2)}
+.qprog b{color:var(--acc-d)}
+.qcard-q{padding:22px 26px;margin-bottom:16px}
+.qstem{display:flex;gap:10px;margin-bottom:14px;align-items:flex-start}
+.qtype{flex-shrink:0;font-size:12px;font-weight:700;color:#fff;background:var(--pri);border-radius:6px;padding:3px 9px;margin-top:2px}
+.qtype.mul{background:#6b5ce7}.qtype.jud{background:#2e9e5b}
+.qstem b{font-size:15px;line-height:1.55}
+.opts{display:flex;flex-direction:column;gap:9px}
+.opt{border:1.5px solid var(--line);border-radius:10px;padding:12px 16px;font-size:14px;color:var(--tx2);text-align:left;transition:.15s;display:flex;gap:10px;align-items:flex-start;background:#fff;width:100%}
+.opt:hover{border-color:var(--pri);background:var(--pri-l)}
+.opt.sel{border-color:var(--pri);background:var(--pri-l);color:var(--pri-d);font-weight:600}
+.opt .opt-key{font-weight:800;color:var(--pri);flex-shrink:0}
+.opt.correct{border-color:var(--ok);background:var(--ok-l);color:#1d6e3e}
+.opt.wrong{border-color:var(--err);background:var(--err-l);color:#a83232}
+.q-explain{margin-top:12px;background:#fffbeb;border:1px solid #f5e0a3;border-radius:10px;padding:13px 16px;font-size:13.5px;color:#7a6215}
+.q-explain b{display:block;margin-bottom:4px}
+.score-band{background:var(--card);border-radius:var(--rad);box-shadow:var(--shadow);padding:26px 30px;display:flex;align-items:center;gap:26px;flex-wrap:wrap;margin-bottom:22px}
+.score-num{font-size:44px;font-weight:800;line-height:1}
+.score-num small{font-size:15px;color:var(--tx3);font-weight:500}
+.score-num.pass{color:var(--ok)}
+.score-num.fail{color:var(--err)}
+.score-verdict{font-size:16px;font-weight:700}
+.score-verdict.pass{color:var(--ok)}
+.score-verdict.fail{color:var(--err)}
+
+/* ---------- 联系我们 ---------- */
+.contact-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.ct-card{padding:24px;display:block;transition:.2s}
+.ct-card:hover{box-shadow:var(--shadow-h);transform:translateY(-2px)}
+.ct-ico{width:44px;height:44px;border-radius:12px;display:flex;align-items:center;justify-content:center;font-size:21px;color:#fff;margin-bottom:14px}
+.ico-wa{background:#25a05a}.ico-em{background:#12507a}.ico-wx{background:#1aad19}.ico-ph{background:#5a6b7a}.ico-ad{background:#8850d4}.ico-hr{background:#ff7a1a}
+.ct-card b{display:block;font-size:15px;color:var(--pri-d);margin-bottom:6px}
+.ct-card p{font-size:13.5px;color:var(--tx2);white-space:pre-wrap;word-break:break-all}
+.form-card{padding:28px;margin-top:26px}
+.form-card h3{font-size:16px;color:var(--pri-d);margin-bottom:14px}
+.form-row{margin-bottom:14px}
+.form-tip{font-size:12.5px;color:var(--tx3);margin:10px 0 16px}
+
+/* ---------- 页脚 ---------- */
+#site-footer{background:var(--pri-d);color:#c9d8e4;margin-top:70px}
+.ft{display:grid;grid-template-columns:2fr 1fr 1.4fr;gap:40px;padding:46px 0 34px}
+.ft h4{color:#fff;font-size:15px;margin-bottom:14px;letter-spacing:.5px}
+.ft p{font-size:13px;line-height:1.8}
+.ft a{display:block;font-size:13px;padding:3px 0;color:#c9d8e4}
+.ft a:hover{color:#fff}
+.ft-brand{display:flex;align-items:center;gap:9px;margin-bottom:14px}
+.ft-brand .brand-mark{background:var(--acc)}
+.ft-links{display:flex;gap:16px}
+.ft-links div{flex:1}
+.ft-bottom{border-top:1px solid rgba(255,255,255,.12);padding:16px 0 22px;font-size:12px;opacity:.75;text-align:center;line-height:1.8}
+
+/* ---------- 响应式 ---------- */
+@media (max-width:1000px){
+  .why-grid{grid-template-columns:repeat(2,1fr)}
+  .grid-prod{grid-template-columns:repeat(3,1fr)}
+  .cat-grid{grid-template-columns:repeat(3,1fr)}
+  .cap-grid{grid-template-columns:repeat(3,1fr)}
+  .rel-grid{grid-template-columns:repeat(2,1fr)}
+  .course-grid,.quiz-grid,.contact-grid{grid-template-columns:repeat(2,1fr)}
+  .pd{grid-template-columns:1fr}
+  .ft{grid-template-columns:1fr 1fr}
+}
+@media (max-width:760px){
+  .nav{position:fixed;top:65px;left:0;right:0;background:#fff;flex-direction:column;padding:12px 20px 18px;box-shadow:0 10px 24px rgba(16,42,67,.15);display:none;border-bottom:1px solid var(--line)}
+  .nav.open{display:flex}
+  .nav a{padding:11px 14px}
+  .burger{display:flex}
+  .hero-in{padding:48px 0 40px}
+  .hero h1{font-size:27px}
+  .stats{flex-wrap:wrap}
+  .stat{flex:1 1 40%}
+  .grid-prod{grid-template-columns:repeat(2,1fr);gap:12px}
+  .cat-grid,.why-grid,.cap-grid,.course-grid,.quiz-grid,.contact-grid,.rel-grid{grid-template-columns:1fr 1fr}
+  .sec{padding:40px 0}
+  .cta-band{padding:26px 22px}
+  .ft{grid-template-columns:1fr;gap:26px}
+  .pd{padding:20px}
+  .cd-head{padding:22px}
+}
+@media (max-width:460px){
+  .cat-grid,.cap-grid{grid-template-columns:1fr 1fr}
+  .grid-prod{grid-template-columns:1fr 1fr}
+  .pname{font-size:13px}
+  .pprice b{font-size:15px}
+}
+</style>
+</head>
+<body>
+<div id="announce"></div>
+<header id="site-header"></header>
+<main id="app"><div class="boot-loading">加载中…</div></main>
+<footer id="site-footer"></footer>
+<div id="toast" class="toast"></div>
+<script>window.__DATA__={"config":{"site":{"name":"环球优选 · 跨境出口","name_en":"GlobalPick Cross-Border","logo_text":"G-SELECT","tagline":"工厂直供 · 跨境出口一站式供应链与培训服务","tagline_en":"Factory Direct · One-stop Sourcing & Training for Cross-border Sellers","url_base":"","announcement":"样品支持 · OEM/ODM 定制 · 全球发货","announcement_en":"Samples Available · OEM/ODM Customization · Worldwide Shipping","update_note":"阶段1静态展示版 · 商品与课程持续上新中","update_note_en":"Phase 1 static showcase · catalog & courses updating"},"company":{"name":"环球优选（示例公司名，请替换）","founded":"2015","employees":"80+","factory_area":"6,000㎡ 自有工厂 + 12 家合作产线","markets":["东南亚","中东","欧美","拉美"],"certs":["CE","FCC","RoHS","ISO 9001"],"about":["环球优选是一家面向跨境卖家的供应链与培训服务公司，主营消费电子、家居用品、美妆个护、灯具照明、汽配五金等类目。我们深耕中国华南产业带，与 12 家品类工厂建立稳定合作，为 Amazon、TikTok Shop、Shopee、Lazada、独立站等渠道的卖家提供选品、OEM/ODM 定制、质检与出口一站式服务。","公司坚持「先算清账、再做生意」的服务理念：为每个合作客户提供目的国合规与税务提示（详见本页下方）、阶梯报价与利润测算协助，帮助卖家在合规前提下把产品卖得明白、赚得踏实。","同时，我们运营跨境电商培训中心，涵盖平台运营、物流合规、广告投放等实战课程，并配套在线测验体系，帮助团队与新客户快速建立系统认知。"],"about_en":["GlobalPick is a sourcing & training company for cross-border sellers, covering consumer electronics, home goods, beauty & personal care, lighting and auto accessories. Based in South China's industrial belt, we work with 12 partner factories to provide one-stop sourcing, OEM/ODM customization, QC and export services for sellers on Amazon, TikTok Shop, Shopee, Lazada and independent stores.","We believe in \"do the math first, then do the business\": every client receives destination-country compliance & tax notes (see the table below), tiered pricing and profit-calculation support.","We also run a cross-border e-commerce training center with practical courses on platform operations, logistics compliance and advertising, plus an online quiz system."],"milestones":[{"year":"2015","text":"公司成立，专注华南产业带家居类目出口"},{"year":"2018","text":"拓展消费电子与灯具类目，工厂合作产线达 12 家"},{"year":"2021","text":"设立跨境电商培训中心，累计培训卖家 800+ 人次"},{"year":"2023","text":"开通东南亚五国渠道，TikTok Shop 服务商合作"},{"year":"2026","text":"上线在线选品目录与培训考试门户（本站）"}]},"contact":{"whatsapp":"8613800000000","whatsapp_display":"+86 138 0000 0000","email":"sales@example.com","phone":"+86 138 0000 0000","wechat":"globalpick","address":"广东省深圳市（示例地址，请替换）","hours":"周一至周六 9:00–18:00（GMT+8）","hours_en":"Mon–Sat 9:00–18:00 (GMT+8)"},"compliance":[{"country":"马来西亚","country_en":"Malaysia","rule":"LVG 低价值商品税 10%","rule_en":"Low-Value Goods (LVG) tax 10%","note":"≤500 令吉低价值进口商品按 10% 征税，由平台/注册卖家代收代缴，定价须含税测算。","note_en":"Low-value goods ≤RM500 are taxed at 10%, collected by platforms/registered sellers. Include it in pricing."},{"country":"印度尼西亚","country_en":"Indonesia","rule":"进口最低门槛 100 美元","rule_en":"USD 100 import floor","note":"部分品类设 100 美元/件最低进口门槛，低于门槛商品须符合正面清单与合规渠道要求。","note_en":"Certain categories require a USD 100 minimum per item; below-floor items must comply with the positive list."},{"country":"越南","country_en":"Vietnam","rule":"2025 起取消跨境小包 VAT 免税","rule_en":"VAT exemption removed since 2025","note":"跨境小额包裹不再免征增值税，按标准 VAT 征收，直邮与平台模式均受影响。","note_en":"Cross-border small parcels no longer VAT-exempt; standard VAT applies to both direct-mail and platform models."},{"country":"新加坡","country_en":"Singapore","rule":"GST 9% 代收","rule_en":"GST 9% collected at source","note":"进口低价值商品（≤400 新币）GST 9%，由注册的海外卖家或平台代收代缴。","note_en":"GST 9% applies to low-value imports (≤SGD 400), collected by registered overseas vendors or platforms."},{"country":"菲律宾","country_en":"Philippines","rule":"数字平台 VAT 12%","rule_en":"Digital platform VAT 12%","note":"数字平台须代扣代缴 12% VAT，卖家报价需将代扣税负计入成本。","note_en":"Digital platforms must withhold & remit 12% VAT — include it in your cost model."}],"build":{"products_per_page":8,"courses_per_page":9,"default_pass_score":60,"max_embed_products":5000},"i18n":{"zh":{"nav_home":"首页","nav_products":"产品目录","nav_about":"公司介绍","nav_courses":"培训中心","nav_quiz":"在线测验","nav_contact":"联系我们","menu":"菜单","hero_badge":"工厂直供 · 支持定制","hero_title":"把产业带好货，卖到全球","hero_sub":"上千种工厂直供产品持续上架，配套跨境电商实战培训与在线测验，一站式解决「货、运、训」。","cta_browse":"浏览产品目录","cta_courses":"免费看课程","stat_products":"在售产品","stat_countries":"服务国家","stat_courses":"实战课程","stat_reply":"工作日回复","why_title":"为什么选择我们","why1_t":"工厂直供","why1_d":"自有工厂+12 家合作产线，价格与交期可控","why2_t":"定制能力","why2_d":"OEM/ODM 支持：logo、包装、规格均可定制","why3_t":"合规提示","why3_d":"目的国税务与认证红线提前提示，少踩坑","why4_t":"培训陪跑","why4_d":"系统课程+在线测验，团队成长看得见","featured_title":"精选产品","featured_sub":"客户复购率最高的明星单品","featured_more":"查看全部产品","featured_tag":"精选","cat_title":"按类目浏览","cat_sub":"五大主营类目，持续上新","train_title":"跨境电商培训中心","train_sub":"平台运营 · 物流合规 · 广告投放实战课","train_more":"进入培训中心","cta_title":"需要选品报价或定制方案？","cta_sub":"WhatsApp 一对一顾问，工作日 9:00–18:00 在线","cta_btn":"WhatsApp 询价","prod_title":"产品目录","prod_sub":"支持类目筛选、关键词搜索，点击卡片查看详情","search_ph":"搜索产品名称 / SKU / 标签…","all_cat":"全部类目","all_sub":"全部子类","sort_default":"默认排序","sort_price_asc":"价格从低到高","sort_price_desc":"价格从高到低","results_count":"共 {n} 个产品","moq_label":"起订量","price_fob":"FOB 参考价","unit_piece":"件","inquiry":"询价","view_detail":"查看详情","empty_result":"没有找到匹配的产品，换个关键词试试","spec_title":"规格参数","desc_title":"产品介绍","related_title":"同类推荐","back_list":"返回目录","ask_sample":"申请样品","share_tip":"复制链接给客户","about_title":"公司介绍","about_sub":"供应链 + 培训，双轮驱动的跨境服务团队","story_title":"公司简介","milestone_title":"发展历程","cap_title":"资源与资质","cap_founded":"成立年份","cap_employees":"团队成员","cap_factory":"产能资源","cap_markets":"主营市场","cap_certs":"认证支持","compliance_title":"东南亚市场合规提示（定价必读）","compliance_sub":"以下税务要点来自各国已生效政策，用于定价与合规自查；政策如有更新以官方最新公告为准。","compliance_th_c":"国家/地区","compliance_th_r":"政策要点","compliance_th_n":"对卖家的影响","courses_title":"培训中心","courses_sub":"体系化课程 + 在线测验，学完即测","level_all":"全部难度","chapters_label":"章","minutes":"分钟","learn_btn":"开始学习","quiz_btn":"去做测验","outline_title":"课程大纲","video_ph":"视频制作中 · 阶段2开放播放","video_ph_note":"本节大纲与要点已就绪，视频上传后在此播放","points_label":"本节要点","back_courses":"返回课程列表","audience_label":"适合人群","quiz_cta":"学完本章？来做个小测验检验一下 →","quiz_title":"在线测验","quiz_sub":"浏览器本地判分，不出网、不存档，可反复练习","start_quiz":"开始答题","q_count":"{n} 题","time_limit":"建议 {m} 分钟","best_score":"最好成绩","no_attempt":"未测过","single":"单选","multiple":"多选","judge":"判断","q_of":"第 {i} / {n} 题","submit_quiz":"交卷判分","confirm_submit":"还有 {n} 题未作答，确定交卷吗？","your_score":"你的得分","pass_label":"通过！","fail_label":"未通过，再练一次","correct_answer":"正确答案","your_answer":"你的作答","no_answer":"未作答","explanation":"解析","retake":"重新作答","back_quiz_list":"返回测验列表","review_title":"逐题回顾","contact_title":"联系我们","contact_sub":"选品、定制、培训合作，欢迎随时联系","w_label":"WhatsApp（首选）","w_desc":"添加顾问，发产品编号即获报价","e_label":"邮箱","e_desc":"24 小时内回复询盘邮件","wechat_label":"微信","phone_label":"电话","addr_label":"地址","hours_label":"工作时间","form_title":"快速留言（打开邮件客户端发送）","form_name":"您的称呼 / 公司","form_msg":"想咨询的产品编号与需求","form_send":"生成询价邮件","form_tip":"静态阶段表单通过邮件客户端发送；阶段2将接入在线表单与自动回复。","footer_about":"工厂直供供应链 + 跨境电商培训，助力卖家把生意做到全球。","footer_links":"快速导航","footer_contact":"联系方式","footer_rights":"© 2026 环球优选 · 示例站，正式上线前请替换公司信息","footer_disclaimer":"各国税务政策以官方最新公告为准；本站价格均为 FOB 参考价，最终以询价为准。","tip_copy":"已复制","placeholder_note":"图片占位 · 实拍图更新中"},"en":{"nav_home":"Home","nav_products":"Products","nav_about":"About","nav_courses":"Training","nav_quiz":"Quiz","nav_contact":"Contact","menu":"Menu","hero_badge":"Factory Direct · Customizable","hero_title":"Great sourcing, sold worldwide","hero_sub":"Thousands of factory-direct products on the way, with practical cross-border training and online quizzes — goods, logistics and training in one place.","cta_browse":"Browse Products","cta_courses":"Explore Courses","stat_products":"Products","stat_countries":"Countries Served","stat_courses":"Courses","stat_reply":"Weekday Reply","why_title":"Why Choose Us","why1_t":"Factory Direct","why1_d":"Own factory + 12 partner lines, controllable cost & lead time","why2_t":"Customization","why2_d":"OEM/ODM: logo, packaging and specs fully customizable","why3_t":"Compliance Notes","why3_d":"Destination tax & certification red-lines flagged upfront","why4_t":"Training","why4_d":"Structured courses + quizzes for team growth","featured_title":"Featured Products","featured_sub":"Best repeat-purchase items","featured_more":"View all products","featured_tag":"Hot","cat_title":"Browse by Category","cat_sub":"Five main categories, updating constantly","train_title":"E-commerce Training Center","train_sub":"Platform ops · logistics compliance · advertising","train_more":"Enter Training Center","cta_title":"Need quotes or customization?","cta_sub":"WhatsApp consultant online Mon–Sat 9:00–18:00","cta_btn":"WhatsApp Us","prod_title":"Product Catalog","prod_sub":"Filter by category, search by keyword, click for details","search_ph":"Search name / SKU / tags…","all_cat":"All Categories","all_sub":"All Sub-categories","sort_default":"Default","sort_price_asc":"Price: Low to High","sort_price_desc":"Price: High to Low","results_count":"{n} products","moq_label":"MOQ","price_fob":"FOB Ref. Price","unit_piece":"pcs","inquiry":"Inquire","view_detail":"Details","empty_result":"No matching products — try another keyword","spec_title":"Specifications","desc_title":"Description","related_title":"Related Products","back_list":"Back to catalog","ask_sample":"Request Sample","share_tip":"Copy link","about_title":"About Us","about_sub":"Sourcing + training, a dual-driven cross-border team","story_title":"Company Profile","milestone_title":"Milestones","cap_title":"Resources & Certifications","cap_founded":"Founded","cap_employees":"Team","cap_factory":"Capacity","cap_markets":"Main Markets","cap_certs":"Certifications","compliance_title":"SEA Market Compliance Notes (must-read for pricing)","compliance_sub":"Key tax rules from effective policies, for pricing & self-check. Always follow the latest official announcements.","compliance_th_c":"Country","compliance_th_r":"Rule","compliance_th_n":"Impact on Sellers","courses_title":"Training Center","courses_sub":"Structured courses + online quizzes","level_all":"All Levels","chapters_label":"chapters","minutes":"min","learn_btn":"Start Learning","quiz_btn":"Take the Quiz","outline_title":"Course Outline","video_ph":"Video in production · available in Phase 2","video_ph_note":"Outline & key points ready; video will play here once uploaded","points_label":"Key Points","back_courses":"Back to courses","audience_label":"For whom","quiz_cta":"Done with this course? Test yourself →","quiz_title":"Online Quiz","quiz_sub":"Scored locally in your browser — nothing leaves your device","start_quiz":"Start Quiz","q_count":"{n} questions","time_limit":"Suggested {m} min","best_score":"Best","no_attempt":"Not taken","single":"Single Choice","multiple":"Multiple Choice","judge":"True / False","q_of":"Question {i} / {n}","submit_quiz":"Submit & Score","confirm_submit":"{n} question(s) unanswered — submit anyway?","your_score":"Your Score","pass_label":"Passed!","fail_label":"Not passed — try again","correct_answer":"Correct Answer","your_answer":"Your Answer","no_answer":"No answer","explanation":"Explanation","retake":"Retake","back_quiz_list":"Back to quiz list","review_title":"Question Review","contact_title":"Contact Us","contact_sub":"Sourcing, customization & training partnerships welcome","w_label":"WhatsApp (preferred)","w_desc":"Send the product code, get a quote","e_label":"Email","e_desc":"Inquiries replied within 24h","wechat_label":"WeChat","phone_label":"Phone","addr_label":"Address","hours_label":"Working Hours","form_title":"Quick Message (opens your email client)","form_name":"Your name / company","form_msg":"Product codes & your requirements","form_send":"Compose Inquiry Email","form_tip":"Static phase: form opens your email client; Phase 2 adds online forms & auto-reply.","footer_about":"Factory-direct sourcing + cross-border training, helping sellers go global.","footer_links":"Quick Links","footer_contact":"Contact","footer_rights":"© 2026 GlobalPick · Demo site, replace company info before launch","footer_disclaimer":"Tax policies follow the latest official announcements; all prices are FOB reference, final quotes on inquiry.","tip_copy":"Copied","placeholder_note":"Placeholder · photo coming soon"}}},"products":[{"sku":"CE-1001","name":"无线蓝牙耳机 Pro（主动降噪）","name_en":"Wireless Earbuds Pro (ANC)","category":"消费电子","sub_category":"耳机音箱","price":12.8,"currency":"USD","moq":100,"unit":"pcs","images":["img/products/CE-1001.svg"],"specs":{"蓝牙版本":"V5.3","续航":"单次6小时 / 配盒30小时","降噪深度":"-35dB","充电口":"Type-C","防水等级":"IPX5","单盒重量":"48g"},"summary":"主动降噪真无线耳机，支持 ENC 通话降噪，适合通勤与运动场景。","description":"采用 13mm 大动圈单元与主动降噪芯片，降噪深度最高 -35dB；单次续航 6 小时，配合充电仓总续航 30 小时；Type-C 快充，IPX5 防水；支持触控操作与双设备连接。可提供 OEM 定制（logo 印刷、包装定制），支持出口认证咨询。","tags":["TWS","降噪","OEM","蓝牙5.3"],"featured":true,"stock_status":"instock","status":"publish"},{"sku":"CE-1002","name":"智能手表 S8（通话+心率）","name_en":"Smart Watch S8 (Call + Heart Rate)","category":"消费电子","sub_category":"智能穿戴","price":18.5,"currency":"USD","moq":50,"unit":"pcs","images":["img/products/CE-1002.svg"],"specs":{"屏幕":"1.96英寸 AMOLED","电池":"280mAh","续航":"7天","蓝牙通话":"支持","健康监测":"心率/血氧/睡眠","防水":"IP68"},"summary":"1.96 英寸 AMOLED 圆屏智能手表，支持蓝牙通话与 24 项运动模式。","description":"1.96 英寸 AMOLED 高清圆屏，支持蓝牙接打电话；24 项运动模式 + 心率/血氧/睡眠监测；280mAh 电池续航 7 天；IP68 防水。支持多语言 APP（含英语/西语/阿语），可定制表盘与包装。","tags":["智能手表","蓝牙通话","AMOLED","跨境热销"],"featured":true,"stock_status":"instock","status":"publish"},{"sku":"CE-1003","name":"便携移动电源 20000mAh（22.5W快充）","name_en":"Power Bank 20000mAh (22.5W Fast Charge)","category":"消费电子","sub_category":"充电设备","price":9.9,"currency":"USD","moq":100,"unit":"pcs","images":["img/products/CE-1003.svg"],"specs":{"容量":"20000mAh","输出":"22.5W 快充","接口":"Type-C/USB-A/Micro","电芯":"A+聚合物","重量":"410g","认证":"CE/FCC/RoHS"},"summary":"20000mAh 大容量 22.5W 快充移动电源，三口输出，适配主流机型。","description":"A+ 聚合物电芯，20000mAh 额定容量；22.5W 双向快充，Type-C/USB-A 三口输出，可同时充 3 台设备；LED 电量数显；内置多重保护（过充/过放/温控）。已通过 CE/FCC/RoHS 认证，可协助办理空运/海运运输鉴定报告。","tags":["移动电源","快充","CE认证","空运配套"],"featured":false,"stock_status":"instock","status":"publish"},{"sku":"HB-2001","name":"316不锈钢真空保温杯 500ml","name_en":"316 Stainless Vacuum Flask 500ml","category":"家居用品","sub_category":"厨房餐饮","price":3.2,"currency":"USD","moq":200,"unit":"pcs","images":["img/products/HB-2001.svg"],"specs":{"材质":"316不锈钢内胆","容量":"500ml","保温":"12小时（≥50℃）","保冷":"24小时","杯盖":"弹跳直饮盖","颜色":"6色可选"},"summary":"316 不锈钢真空保温杯，12 小时保温，6 色可选，适合礼品定制。","description":"内胆采用 316 医用级不锈钢，真空保温 12 小时（≥50℃）、保冷 24 小时；弹跳直饮盖单手可开；杯身可激光雕刻/丝印 logo，6 种标准色，支持客供色号定制。适合企业礼品、跨境电商平台爆款。","tags":["保温杯","316不锈钢","礼品定制","OEM"],"featured":true,"stock_status":"instock","status":"publish"},{"sku":"HB-2002","name":"桌面收纳盒三件套（可折叠）","name_en":"Foldable Desktop Storage Box Set (3 pcs)","category":"家居用品","sub_category":"收纳整理","price":4.6,"currency":"USD","moq":100,"unit":"set","images":["img/products/HB-2002.svg"],"specs":{"材质":"加厚无纺布+PP板","规格":"大/中/小 三件套","承重":"10kg","折叠":"可平折","颜色":"灰/米/黑"},"summary":"可折叠桌面收纳三件套，加厚材质承重 10kg，节省仓储与物流体积。","description":"加厚无纺布 + PP 硬板复合，折叠平放仅 3cm 厚，大幅节省仓储空间；三件套可分类收纳衣物、文具、杂物；底部加固承重 10kg。适合电商平台与连锁超市渠道。","tags":["收纳盒","可折叠","三件套"],"featured":false,"stock_status":"instock","status":"publish"},{"sku":"BP-3001","name":"声波电动牙刷 T5（含3刷头）","name_en":"Sonic Electric Toothbrush T5 (3 Heads)","category":"美妆个护","sub_category":"口腔护理","price":5.8,"currency":"USD","moq":100,"unit":"pcs","images":["img/products/BP-3001.svg"],"specs":{"震动频率":"42000次/分钟","模式":"5档","刷头":"杜邦软毛×3","续航":"30天（2小时充满）","防水":"IPX7","认证":"CE/RoHS"},"summary":"42000 次/分钟声波电动牙刷，5 档模式，标配 3 刷头，IPX7 全身防水。","description":"空心杯马达 42000 次/分钟高频振动，5 档清洁模式（清洁/美白/敏感/抛光/按摩）；杜邦软毛刷头×3（约 3 个月用量）；USB 充电 2 小时充满续航 30 天；IPX7 全身水洗。可定制礼盒装，适合平台爆款与酒店渠道。","tags":["电动牙刷","声波","IPX7","礼盒装"],"featured":false,"stock_status":"instock","status":"publish"},{"sku":"BP-3002","name":"微电流面部按摩仪（美颜仪）","name_en":"Microcurrent Face Massager","category":"美妆个护","sub_category":"美容仪器","price":7.4,"currency":"USD","moq":50,"unit":"pcs","images":["img/products/BP-3002.svg"],"specs":{"技术":"EMS微电流+42℃恒温","模式":"3档强度","充电":"Type-C","续航":"15次/充满","材质":"304不锈钢导头","认证":"CE/FCC"},"summary":"EMS 微电流 + 42℃ 恒温热敷面部按摩仪，三档强度，Type-C 充电。","description":"EMS 微电流导入 + 42℃ 恒温热敷双重模式，3 档强度可调；304 不锈钢滚轮导头贴合面部曲线；Type-C 充电，单次充满可用约 15 次。附多语言说明书，可定制包装与品牌。","tags":["美容仪","EMS微电流","恒温热敷"],"featured":true,"stock_status":"instock","status":"publish"},{"sku":"LT-4001","name":"太阳能庭院灯（人体感应+3色温）","name_en":"Solar Garden Light (PIR + 3 CCT)","category":"灯具照明","sub_category":"户外照明","price":6.9,"currency":"USD","moq":100,"unit":"pcs","images":["img/products/LT-4001.svg"],"specs":{"太阳能板":"单晶硅 2W","电池":"18650 2200mAh","亮度":"800流明","感应":"PIR 人体感应 5m","色温":"3000K/4500K/6000K","防护":"IP65"},"summary":"单晶硅太阳能庭院灯，PIR 感应 + 3 色温切换，IP65 户外防护。","description":"单晶硅 2W 太阳能板 + 2200mAh 锂电，白天自动充电夜间自动点亮；PIR 人体感应 5 米范围；三档色温（暖白/自然白/冷白）遥控切换；IP65 防护适应户外全天候。适合庭院、车道、乡村市场，东南亚/非洲/中东热销。","tags":["太阳能","庭院灯","PIR感应","IP65"],"featured":false,"stock_status":"instock","status":"publish"},{"sku":"LT-4002","name":"LED 化妆镜前灯（三色可调）","name_en":"LED Vanity Mirror Light (3-Tone)","category":"灯具照明","sub_category":"室内照明","price":8.2,"currency":"USD","moq":50,"unit":"pcs","images":["img/products/LT-4002.svg"],"specs":{"灯珠":"48颗 LED","色温":"3000K-6000K 无级调","供电":"USB 5V","安装":"镜面粘贴/磁吸","显指":"Ra≥95"},"summary":"高显指 Ra≥95 化妆镜前灯，三色温无级调光，USB 供电磁吸安装。","description":"48 颗高显指 LED（Ra≥95，还原真实妆容），3000K-6000K 三色温无级调节；触控开关 + 亮度记忆；磁吸底座可粘贴于镜面/墙面；USB 5V 供电，1.5m 线长。适合欧美、东南亚家居与美妆渠道。","tags":["化妆镜灯","高显指","无级调光"],"featured":false,"stock_status":"instock","status":"publish"},{"sku":"AC-5001","name":"车载无线吸尘器 12000Pa","name_en":"Car Cordless Vacuum 12000Pa","category":"汽配五金","sub_category":"车品配件","price":11.5,"currency":"USD","moq":50,"unit":"pcs","images":["img/products/AC-5001.svg"],"specs":{"吸力":"12000Pa","电池":"2×2000mAh","续航":"25分钟","配置":"扁嘴/毛刷/软管 3吸头","过滤":"HEPA 可水洗","重量":"0.6kg"},"summary":"12000Pa 无线车载吸尘器，HEPA 可水洗过滤，三吸头全场景清洁。","description":"无刷电机 12000Pa 强劲吸力，干湿两用；2×2000mAh 电池续航 25 分钟；HEPA 可水洗滤芯；标配扁嘴吸头/毛刷/延长软管三吸头，缝隙座椅全场景覆盖；Type-C 充电。车载与家用两用，适合车品平台与加油站渠道。","tags":["车载吸尘器","无线","HEPA","干湿两用"],"featured":false,"stock_status":"instock","status":"publish"}],"courses":[{"id":"C001","title":"跨境电商入门：从选品到开店","title_en":"Cross-border E-commerce 101: From Sourcing to Launch","category":"入门必修","level":"初级","audience":"零基础卖家 / 工厂转型外贸","summary":"系统了解跨境电商全流程：平台选择、选品逻辑、物流方案、收款渠道，建立整体框架认知。","chapters":[{"no":1,"title":"跨境电商全景图：主流平台与市场选择","duration_min":18,"video":"","points":["亚马逊/TikTok Shop/Shopee/Lazada/独立站适用场景对比","东南亚、欧美、中东、拉美市场特点与增长趋势","新手避坑：从「铺货」到「精品」的策略演进"]},{"no":2,"title":"选品方法论：数据驱动的产品决策","duration_min":22,"video":"","points":["市场调研工具与关键词分析","选品六维评估：需求/竞争/利润/物流/合规/供应链","工厂型卖家与贸易型卖家的差异化选品路径"]},{"no":3,"title":"物流与合规：头程、海外仓与税务基础","duration_min":20,"video":"","points":["小包专线/海外仓/FBA 的成本与时效对比","各国进口税务基础：VAT/GST 与低价值商品免税线","产品认证红线：CE/FCC/RoHS 等常见要求"]},{"no":4,"title":"收款与利润测算：把账算清楚","duration_min":15,"video":"","points":["PayPal/Stripe/PingPong/连连等收款渠道对比与费率","利润测算表实操：头程+平台佣金+推广+退货率","现金流管理：备货周期与回款周期匹配"]}],"related_quiz":"QZ001","tags":["入门","选品","物流","收款"],"status":"publish"},{"id":"C002","title":"亚马逊运营实战：Listing 与广告","title_en":"Amazon Operations: Listing & PPC in Practice","category":"平台运营","level":"中级","audience":"有初步上架经验的卖家","summary":"从 Listing 优化到广告投放的完整打法：关键词体系、转化率提升、ACOS 控制与复盘迭代。","chapters":[{"no":1,"title":"关键词体系：从调研到埋词","duration_min":25,"video":"","points":["核心词/长尾词/竞品ASIN词的三层结构","搜索词报告与ABA数据的用法","标题/五点/ST 的埋词规范"]},{"no":2,"title":"Listing 转化率优化：图片、文案与价格","duration_min":20,"video":"","points":["主图点击率（CTR）的七要素","A+ 页面与视频位的转化作用","定价策略与促销工具（Coupon/Deal）搭配"]},{"no":3,"title":"PPC 广告：结构设计与 ACOS 控制","duration_min":30,"video":"","points":["自动/手动广告的组网结构","Bid 与预算的调价节奏","ACOS/TACOS 的目标拆解与盈亏平衡"]},{"no":4,"title":"数据复盘：周会报表与迭代机制","duration_min":18,"video":"","points":["广告报表四张表的复盘路径","否定词的清理纪律","从数据异常反查 listing/库存/评论"]}],"related_quiz":"QZ002","tags":["亚马逊","Listing","PPC广告","运营"],"status":"publish"},{"id":"C003","title":"东南亚市场合规与税务要点","title_en":"Southeast Asia Compliance & Tax Essentials","category":"合规专题","level":"初级","audience":"计划进入东南亚市场的卖家 / 合规负责人","summary":"东南亚六国电商税与合规红线速览：LVG、GST、VAT、进口门槛与平台代扣机制，定价前必看。","chapters":[{"no":1,"title":"税制总览：各国 VAT/GST 与低值免税线","duration_min":16,"video":"","points":["新加坡 GST 9%：进口低值商品由平台/卖家代收","马来西亚 LVG 10%：≤500令吉低价值商品税","泰国 VAT 7% 与越南 2025 起取消小包免税"]},{"no":2,"title":"印尼与菲律宾：门槛与平台责任","duration_min":14,"video":"","points":["印尼进口最低门槛 100 美元与正面清单管控","菲律宾数字平台 VAT 12% 代扣代缴机制","平台代扣模式下卖家定价的换算方法"]},{"no":3,"title":"落地动作：注册、申报与定价合规","duration_min":15,"video":"","points":["什么情况下必须注册当地税号","定价公式：到岸成本+税负+平台费+利润","常见违规案例与整改思路"]}],"related_quiz":"QZ003","tags":["东南亚","税务","合规","GST","VAT"],"status":"publish"},{"id":"C004","title":"TikTok Shop 起号实战（东南亚）","title_en":"TikTok Shop Launch Playbook (SEA)","category":"平台运营","level":"中级","audience":"内容电商转型卖家","summary":"东南亚五国 TikTok Shop 的账号搭建、短视频带货与直播间运营全流程。","chapters":[{"no":1,"title":"开店与账号矩阵：五国站点差异","duration_min":15,"video":"","points":["本土店与跨境店的权限与税负差异","类目资质与审核材料清单","账号安全与关联风控"]},{"no":2,"title":"短视频带货：脚本结构与投流","duration_min":22,"video":"","points":["3秒开头-痛点-卖点-行动号召的四段脚本","达人建联与样品寄送策略","本地化语言与字幕的处理"]},{"no":3,"title":"直播间运营：话术、排品与数据","duration_min":25,"video":"","points":["直播排品的引流款/利润款/福利款结构","常见催单话术与合规边界","直播复盘五项核心数据"]}],"related_quiz":"","tags":["TikTok","短视频","直播","东南亚"],"status":"publish"}],"quizzes":[{"id":"QZ001","title":"跨境电商入门测验","title_en":"Cross-border E-commerce 101 Quiz","course_id":"C001","pass_score":60,"time_limit_min":15,"questions":[{"id":"Q1","type":"single","stem":"以下哪个平台以「社交内容电商」为主要形态，在东南亚增长最快？","options":["亚马逊 Amazon","TikTok Shop","eBay","Alibaba 国际站"],"answer":[1],"explanation":"TikTok Shop 以短视频与直播内容驱动成交，是东南亚近年增长最快的社交电商平台；亚马逊/eBay 属于货架电商，Alibaba 国际站以 B2B 询盘为主。","score":10},{"id":"Q2","type":"single","stem":"新手卖家做「精品」策略时，选品六维评估不包括以下哪一项？","options":["需求规模","竞争强度","公司注册资本","物流成本"],"answer":[2],"explanation":"选品六维评估为：需求/竞争/利润/物流/合规/供应链。公司注册资本与选品决策无直接关系。","score":10},{"id":"Q3","type":"single","stem":"关于头程物流方案，以下说法正确的是？","options":["商业快递一定比海运海外仓便宜","海外仓适合体积小、周转快的标品","小包专线时效比 FBA 更稳定","所有产品都必须走海外仓"],"answer":[1],"explanation":"海外仓适合销量稳定、体积重量适中、周转快的标品；商业快递贵但快；小包专线时效通常不如 FBA 稳定；是否用海外仓取决于产品与销量结构，不是一刀切。","score":10},{"id":"Q4","type":"multiple","stem":"以下哪些属于出口常见的产品认证要求？（多选）","options":["CE（欧盟）","FCC（美国）","RoHS（有害物质）","CCC（中国强制）"],"answer":[0,1,2],"explanation":"CE/FCC/RoHS 是出口欧盟、美国等市场的常见认证；CCC 是中国国内市场准入认证，不属于出口常见要求。","score":10},{"id":"Q5","type":"judge","stem":"利润测算时，除头程与平台佣金外，还应把推广费与退货率计入成本。","options":["正确","错误"],"answer":[0],"explanation":"完整的利润测算应包含：采购+头程+平台佣金+推广+退货损耗+汇损，漏算推广与退货是新手亏本的常见原因。","score":10},{"id":"Q6","type":"judge","stem":"备货周期与回款周期匹配不重要，只要产品卖得动就行。","options":["正确","错误"],"answer":[1],"explanation":"现金流断裂是电商死亡的常见原因：备货占款周期长而回款慢，会造成资金链断裂，必须让两个周期匹配并预留缓冲。","score":10}]},{"id":"QZ002","title":"亚马逊运营实战测验","title_en":"Amazon Operations Quiz","course_id":"C002","pass_score":60,"time_limit_min":15,"questions":[{"id":"Q1","type":"single","stem":"Listing 关键词体系中，「核心词/长尾词/竞品ASIN词」的正确关系是？","options":["三者互不相关，各埋各的","长尾词流量一定比核心词大","核心词保流量底盘，长尾词捡精准流量，竞品词做拦截","只用核心词，其他都不要"],"answer":[2],"explanation":"关键词三层结构：核心词承载主要流量底盘，长尾词精准转化，竞品 ASIN 词用于广告拦截与流量收割。","score":10},{"id":"Q2","type":"single","stem":"判断主图好坏最直接的指标是？","options":["图片文件大小","主图点击率（CTR）","PS 图层数量","上传时间"],"answer":[1],"explanation":"主图直接决定搜索结果页的点击率（CTR），是验证主图优劣最直接的量化指标。","score":10},{"id":"Q3","type":"single","stem":"某产品售价 $25，扣除头程、佣金等变动成本后毛利 $10，广告可承受的最大 ACOS 约为？","options":["10%","40%","70%","100%"],"answer":[1],"explanation":"盈亏平衡 ACOS ≈ 毛利/售价 = 10/25 = 40%。超过 40% 意味着广告费用吃掉全部毛利，开始亏损（不含固定成本）。","score":10},{"id":"Q4","type":"multiple","stem":"广告周复盘应重点处理的动作包括？（多选）","options":["否定长期无转化且无关的搜索词","对高转化关键词提高 Bid 抢排名","删除所有出单的老关键词","按 ACOS 目标调整预算分配"],"answer":[0,1,3],"explanation":"复盘常规动作：否定无效词、加价抢高转化词、按 ACOS 目标调预算。老关键词已出单说明有效，删除会损失存量流量。","score":10},{"id":"Q5","type":"judge","stem":"TACOS（总广告销售占比）分母是全店销售额，因此更适合衡量广告对整体生意的健康度。","options":["正确","错误"],"answer":[0],"explanation":"TACOS = 广告花费 ÷ 总销售额，能反映广告对自然流量的带动；ACOS 只看广告单，TACOS 更适合评估整体健康度。","score":10},{"id":"Q6","type":"judge","stem":"广告报表里只要某个词有曝光，就应该保留并加预算。","options":["正确","错误"],"answer":[1],"explanation":"只看曝光不看转化会浪费预算：有曝光但长期无点击/无转化的词应降低竞价或否定，预算应向高转化词集中。","score":10}]},{"id":"QZ003","title":"东南亚合规与税务测验","title_en":"SEA Compliance & Tax Quiz","course_id":"C003","pass_score":60,"time_limit_min":15,"questions":[{"id":"Q1","type":"single","stem":"马来西亚对 ≤500 令吉的低价值进口商品征收的 LVG 税率是？","options":["5%","10%","15%","免税"],"answer":[1],"explanation":"马来西亚自 2024 年起对 ≤500 令吉的低价值商品（LVG）征收 10% 销售税，由平台/卖家代收代缴。","score":10},{"id":"Q2","type":"single","stem":"新加坡对进口低价值商品征收 GST 的现行税率是？","options":["7%","8%","9%","12%"],"answer":[2],"explanation":"新加坡 GST 已于 2024 年上调至 9%，进口低价值商品（≤400 新币）由海外卖家注册后代收代缴。","score":10},{"id":"Q3","type":"single","stem":"印尼对跨境直邮包裹设置的价格门槛是？","options":["最低 50 美元","最低 75 美元","最低 100 美元","最低 150 美元"],"answer":[2],"explanation":"印尼将部分品类进口最低门槛设为 100 美元/件，低于该值的商品不得作为特定品类直邮进入，需走正面清单与合规渠道。","score":10},{"id":"Q4","type":"multiple","stem":"关于越南与菲律宾的电商税，以下正确的有？（多选）","options":["越南自 2025 年起取消跨境小包增值税免税","菲律宾数字平台需代扣代缴 12% VAT","越南仍然对所有小包免税","菲律宾 VAT 税率为 5%"],"answer":[0,1],"explanation":"越南自 2025 年起取消小额进口商品增值税免税，按标准税率征收；菲律宾要求数字平台代扣代缴 12% VAT。C、D 均错误。","score":10},{"id":"Q5","type":"judge","stem":"平台已代扣代缴税款的情况下，卖家无需再关注自身注册与申报义务。","options":["正确","错误"],"answer":[1],"explanation":"平台代扣只覆盖平台内销售部分；达到注册门槛（如营业额标准）时，卖家仍有注册税号与申报义务，且自建站（独立站）销售通常需自行申报。","score":10},{"id":"Q6","type":"judge","stem":"面向东南亚市场的定价，应把「到岸成本+税负+平台费+利润」整体测算，而不是只按国内售价乘系数。","options":["正确","错误"],"answer":[0],"explanation":"各国税负与平台费率差异大（如 LVG 10%、GST 9%、VAT 12%），简单乘系数会导致亏本或税务风险，必须按目的国成本结构逐项测算。","score":10}]}]};</script>
+<script>/* ============ 环球优选 · 前端应用（无外部依赖，hash 路由） ============ */
+'use strict';
+var D = window.__DATA__;
+var CFG = D.config;
+var I18N = CFG.i18n;
+var LANG = localStorage.getItem('cbp_lang') || 'zh';
+var state = {
+  products: { cat: '', sub: '', q: '', sort: 'default', page: 1 },
+  coursesLevel: '',
+  quiz: null, answers: {}, submitted: false,
+  refocusSearch: false
+};
+
+/* ---------- i18n ---------- */
+function t(k) {
+  var d = I18N[LANG] || I18N.zh;
+  if (d[k] != null) return d[k];
+  if (I18N.zh[k] != null) return I18N.zh[k];
+  return k;
+}
+function fmt(k, vars) {
+  var s = t(k);
+  for (var key in vars) s = s.replace('{' + key + '}', vars[key]);
+  return s;
+}
+function ct(obj, f) { /* 内容字段：zh 为主，英文缺失回退中文 */
+  if (!obj) return '';
+  var v = obj[f + '_' + LANG];
+  if (v) return v;
+  return obj[f] != null ? obj[f] : '';
+}
+function esc(s) {
+  return String(s == null ? '' : s)
+    .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+}
+
+/* ---------- 工具 ---------- */
+function prodImg(p, idx) {
+  idx = idx || 0;
+  if (p.images && p.images.length && p.images[idx]) return p.images[idx];
+  return 'img/products/' + encodeURIComponent(p.sku) + '.svg';
+}
+function imgFallback(el) {
+  el.onerror = null;
+  el.src = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 80 80'%3E%3Crect width='80' height='80' fill='%23e8f1f8'/%3E%3Ctext x='40' y='44' text-anchor='middle' font-size='30'%3E%F0%9F%93%A6%3C/text%3E%3C/svg%3E";
+}
+function priceTxt(p) {
+  if (p.price == null) return t('inquiry');
+  return 'US$' + Number(p.price).toFixed(2);
+}
+function waLink(msg) {
+  return 'https://wa.me/' + CFG.contact.whatsapp + '?text=' + encodeURIComponent(msg);
+}
+function mailLink(subject, body) {
+  return 'mailto:' + CFG.contact.email + '?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
+}
+function toast(msg) {
+  var el = document.getElementById('toast');
+  el.textContent = msg;
+  el.classList.add('show');
+  clearTimeout(el._tm);
+  el._tm = setTimeout(function () { el.classList.remove('show'); }, 1600);
+}
+function copyText(s) {
+  if (navigator.clipboard) navigator.clipboard.writeText(s).then(function(){ toast(t('tip_copy') + ': ' + s); });
+  else toast(s);
+}
+function cats() {
+  var m = {}, order = [];
+  D.products.forEach(function (p) {
+    if (!m[p.category]) { m[p.category] = { name: p.category, count: 0, subs: {} }; order.push(p.category); }
+    m[p.category].count++;
+    if (p.sub_category) m[p.category].subs[p.sub_category] = (m[p.category].subs[p.sub_category] || 0) + 1;
+  });
+  order.sort(function (a, b) { return m[b].count - m[a].count; });
+  return order.map(function (n) { return m[n]; });
+}
+function quizBest(id) {
+  var v = localStorage.getItem('cbp_best_' + id);
+  return v == null ? null : Number(v);
+}
+
+/* ---------- 路由 ---------- */
+function parseRoute() {
+  var h = location.hash.replace(/^#\/?/, '');
+  var parts = h.split('/').filter(Boolean);
+  if (!parts.length) return { name: 'home' };
+  switch (parts[0]) {
+    case 'products': return { name: 'products' };
+    case 'p': return { name: 'product', sku: decodeURIComponent(parts.slice(1).join('/')) };
+    case 'about': return { name: 'about' };
+    case 'courses': return { name: 'courses' };
+    case 'c': return { name: 'course', id: parts[1] };
+    case 'quiz': return parts[1] ? { name: 'quizRun', id: parts[1] } : { name: 'quizList' };
+    case 'contact': return { name: 'contact' };
+    default: return { name: 'home' };
+  }
+}
+function go(hash) {
+  if (location.hash === hash) render(); else location.hash = hash;
+}
+var ROUTE_ACTIVE = { home: 'nav_home', products: 'nav_products', product: 'nav_products', about: 'nav_about', courses: 'nav_courses', course: 'nav_courses', quizList: 'nav_quiz', quizRun: 'nav_quiz', contact: 'nav_contact' };
+
+/* ---------- 骨架 ---------- */
+function renderChrome() {
+  var route = parseRoute();
+  var act = ROUTE_ACTIVE[route.name] || '';
+  var navItems = ['nav_home', 'nav_products', 'nav_courses', 'nav_quiz', 'nav_about', 'nav_contact'];
+  var navHash = { nav_home: '#/', nav_products: '#/products', nav_courses: '#/courses', nav_quiz: '#/quiz', nav_about: '#/about', nav_contact: '#/contact' };
+  var ann = ct(CFG.site, 'announcement');
+  var brandName = LANG === 'en' && CFG.site.name_en ? CFG.site.name_en : CFG.site.name;
+  var brandTag = ct(CFG.site, 'tagline');
+  document.getElementById('announce').innerHTML = ann ? esc(ann) : '';
+  document.getElementById('site-header').innerHTML =
+    '<div class="wrap hd">' +
+    '<a class="brand" href="#/"><span class="brand-mark"></span><span class="brand-name">' + esc(brandName) + '<small>' + esc(CFG.site.logo_text || '') + '</small></span></a>' +
+    '<nav class="nav" id="mainnav">' +
+    navItems.map(function (k) {
+      return '<a href="' + navHash[k] + '" class="' + (k === act ? 'on' : '') + '">' + esc(t(k)) + '</a>';
+    }).join('') +
+    '</nav>' +
+    '<div class="hd-r">' +
+    '<button class="lang-btn" onclick="setLang(\'' + (LANG === 'zh' ? 'en' : 'zh') + '\')">' + (LANG === 'zh' ? 'EN' : '中文') + '</button>' +
+    '<button class="burger" onclick="toggleMenu()" aria-label="menu">☰</button>' +
+    '</div></div>';
+  var wa = CFG.contact;
+  document.getElementById('site-footer').innerHTML =
+    '<div class="wrap ft">' +
+    '<div>' +
+    '<div class="ft-brand"><span class="brand-mark"></span><b style="color:#fff;font-size:16px">' + esc(brandName) + '</b></div>' +
+    '<p>' + esc(t('footer_about')) + '</p>' +
+    '<p style="margin-top:10px;opacity:.8">' + esc(brandTag) + '</p>' +
+    '</div>' +
+    '<div><h4>' + esc(t('footer_links')) + '</h4><div class="ft-links">' +
+    '<div>' + navItems.slice(0, 3).map(function (k) { return '<a href="' + navHash[k] + '">' + esc(t(k)) + '</a>'; }).join('') + '</div>' +
+    '<div>' + navItems.slice(3).map(function (k) { return '<a href="' + navHash[k] + '">' + esc(t(k)) + '</a>'; }).join('') + '</div>' +
+    '</div></div>' +
+    '<div><h4>' + esc(t('footer_contact')) + '</h4>' +
+    '<p>WhatsApp: ' + esc(wa.whatsapp_display) + '</p>' +
+    '<p>Email: ' + esc(wa.email) + '</p>' +
+    '<p>' + esc(LANG === 'en' && wa.hours_en ? wa.hours_en : wa.hours) + '</p>' +
+    '</div></div>' +
+    '<div class="ft-bottom wrap">' + esc(t('footer_disclaimer')) + '<br>' + esc(t('footer_rights')) + ' · ' + esc(ct(CFG.site, 'update_note')) + '</div>';
+}
+function toggleMenu() {
+  document.getElementById('mainnav').classList.toggle('open');
+}
+function setLang(l) {
+  LANG = l;
+  localStorage.setItem('cbp_lang', l);
+  render();
+}
+
+/* ---------- 产品卡片 ---------- */
+function prodCard(p) {
+  return '<a class="pcard card" href="#/p/' + encodeURIComponent(p.sku) + '">' +
+    '<div class="pimg"><img src="' + esc(prodImg(p)) + '" alt="' + esc(p.name) + '" loading="lazy" onerror="imgFallback(this)">' +
+    (p.featured ? '<span class="ptag">★ ' + esc(t('featured_tag')) + '</span>' : '') +
+    '</div>' +
+    '<div class="pbody">' +
+    '<div class="pcat-line">' + esc(p.category) + (p.sub_category ? ' · ' + esc(p.sub_category) : '') + '</div>' +
+    '<h3 class="pname">' + esc(ct(p, 'name')) + '</h3>' +
+    '<div class="pprice"><b>' + esc(priceTxt(p)) + '</b><span>' + esc(t('price_fob')) + '</span></div>' +
+    '<div class="pmoq">' + esc(t('moq_label')) + ' ≥ ' + esc(p.moq) + ' ' + esc(p.unit || t('unit_piece')) + '</div>' +
+    '<div class="pacts">' +
+    '<span class="btn btn-pri btn-sm" onclick="inquire(\'' + esc(p.sku) + '\',event)">' + esc(t('inquiry')) + '</span>' +
+    '<span class="btn btn-ghost btn-sm" onclick="void 0">' + esc(t('view_detail')) + '</span>' +
+    '</div></div></a>';
+}
+function inquire(sku, ev) {
+  if (ev) { ev.preventDefault(); ev.stopPropagation(); }
+  var p = D.products.filter(function (x) { return x.sku === sku; })[0];
+  if (!p) return;
+  var msg = LANG === 'en'
+    ? 'Hello, I would like to inquire about product [' + p.sku + '] ' + (p.name_en || p.name) + '. Please send your best price (MOQ ' + p.moq + ' ' + (p.unit || 'pcs') + ') and sample policy. Thank you!'
+    : '您好，我想咨询产品 [' + p.sku + '] ' + p.name + '（' + (p.sub_category || p.category) + '），请报最新批发价（起订量 ' + p.moq + ' ' + (p.unit || '件') + '）与样品政策，谢谢！';
+  window.open(waLink(msg), '_blank', 'noopener');
+}
+
+/* ---------- 视图：首页 ---------- */
+function viewHome() {
+  var feat = D.products.filter(function (p) { return p.featured; }).slice(0, 8);
+  if (!feat.length) feat = D.products.slice(0, 8);
+  var catList = cats();
+  var nCountries = (CFG.company.markets || []).length;
+  var html = '' +
+    '<section class="hero"><div class="wrap">' +
+    '<div class="hero-in">' +
+    '<span class="hero-badge">✦ ' + esc(t('hero_badge')) + '</span>' +
+    '<h1>' + esc(t('hero_title')) + '</h1>' +
+    '<p>' + esc(t('hero_sub')) + '</p>' +
+    '<div class="hero-ctas">' +
+    '<a class="btn btn-pri" href="#/products">' + esc(t('cta_browse')) + ' →</a>' +
+    '<a class="btn btn-ghost" href="#/courses" style="border-color:rgba(255,255,255,.4);color:#fff;background:rgba(255,255,255,.08)">' + esc(t('cta_courses')) + '</a>' +
+    '</div></div>' +
+    '<div class="stats">' +
+    '<div class="stat"><b>' + D.products.length + '<span class="u">+</span></b><span>' + esc(t('stat_products')) + '</span></div>' +
+    '<div class="stat"><b>' + nCountries + '</b><span>' + esc(t('stat_countries')) + '</span></div>' +
+    '<div class="stat"><b>' + D.courses.length + '</b><span>' + esc(t('stat_courses')) + '</span></div>' +
+    '<div class="stat"><b>24h</b><span>' + esc(t('stat_reply')) + '</span></div>' +
+    '</div>' +
+    '</div></section>' +
+
+    '<section class="sec"><div class="wrap">' +
+    '<div class="sec-head"><h2>' + esc(t('why_title')) + '</h2></div>' +
+    '<div class="why-grid">' +
+    ['why1', 'why2', 'why3', 'why4'].map(function (k, i) {
+      return '<div class="why-card card"><div class="why-ico">' + ['🏭', '🎨', '🛡️', '🎓'][i] + '</div><h3>' + esc(t(k + '_t')) + '</h3><p>' + esc(t(k + '_d')) + '</p></div>';
+    }).join('') +
+    '</div></div></section>' +
+
+    '<section class="sec" style="padding-top:10px"><div class="wrap">' +
+    '<div class="sec-head"><h2>' + esc(t('featured_title')) + '</h2><p>' + esc(t('featured_sub')) + '</p></div>' +
+    '<div class="grid-prod">' + feat.map(prodCard).join('') + '</div>' +
+    '<div style="text-align:center;margin-top:30px"><a class="btn btn-ghost" href="#/products">' + esc(t('featured_more')) + ' →</a></div>' +
+    '</div></section>' +
+
+    '<section class="sec" style="padding-top:10px"><div class="wrap">' +
+    '<div class="sec-head"><h2>' + esc(t('cat_title')) + '</h2><p>' + esc(t('cat_sub')) + '</p></div>' +
+    '<div class="cat-grid">' +
+    catList.map(function (c, i) {
+      return '<a class="cat-card card" href="#/products" onclick="setCatFromHome(\'' + esc(c.name) + '\')">' +
+        '<div class="cat-ico">' + ['🎧', '🏠', '💄', '💡', '🔧'][i % 5] + '</div><b>' + esc(c.name) + '</b><span>' + c.count + ' SKUs</span></a>';
+    }).join('') +
+    '</div></div></section>' +
+
+    '<section class="sec" style="padding-top:10px"><div class="wrap">' +
+    '<div class="sec-head"><h2>' + esc(t('train_title')) + '</h2><p>' + esc(t('train_sub')) + '</p></div>' +
+    '<div class="course-grid">' + D.courses.slice(0, 3).map(courseCard).join('') + '</div>' +
+    '<div style="text-align:center;margin-top:30px"><a class="btn btn-pri-l" href="#/courses">' + esc(t('train_more')) + ' →</a></div>' +
+    '</div></section>' +
+
+    '<section class="sec" style="padding-top:0"><div class="wrap">' +
+    '<div class="cta-band">' +
+    '<div><h3>' + esc(t('cta_title')) + '</h3><p>' + esc(t('cta_sub')) + '</p></div>' +
+    '<a class="btn" target="_blank" rel="noopener" href="' + esc(waLink(LANG === 'en' ? 'Hello, I need sourcing & quotation support.' : '您好，我想咨询选品与报价，请帮忙对接顾问，谢谢！')) + '">💬 ' + esc(t('cta_btn')) + '</a>' +
+    '</div></div></section>';
+  return html;
+}
+function setCatFromHome(cat) {
+  state.products = { cat: cat, sub: '', q: '', sort: 'default', page: 1 };
+}
+
+/* ---------- 视图：产品目录 ---------- */
+function filteredProducts() {
+  var st = state.products;
+  var list = D.products.slice();
+  if (st.cat) list = list.filter(function (p) { return p.category === st.cat; });
+  if (st.sub) list = list.filter(function (p) { return p.sub_category === st.sub; });
+  if (st.q) {
+    var q = st.q.toLowerCase();
+    list = list.filter(function (p) {
+      var hay = (ct(p, 'name') + ' ' + (p.name_en || '') + ' ' + p.sku + ' ' + (p.tags || []).join(' ') + ' ' + (p.summary || '')).toLowerCase();
+      return hay.indexOf(q) !== -1;
+    });
+  }
+  if (st.sort === 'price_asc') list.sort(function (a, b) { return (a.price || 0) - (b.price || 0); });
+  else if (st.sort === 'price_desc') list.sort(function (a, b) { return (b.price || 0) - (a.price || 0); });
+  return list;
+}
+function viewProducts() {
+  var st = state.products;
+  var catList = cats();
+  var list = filteredProducts();
+  var per = CFG.build.products_per_page || 12;
+  var pages = Math.max(1, Math.ceil(list.length / per));
+  if (st.page > pages) st.page = pages;
+  var pageList = list.slice((st.page - 1) * per, st.page * per);
+  var curCat = catList.filter(function (c) { return c.name === st.cat; })[0];
+  var subHtml = '';
+  if (curCat) {
+    var subs = Object.keys(curCat.subs);
+    subHtml = '<div class="chips-row"><span class="chip ' + (!st.sub ? 'on' : '') + '" onclick="pSet(\'sub\',\'\')">' + esc(t('all_sub')) + '</span>' +
+      subs.map(function (s) {
+        return '<span class="chip ' + (st.sub === s ? 'on' : '') + '" onclick="pSet(\'sub\',\'' + esc(s) + '\')">' + esc(s) + ' (' + curCat.subs[s] + ')</span>';
+      }).join('') + '</div>';
+  }
+  var pagerHtml = '';
+  if (pages > 1) {
+    pagerHtml = '<div class="pager">';
+    pagerHtml += '<button ' + (st.page === 1 ? 'disabled' : '') + ' onclick="goPage(' + (st.page - 1) + ')">‹</button>';
+    for (var i = 1; i <= pages; i++) {
+      if (pages > 9 && i > 2 && i < pages - 1 && Math.abs(i - st.page) > 1) {
+        if (i === 3) pagerHtml += '<span style="align-self:center;color:var(--tx3)">…</span>';
+        continue;
+      }
+      pagerHtml += '<button class="' + (i === st.page ? 'on' : '') + '" onclick="goPage(' + i + ')">' + i + '</button>';
+    }
+    pagerHtml += '<button ' + (st.page === pages ? 'disabled' : '') + ' onclick="goPage(' + (st.page + 1) + ')">›</button></div>';
+  }
+  return '<section class="page-head"><div class="wrap"><h1>' + esc(t('prod_title')) + '</h1><p>' + esc(t('prod_sub')) + '</p></div></section>' +
+    '<section class="sec" style="padding-top:30px"><div class="wrap">' +
+    '<div class="toolbar">' +
+    '<div class="search-box"><input type="text" id="prodSearch" placeholder="' + esc(t('search_ph')) + '" value="' + esc(st.q) + '" oninput="pSearch(event)"></div>' +
+    '<select class="sort-sel" onchange="pSet(\'sort\',this.value)">' +
+    '<option value="default"' + (st.sort === 'default' ? ' selected' : '') + '>' + esc(t('sort_default')) + '</option>' +
+    '<option value="price_asc"' + (st.sort === 'price_asc' ? ' selected' : '') + '>' + esc(t('sort_price_asc')) + '</option>' +
+    '<option value="price_desc"' + (st.sort === 'price_desc' ? ' selected' : '') + '>' + esc(t('sort_price_desc')) + '</option>' +
+    '</select>' +
+    '<span style="font-size:13.5px;color:var(--tx3)">' + esc(fmt('results_count', { n: list.length })) + '</span>' +
+    '</div>' +
+    '<div class="chips-row"><span class="chip ' + (!st.cat ? 'on' : '') + '" onclick="pSet(\'cat\',\'\')">' + esc(t('all_cat')) + ' (' + D.products.length + ')</span>' +
+    catList.map(function (c) {
+      return '<span class="chip ' + (st.cat === c.name ? 'on' : '') + '" onclick="pSet(\'cat\',\'' + esc(c.name) + '\')">' + esc(c.name) + ' (' + c.count + ')</span>';
+    }).join('') + '</div>' +
+    subHtml +
+    (pageList.length ? '<div class="grid-prod">' + pageList.map(prodCard).join('') + '</div>'
+      : '<div class="no-result">📦 ' + esc(t('empty_result')) + '</div>') +
+    pagerHtml +
+    '</div></section>';
+}
+function pSet(k, v) {
+  state.products[k] = v;
+  if (k !== 'page') state.products.page = 1;
+  render();
+}
+function goPage(n) {
+  state.products.page = n;
+  render();
+  window.scrollTo({ top: 0 });
+}
+function pSearch(e) {
+  state.products.q = e.target.value.trim();
+  state.products.page = 1;
+  state.refocusSearch = true;
+  clearTimeout(window._psTm);
+  window._psTm = setTimeout(function () { render(); }, 180);
+}
+
+/* ---------- 视图：产品详情 ---------- */
+function viewProduct(sku) {
+  var p = D.products.filter(function (x) { return x.sku === sku; })[0];
+  if (!p) return '<div class="no-result">404 · ' + esc(sku) + '</div>';
+  var specs = Object.keys(p.specs || {});
+  var rel = D.products.filter(function (x) { return x.category === p.category && x.sku !== p.sku; }).slice(0, 4);
+  var imgs = (p.images && p.images.length) ? p.images : [prodImg(p)];
+  var waMsg = LANG === 'en'
+    ? 'Hello, I am interested in [' + p.sku + '] ' + (p.name_en || p.name) + '. Please quote FOB price, MOQ ' + p.moq + ' ' + (p.unit || 'pcs') + '. Thanks!'
+    : '您好，我对产品 [' + p.sku + '] ' + p.name + ' 感兴趣，请报 FOB 价格与起订量（' + p.moq + ' ' + (p.unit || '件') + '）政策，谢谢！';
+  var sampleMsg = LANG === 'en'
+    ? 'Hello, I would like to request a sample of [' + p.sku + '] ' + (p.name_en || p.name) + '.'
+    : '您好，我想申请产品 [' + p.sku + '] ' + p.name + ' 的样品，请告知样品与运费政策，谢谢！';
+  return '<section class="sec" style="padding-top:28px"><div class="wrap">' +
+    '<div class="crumb"><a href="#/products">' + esc(t('prod_title')) + '</a> / ' + esc(p.category) + ' / <b>' + esc(p.sku) + '</b></div>' +
+    '<div class="pd">' +
+    '<div class="pd-imgs"><div class="main-img"><img id="pdMain" src="' + esc(prodImg(p)) + '" alt="' + esc(ct(p, 'name')) + '" onerror="imgFallback(this)"></div>' +
+    (imgs.length > 1 ? '<div style="display:flex;gap:10px;margin-top:12px">' + imgs.map(function (im, i) {
+      return '<img src="' + esc(im) + '" onclick="document.getElementById(\'pdMain\').src=this.src" style="width:70px;height:70px;object-fit:cover;border-radius:8px;cursor:pointer;border:2px solid var(--line)">';
+    }).join('') + '</div>' : '') +
+    '</div>' +
+    '<div class="pd-info">' +
+    '<h1>' + esc(ct(p, 'name')) + '</h1>' +
+    '<div class="pd-meta"><span class="tag">' + esc(p.category) + (p.sub_category ? ' · ' + esc(p.sub_category) : '') + '</span>' +
+    '<span class="tag tag-acc">SKU ' + esc(p.sku) + '</span>' +
+    (p.featured ? '<span class="tag tag-acc">★ ' + esc(t('featured_title')) + '</span>' : '') +
+    (p.stock_status === 'instock' ? '<span class="tag" style="background:var(--ok-l);color:var(--ok)">✓ ' + (LANG === 'en' ? 'In stock' : '现货供应') + '</span>' : '') +
+    '</div>' +
+    '<div class="pd-price-band">' +
+    '<div><span class="lbl">' + esc(t('price_fob')) + '</span><span class="val">' + esc(priceTxt(p)) + ' <small>/ ' + esc(p.unit || t('unit_piece')) + '</small></span></div>' +
+    '<div><span class="lbl">' + esc(t('moq_label')) + '</span><span class="val" style="font-size:19px;color:var(--pri-d)">' + esc(p.moq) + ' ' + esc(p.unit || t('unit_piece')) + '</span></div>' +
+    '</div>' +
+    '<div class="pd-acts">' +
+    '<a class="btn btn-pri" target="_blank" rel="noopener" href="' + esc(waLink(waMsg)) + '">💬 WhatsApp ' + esc(t('inquiry')) + '</a>' +
+    '<a class="btn btn-pri-l" href="' + esc(mailLink('[' + p.sku + '] ' + ct(p, 'name'), (LANG === 'en' ? 'Product link: ' : '产品链接：') + location.href + '\n\n')) + '">✉ ' + esc(t('ask_sample')) + '</a>' +
+    '<button class="btn btn-ghost" onclick="copyText(\'' + esc(p.sku) + '\')">⧉ ' + esc(p.sku) + '</button>' +
+    '</div>' +
+    '<div class="pd-sec"><h3>' + esc(t('spec_title')) + '</h3>' +
+    (specs.length ? '<table class="spec-table">' + specs.map(function (k) {
+      return '<tr><td>' + esc(k) + '</td><td>' + esc(p.specs[k]) + '</td></tr>';
+    }).join('') + '</table>' : '<p class="pd-desc">—</p>') +
+    '</div>' +
+    '<div class="pd-sec"><h3>' + esc(t('desc_title')) + '</h3><div class="pd-desc">' + esc(ct(p, 'description') || ct(p, 'summary')) + '</div></div>' +
+    ((p.tags || []).length ? '<div class="pd-sec" style="display:flex;gap:8px;flex-wrap:wrap">' + p.tags.map(function (tg) { return '<span class="tag">' + esc(tg) + '</span>'; }).join('') + '</div>' : '') +
+    '</div></div>' +
+    (rel.length ? '<div class="pd-sec" style="margin-top:38px"><h3 style="border-left-color:var(--acc);font-size:18px;color:var(--pri-d);margin-bottom:16px">' + esc(t('related_title')) + '</h3><div class="rel-grid">' + rel.map(prodCard).join('') + '</div></div>' : '') +
+    '</div></section>';
+}
+
+/* ---------- 视图：公司介绍 ---------- */
+function viewAbout() {
+  var co = CFG.company;
+  var paras = (LANG === 'en' && co.about_en && co.about_en.length) ? co.about_en : co.about;
+  var milestones = (co.milestones || []).slice().reverse();
+  return '<section class="page-head"><div class="wrap"><h1>' + esc(t('about_title')) + '</h1><p>' + esc(t('about_sub')) + '</p></div></section>' +
+    '<section class="sec"><div class="wrap">' +
+    '<div class="about-story"><h2 style="color:var(--pri-d);font-size:20px;margin-bottom:16px">' + esc(t('story_title')) + ' · ' + esc(co.name) + '</h2>' +
+    paras.map(function (s) { return '<p>' + esc(s) + '</p>'; }).join('') + '</div>' +
+    '<div class="sec-head" style="margin-top:44px"><h2>' + esc(t('cap_title')) + '</h2></div>' +
+    '<div class="cap-grid">' +
+    '<div class="cap-card card"><b>' + esc(t('cap_founded')) + '</b><span>' + esc(co.founded) + '</span></div>' +
+    '<div class="cap-card card"><b>' + esc(t('cap_employees')) + '</b><span>' + esc(co.employees) + '</span></div>' +
+    '<div class="cap-card card"><b>' + esc(t('cap_factory')) + '</b><span>' + esc(co.factory_area) + '</span></div>' +
+    '<div class="cap-card card"><b>' + esc(t('cap_markets')) + '</b><span>' + esc((co.markets || []).join(' / ')) + '</span></div>' +
+    '<div class="cap-card card"><b>' + esc(t('cap_certs')) + '</b><span>' + esc((co.certs || []).join(' · ')) + '</span></div>' +
+    '</div>' +
+    '<div class="sec-head" style="margin-top:44px"><h2>' + esc(t('milestone_title')) + '</h2></div>' +
+    '<div class="mile" style="max-width:680px">' +
+    milestones.map(function (m) { return '<div class="mile-item"><b>' + esc(m.year) + '</b><span>' + esc(m.text) + '</span></div>'; }).join('') +
+    '</div>' +
+    '</div></section>' +
+    '<section class="sec" style="padding-top:0"><div class="wrap">' +
+    '<div class="sec-head"><h2>' + esc(t('compliance_title')) + '</h2><p>' + esc(t('compliance_sub')) + '</p></div>' +
+    '<table class="compliance-tb"><thead><tr>' +
+    '<th>' + esc(t('compliance_th_c')) + '</th><th>' + esc(t('compliance_th_r')) + '</th><th>' + esc(t('compliance_th_n')) + '</th>' +
+    '</tr></thead><tbody>' +
+    (CFG.compliance || []).map(function (c) {
+      return '<tr><td>' + esc(ct(c, 'country')) + '</td><td class="rule-cell">' + esc(ct(c, 'rule')) + '</td><td>' + esc(ct(c, 'note')) + '</td></tr>';
+    }).join('') +
+    '</tbody></table>' +
+    '<p class="compliance-note">※ ' + esc(t('footer_disclaimer')) + '</p>' +
+    '</div></section>';
+}
+
+/* ---------- 视图：课程 ---------- */
+function courseTotalMin(c) {
+  return (c.chapters || []).reduce(function (s, ch) { return s + (ch.duration_min || 0); }, 0);
+}
+function courseCard(c) {
+  var qz = c.related_quiz && D.quizzes.filter(function (q) { return q.id === c.related_quiz; })[0];
+  return '<div class="ccard card">' +
+    '<div class="ccard-top"><span class="tag">' + esc(c.category) + '</span><span class="tag tag-acc">' + esc(c.level) + '</span></div>' +
+    '<h3>' + esc(ct(c, 'title')) + '</h3>' +
+    '<p class="csum">' + esc(ct(c, 'summary')) + '</p>' +
+    '<div class="cmeta"><span>📚 ' + (c.chapters || []).length + ' ' + esc(t('chapters_label')) + '</span><span>⏱ ' + courseTotalMin(c) + ' ' + esc(t('minutes')) + '</span>' + (qz ? '<span>📝 ' + esc(qz.title) + '</span>' : '') + '</div>' +
+    '<div class="ccard-acts">' +
+    '<a class="btn btn-pri btn-sm" href="#/c/' + esc(c.id) + '">' + esc(t('learn_btn')) + '</a>' +
+    (qz ? '<a class="btn btn-ghost btn-sm" href="#/quiz/' + esc(qz.id) + '">' + esc(t('quiz_btn')) + '</a>' : '') +
+    '</div></div>';
+}
+function viewCourses() {
+  var levels = [];
+  D.courses.forEach(function (c) { if (levels.indexOf(c.level) === -1) levels.push(c.level); });
+  var list = state.coursesLevel ? D.courses.filter(function (c) { return c.level === state.coursesLevel; }) : D.courses;
+  return '<section class="page-head"><div class="wrap"><h1>' + esc(t('courses_title')) + '</h1><p>' + esc(t('courses_sub')) + '</p></div></section>' +
+    '<section class="sec"><div class="wrap">' +
+    '<div class="chips-row"><span class="chip ' + (!state.coursesLevel ? 'on' : '') + '" onclick="cLevel(\'\')">' + esc(t('level_all')) + '</span>' +
+    levels.map(function (l) { return '<span class="chip ' + (state.coursesLevel === l ? 'on' : '') + '" onclick="cLevel(\'' + esc(l) + '\')">' + esc(l) + '</span>'; }).join('') + '</div>' +
+    '<div class="course-grid">' + list.map(courseCard).join('') + '</div>' +
+    '</div></section>';
+}
+function cLevel(l) { state.coursesLevel = l; render(); }
+function viewCourse(id) {
+  var c = D.courses.filter(function (x) { return x.id === id; })[0];
+  if (!c) return '<div class="no-result">404 · ' + esc(id) + '</div>';
+  var qz = c.related_quiz && D.quizzes.filter(function (q) { return q.id === c.related_quiz; })[0];
+  return '<section class="page-head"><div class="wrap"><h1>' + esc(ct(c, 'title')) + '</h1><p>' + esc(ct(c, 'summary')) + '</p></div></section>' +
+    '<section class="sec" style="padding-top:26px"><div class="wrap">' +
+    '<div class="crumb"><a href="#/courses">' + esc(t('courses_title')) + '</a> / ' + esc(c.category) + '</div>' +
+    '<div class="cd-head"><div>' +
+    '<div class="pd-meta" style="margin-top:0"><span class="tag">' + esc(c.category) + '</span><span class="tag tag-acc">' + esc(c.level) + '</span>' +
+    '<span class="tag" style="background:var(--bg);color:var(--tx2)">📚 ' + (c.chapters || []).length + ' ' + esc(t('chapters_label')) + '</span>' +
+    '<span class="tag" style="background:var(--bg);color:var(--tx2)">⏱ ' + courseTotalMin(c) + ' ' + esc(t('minutes')) + '</span></div>' +
+    (c.audience ? '<p style="font-size:13.5px;color:var(--tx2);margin-top:6px"><b>' + esc(t('audience_label')) + '：</b>' + esc(ct(c, 'audience') || c.audience) + '</p>' : '') +
+    '</div>' +
+    (qz ? '<a class="btn btn-pri" href="#/quiz/' + esc(qz.id) + '">📝 ' + esc(t('quiz_btn')) + '</a>' : '') +
+    '</div>' +
+    '<h2 style="font-size:19px;color:var(--pri-d);margin:28px 0 16px">' + esc(t('outline_title')) + '</h2>' +
+    (c.chapters || []).map(function (ch, idx) {
+      return '<div class="chapter card">' +
+        '<div class="ch-title"><span class="ch-no">' + ch.no + '</span><b>' + esc(ct(ch, 'title') || ch.title) + '</b><span class="ch-dur">⏱ ' + (ch.duration_min || 0) + ' ' + esc(t('minutes')) + '</span></div>' +
+        '<div class="video-ph"><div class="vp-play">▶</div><b>' + esc(t('video_ph')) + '</b><span>' + esc(t('video_ph_note')) + '</span></div>' +
+        ((ch.points || []).length ? '<div class="ch-points"><b>' + esc(t('points_label')) + '</b><ul>' +
+          ch.points.map(function (pt) { return '<li>' + esc(pt) + '</li>'; }).join('') + '</ul></div>' : '') +
+        '</div>';
+    }).join('') +
+    (qz ? '<div class="quiz-cta"><span>📝 ' + esc(t('quiz_cta')) + '</span><a class="btn btn-pri" href="#/quiz/' + esc(qz.id) + '">' + esc(t('start_quiz')) + ' →</a></div>' : '') +
+    '<div style="margin-top:26px"><a class="btn btn-ghost" href="#/courses">← ' + esc(t('back_courses')) + '</a></div>' +
+    '</div></section>';
+}
+
+/* ---------- 视图：测验 ---------- */
+function quizTypeLabel(ty) {
+  if (ty === 'single') return t('single');
+  if (ty === 'multiple') return t('multiple');
+  return t('judge');
+}
+function viewQuizList() {
+  var cards = D.quizzes.map(function (q) {
+    var c = D.courses.filter(function (x) { return x.id === q.course_id; })[0];
+    var best = quizBest(q.id);
+    return '<div class="qcard card">' +
+      (c ? '<div class="ccard-top"><span class="tag">' + esc(ct(c, 'title')) + '</span></div>' : '') +
+      '<h3>' + esc(ct(q, 'title') || q.title) + '</h3>' +
+      '<div class="qmeta">📝 ' + esc(fmt('q_count', { n: (q.questions || []).length })) + ' · ⏱ ' + esc(fmt('time_limit', { m: q.time_limit_min || '-' })) +
+      ' · 🎯 ' + esc(LANG === 'en' ? 'Pass' : '及格') + ' ' + q.pass_score + '</div>' +
+      '<div class="qbest">' + esc(t('best_score')) + ': ' + (best == null ? esc(t('no_attempt')) : best + '') + '</div>' +
+      '<a class="btn btn-pri btn-sm" style="align-self:flex-start" href="#/quiz/' + esc(q.id) + '">' + esc(t('start_quiz')) + ' →</a>' +
+      '</div>';
+  }).join('');
+  return '<section class="page-head"><div class="wrap"><h1>' + esc(t('quiz_title')) + '</h1><p>' + esc(t('quiz_sub')) + '</p></div></section>' +
+    '<section class="sec"><div class="wrap"><div class="quiz-grid">' + cards + '</div></div></section>';
+}
+function answersEqual(a, b) {
+  if (!a || !b || a.length !== b.length) return false;
+  var x = a.slice().sort(), y = b.slice().sort();
+  for (var i = 0; i < x.length; i++) if (x[i] !== y[i]) return false;
+  return true;
+}
+function viewQuizRun(id) {
+  if (!state.quiz || state.quiz.id !== id) {
+    var q = D.quizzes.filter(function (x) { return x.id === id; })[0];
+    if (!q) return '<div class="no-result">404 · ' + esc(id) + '</div>';
+    state.quiz = q; state.answers = {}; state.submitted = false;
+  }
+  var q = state.quiz;
+  var answered = (q.questions || []).filter(function (qq, i) { return state.answers[i] && state.answers[i].length; }).length;
+  var head;
+  if (state.submitted) {
+    var total = q.questions.reduce(function (s, qq) { return s + (qq.score || 0); }, 0);
+    var score = q.questions.reduce(function (s, qq, i) {
+      return s + (answersEqual(state.answers[i], qq.answer) ? (qq.score || 0) : 0);
+    }, 0);
+    var pct = total ? Math.round(score / total * 100) : 0;
+    var passed = pct >= (q.pass_score || CFG.build.default_pass_score || 60);
+    if (quizBest(q.id) == null || pct > quizBest(q.id)) localStorage.setItem('cbp_best_' + q.id, pct);
+    head = '<div class="score-band">' +
+      '<div class="score-num ' + (passed ? 'pass' : 'fail') + '">' + pct + '<small>%</small></div>' +
+      '<div style="flex:1;min-width:180px"><div class="score-verdict ' + (passed ? 'pass' : 'fail') + '">' + (passed ? '🎉 ' + esc(t('pass_label')) : '💪 ' + esc(t('fail_label'))) + '</div>' +
+      '<div style="font-size:13px;color:var(--tx3);margin-top:4px">' + esc(t('your_score')) + ': ' + score + ' / ' + total + ' · ' + esc(LANG === 'en' ? 'Pass line' : '及格线') + ' ' + (q.pass_score || 60) + '%</div></div>' +
+      '<div style="display:flex;gap:10px;flex-wrap:wrap"><button class="btn btn-pri" onclick="retakeQuiz()">' + esc(t('retake')) + '</button>' +
+      '<a class="btn btn-ghost" href="#/quiz">' + esc(t('back_quiz_list')) + '</a></div>' +
+      '</div>';
+  } else {
+    head = '<div class="qrun-head"><h1>' + esc(ct(q, 'title') || q.title) + '</h1>' +
+      '<div class="qprog">' + esc(LANG === 'en' ? 'Answered' : '已答') + ' <b>' + answered + '</b> / ' + q.questions.length +
+      ' · <a href="#/quiz" style="color:var(--tx3)">' + esc(t('back_quiz_list')) + '</a></div>' +
+      '<button class="btn btn-pri" onclick="submitQuiz()">' + esc(t('submit_quiz')) + '</button></div>';
+  }
+  var body = (q.questions || []).map(function (qq, i) {
+    var sel = state.answers[i] || [];
+    var typeCls = qq.type === 'multiple' ? 'mul' : (qq.type === 'judge' ? 'jud' : '');
+    var opts = (qq.options || []).map(function (op, oi) {
+      var isSel = sel.indexOf(oi) !== -1;
+      var inAnswer = (qq.answer || []).indexOf(oi) !== -1;
+      var cls = isSel ? 'opt sel' : 'opt';
+      if (state.submitted) {
+        if (inAnswer) cls = 'opt correct';
+        else if (isSel) cls = 'opt wrong';
+      }
+      var click = qq.type === 'multiple' ? 'pickMul(' + i + ',' + oi + ')' : 'pickOne(' + i + ',' + oi + ')';
+      return '<button class="' + cls + '" ' + (state.submitted ? 'disabled' : 'onclick="' + click + '"') + '>' +
+        '<span class="opt-key">' + String.fromCharCode(65 + oi) + '</span><span>' + esc(op) + '</span></button>';
+    }).join('');
+    var review = '';
+    if (state.submitted) {
+      var ansTxt = (qq.answer || []).map(function (ai) { return String.fromCharCode(65 + ai) + '. ' + (qq.options || [])[ai]; }).join('；');
+      var yourTxt = sel.length ? sel.map(function (ai) { return String.fromCharCode(65 + ai) + '. ' + (qq.options || [])[ai]; }).join('；') : t('no_answer');
+      review = '<div class="q-explain"><b>' + esc(t('correct_answer')) + '：' + esc(ansTxt) + '　|　' + esc(t('your_answer')) + '：' + esc(yourTxt) + '</b>' +
+        (qq.explanation ? '💡 ' + esc(qq.explanation) : '') + '</div>';
+    }
+    return '<div class="qcard-q card" id="q-' + i + '">' +
+      '<div class="qstem"><span class="qtype ' + typeCls + '">' + esc(quizTypeLabel(qq.type)) + '</span>' +
+      '<b>' + esc(fmt('q_of', { i: i + 1, n: q.questions.length })) + '　' + esc(qq.stem) + '</b></div>' +
+      '<div class="opts">' + opts + '</div>' + review + '</div>';
+  }).join('');
+  return '<section class="sec" style="padding-top:26px"><div class="wrap" style="max-width:860px">' +
+    head + body +
+    (!state.submitted ? '<div style="text-align:center;margin-top:24px"><button class="btn btn-pri" onclick="submitQuiz()" style="padding:13px 42px">' + esc(t('submit_quiz')) + '</button></div>' : '') +
+    '</div></section>';
+}
+function pickOne(qi, oi) {
+  state.answers[qi] = [oi];
+  renderQuizSoft(qi);
+}
+function pickMul(qi, oi) {
+  var arr = state.answers[qi] || [];
+  var ix = arr.indexOf(oi);
+  if (ix === -1) arr.push(oi); else arr.splice(ix, 1);
+  state.answers[qi] = arr;
+  renderQuizSoft(qi);
+}
+function renderQuizSoft() {
+  render();
+  var q = state.quiz;
+  if (q) {
+    var el = document.getElementById('q-0');
+    if (el && !window._keepScroll) window.scrollTo(0, 0);
+  }
+}
+function submitQuiz() {
+  var q = state.quiz;
+  if (!q) return;
+  var unanswered = (q.questions || []).filter(function (qq, i) { return !state.answers[i] || !state.answers[i].length; }).length;
+  if (unanswered > 0 && !confirm(fmt('confirm_submit', { n: unanswered }))) return;
+  state.submitted = true;
+  render();
+  window.scrollTo({ top: 0 });
+}
+function retakeQuiz() {
+  state.answers = {};
+  state.submitted = false;
+  render();
+  window.scrollTo({ top: 0 });
+}
+
+/* ---------- 视图：联系我们 ---------- */
+function viewContact() {
+  var wa = CFG.contact;
+  var waMsg = LANG === 'en' ? 'Hello, I have an inquiry about sourcing.' : '您好，我想咨询选品与报价。';
+  return '<section class="page-head"><div class="wrap"><h1>' + esc(t('contact_title')) + '</h1><p>' + esc(t('contact_sub')) + '</p></div></section>' +
+    '<section class="sec"><div class="wrap">' +
+    '<div class="contact-grid">' +
+    '<a class="ct-card card" target="_blank" rel="noopener" href="' + esc(waLink(waMsg)) + '"><div class="ct-ico ico-wa">💬</div><b>' + esc(t('w_label')) + '</b><p>' + esc(wa.whatsapp_display) + '<br>' + esc(t('w_desc')) + '</p></a>' +
+    '<a class="ct-card card" href="' + esc(mailLink((LANG === 'en' ? 'Inquiry from website' : '网站询盘'), '')) + '"><div class="ct-ico ico-em">✉</div><b>' + esc(t('e_label')) + '</b><p>' + esc(wa.email) + '<br>' + esc(t('e_desc')) + '</p></a>' +
+    '<div class="ct-card card"><div class="ct-ico ico-wx">🟢</div><b>' + esc(t('wechat_label')) + '</b><p>' + esc(wa.wechat) + '</p></div>' +
+    '<div class="ct-card card"><div class="ct-ico ico-ph">📞</div><b>' + esc(t('phone_label')) + '</b><p>' + esc(wa.phone) + '</p></div>' +
+    '<div class="ct-card card"><div class="ct-ico ico-ad">📍</div><b>' + esc(t('addr_label')) + '</b><p>' + esc(wa.address) + '</p></div>' +
+    '<div class="ct-card card"><div class="ct-ico ico-hr">🕘</div><b>' + esc(t('hours_label')) + '</b><p>' + esc(LANG === 'en' && wa.hours_en ? wa.hours_en : wa.hours) + '</p></div>' +
+    '</div>' +
+    '<div class="form-card card">' +
+    '<h3>' + esc(t('form_title')) + '</h3>' +
+    '<div class="form-row"><input type="text" id="cfName" placeholder="' + esc(t('form_name')) + '"></div>' +
+    '<div class="form-row"><textarea id="cfMsg" rows="4" placeholder="' + esc(t('form_msg')) + '"></textarea></div>' +
+    '<p class="form-tip">' + esc(t('form_tip')) + '</p>' +
+    '<button class="btn btn-pri-l" onclick="sendForm()">✉ ' + esc(t('form_send')) + '</button>' +
+    '</div>' +
+    '</div></section>';
+}
+function sendForm() {
+  var n = document.getElementById('cfName').value || '-';
+  var m = document.getElementById('cfMsg').value || '-';
+  location.href = mailLink((LANG === 'en' ? 'Website inquiry from ' : '网站询盘来自 ') + n, m);
+}
+
+/* ---------- 主渲染 ---------- */
+function render() {
+  var route = parseRoute();
+  var html;
+  switch (route.name) {
+    case 'products': html = viewProducts(); break;
+    case 'product': html = viewProduct(route.sku); break;
+    case 'about': html = viewAbout(); break;
+    case 'courses': html = viewCourses(); break;
+    case 'course': html = viewCourse(route.id); break;
+    case 'quizList': html = viewQuizList(); break;
+    case 'quizRun': html = viewQuizRun(route.id); break;
+    case 'contact': html = viewContact(); break;
+    default: html = viewHome();
+  }
+  renderChrome();
+  document.getElementById('app').innerHTML = html;
+  document.documentElement.lang = LANG === 'en' ? 'en' : 'zh-CN';
+  if (state.refocusSearch) {
+    state.refocusSearch = false;
+    var inp = document.getElementById('prodSearch');
+    if (inp) { inp.focus(); var v = inp.value; inp.setSelectionRange(v.length, v.length); }
+  }
+}
+window.addEventListener('hashchange', function () {
+  document.getElementById('mainnav') && document.getElementById('mainnav').classList.remove('open');
+  render();
+  window.scrollTo({ top: 0 });
+});
+render();
+</script>
+</body>
+</html>

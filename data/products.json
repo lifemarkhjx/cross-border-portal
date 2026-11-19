@@ -1,0 +1,327 @@
+[
+  {
+    "sku": "CE-1001",
+    "name": "无线蓝牙耳机 Pro（主动降噪）",
+    "name_en": "Wireless Earbuds Pro (ANC)",
+    "category": "消费电子",
+    "sub_category": "耳机音箱",
+    "price": 12.8,
+    "currency": "USD",
+    "moq": 100,
+    "unit": "pcs",
+    "images": [
+      "img/products/CE-1001.svg"
+    ],
+    "specs": {
+      "蓝牙版本": "V5.3",
+      "续航": "单次6小时 / 配盒30小时",
+      "降噪深度": "-35dB",
+      "充电口": "Type-C",
+      "防水等级": "IPX5",
+      "单盒重量": "48g"
+    },
+    "summary": "主动降噪真无线耳机，支持 ENC 通话降噪，适合通勤与运动场景。",
+    "description": "采用 13mm 大动圈单元与主动降噪芯片，降噪深度最高 -35dB；单次续航 6 小时，配合充电仓总续航 30 小时；Type-C 快充，IPX5 防水；支持触控操作与双设备连接。可提供 OEM 定制（logo 印刷、包装定制），支持出口认证咨询。",
+    "tags": [
+      "TWS",
+      "降噪",
+      "OEM",
+      "蓝牙5.3"
+    ],
+    "featured": true,
+    "stock_status": "instock",
+    "status": "publish"
+  },
+  {
+    "sku": "CE-1002",
+    "name": "智能手表 S8（通话+心率）",
+    "name_en": "Smart Watch S8 (Call + Heart Rate)",
+    "category": "消费电子",
+    "sub_category": "智能穿戴",
+    "price": 18.5,
+    "currency": "USD",
+    "moq": 50,
+    "unit": "pcs",
+    "images": [
+      "img/products/CE-1002.svg"
+    ],
+    "specs": {
+      "屏幕": "1.96英寸 AMOLED",
+      "电池": "280mAh",
+      "续航": "7天",
+      "蓝牙通话": "支持",
+      "健康监测": "心率/血氧/睡眠",
+      "防水": "IP68"
+    },
+    "summary": "1.96 英寸 AMOLED 圆屏智能手表，支持蓝牙通话与 24 项运动模式。",
+    "description": "1.96 英寸 AMOLED 高清圆屏，支持蓝牙接打电话；24 项运动模式 + 心率/血氧/睡眠监测；280mAh 电池续航 7 天；IP68 防水。支持多语言 APP（含英语/西语/阿语），可定制表盘与包装。",
+    "tags": [
+      "智能手表",
+      "蓝牙通话",
+      "AMOLED",
+      "跨境热销"
+    ],
+    "featured": true,
+    "stock_status": "instock",
+    "status": "publish"
+  },
+  {
+    "sku": "CE-1003",
+    "name": "便携移动电源 20000mAh（22.5W快充）",
+    "name_en": "Power Bank 20000mAh (22.5W Fast Charge)",
+    "category": "消费电子",
+    "sub_category": "充电设备",
+    "price": 9.9,
+    "currency": "USD",
+    "moq": 100,
+    "unit": "pcs",
+    "images": [
+      "img/products/CE-1003.svg"
+    ],
+    "specs": {
+      "容量": "20000mAh",
+      "输出": "22.5W 快充",
+      "接口": "Type-C/USB-A/Micro",
+      "电芯": "A+聚合物",
+      "重量": "410g",
+      "认证": "CE/FCC/RoHS"
+    },
+    "summary": "20000mAh 大容量 22.5W 快充移动电源，三口输出，适配主流机型。",
+    "description": "A+ 聚合物电芯，20000mAh 额定容量；22.5W 双向快充，Type-C/USB-A 三口输出，可同时充 3 台设备；LED 电量数显；内置多重保护（过充/过放/温控）。已通过 CE/FCC/RoHS 认证，可协助办理空运/海运运输鉴定报告。",
+    "tags": [
+      "移动电源",
+      "快充",
+      "CE认证",
+      "空运配套"
+    ],
+    "featured": false,
+    "stock_status": "instock",
+    "status": "publish"
+  },
+  {
+    "sku": "HB-2001",
+    "name": "316不锈钢真空保温杯 500ml",
+    "name_en": "316 Stainless Vacuum Flask 500ml",
+    "category": "家居用品",
+    "sub_category": "厨房餐饮",
+    "price": 3.2,
+    "currency": "USD",
+    "moq": 200,
+    "unit": "pcs",
+    "images": [
+      "img/products/HB-2001.svg"
+    ],
+    "specs": {
+      "材质": "316不锈钢内胆",
+      "容量": "500ml",
+      "保温": "12小时（≥50℃）",
+      "保冷": "24小时",
+      "杯盖": "弹跳直饮盖",
+      "颜色": "6色可选"
+    },
+    "summary": "316 不锈钢真空保温杯，12 小时保温，6 色可选，适合礼品定制。",
+    "description": "内胆采用 316 医用级不锈钢，真空保温 12 小时（≥50℃）、保冷 24 小时；弹跳直饮盖单手可开；杯身可激光雕刻/丝印 logo，6 种标准色，支持客供色号定制。适合企业礼品、跨境电商平台爆款。",
+    "tags": [
+      "保温杯",
+      "316不锈钢",
+      "礼品定制",
+      "OEM"
+    ],
+    "featured": true,
+    "stock_status": "instock",
+    "status": "publish"
+  },
+  {
+    "sku": "HB-2002",
+    "name": "桌面收纳盒三件套（可折叠）",
+    "name_en": "Foldable Desktop Storage Box Set (3 pcs)",
+    "category": "家居用品",
+    "sub_category": "收纳整理",
+    "price": 4.6,
+    "currency": "USD",
+    "moq": 100,
+    "unit": "set",
+    "images": [
+      "img/products/HB-2002.svg"
+    ],
+    "specs": {
+      "材质": "加厚无纺布+PP板",
+      "规格": "大/中/小 三件套",
+      "承重": "10kg",
+      "折叠": "可平折",
+      "颜色": "灰/米/黑"
+    },
+    "summary": "可折叠桌面收纳三件套，加厚材质承重 10kg，节省仓储与物流体积。",
+    "description": "加厚无纺布 + PP 硬板复合，折叠平放仅 3cm 厚，大幅节省仓储空间；三件套可分类收纳衣物、文具、杂物；底部加固承重 10kg。适合电商平台与连锁超市渠道。",
+    "tags": [
+      "收纳盒",
+      "可折叠",
+      "三件套"
+    ],
+    "featured": false,
+    "stock_status": "instock",
+    "status": "publish"
+  },
+  {
+    "sku": "BP-3001",
+    "name": "声波电动牙刷 T5（含3刷头）",
+    "name_en": "Sonic Electric Toothbrush T5 (3 Heads)",
+    "category": "美妆个护",
+    "sub_category": "口腔护理",
+    "price": 5.8,
+    "currency": "USD",
+    "moq": 100,
+    "unit": "pcs",
+    "images": [
+      "img/products/BP-3001.svg"
+    ],
+    "specs": {
+      "震动频率": "42000次/分钟",
+      "模式": "5档",
+      "刷头": "杜邦软毛×3",
+      "续航": "30天（2小时充满）",
+      "防水": "IPX7",
+      "认证": "CE/RoHS"
+    },
+    "summary": "42000 次/分钟声波电动牙刷，5 档模式，标配 3 刷头，IPX7 全身防水。",
+    "description": "空心杯马达 42000 次/分钟高频振动，5 档清洁模式（清洁/美白/敏感/抛光/按摩）；杜邦软毛刷头×3（约 3 个月用量）；USB 充电 2 小时充满续航 30 天；IPX7 全身水洗。可定制礼盒装，适合平台爆款与酒店渠道。",
+    "tags": [
+      "电动牙刷",
+      "声波",
+      "IPX7",
+      "礼盒装"
+    ],
+    "featured": false,
+    "stock_status": "instock",
+    "status": "publish"
+  },
+  {
+    "sku": "BP-3002",
+    "name": "微电流面部按摩仪（美颜仪）",
+    "name_en": "Microcurrent Face Massager",
+    "category": "美妆个护",
+    "sub_category": "美容仪器",
+    "price": 7.4,
+    "currency": "USD",
+    "moq": 50,
+    "unit": "pcs",
+    "images": [
+      "img/products/BP-3002.svg"
+    ],
+    "specs": {
+      "技术": "EMS微电流+42℃恒温",
+      "模式": "3档强度",
+      "充电": "Type-C",
+      "续航": "15次/充满",
+      "材质": "304不锈钢导头",
+      "认证": "CE/FCC"
+    },
+    "summary": "EMS 微电流 + 42℃ 恒温热敷面部按摩仪，三档强度，Type-C 充电。",
+    "description": "EMS 微电流导入 + 42℃ 恒温热敷双重模式，3 档强度可调；304 不锈钢滚轮导头贴合面部曲线；Type-C 充电，单次充满可用约 15 次。附多语言说明书，可定制包装与品牌。",
+    "tags": [
+      "美容仪",
+      "EMS微电流",
+      "恒温热敷"
+    ],
+    "featured": true,
+    "stock_status": "instock",
+    "status": "publish"
+  },
+  {
+    "sku": "LT-4001",
+    "name": "太阳能庭院灯（人体感应+3色温）",
+    "name_en": "Solar Garden Light (PIR + 3 CCT)",
+    "category": "灯具照明",
+    "sub_category": "户外照明",
+    "price": 6.9,
+    "currency": "USD",
+    "moq": 100,
+    "unit": "pcs",
+    "images": [
+      "img/products/LT-4001.svg"
+    ],
+    "specs": {
+      "太阳能板": "单晶硅 2W",
+      "电池": "18650 2200mAh",
+      "亮度": "800流明",
+      "感应": "PIR 人体感应 5m",
+      "色温": "3000K/4500K/6000K",
+      "防护": "IP65"
+    },
+    "summary": "单晶硅太阳能庭院灯，PIR 感应 + 3 色温切换，IP65 户外防护。",
+    "description": "单晶硅 2W 太阳能板 + 2200mAh 锂电，白天自动充电夜间自动点亮；PIR 人体感应 5 米范围；三档色温（暖白/自然白/冷白）遥控切换；IP65 防护适应户外全天候。适合庭院、车道、乡村市场，东南亚/非洲/中东热销。",
+    "tags": [
+      "太阳能",
+      "庭院灯",
+      "PIR感应",
+      "IP65"
+    ],
+    "featured": false,
+    "stock_status": "instock",
+    "status": "publish"
+  },
+  {
+    "sku": "LT-4002",
+    "name": "LED 化妆镜前灯（三色可调）",
+    "name_en": "LED Vanity Mirror Light (3-Tone)",
+    "category": "灯具照明",
+    "sub_category": "室内照明",
+    "price": 8.2,
+    "currency": "USD",
+    "moq": 50,
+    "unit": "pcs",
+    "images": [
+      "img/products/LT-4002.svg"
+    ],
+    "specs": {
+      "灯珠": "48颗 LED",
+      "色温": "3000K-6000K 无级调",
+      "供电": "USB 5V",
+      "安装": "镜面粘贴/磁吸",
+      "显指": "Ra≥95"
+    },
+    "summary": "高显指 Ra≥95 化妆镜前灯，三色温无级调光，USB 供电磁吸安装。",
+    "description": "48 颗高显指 LED（Ra≥95，还原真实妆容），3000K-6000K 三色温无级调节；触控开关 + 亮度记忆；磁吸底座可粘贴于镜面/墙面；USB 5V 供电，1.5m 线长。适合欧美、东南亚家居与美妆渠道。",
+    "tags": [
+      "化妆镜灯",
+      "高显指",
+      "无级调光"
+    ],
+    "featured": false,
+    "stock_status": "instock",
+    "status": "publish"
+  },
+  {
+    "sku": "AC-5001",
+    "name": "车载无线吸尘器 12000Pa",
+    "name_en": "Car Cordless Vacuum 12000Pa",
+    "category": "汽配五金",
+    "sub_category": "车品配件",
+    "price": 11.5,
+    "currency": "USD",
+    "moq": 50,
+    "unit": "pcs",
+    "images": [
+      "img/products/AC-5001.svg"
+    ],
+    "specs": {
+      "吸力": "12000Pa",
+      "电池": "2×2000mAh",
+      "续航": "25分钟",
+      "配置": "扁嘴/毛刷/软管 3吸头",
+      "过滤": "HEPA 可水洗",
+      "重量": "0.6kg"
+    },
+    "summary": "12000Pa 无线车载吸尘器，HEPA 可水洗过滤，三吸头全场景清洁。",
+    "description": "无刷电机 12000Pa 强劲吸力，干湿两用；2×2000mAh 电池续航 25 分钟；HEPA 可水洗滤芯；标配扁嘴吸头/毛刷/延长软管三吸头，缝隙座椅全场景覆盖；Type-C 充电。车载与家用两用，适合车品平台与加油站渠道。",
+    "tags": [
+      "车载吸尘器",
+      "无线",
+      "HEPA",
+      "干湿两用"
+    ],
+    "featured": false,
+    "stock_status": "instock",
+    "status": "publish"
+  }
+]
