@@ -17,12 +17,12 @@
     "about": [
       "昆明轨交 2010 年在昆明成立，立足云南、辐射南亚东南亚。公司具备城市轨道交通制造、维修、保养能力，是轨道交通装备全寿命周期服务企业，业务涵盖地铁车辆、有轨电车、旅游观光列车等轨道交通装备的新造与维保服务。",
       "公司深耕轨道交通教育培训装备领域：成功研制并交付首台套动力集中式动车组教培控制车，为职业院校定制B型地铁教培车，创新研发 JPCM-01 教培车门、JPSDG-01 教培受电弓、JPZXJ-01 教培转向架等专用教培部件，并配套实训场景布局设计，打造沉浸式轨道交通教育培训装备。",
-      "依托与湖南联诚（城轨车辆配套与新造维保装备）、长沙润伟（试验检修装备与检修信息化）、联合技术方（实训基地整体方案）等企业的产品与技术合作，面向客户提供「产品宣传—方案咨询—采购交付—培训运维」的一站式服务闭环。"
+      "依托覆盖机车改造、车辆配套部件、新造维保装备、传感器与测量装置、智能运维与信息化、教培实训装备、矿山新能源装备、场站能源配套的产品体系，面向客户提供「产品宣传—方案咨询—采购交付—培训运维」的一站式服务闭环。"
     ],
     "about_en": [
       "Kunming Rail Transit Equipment, founded in Kunming in 2010, serves Yunnan, Southwest China and South & Southeast Asia with full life-cycle urban rail equipment services: new build, overhaul and maintenance of metro vehicles, trams and tourist trains.",
       "In rail training equipment, we delivered the first DMU training control vehicle, custom B-type metro training vehicles and three innovative training parts (JPCM-01 door, JPSDG-01 pantograph, JPZXJ-01 bogie) for vocational colleges.",
-      "Together with partners Hunan Liancheng (urban rail components), Changsha Runwei (new-build & overhaul equipment) and a joint technology partner (training base solutions), we provide a one-stop loop of promotion, consultation, procurement and training & O&M."
+      "Together with a product ecosystem covering locomotive conversion, vehicle components, maintenance equipment, sensors & measurement, intelligent O&M, training equipment, mine new-energy and station energy supply, we provide a one-stop loop of promotion, consultation, procurement and training & O&M."
     ],
     "milestones": [
       {
@@ -40,44 +40,6 @@
       {
         "year": "2026",
         "text": "上线产品宣传与采购门户（本站）"
-      }
-    ],
-    "partners": [
-      {
-        "name": "湖南联诚",
-        "desc": "城轨车辆配套：通风冷却、结构件、复材涂料、减振器/刮雨器/贯通道、架大修与全国检修基地"
-      },
-      {
-        "name": "长沙润伟",
-        "desc": "新造维保装备：试验台与检修产线、单车组装试验、整车调试、检修信息化与智能检修机器人"
-      },
-      {
-        "name": "联合技术方（实训装备）",
-        "desc": "实训基地整体方案：六项任务 × N 个实训平台、19类专业实训室"
-      },
-      {
-        "name": "深圳恒之源",
-        "desc": "轨道交通照明：十六大系列灯具与电源/智控组件，地铁高铁批量装车"
-      },
-      {
-        "name": "异星科技",
-        "desc": "检修工艺装备：整车转向架/制动/电气/牵引/空调/钩缓八大类试验台与静调电源、便携检测仪"
-      },
-      {
-        "name": "矿能装备合作方",
-        "desc": "矿山新能源：矿-能-运-控一体化，液压支架/带式输送机/储能/电气化公路"
-      },
-      {
-        "name": "四川鼎逸",
-        "desc": "阻隔防爆橇装式加油装置 10-70m³，出口标准，终身备件保障"
-      },
-      {
-        "name": "昆明地铁运营",
-        "desc": "城轨实训平台与便携检测装备：TCMS仿真/站台门/车门实训，自研检修工装42类"
-      },
-      {
-        "name": "宁波澄浪",
-        "desc": "气动检修工具：倒角机/砂轮机/角磨机/扳手/气钻等三十余种型号"
       }
     ],
     "capability": [
@@ -98,8 +60,8 @@
         "v": "云南及周边 / 南亚东南亚 / 全国城轨城市"
       },
       {
-        "k": "产品生态",
-        "v": "联诚 · 润伟 · 恒之源 · 异星 · 矿能 · 鼎逸 · 地铁运营 · 澄浪"
+        "k": "产品体系",
+        "v": "9 大类目 · 50 产品系列 · 30 实训设备"
       }
     ]
   },
@@ -211,7 +173,6 @@
       "story_title": "公司简介",
       "milestone_title": "发展历程",
       "cap_title": "企业概况",
-      "partners_title": "产业协同",
       "courses_title": "培训中心",
       "courses_sub": "实训课程 + 培训设备硬件 + 实训基地建设理念",
       "level_all": "全部难度",
@@ -353,7 +314,6 @@
       "story_title": "Company Profile",
       "milestone_title": "Milestones",
       "cap_title": "Company Overview",
-      "partners_title": "Partnership Ecosystem",
       "courses_title": "Training Center",
       "courses_sub": "Courses + training equipment + base building philosophy",
       "level_all": "All Levels",
