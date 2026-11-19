@@ -358,5 +358,809 @@
         "score": 10
       }
     ]
+  },
+  {
+    "id": "QZ005",
+    "title": "牵引电机理论考试",
+    "title_en": "Traction Motor Theory Exam",
+    "course_id": "C005",
+    "pass_score": 60,
+    "time_limit_min": 45,
+    "questions": [
+      {
+        "id": "Q1",
+        "type": "single",
+        "stem": "昆明首期项目牵引电机型号为？",
+        "options": [
+          "YQ-190-4",
+          "YQ-190-6",
+          "YQ-190-20",
+          "YQ-190-10"
+        ],
+        "answer": [
+          1
+        ],
+        "explanation": "",
+        "score": 2
+      },
+      {
+        "id": "Q2",
+        "type": "single",
+        "stem": "昆明3号线项目牵引电机型号为？",
+        "options": [
+          "YQ-190-4",
+          "YQ-190-6",
+          "YQ-190-20",
+          "YQ-190-10"
+        ],
+        "answer": [
+          2
+        ],
+        "explanation": "",
+        "score": 2
+      },
+      {
+        "id": "Q3",
+        "type": "single",
+        "stem": "昆明4号线项目牵引电机型号为？",
+        "options": [
+          "YJ260B5",
+          "YJ160B5",
+          "YJ560B5",
+          "YJ460B5"
+        ],
+        "answer": [
+          0
+        ],
+        "explanation": "",
+        "score": 2
+      },
+      {
+        "id": "Q4",
+        "type": "single",
+        "stem": "昆明首期项目牵引电机的额定电压和额定功率分别是？",
+        "options": [
+          "180kW 580V",
+          "190kW 568V",
+          "190kW 380V"
+        ],
+        "answer": [
+          1
+        ],
+        "explanation": "",
+        "score": 2
+      },
+      {
+        "id": "Q5",
+        "type": "single",
+        "stem": "昆明3号线项目牵引电机的额定电压和额定功率分别是？",
+        "options": [
+          "180kW 580V",
+          "190kW 568V",
+          "190kW 380V"
+        ],
+        "answer": [
+          1
+        ],
+        "explanation": "",
+        "score": 2
+      },
+      {
+        "id": "Q6",
+        "type": "single",
+        "stem": "昆明4号线项目牵引电机的额定电压和额定功率分别是？",
+        "options": [
+          "190kW 1050V",
+          "190kW 568V",
+          "190kW 1080V"
+        ],
+        "answer": [
+          2
+        ],
+        "explanation": "",
+        "score": 2
+      },
+      {
+        "id": "Q7",
+        "type": "single",
+        "stem": "昆明首期项目联轴节型号为？",
+        "options": [
+          "KWD ZK141-1",
+          "KWD ZK190-5BE",
+          "KWD ZK190-5",
+          "ESCO FTRN 70"
+        ],
+        "answer": [
+          0
+        ],
+        "explanation": "",
+        "score": 2
+      },
+      {
+        "id": "Q8",
+        "type": "single",
+        "stem": "昆明3号线项目联轴节型号为？",
+        "options": [
+          "KWD ZK141-1",
+          "KWD ZK190-5BE",
+          "KWD ZK190-5",
+          "ESCO FTRN 70"
+        ],
+        "answer": [
+          1
+        ],
+        "explanation": "",
+        "score": 2
+      },
+      {
+        "id": "Q9",
+        "type": "single",
+        "stem": "昆明4号线项目联轴节型号为？",
+        "options": [
+          "KWD ZK141-1",
+          "KWD ZK190-5BE",
+          "KWD ZK190-5",
+          "ESCO FTRN 70"
+        ],
+        "answer": [
+          3
+        ],
+        "explanation": "",
+        "score": 2
+      },
+      {
+        "id": "Q10",
+        "type": "single",
+        "stem": "安全标志分为四类，即？",
+        "options": [
+          "禁止、警告、命令、提示",
+          "禁止、警告、指示、提醒",
+          "禁止、警告、指令、提示",
+          "禁止、命令、指令、提示"
+        ],
+        "answer": [
+          2
+        ],
+        "explanation": "",
+        "score": 2
+      },
+      {
+        "id": "Q11",
+        "type": "single",
+        "stem": "手持电动工具、移动电气设备等每（　）至少检测两次绝缘电阻值。",
+        "options": [
+          "一年",
+          "半年",
+          "季度",
+          "月度"
+        ],
+        "answer": [
+          2
+        ],
+        "explanation": "",
+        "score": 2
+      },
+      {
+        "id": "Q12",
+        "type": "single",
+        "stem": "牵引电机转子动平衡试验要求不平衡量小于？",
+        "options": [
+          "1g",
+          "1.5g",
+          "2g",
+          "2.5g"
+        ],
+        "answer": [
+          1
+        ],
+        "explanation": "",
+        "score": 2
+      },
+      {
+        "id": "Q13",
+        "type": "single",
+        "stem": "手持电动工具电源线必须用橡套软线，长度不得超过多少米？",
+        "options": [
+          "2",
+          "3",
+          "4",
+          "6"
+        ],
+        "answer": [
+          3
+        ],
+        "explanation": "",
+        "score": 2
+      },
+      {
+        "id": "Q14",
+        "type": "single",
+        "stem": "M16 螺栓扭力为多少 N·m？",
+        "options": [
+          "110",
+          "120",
+          "170",
+          "160"
+        ],
+        "answer": [
+          2
+        ],
+        "explanation": "",
+        "score": 2
+      },
+      {
+        "id": "Q15",
+        "type": "single",
+        "stem": "高处作业是指凡在坠落高度基准面多少米以上有可能坠落的作业？",
+        "options": [
+          "1.5m（含1.5m）",
+          "2m（含2m）",
+          "2.5m（含2.5m）"
+        ],
+        "answer": [
+          1
+        ],
+        "explanation": "",
+        "score": 2
+      },
+      {
+        "id": "Q16",
+        "type": "single",
+        "stem": "电机采用（　），进风口有（　）（风罩），能过滤掉杂物与部分灰尘。",
+        "options": [
+          "自通风　过滤器",
+          "水冷　过滤器",
+          "自通风　通风口",
+          "水冷　通风口"
+        ],
+        "answer": [
+          0
+        ],
+        "explanation": "",
+        "score": 2
+      },
+      {
+        "id": "Q17",
+        "type": "single",
+        "stem": "多人同时操作一台设备时应做到？",
+        "options": [
+          "可以有一人负责安全监护、统一指挥、严防事故发生",
+          "必须有一人负责安全监护、统一指挥、严防事故发生",
+          "没必要设专人负责安全监护、统一指挥"
+        ],
+        "answer": [
+          1
+        ],
+        "explanation": "",
+        "score": 2
+      },
+      {
+        "id": "Q18",
+        "type": "single",
+        "stem": "5S 包括哪几个方面？",
+        "options": [
+          "整理、整顿、清扫、素养、安全",
+          "整理、整顿、清扫、清洁、素养",
+          "整理、清扫、清洁、素养、节约",
+          "整理、清扫、清洁、素养、安全"
+        ],
+        "answer": [
+          1
+        ],
+        "explanation": "",
+        "score": 2
+      },
+      {
+        "id": "Q19",
+        "type": "single",
+        "stem": "关于占道作业，以下哪个说法是错误的？",
+        "options": [
+          "占道作业需要进行审批",
+          "禁止无安全防护和警示标识的占道行为",
+          "领导审批后允许占用消防通道进行作业",
+          "因施工、物流和生产需要临时占道作业时，应做好安全防护和标识，摆放占道作业警示牌"
+        ],
+        "answer": [
+          2
+        ],
+        "explanation": "",
+        "score": 2
+      },
+      {
+        "id": "Q20",
+        "type": "single",
+        "stem": "首期项目牵引电机使用的轴承室润滑脂型号为？",
+        "options": [
+          "紫皇冠UPG#2",
+          "S2V220C2",
+          "S3V220C2",
+          "美孚力富SHC100"
+        ],
+        "answer": [
+          2
+        ],
+        "explanation": "",
+        "score": 2
+      },
+      {
+        "id": "Q21",
+        "type": "single",
+        "stem": "昆明首期牵引电机非传动端轴承型号为？",
+        "options": [
+          "6215M/C4VL0241",
+          "NU216ECM/C4VA3091",
+          "6215M/C4VL0244",
+          "NU216ECM/C4VA3094"
+        ],
+        "answer": [
+          0
+        ],
+        "explanation": "",
+        "score": 2
+      },
+      {
+        "id": "Q22",
+        "type": "single",
+        "stem": "昆明首期牵引电机传动端轴承型号为？",
+        "options": [
+          "6215M/C4VL0241",
+          "NU216ECM/C4VA3091",
+          "6215M/C4VL0244",
+          "NU216ECM/C4VA3094"
+        ],
+        "answer": [
+          1
+        ],
+        "explanation": "",
+        "score": 2
+      },
+      {
+        "id": "Q23",
+        "type": "single",
+        "stem": "危险源是指？",
+        "options": [
+          "可能导致人身伤害和健康损害的根源、状态或行为，或其组合",
+          "可能导致人身伤害、健康损害或财产损失的根源、状态或行为，或其组合",
+          "一定导致人身伤害和健康损害的根源、状态或行为，或其组合"
+        ],
+        "answer": [
+          1
+        ],
+        "explanation": "",
+        "score": 2
+      },
+      {
+        "id": "Q24",
+        "type": "single",
+        "stem": "昆明首期牵引电机传动端注油量、非传动端注油量分别是？",
+        "options": [
+          "19g / 16g",
+          "140+5g / 160+5g",
+          "135g / 145g",
+          "约64g / 约93g"
+        ],
+        "answer": [
+          1
+        ],
+        "explanation": "",
+        "score": 2
+      },
+      {
+        "id": "Q25",
+        "type": "single",
+        "stem": "昆明3号线牵引电机传动端注油量、非传动端注油量分别是？",
+        "options": [
+          "19g / 16g",
+          "140+5g / 160+5g",
+          "135g / 145g",
+          "约64g / 约93g"
+        ],
+        "answer": [
+          1
+        ],
+        "explanation": "",
+        "score": 2
+      },
+      {
+        "id": "Q26",
+        "type": "single",
+        "stem": "昆明4号线牵引电机传动端注油量、非传动端注油量分别是？",
+        "options": [
+          "19g / 16g",
+          "140+5g / 160+5g",
+          "135g / 145g",
+          "约64g / 约93g"
+        ],
+        "answer": [
+          3
+        ],
+        "explanation": "",
+        "score": 2
+      },
+      {
+        "id": "Q27",
+        "type": "single",
+        "stem": "昆明首期联轴节压装时手动泵保压压力不得超过？",
+        "options": [
+          "134KN",
+          "280KN",
+          "300KN",
+          "160KN"
+        ],
+        "answer": [
+          2
+        ],
+        "explanation": "",
+        "score": 2
+      },
+      {
+        "id": "Q28",
+        "type": "single",
+        "stem": "昆明首期联轴节压装完成后，每个联轴节注油？",
+        "options": [
+          "0.3L",
+          "0.35L",
+          "0.4L",
+          "0.45L"
+        ],
+        "answer": [
+          1
+        ],
+        "explanation": "",
+        "score": 2
+      },
+      {
+        "id": "Q29",
+        "type": "single",
+        "stem": "昆明3号线联轴节拆卸时气动泵压力不能超过？",
+        "options": [
+          "2400 bar",
+          "2100 bar",
+          "2200 bar",
+          "2300 bar"
+        ],
+        "answer": [
+          0
+        ],
+        "explanation": "",
+        "score": 2
+      },
+      {
+        "id": "Q30",
+        "type": "single",
+        "stem": "昆明3号线联轴节压装时手动泵保压压力不得超过？",
+        "options": [
+          "134KN",
+          "280KN",
+          "300KN",
+          "160KN"
+        ],
+        "answer": [
+          3
+        ],
+        "explanation": "",
+        "score": 2
+      },
+      {
+        "id": "Q31",
+        "type": "single",
+        "stem": "昆明3号线联轴节压装完成后，每个联轴节注油？",
+        "options": [
+          "0.3L",
+          "0.35L",
+          "0.4L",
+          "0.45L"
+        ],
+        "answer": [
+          2
+        ],
+        "explanation": "",
+        "score": 2
+      },
+      {
+        "id": "Q32",
+        "type": "single",
+        "stem": "昆明4号线联轴节压装时手动泵保压压力不得超过？",
+        "options": [
+          "134KN",
+          "280KN",
+          "300KN",
+          "160KN"
+        ],
+        "answer": [
+          0
+        ],
+        "explanation": "",
+        "score": 2
+      },
+      {
+        "id": "Q33",
+        "type": "single",
+        "stem": "昆明4号线联轴节组装过程中，每个联轴节加注油脂？",
+        "options": [
+          "134g",
+          "122g",
+          "123g",
+          "130g"
+        ],
+        "answer": [
+          1
+        ],
+        "explanation": "",
+        "score": 2
+      },
+      {
+        "id": "Q34",
+        "type": "single",
+        "stem": "用 DC250V 兆欧表测量温度传感器的对地绝缘电阻，阻值应？",
+        "options": [
+          "大于1MΩ",
+          "大于2MΩ",
+          "小于1MΩ",
+          "小于2MΩ"
+        ],
+        "answer": [
+          0
+        ],
+        "explanation": "",
+        "score": 2
+      },
+      {
+        "id": "Q35",
+        "type": "single",
+        "stem": "拆卸牵引电机上螺栓能否用风炮紧固螺栓？安装牵引电机上的螺栓能否用风炮紧固螺栓？",
+        "options": [
+          "能 / 不能",
+          "不能 / 不能",
+          "能 / 能",
+          "不能 / 能"
+        ],
+        "answer": [
+          0
+        ],
+        "explanation": "",
+        "score": 2
+      },
+      {
+        "id": "Q36",
+        "type": "single",
+        "stem": "昆明首期联轴节拆卸时气动注油泵压力不能超过？",
+        "options": [
+          "2400 bar",
+          "2100 bar",
+          "2200 bar",
+          "2300 bar"
+        ],
+        "answer": [
+          3
+        ],
+        "explanation": "",
+        "score": 2
+      },
+      {
+        "id": "Q37",
+        "type": "single",
+        "stem": "昆明首期大修，通过三相端子测量定子绕组对机座绝缘电阻值应大于？",
+        "options": [
+          "5MΩ",
+          "100MΩ",
+          "10MΩ",
+          "20MΩ"
+        ],
+        "answer": [
+          2
+        ],
+        "explanation": "",
+        "score": 2
+      },
+      {
+        "id": "Q38",
+        "type": "single",
+        "stem": "昆明1、3、6架修，通过三相端子测量定子绕组对机座绝缘电阻值应大于？",
+        "options": [
+          "5MΩ",
+          "100MΩ",
+          "10MΩ",
+          "20MΩ"
+        ],
+        "answer": [
+          0
+        ],
+        "explanation": "",
+        "score": 2
+      },
+      {
+        "id": "Q39",
+        "type": "single",
+        "stem": "昆明4架修，通过三相端子测量定子绕组对机座绝缘电阻值应大于？",
+        "options": [
+          "5MΩ",
+          "100MΩ",
+          "10MΩ",
+          "20MΩ"
+        ],
+        "answer": [
+          1
+        ],
+        "explanation": "",
+        "score": 2
+      },
+      {
+        "id": "Q40",
+        "type": "single",
+        "stem": "轴伸端着色检查需使用的工具为？",
+        "options": [
+          "内径百分表",
+          "锥度环规",
+          "内径千分尺",
+          "百分表"
+        ],
+        "answer": [
+          1
+        ],
+        "explanation": "",
+        "score": 2
+      },
+      {
+        "id": "Q41",
+        "type": "single",
+        "stem": "轴承游隙测量需使用的工具为？",
+        "options": [
+          "内径百分表",
+          "锥度环规",
+          "内径千分尺",
+          "百分表"
+        ],
+        "answer": [
+          3
+        ],
+        "explanation": "",
+        "score": 2
+      },
+      {
+        "id": "Q42",
+        "type": "single",
+        "stem": "轴承内圈加热温度为？",
+        "options": [
+          "110~120℃",
+          "130℃",
+          "100℃",
+          "140℃"
+        ],
+        "answer": [
+          0
+        ],
+        "explanation": "",
+        "score": 2
+      },
+      {
+        "id": "Q43",
+        "type": "single",
+        "stem": "振动试验中调速至2000r/min时，其振动值标准为？",
+        "options": [
+          "小于3.55",
+          "小于3.50",
+          "小于5.25",
+          "小于5.50"
+        ],
+        "answer": [
+          1
+        ],
+        "explanation": "",
+        "score": 2
+      },
+      {
+        "id": "Q44",
+        "type": "single",
+        "stem": "振动试验中调速至3000r/min时，其振动值标准为？",
+        "options": [
+          "小于3.55",
+          "小于3.50",
+          "小于5.25",
+          "小于5.50"
+        ],
+        "answer": [
+          1
+        ],
+        "explanation": "",
+        "score": 2
+      },
+      {
+        "id": "Q45",
+        "type": "single",
+        "stem": "振动试验中调速至4300余转r/min时，其振动值标准为？",
+        "options": [
+          "小于3.55",
+          "小于3.50",
+          "小于5.25",
+          "小于5.50"
+        ],
+        "answer": [
+          2
+        ],
+        "explanation": "",
+        "score": 2
+      },
+      {
+        "id": "Q46",
+        "type": "single",
+        "stem": "进行温升测试时，其轴承温升标准为？",
+        "options": [
+          "不超过20K",
+          "不超过30K",
+          "不超过35K",
+          "不超过25K"
+        ],
+        "answer": [
+          2
+        ],
+        "explanation": "",
+        "score": 2
+      },
+      {
+        "id": "Q47",
+        "type": "single",
+        "stem": "温度传感器对地绝缘电阻值测试的工具及标准为？",
+        "options": [
+          "DC250V　大于1MΩ",
+          "DC500V　大于1MΩ",
+          "DC250V　大于5MΩ",
+          "DC500V　大于5MΩ"
+        ],
+        "answer": [
+          0
+        ],
+        "explanation": "",
+        "score": 2
+      },
+      {
+        "id": "Q48",
+        "type": "single",
+        "stem": "速度传感器对地绝缘电阻值测试的工具及标准为？",
+        "options": [
+          "DC250V　大于1MΩ",
+          "DC500V　大于1MΩ",
+          "DC250V　大于5MΩ",
+          "DC500V　大于5MΩ"
+        ],
+        "answer": [
+          0
+        ],
+        "explanation": "",
+        "score": 2
+      },
+      {
+        "id": "Q49",
+        "type": "single",
+        "stem": "压装联轴节后需静置多久才能进行平齐度测量？",
+        "options": [
+          "12h",
+          "18h",
+          "24h",
+          "16h"
+        ],
+        "answer": [
+          2
+        ],
+        "explanation": "",
+        "score": 2
+      },
+      {
+        "id": "Q50",
+        "type": "single",
+        "stem": "转子动平衡试验时，动平衡量要求为不大于？实际动平衡量应调整至不大于？",
+        "options": [
+          "1.5g、1.5g",
+          "1.5g、1.0g",
+          "1.0g、1.5g",
+          "1.0g、1.0g"
+        ],
+        "answer": [
+          1
+        ],
+        "explanation": "",
+        "score": 2
+      }
+    ]
   }
 ]
