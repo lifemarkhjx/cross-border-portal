@@ -308,7 +308,22 @@
       "f_email_ph": "电子邮箱",
       "f_pw_ph": "密码",
       "login_note": "阶段1演示版：账号信息仅保存在您的浏览器本地（密码加密存储、不上传）；阶段2将升级为云端加密账号体系。",
-      "purpose_opts": "产品采购咨询|技术方案交流|培训实训合作|代理 / 经销合作|其他"
+      "purpose_opts": "产品采购咨询|技术方案交流|培训实训合作|代理 / 经销合作|其他",
+      "role_visitor": "访客",
+      "role_staff": "公司员工",
+      "role_agent": "客服人员",
+      "reg_invite": "公司邀请码（员工 / 客服专用）",
+      "err_invite": "邀请码不正确，已按访客身份注册需联系管理员",
+      "chat_title": "在线咨询",
+      "chat_welcome": "欢迎咨询！工作人员与智能助手将为您解答（支持多语言）",
+      "chat_online": "客服在线",
+      "chat_mode_local": "阶段1演示模式：会话保存在本浏览器，阶段2接入实时云客服",
+      "chat_staff_desk": "客服工作台（员工 / 客服身份）",
+      "chat_guest": "游客",
+      "chat_ph": "输入您的问题…",
+      "chat_staff_only": "仅客服 / 员工可清空会话",
+      "chat_clear_confirm": "确定清空本演示会话记录吗？",
+      "chat_title_btn": "在线咨询"
     },
     "en": {
       "nav_home": "Home",
@@ -483,7 +498,22 @@
       "f_email_ph": "Email",
       "f_pw_ph": "Password",
       "login_note": "Demo phase: your account is stored only in this browser (password hashed, never uploaded); encrypted cloud accounts arrive in Phase 2.",
-      "purpose_opts": "Product procurement|Technical consultation|Training cooperation|Agency / distribution|Other"
+      "purpose_opts": "Product procurement|Technical consultation|Training cooperation|Agency / distribution|Other",
+      "role_visitor": "Visitor",
+      "role_staff": "Staff",
+      "role_agent": "Agent",
+      "reg_invite": "Company invite code (staff / agent)",
+      "err_invite": "Invalid invite code — registered as Visitor instead. Contact admin if needed.",
+      "chat_title": "Live Chat",
+      "chat_welcome": "Welcome! Our staff & smart assistant will answer you (multi-language)",
+      "chat_online": "Agents online",
+      "chat_mode_local": "Demo phase: conversation is stored in this browser; live cloud chat arrives in Phase 2",
+      "chat_staff_desk": "Staff Desk (staff / agent identity)",
+      "chat_guest": "Guest",
+      "chat_ph": "Type your question…",
+      "chat_staff_only": "Only staff / agents can clear the session",
+      "chat_clear_confirm": "Clear this demo conversation?",
+      "chat_title_btn": "Live Chat"
     },
     "vi": {
       "nav_home": "Trang chủ",
@@ -658,7 +688,12 @@
       "why4_d": "Hệ thống thông tin bảo trì, robot bảo trì và giải pháp cơ sở đào tạo",
       "why4_t": "Vận hành thông minh",
       "why_title": "Năng lực cốt lõi",
-      "single": "Một lựa chọn"
+      "single": "Một lựa chọn",
+      "chat_title": "Tư vấn trực tuyến",
+      "role_visitor": "Khách",
+      "role_staff": "Nhân viên",
+      "role_agent": "Chăm sóc khách hàng",
+      "chat_ph": "Nhập câu hỏi…"
     },
     "th": {
       "nav_home": "หน้าแรก",
@@ -833,7 +868,12 @@
       "why4_d": "ระบบสารสนเทศการซ่อม หุ่นยนต์ซ่อมบำรุง และแนวทางฐานฝึก",
       "why4_t": "บำรุงรักษาอัจฉริยะ",
       "why_title": "ความสามารถหลัก",
-      "single": "ตัวเลือกเดียว"
+      "single": "ตัวเลือกเดียว",
+      "chat_title": "แชทออนไลน์",
+      "role_visitor": "ผู้เยี่ยมชม",
+      "role_staff": "พนักงาน",
+      "role_agent": "ฝ่ายบริการลูกค้า",
+      "chat_ph": "พิมพ์คำถามของคุณ…"
     },
     "ms": {
       "nav_home": "Utama",
@@ -1008,7 +1048,12 @@
       "why3_t": "Peralatan latihan",
       "why4_d": "Sistem maklumat pembaikan, robot pembaikan dan penyelesaian pangkalan",
       "why4_t": "Pembaikan pintar",
-      "why_title": "Kemampuan Teras"
+      "why_title": "Kemampuan Teras",
+      "chat_title": "Sembang Dalam Talian",
+      "role_visitor": "Pelawat",
+      "role_staff": "Kakitangan",
+      "role_agent": "Ejen Khidmat",
+      "chat_ph": "Taip soalan anda…"
     },
     "id": {
       "nav_home": "Beranda",
@@ -1183,7 +1228,12 @@
       "why3_t": "Peralatan pelatihan",
       "why4_d": "Sistem informasi perawatan, robot perbaikan dan solusi basis",
       "why4_t": "Perawatan pintar",
-      "why_title": "Kapabilitas Inti"
+      "why_title": "Kapabilitas Inti",
+      "chat_title": "Obrolan Online",
+      "role_visitor": "Pengunjung",
+      "role_staff": "Staf",
+      "role_agent": "Agen Layanan",
+      "chat_ph": "Tulis pertanyaan…"
     },
     "lo": {
       "nav_home": "ໜ້າຫຼັກ",
@@ -1358,7 +1408,12 @@
       "why3_t": "ອຸປະກອນຝຶກອົບຮົມ",
       "why4_d": "ລະບົບຂໍ້ມູນຂ່າວການບຳລຸງ ຫຸ່ນຍົນບຳລຸງ ແລະ ແນວທາງສ້າງສູນຝຶກ",
       "why4_t": "ບຳລຸງອັດສະລິຍະ",
-      "why_title": "ຄວາມສາມາດຫຼັກ"
+      "why_title": "ຄວາມສາມາດຫຼັກ",
+      "chat_title": "ປຶກສາອອນລາຍ",
+      "role_visitor": "ຜູ້ມາຢ້ຽມ",
+      "role_staff": "ພະນັກງານ",
+      "role_agent": "ພະນັກງານບໍລິການ",
+      "chat_ph": "ປ້ອນຄຳຖາມ…"
     },
     "km": {
       "nav_home": "ទំព័រដើម",
@@ -1533,7 +1588,12 @@
       "why3_t": "ឧបករណ៍បណ្តុះបណ្តាល",
       "why4_d": "ប្រព័ន្ធព័ត៌មានវិទ្យាជួសជុល រូបភាពជួសជុល និងដំណោះស្រាយមូលដ្ឋាន",
       "why4_t": "ថែទាំឆ្លាតវៃ",
-      "why_title": "សមត្ថភាពសំខាន់"
+      "why_title": "សមត្ថភាពសំខាន់",
+      "chat_title": "ជំនួបអនឡាញ",
+      "role_visitor": "ភ្ញៀវ",
+      "role_staff": "បុគ្គលិក",
+      "role_agent": "បុគ្គលិកសេវា",
+      "chat_ph": "សូមសរសំណួរ…"
     },
     "my": {
       "nav_home": "ပင်မ",
@@ -1708,7 +1768,12 @@
       "why3_t": "ပညာပေးပစ္စည်း",
       "why4_d": "ပြင်ဆင်ရေးသတင်းအချက်အလက် စနစ်၊ ရုပ်သံစစ်ဆေးရေး နှင့် စခန်းအခြေခံအချက်အလက်",
       "why4_t": "အာရုံစိုက်ပြင်ဆင်ရေး",
-      "why_title": "အဓိကစွမ်းဆောင်ရည်"
+      "why_title": "အဓိကစွမ်းဆောင်ရည်",
+      "chat_title": "အွန်လိုင်းအကြံပေး",
+      "role_visitor": "လည်ပတ်သူ",
+      "role_staff": "ဝန်ထမ်း",
+      "role_agent": "စျေးပွဲစဉ်ဝန်ဆောင်",
+      "chat_ph": "မေးခွန်းရေးပါ…"
     },
     "hi": {
       "nav_home": "होम",
@@ -1883,7 +1948,12 @@
       "why3_t": "प्रशिक्षण उपकरण",
       "why4_d": "मरम्मत सूचना तंत्र, रोबोटिक मरम्मत और प्रशिक्षण केंद्र समाधान",
       "why4_t": "स्मार्ट रखरखाव",
-      "why_title": "मुख्य क्षमताएँ"
+      "why_title": "मुख्य क्षमताएँ",
+      "chat_title": "ऑनलाइन चैट",
+      "role_visitor": "आगंतुक",
+      "role_staff": "कर्मचारी",
+      "role_agent": "ग्राहक सेवा",
+      "chat_ph": "अपना प्रश्न लिखें…"
     },
     "bn": {
       "nav_home": "হোম",
@@ -2058,7 +2128,20 @@
       "why3_t": "প্রশিক্ষণ সরঞ্জাম",
       "why4_d": "মেরামত তথ্যব্যবস্থা, রোবটিক মেরামত ও কেন্দ্র সমাধান",
       "why4_t": "স্মার্ট রক্ষণাবেক্ষণ",
-      "why_title": "মূল সক্ষমতা"
+      "why_title": "মূল সক্ষমতা",
+      "chat_title": "অনলাইন চ্যাট",
+      "role_visitor": "আগন্তুক",
+      "role_staff": "কর্মচারী",
+      "role_agent": "গ্রাহকসেবা",
+      "chat_ph": "প্রশ্ন লিখুন…"
+    }
+  },
+  "chat": {
+    "mode": "local",
+    "endpoint": "",
+    "invites": {
+      "staff": "KM-STAFF-2026",
+      "agent": "KM-AGENT-2026"
     }
   }
 }
