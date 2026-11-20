@@ -11,7 +11,9 @@
     "moq": 1,
     "unit": "套",
     "images": [
-      "img/products/NY-CD-01.jpg"
+      "img/products/NY-CD-01.jpg",
+      "img/products/NY-CD-01-2.jpg",
+      "img/products/NY-CD-01-3.jpg"
     ],
     "specs": {
       "定点充电弓": "机车顶部安装受流装置，充电点架设高压电网，操作安全、充电速度快",
@@ -61,7 +63,9 @@
     "moq": 1,
     "unit": "台",
     "images": [
-      "img/products/NY-DF4B-01.svg"
+      "img/products/NY-DF4B-01.jpg",
+      "img/products/NY-DF4B-01-2.jpg",
+      "img/products/NY-DF4B-01-3.jpg"
     ],
     "specs": {
       "改造方式": "拆除柴油机发电机组及附属系统，磷酸铁锂动力电池（约2346kWh，DC753.8V）+ 主辅一体变流器替代，三相异步牵引电机替代直流牵引电机",
@@ -126,7 +130,7 @@
     "moq": 1,
     "unit": "套",
     "images": [
-      "img/products/NY-DF7C-01.svg"
+      "img/products/NY-DF7C-01.jpg"
     ],
     "specs": {
       "主要参数": "整备重量135t；轴式Co-Co；动轮直径1050mm；外形20100×3344×4750mm；轮周牵引功率1200kW；电池电量1863.99kWh；起动牵引力428kN；持续牵引力308kN；电制动功率900kW",
@@ -160,7 +164,8 @@
     "moq": 1,
     "unit": "套",
     "images": [
-      "img/products/NY-DFH5-01.jpg"
+      "img/products/NY-DFH5-01.jpg",
+      "img/products/NY-DFH5-01-2.jpg"
     ],
     "specs": {
       "主要参数": "整备重量86t；轴式B-B；外形14900×3373×4755mm；轮周牵引功率550kW；电池电量662kWh；起动牵引力275kN；持续牵引力240kN；电制动功率430kW；日均节约约4000元",
@@ -194,7 +199,8 @@
     "moq": 1,
     "unit": "套",
     "images": [
-      "img/products/NY-DFH5B-01.jpg"
+      "img/products/NY-DFH5B-01.jpg",
+      "img/products/NY-DFH5B-01-2.jpg"
     ],
     "specs": {
       "主要参数": "整备重量92t；轴式B-B；外形14900×3376×4756mm；轮周牵引功率720kW；电池电量1130kWh；起动牵引力297kN；持续牵引力259kN；电制动功率550kW",
@@ -228,7 +234,9 @@
     "moq": 1,
     "unit": "台",
     "images": [
-      "img/products/NY-GK1E-01.svg"
+      "img/products/NY-GK1E-01.jpg",
+      "img/products/NY-GK1E-01-2.jpg",
+      "img/products/NY-GK1E-01-3.jpg"
     ],
     "specs": {
       "改造方式": "动力蓄电池替代柴油机，三相异步牵引电机+中间齿轮箱替代液力传动系统",
@@ -291,7 +299,9 @@
     "moq": 1,
     "unit": "台",
     "images": [
-      "img/products/NY-JN7-01.svg"
+      "img/products/NY-JN7-01.jpg",
+      "img/products/NY-JN7-01-2.jpg",
+      "img/products/NY-JN7-01-3.jpg"
     ],
     "specs": {
       "改造方式": "拆除水散热器、柴油机、油散热器、液力变速箱、启动发电机及油箱，更换空调、车钩，操纵台/车体适应性改造",
@@ -390,7 +400,9 @@
     "moq": 1,
     "unit": "项",
     "images": [
-      "img/products/NY-PT-01.svg"
+      "img/products/NY-PT-01.jpg",
+      "img/products/NY-PT-01-2.jpg",
+      "img/products/NY-PT-01-3.jpg"
     ],
     "specs": {
       "四轴平台（DFH、GK系列）": "DFH5→LE1：550kW/662kWh，日省约4000元；DFH5B→LE1：720kW/1130kWh，日省约4274元；GK1E→LE1：650kW/993kWh；改造周期15-17周",
@@ -445,7 +457,8 @@
     "moq": 1,
     "unit": "套",
     "images": [
-      "img/products/NY-QBAA1-01.jpg"
+      "img/products/NY-QBAA1-01.jpg",
+      "img/products/NY-QBAA1-01-2.jpg"
     ],
     "specs": {
       "主要参数": "整备重量72t；轴式Bo-Bo；外形15000×3284×4650mm；轮周牵引功率480kW；电池电量537kWh；不锈钢车体；日均节约约822元",
@@ -479,7 +492,9 @@
     "moq": 1,
     "unit": "套",
     "images": [
-      "img/products/NY-YDM4-01.jpg"
+      "img/products/NY-YDM4-01.jpg",
+      "img/products/NY-YDM4-01-2.jpg",
+      "img/products/NY-YDM4-01-3.jpg"
     ],
     "specs": {
       "主要参数": "整备重量72t；轴式C0-C0；动轮直径965mm；外形15636×2850×3485mm；轮周牵引功率1235kW；改造金额1025万元；最大坡度25‰；最小曲线半径62.4m",
@@ -514,7 +529,8 @@
     "unit": "套",
     "images": [
       "img/products/NY-ZN-01.jpg",
-      "img/products/NY-ZN-01-2.jpg"
+      "img/products/NY-ZN-01-2.jpg",
+      "img/products/NY-ZN-01-3.jpg"
     ],
     "specs": {
       "视频监控": "视频监控系统（含拾音），整车多摄像头配置",
@@ -566,7 +582,7 @@
     "moq": 1,
     "unit": "只",
     "images": [
-      "img/products/CS-DL-01.svg"
+      "img/products/CS-DL-01.jpg"
     ],
     "specs": {
       "工作原理": "磁平衡式霍尔 / 磁通门 / 直接放大式霍尔 / 磁调制 / 变送器五大原理",
@@ -618,7 +634,7 @@
     "moq": 1,
     "unit": "只",
     "images": [
-      "img/products/CS-DY-01.svg"
+      "img/products/CS-DY-01.jpg"
     ],
     "specs": {
       "量程覆盖": "10mA~700V / 750~2000V / 2000~4200V 三个系列",
@@ -670,7 +686,7 @@
     "moq": 1,
     "unit": "套",
     "images": [
-      "img/products/CS-JS-01.svg"
+      "img/products/CS-JS-01.jpg"
     ],
     "specs": {
       "主要参数": "NAMC1-10-IC、NAMC3-2-IC等型号",
@@ -704,7 +720,7 @@
     "moq": 1,
     "unit": "套",
     "images": [
-      "img/products/CS-PQ-01.svg"
+      "img/products/CS-PQ-01.jpg"
     ],
     "specs": {
       "NSD7B 电流检测模块": "1kHz 采样车辆主电路电流，判定条件'I>3000A/单弓'或'di/dt>10A/ms/单弓持续40ms'，触发前152ms/触发后100ms数据存储，LED 异常计数显示，开关量输出 110VDC 100mA",
@@ -757,7 +773,7 @@
     "moq": 1,
     "unit": "只",
     "images": [
-      "img/products/CS-SD-01.svg"
+      "img/products/CS-SD-01.jpg"
     ],
     "specs": {
       "机车牵引配套": "NCZ7 / TQG2B / NCZ12A / NCZ15 / NCZ16 / TQG19D3·D9·D10 系列",
@@ -812,7 +828,7 @@
     "moq": 1,
     "unit": "只",
     "images": [
-      "img/products/CS-WD-01.svg"
+      "img/products/CS-WD-01.jpg"
     ],
     "specs": {
       "测量原理": "Pt100 铂热电阻（IEC 60751）/ NTC 热敏电阻 / K 型热电偶，允差符合 JB/T 8622-1997 B级（0℃容差≤±0.12Ω）",
@@ -865,7 +881,7 @@
     "moq": 1,
     "unit": "只",
     "images": [
-      "img/products/CS-YL-01.svg"
+      "img/products/CS-YL-01.jpg"
     ],
     "specs": {
       "测量原理": "硅压阻 + 高精度充油芯体；NTC 热敏电阻（柴油机冷却水/机油）",
@@ -920,7 +936,8 @@
       "img/products/HZY-CG-01.jpg",
       "img/products/HZY-CG-01-2.jpg",
       "img/products/HZY-CG-01-3.jpg",
-      "img/products/HZY-CG-01-4.jpg"
+      "img/products/HZY-CG-01-4.jpg",
+      "img/products/HZY-CG-01-5.jpg"
     ],
     "specs": {
       "传感器系列": "速度传感器 / 温度传感器 / 数字温度传感器 / 铂热电阻传感器 / 温度熔断器 / 液位传感器",
@@ -1350,7 +1367,6 @@
     "moq": 1,
     "unit": "台",
     "images": [
-      "img/products/JX-035.jpg",
       "img/products/JX-035-2.jpg"
     ],
     "specs": {
@@ -1392,8 +1408,7 @@
     "moq": 1,
     "unit": "台",
     "images": [
-      "img/products/JX-036.jpg",
-      "img/products/JX-036-2.jpg"
+      "img/products/JX-036.jpg"
     ],
     "specs": {
       "应用场景": "机车/动车组/城轨车辆检修基地、机务段、车辆段",
@@ -1768,8 +1783,7 @@
     "moq": 1,
     "unit": "台",
     "images": [
-      "img/products/JX-044.jpg",
-      "img/products/JX-044-2.jpg"
+      "img/products/JX-044.jpg"
     ],
     "specs": {
       "应用场景": "机车/动车组/城轨车辆检修基地、机务段、车辆段",
@@ -1813,8 +1827,7 @@
     "moq": 1,
     "unit": "台",
     "images": [
-      "img/products/JX-045.jpg",
-      "img/products/JX-045-2.jpg"
+      "img/products/JX-045.jpg"
     ],
     "specs": {
       "应用场景": "机车/动车组/城轨车辆检修基地、机务段、车辆段",
@@ -1853,8 +1866,7 @@
     "moq": 1,
     "unit": "台",
     "images": [
-      "img/products/JX-046.jpg",
-      "img/products/JX-046-2.jpg"
+      "img/products/JX-046.jpg"
     ],
     "specs": {
       "应用场景": "机车/动车组/城轨车辆检修基地、机务段、车辆段",
@@ -1983,8 +1995,7 @@
     "moq": 1,
     "unit": "台",
     "images": [
-      "img/products/JX-049.jpg",
-      "img/products/JX-049-2.jpg"
+      "img/products/JX-049.jpg"
     ],
     "specs": {
       "应用场景": "机车/动车组/城轨车辆检修基地、机务段、车辆段",
@@ -2027,8 +2038,7 @@
     "moq": 1,
     "unit": "台",
     "images": [
-      "img/products/JX-050.jpg",
-      "img/products/JX-050-2.jpg"
+      "img/products/JX-050.jpg"
     ],
     "specs": {
       "应用场景": "机车/动车组/城轨车辆检修基地、机务段、车辆段",
@@ -2829,7 +2839,7 @@
     "moq": 1,
     "unit": "台",
     "images": [
-      "img/products/JX-068.jpg"
+      "img/products/JX-068.svg"
     ],
     "specs": {
       "应用场景": "机车/动车组/城轨车辆检修基地、机务段、车辆段",
@@ -3540,7 +3550,9 @@
     "moq": 1,
     "unit": "台",
     "images": [
-      "img/products/JX-103.svg"
+      "img/products/JX-103.jpg",
+      "img/products/JX-103-2.jpg",
+      "img/products/JX-103-3.jpg"
     ],
     "specs": {
       "应用场景": "城轨车辆段、机车检修段、动车段、主机厂"
@@ -3571,7 +3583,9 @@
     "moq": 1,
     "unit": "台",
     "images": [
-      "img/products/JX-104.svg"
+      "img/products/JX-104.jpg",
+      "img/products/JX-104-2.jpg",
+      "img/products/JX-104-3.jpg"
     ],
     "specs": {
       "应用场景": "城轨车辆段、机车检修段、动车段、主机厂"
@@ -3602,7 +3616,9 @@
     "moq": 1,
     "unit": "台",
     "images": [
-      "img/products/JX-113.svg"
+      "img/products/JX-113.jpg",
+      "img/products/JX-113-2.jpg",
+      "img/products/JX-113-3.jpg"
     ],
     "specs": {
       "应用场景": "城轨车辆段、机车检修段、动车段、主机厂"
@@ -3633,7 +3649,7 @@
     "moq": 1,
     "unit": "台",
     "images": [
-      "img/products/JX-115.svg"
+      "img/products/JX-115.jpg"
     ],
     "specs": {
       "应用场景": "城轨车辆段、机车检修段、动车段、主机厂"
@@ -3664,7 +3680,7 @@
     "moq": 1,
     "unit": "台",
     "images": [
-      "img/products/KM-DT-04.svg"
+      "img/products/KM-DT-04.jpg"
     ],
     "specs": {
       "产品定位": "依据司控器结构、安装方式、操作模式、控制逻辑及电气参数设计的便携式一体化检测设备，内置独立电源",
@@ -3714,7 +3730,7 @@
     "moq": 1,
     "unit": "台",
     "images": [
-      "img/products/KM-DT-05.svg"
+      "img/products/KM-DT-05.jpg"
     ],
     "specs": {
       "系统组成": "便携式测量基面（可折叠伸缩、轻量便携）+ 激光测量系统 + 非零轨找平装置",
@@ -3762,7 +3778,7 @@
     "moq": 1,
     "unit": "台",
     "images": [
-      "img/products/KM-DT-06.svg"
+      "img/products/KM-DT-06.jpg"
     ],
     "specs": {
       "三合一功能": "氧化膜清除 + 多电压线圈供电 + 高精度电阻测量于一体",
@@ -3812,7 +3828,7 @@
     "moq": 1,
     "unit": "批",
     "images": [
-      "img/products/KM-DT-07.svg"
+      "img/products/KM-DT-07.jpg"
     ],
     "specs": {
       "列车检修类": "车钩高度专用调节扳手 / 车钩检修渡板 / 司控器锁紧螺母专用扳手 / 车门S1锁到位尺寸测量块 / 车门开口销取出器 / 车门平垫锁紧锤 / 空调固定螺栓安装辅助工具 / 受流器螺母专用扳手 / 高度调节杆螺母专用扳手 / 蓄电池提取工具 / 闸瓦间隙卡规 / 贯通道折棚安装辅助工装 / 车门电机止挡专用调整工具 / 油压减振器拆解工装 / 司控器检修支座 / 可移动式电客列车空簧加垫工装 / 牵引电机安装孔螺纹套专用取出螺栓 / 取针套管 / 闸瓦钎固定开口销专用拆卸工具 / 车门检修台 / 地面测量工具 / 电客列车灯光调试牌 / 润滑油自动加油工装 / 抗侧滚扭杆轴承退压工装",
@@ -3858,7 +3874,11 @@
     "moq": 1,
     "unit": "台",
     "images": [
-      "img/products/RW-CS-01.svg"
+      "img/products/RW-CS-01.jpg",
+      "img/products/RW-CS-01-2.jpg",
+      "img/products/RW-CS-01-3.jpg",
+      "img/products/RW-CS-01-4.jpg",
+      "img/products/RW-CS-01-5.jpg"
     ],
     "specs": {
       "转向架类": "轮对跑合试验台 / 转向架静载试验台 / 一系弹簧·空气弹簧·油压减振器试验台 / 转向架跑合试验台 / 轮轴测量设备 / 轮对轴箱轴承智能组装产线",
@@ -3909,7 +3929,7 @@
     "moq": 1,
     "unit": "套",
     "images": [
-      "img/products/RW-DD-01.svg"
+      "img/products/RW-DD-01.jpg"
     ],
     "specs": {
       "调度联动": "结合微机联锁系统、车号识别系统、智能定位等辅助系统",
@@ -3955,7 +3975,11 @@
     "moq": 1,
     "unit": "套",
     "images": [
-      "img/products/RW-JQR-01.svg"
+      "img/products/RW-JQR-01.jpg",
+      "img/products/RW-JQR-01-2.jpg",
+      "img/products/RW-JQR-01-3.jpg",
+      "img/products/RW-JQR-01-4.jpg",
+      "img/products/RW-JQR-01-5.jpg"
     ],
     "specs": {
       "杆件检修": "激光脱漆（替代脱漆剂）+ 关节自动压装 + 机器人辅助搬运，视觉识别定位，人机协同",
@@ -4004,7 +4028,11 @@
     "moq": 1,
     "unit": "项",
     "images": [
-      "img/products/RW-JX-01.jpg"
+      "img/products/RW-JX-01.jpg",
+      "img/products/RW-JX-01-2.jpg",
+      "img/products/RW-JX-01-3.jpg",
+      "img/products/RW-JX-01-4.jpg",
+      "img/products/RW-JX-01-5.jpg"
     ],
     "specs": {
       "制动检修": "地铁制动系统部件检修车间（上海地铁全系统制动部件）/ 智能制动检修线（SS4B、SS4G、HXD1系列）/ 制动柜智能检修车间（电力机车C5）/ 地铁制动阀类检修线 / 踏面清扫器生产线",
@@ -4055,7 +4083,7 @@
     "moq": 1,
     "unit": "套",
     "images": [
-      "img/products/RW-XX-01.svg"
+      "img/products/RW-XX-01.jpg"
     ],
     "specs": {
       "核心模块": "工艺管理 / 人员管理 / 物料管理（齐套分析·配送·追溯）/ 设备管理 / 质量管理 / 修程管理 / 委外与计划管理",
@@ -4103,7 +4131,11 @@
     "moq": 1,
     "unit": "套",
     "images": [
-      "img/products/RW-ZC-01.svg"
+      "img/products/RW-ZC-01.jpg",
+      "img/products/RW-ZC-01-2.jpg",
+      "img/products/RW-ZC-01-3.jpg",
+      "img/products/RW-ZC-01-4.jpg",
+      "img/products/RW-ZC-01-5.jpg"
     ],
     "specs": {
       "组装作业": "智能作业小车（任务自动接收/扭矩标准下发/工序自动跳转/作业数据追溯）/ 智能工具柜（人脸识别/借用归还记录/工具追溯）/ 移动式自走行作业平台",
@@ -4149,7 +4181,11 @@
     "moq": 1,
     "unit": "套",
     "images": [
-      "img/products/RW-ZT-01.svg"
+      "img/products/RW-ZT-01.jpg",
+      "img/products/RW-ZT-01-2.jpg",
+      "img/products/RW-ZT-01-3.jpg",
+      "img/products/RW-ZT-01-4.jpg",
+      "img/products/RW-ZT-01-5.jpg"
     ],
     "specs": {
       "信号模拟": "车载信号模拟测试装置（工业控制板+显示屏+I/O控制单元+MVB卡，RS-485/并行总线通讯）",
@@ -4246,10 +4282,8 @@
     "moq": 1,
     "unit": "套",
     "images": [
-      "img/products/YX-JX-02.jpg",
       "img/products/YX-JX-02-2.jpg",
-      "img/products/YX-JX-02-3.jpg",
-      "img/products/YX-JX-02-4.jpg"
+      "img/products/YX-JX-02-3.jpg"
     ],
     "specs": {
       "干线铁路": "DC600V 地面电源（客车空调/供电试验）",
@@ -4300,7 +4334,8 @@
       "img/products/YX-JX-03.jpg",
       "img/products/YX-JX-03-2.jpg",
       "img/products/YX-JX-03-3.jpg",
-      "img/products/YX-JX-03-4.jpg"
+      "img/products/YX-JX-03-4.jpg",
+      "img/products/YX-JX-03-5.jpg"
     ],
     "specs": {
       "手持/便携受电弓测试仪": "压力 0-200N（±2%）/ 升降弓时间 0.1s 分辨率 / 滑板厚度 0.1-45mm / 高度 0-3000mm / 存储1000组 / USB·WIFI上传，适配 DSA、TSG 等系列",
@@ -4351,7 +4386,8 @@
     "moq": 1,
     "unit": "套",
     "images": [
-      "img/products/JP-MN-01.svg"
+      "img/products/JP-MN-01.jpg",
+      "img/products/JP-MN-01-2.jpg"
     ],
     "specs": {
       "城轨型": "1:1 模拟驾驶器 + 前向侧向视景系统 + 虚拟列车运行控制系统 + 电气柜仿真设备",
@@ -4400,7 +4436,9 @@
     "moq": 1,
     "unit": "套",
     "images": [
-      "img/products/JP-MN-02.svg"
+      "img/products/JP-MN-02.jpg",
+      "img/products/JP-MN-02-2.jpg",
+      "img/products/JP-MN-02-3.jpg"
     ],
     "specs": {
       "仿真培训": "太原2号线仿真测试及模拟驾驶培训系统（车辆仿真+视景仿真+电路仿真，运行逻辑与真车一致，支持故障注入与排查考核，全自动运行角色培训）",
@@ -4446,7 +4484,7 @@
     "moq": 1,
     "unit": "套",
     "images": [
-      "img/products/JP-SN-01.svg"
+      "img/products/JP-SN-01.jpg"
     ],
     "specs": {
       "应用场景": "职业院校、地铁公司培训中心、产教融合基地"
@@ -4477,7 +4515,7 @@
     "moq": 1,
     "unit": "套",
     "images": [
-      "img/products/JP-SN-02.svg"
+      "img/products/JP-SN-02.jpg"
     ],
     "specs": {
       "应用场景": "职业院校、地铁公司培训中心、产教融合基地"
@@ -4508,7 +4546,7 @@
     "moq": 1,
     "unit": "套",
     "images": [
-      "img/products/JP-SN-03.svg"
+      "img/products/JP-SN-03.jpg"
     ],
     "specs": {
       "应用场景": "职业院校、地铁公司培训中心、产教融合基地"
@@ -4539,7 +4577,7 @@
     "moq": 1,
     "unit": "套",
     "images": [
-      "img/products/JP-SN-04.svg"
+      "img/products/JP-SN-04.jpg"
     ],
     "specs": {
       "应用场景": "职业院校、地铁公司培训中心、产教融合基地"
@@ -4570,7 +4608,7 @@
     "moq": 1,
     "unit": "套",
     "images": [
-      "img/products/JP-SN-05.svg"
+      "img/products/JP-SN-05.jpg"
     ],
     "specs": {
       "应用场景": "职业院校、地铁公司培训中心、产教融合基地"
@@ -4601,7 +4639,7 @@
     "moq": 1,
     "unit": "套",
     "images": [
-      "img/products/JP-SN-06.svg"
+      "img/products/JP-SN-06.jpg"
     ],
     "specs": {
       "应用场景": "职业院校、地铁公司培训中心、产教融合基地"
@@ -4632,7 +4670,7 @@
     "moq": 1,
     "unit": "套",
     "images": [
-      "img/products/JP-SN-07.svg"
+      "img/products/JP-SN-07.jpg"
     ],
     "specs": {
       "应用场景": "职业院校、地铁公司培训中心、产教融合基地"
@@ -4663,7 +4701,7 @@
     "moq": 1,
     "unit": "套",
     "images": [
-      "img/products/JP-SN-08.svg"
+      "img/products/JP-SN-08.jpg"
     ],
     "specs": {
       "应用场景": "职业院校、地铁公司培训中心、产教融合基地"
@@ -4694,7 +4732,7 @@
     "moq": 1,
     "unit": "套",
     "images": [
-      "img/products/JP-SN-09.svg"
+      "img/products/JP-SN-09.jpg"
     ],
     "specs": {
       "应用场景": "职业院校、地铁公司培训中心、产教融合基地"
@@ -4725,7 +4763,7 @@
     "moq": 1,
     "unit": "套",
     "images": [
-      "img/products/JP-SN-10.svg"
+      "img/products/JP-SN-10.jpg"
     ],
     "specs": {
       "应用场景": "职业院校、地铁公司培训中心、产教融合基地"
@@ -4756,7 +4794,7 @@
     "moq": 1,
     "unit": "套",
     "images": [
-      "img/products/JP-SN-11.svg"
+      "img/products/JP-SN-11.jpg"
     ],
     "specs": {
       "应用场景": "职业院校、地铁公司培训中心、产教融合基地"
@@ -4787,7 +4825,7 @@
     "moq": 1,
     "unit": "套",
     "images": [
-      "img/products/JP-SN-12.svg"
+      "img/products/JP-SN-12.jpg"
     ],
     "specs": {
       "应用场景": "职业院校、地铁公司培训中心、产教融合基地"
@@ -4818,7 +4856,7 @@
     "moq": 1,
     "unit": "套",
     "images": [
-      "img/products/JP-SN-13.svg"
+      "img/products/JP-SN-13.jpg"
     ],
     "specs": {
       "应用场景": "职业院校、地铁公司培训中心、产教融合基地"
@@ -4849,7 +4887,7 @@
     "moq": 1,
     "unit": "套",
     "images": [
-      "img/products/JP-SN-14.svg"
+      "img/products/JP-SN-14.jpg"
     ],
     "specs": {
       "应用场景": "职业院校、地铁公司培训中心、产教融合基地"
@@ -4880,7 +4918,7 @@
     "moq": 1,
     "unit": "套",
     "images": [
-      "img/products/JP-SN-15.svg"
+      "img/products/JP-SN-15.jpg"
     ],
     "specs": {
       "应用场景": "职业院校、地铁公司培训中心、产教融合基地"
@@ -4911,7 +4949,7 @@
     "moq": 1,
     "unit": "套",
     "images": [
-      "img/products/JP-SN-16.svg"
+      "img/products/JP-SN-16.jpg"
     ],
     "specs": {
       "应用场景": "职业院校、地铁公司培训中心、产教融合基地"
@@ -4942,7 +4980,7 @@
     "moq": 1,
     "unit": "套",
     "images": [
-      "img/products/JP-SN-17.svg"
+      "img/products/JP-SN-17.jpg"
     ],
     "specs": {
       "应用场景": "职业院校、地铁公司培训中心、产教融合基地"
@@ -4973,7 +5011,7 @@
     "moq": 1,
     "unit": "项",
     "images": [
-      "img/products/JP-SX-01.svg"
+      "img/products/JP-SX-01.jpg"
     ],
     "specs": {
       "建设理念": "技能培训模块化 · 职业技能标准化 · 联合演练场景化",
@@ -5026,7 +5064,7 @@
     "moq": 1,
     "unit": "套",
     "images": [
-      "img/products/KM-DT-01.svg"
+      "img/products/KM-DT-01.jpg"
     ],
     "specs": {
       "产品定位": "高度还原现役地铁车辆电气控制全系统，融合网络控制与设备信号仿真，1:1 真实设备环境",
@@ -5079,7 +5117,7 @@
     "moq": 1,
     "unit": "套",
     "images": [
-      "img/products/KM-DT-02.svg"
+      "img/products/KM-DT-02.jpg"
     ],
     "specs": {
       "结构组成": "门体结构 + 门机系统 + 站台门控制系统 + 控制器电路板采样单片机控制外围驱动电路",
@@ -5129,7 +5167,7 @@
     "moq": 1,
     "unit": "套",
     "images": [
-      "img/products/KM-DT-03.svg"
+      "img/products/KM-DT-03.jpg"
     ],
     "specs": {
       "产品定位": "按电客列车客室车门 1:1 制作，车门电控装置采用微处理器控制，具备自诊断与故障记录功能，可与列车总线网络通信",
@@ -5175,7 +5213,10 @@
     "moq": 1,
     "unit": "辆",
     "images": [
-      "img/products/KM-JP-01.svg"
+      "img/products/KM-JP-01.jpg",
+      "img/products/KM-JP-01-2.jpg",
+      "img/products/KM-JP-01-3.jpg",
+      "img/products/KM-JP-01-4.jpg"
     ],
     "specs": {
       "产品定位": "公司首台套动力集中式动车组教培控制车，专为轨道车辆应用技术、轨道交通机电技术、列车乘务管理等多专业定制的移动课堂",
@@ -5228,7 +5269,11 @@
     "moq": 1,
     "unit": "项",
     "images": [
-      "img/products/KM-JP-02.svg"
+      "img/products/KM-JP-02.jpg",
+      "img/products/KM-JP-02-2.jpg",
+      "img/products/KM-JP-02-3.jpg",
+      "img/products/KM-JP-02-4.jpg",
+      "img/products/KM-JP-02-5.jpg"
     ],
     "specs": {
       "载体平台": "以 B 型地铁车辆生产平台打造教学培训用车（带司机室 TC 车类型，无动力）",
@@ -5277,7 +5322,7 @@
     "moq": 1,
     "unit": "套",
     "images": [
-      "img/products/HZY-ZM-01.svg"
+      "img/products/HZY-ZM-01.jpg"
     ],
     "specs": {
       "十六大系列": "阅读灯 / 射(筒)灯 / 微光装饰 / 信号灯 / 信息显示 / 电源 / 智控 / 非车 / 健康 / 灯带 / 线缆 / 面光 / 传感器 / 灯条 / 前照灯 / 储能系统",
@@ -5330,7 +5375,9 @@
     "moq": 1,
     "unit": "套",
     "images": [
-      "img/products/ZM-01.svg"
+      "img/products/ZM-01.jpg",
+      "img/products/ZM-01-2.jpg",
+      "img/products/ZM-01-3.jpg"
     ],
     "specs": {
       "应用场景": "动车组、城轨车辆客室"
@@ -5361,7 +5408,9 @@
     "moq": 1,
     "unit": "套",
     "images": [
-      "img/products/ZM-02.svg"
+      "img/products/ZM-02.jpg",
+      "img/products/ZM-02-2.jpg",
+      "img/products/ZM-02-3.jpg"
     ],
     "specs": {
       "应用场景": "城轨车辆、动车组客室照明"
@@ -5392,7 +5441,8 @@
     "moq": 1,
     "unit": "套",
     "images": [
-      "img/products/ZM-03.svg"
+      "img/products/ZM-03.jpg",
+      "img/products/ZM-03-2.jpg"
     ],
     "specs": {
       "应用场景": "城轨车辆客室装饰照明"
@@ -5423,7 +5473,9 @@
     "moq": 1,
     "unit": "套",
     "images": [
-      "img/products/ZM-04.svg"
+      "img/products/ZM-04.jpg",
+      "img/products/ZM-04-2.jpg",
+      "img/products/ZM-04-3.jpg"
     ],
     "specs": {
       "应用场景": "城轨车辆、动车组信号指示"
@@ -5454,7 +5506,9 @@
     "moq": 1,
     "unit": "套",
     "images": [
-      "img/products/ZM-05.svg"
+      "img/products/ZM-05.jpg",
+      "img/products/ZM-05-2.jpg",
+      "img/products/ZM-05-3.jpg"
     ],
     "specs": {
       "应用场景": "城轨车辆乘客信息系统"
@@ -5486,7 +5540,8 @@
     "unit": "套",
     "images": [
       "img/products/ZM-06.jpg",
-      "img/products/ZM-06-2.jpg"
+      "img/products/ZM-06-2.jpg",
+      "img/products/ZM-06-3.jpg"
     ],
     "specs": {
       "应用场景": "城轨车辆客室主照明"
@@ -5517,7 +5572,9 @@
     "moq": 1,
     "unit": "套",
     "images": [
-      "img/products/ZM-07.svg"
+      "img/products/ZM-07.jpg",
+      "img/products/ZM-07-2.jpg",
+      "img/products/ZM-07-3.jpg"
     ],
     "specs": {
       "应用场景": "有轨电车、城轨车辆车头照明"
@@ -5548,7 +5605,7 @@
     "moq": 1,
     "unit": "套",
     "images": [
-      "img/products/ZM-08.svg"
+      "img/products/ZM-08.jpg"
     ],
     "specs": {
       "应用场景": "轨道车辆照明供电"
@@ -5611,8 +5668,7 @@
     "moq": 1,
     "unit": "套",
     "images": [
-      "img/products/ZM-10.jpg",
-      "img/products/ZM-10-2.jpg"
+      "img/products/ZM-10.svg"
     ],
     "specs": {
       "应用场景": "轨道车辆电气连接"
@@ -5643,8 +5699,7 @@
     "moq": 1,
     "unit": "套",
     "images": [
-      "img/products/ZM-11.jpg",
-      "img/products/ZM-11-2.jpg"
+      "img/products/ZM-11.svg"
     ],
     "specs": {
       "应用场景": "光伏、储能、氢能场景"
@@ -5676,8 +5731,6 @@
     "unit": "项",
     "images": [
       "img/products/KN-NY-01.jpg",
-      "img/products/KN-NY-01-2.jpg",
-      "img/products/KN-NY-01-3.jpg",
       "img/products/KN-NY-01-4.jpg"
     ],
     "specs": {
@@ -5729,10 +5782,10 @@
     "moq": 1,
     "unit": "套",
     "images": [
-      "img/products/KN-NY-02.jpg",
       "img/products/KN-NY-02-2.jpg",
       "img/products/KN-NY-02-3.jpg",
-      "img/products/KN-NY-02-4.jpg"
+      "img/products/KN-NY-02-4.jpg",
+      "img/products/KN-NY-02-5.jpg"
     ],
     "specs": {
       "液压支架": "ZY4000/09/20QD 大倾角薄煤层掩护式（适应倾角≤45°，1.75m大中心距防倒防滑）/ ZY6800/25/53 大采高（采高2.8-5.1m，5年无大修）/ ZF8600/18/35D 放顶煤（主力支架稳定使用15年）",
@@ -5833,8 +5886,7 @@
     "images": [
       "img/products/KN-NY-04.jpg",
       "img/products/KN-NY-04-2.jpg",
-      "img/products/KN-NY-04-3.jpg",
-      "img/products/KN-NY-04-4.jpg"
+      "img/products/KN-NY-04-3.jpg"
     ],
     "specs": {
       "电气化公路": "榆林示范线95.5公里（近期运量3500万吨/年，总投资约35亿）/ 黄骅港集疏运通道28.4km（挂网改造22.6km，6座牵引变电所，投资约2亿）/ 「刚性+柔性」电气化公路运输系统测控中心（2024年5月建成）",
@@ -5882,7 +5934,7 @@
     "moq": 1,
     "unit": "批",
     "images": [
-      "img/products/CL-QD-01.svg"
+      "img/products/CL-QD-01.jpg"
     ],
     "specs": {
       "气动倒角机": "CFM-32/CFMG-32/PB-10/ABL-6（最小加工半径16mm，倒角1-3/45°，CE认证）",
@@ -5936,7 +5988,9 @@
     "unit": "台",
     "images": [
       "img/products/QD-01.jpg",
-      "img/products/QD-01-2.jpg"
+      "img/products/QD-01-2.jpg",
+      "img/products/QD-01-3.jpg",
+      "img/products/QD-01-4.jpg"
     ],
     "specs": {
       "主要参数": "30余种型号规格；ISO9001质量体系认证；CE认证",
@@ -6469,7 +6523,8 @@
     "unit": "套",
     "images": [
       "img/products/EN-01.jpg",
-      "img/products/EN-01-2.jpg"
+      "img/products/EN-01-2.jpg",
+      "img/products/EN-01-3.jpg"
     ],
     "specs": {
       "主要参数": "接入10/25/35kV AC；单枪最大800kW；整站效率≥97%、整站电损3.5%；标准化交付周期22~28周（报批报建并行）",
@@ -6505,7 +6560,8 @@
     "images": [
       "img/products/EN-02.jpg",
       "img/products/EN-02-2.jpg",
-      "img/products/EN-02-3.jpg"
+      "img/products/EN-02-3.jpg",
+      "img/products/EN-02-4.jpg"
     ],
     "specs": {
       "主要参数": "接入电压10kV/25kV/35kV AC；输出DC2000V；额定功率2400/3600/4800kW；功率因数>0.98；整站损耗≤5%@满载；谐波畸变率≤5%；防护IP54/噪音≤65dB；风冷；RS-485·以太网·WIFI·4G通讯；6058×2438×2896mm标准集装箱、15~20t可吊装移动；环境温度-35~+55℃",
@@ -6575,7 +6631,8 @@
     "unit": "套",
     "images": [
       "img/products/EN-04.jpg",
-      "img/products/EN-04-2.jpg"
+      "img/products/EN-04-2.jpg",
+      "img/products/EN-04-3.jpg"
     ],
     "specs": {
       "主要参数": "单舱额定容量5.015MWh；电芯LFP-314Ah；1C充放倍率；额定电压1331.2V/2704A（工作范围1164.8~1497.6V）；环境温度-30~+60℃、海拔≤4000m；6058×2438×2896mm、≤40t；IP55；智能液冷温差≤2.5℃；三级消防（全氟己酮+水喷淋+水浸没）；满足GB/T36276、GB/T44240、GB/T34131、GB/T34120、GB/T34133",
@@ -6610,7 +6667,8 @@
     "unit": "套",
     "images": [
       "img/products/EN-05.jpg",
-      "img/products/EN-05-2.jpg"
+      "img/products/EN-05-2.jpg",
+      "img/products/EN-05-3.jpg"
     ],
     "specs": {
       "主要参数": "单机1672kWh、积木式并联至5016kWh；充电功率1000kW；充电电流1000A；自动对接≤20s；IP55；激光定位+异物检测，司机全程无需下车",
@@ -6680,7 +6738,8 @@
     "unit": "套",
     "images": [
       "img/products/EN-07.jpg",
-      "img/products/EN-07-2.jpg"
+      "img/products/EN-07-2.jpg",
+      "img/products/EN-07-3.jpg"
     ],
     "specs": {
       "主要参数": "船舶充电功率覆盖720kW~2560kW；光伏廊道适用于日照资源丰沛、场地具备改造条件、用能负荷稳定的铁路场景",
@@ -6746,8 +6805,7 @@
     "moq": 1,
     "unit": "套",
     "images": [
-      "img/products/EN-09.jpg",
-      "img/products/EN-09-2.jpg"
+      "img/products/EN-09.jpg"
     ],
     "specs": {
       "应用场景": "矿区绿电、光储充一体化"
@@ -6778,8 +6836,6 @@
     "moq": 1,
     "unit": "套",
     "images": [
-      "img/products/EN-10.jpg",
-      "img/products/EN-10-2.jpg",
       "img/products/EN-10-3.jpg"
     ],
     "specs": {
@@ -6815,7 +6871,6 @@
     "unit": "套",
     "images": [
       "img/products/EN-11.jpg",
-      "img/products/EN-11-2.jpg",
       "img/products/EN-11-3.jpg"
     ],
     "specs": {
@@ -6882,9 +6937,7 @@
     "moq": 1,
     "unit": "套",
     "images": [
-      "img/products/EN-13.jpg",
-      "img/products/EN-13-2.jpg",
-      "img/products/EN-13-3.jpg"
+      "img/products/EN-13-2.jpg"
     ],
     "specs": {
       "应用场景": "加油站、油库、国家战略储备库"
@@ -6947,9 +7000,7 @@
     "moq": 1,
     "unit": "套",
     "images": [
-      "img/products/EN-15.jpg",
-      "img/products/EN-15-2.jpg",
-      "img/products/EN-15-3.jpg"
+      "img/products/EN-15-2.jpg"
     ],
     "specs": {
       "应用场景": "加油站新建与改造"
@@ -6983,7 +7034,8 @@
     "images": [
       "img/products/LC-DQ-01.jpg",
       "img/products/LC-DQ-01-2.jpg",
-      "img/products/LC-DQ-01-3.jpg"
+      "img/products/LC-DQ-01-3.jpg",
+      "img/products/LC-DQ-01-4.jpg"
     ],
     "specs": {
       "应用场景": "城轨车辆、机车电气配套"
@@ -7014,8 +7066,7 @@
     "moq": 1,
     "unit": "套",
     "images": [
-      "img/products/LC-DZ-01.jpg",
-      "img/products/LC-DZ-01-2.jpg"
+      "img/products/LC-DZ-01.svg"
     ],
     "specs": {
       "应用场景": "车辆电气系统"
@@ -7103,7 +7154,8 @@
     "images": [
       "img/products/LC-GTD-01.jpg",
       "img/products/LC-GTD-01-2.jpg",
-      "img/products/LC-GTD-01-3.jpg"
+      "img/products/LC-GTD-01-3.jpg",
+      "img/products/LC-GTD-01-4.jpg"
     ],
     "specs": {
       "覆盖类型": "地铁B型车（三块式侧护板 / 一块式柔性侧护板）/ 地铁A型车 / 动车组 / 低地板有轨电车 / 悬挂式单轨车",
@@ -7152,7 +7204,6 @@
     "unit": "套",
     "images": [
       "img/products/LC-GYQ-01.jpg",
-      "img/products/LC-GYQ-01-2.jpg",
       "img/products/LC-GYQ-01-3.jpg"
     ],
     "specs": {
@@ -7256,7 +7307,6 @@
     "unit": "套",
     "images": [
       "img/products/LC-JP-01.jpg",
-      "img/products/LC-JP-01-2.jpg",
       "img/products/LC-JP-01-3.jpg"
     ],
     "specs": {
@@ -7393,7 +7443,6 @@
     "unit": "套",
     "images": [
       "img/products/LC-NS-01.jpg",
-      "img/products/LC-NS-01-2.jpg",
       "img/products/LC-NS-01-3.jpg"
     ],
     "specs": {
@@ -7429,7 +7478,8 @@
     "unit": "套",
     "images": [
       "img/products/LC-TF-01.jpg",
-      "img/products/LC-TF-01-2.jpg"
+      "img/products/LC-TF-01-2.jpg",
+      "img/products/LC-TF-01-3.jpg"
     ],
     "specs": {
       "行业地位": "轨道交通车辆和矿山机械装备冷却系统行业标准起草单位",
@@ -7481,8 +7531,6 @@
     "moq": 1,
     "unit": "项",
     "images": [
-      "img/products/LC-WL-01.jpg",
-      "img/products/LC-WL-01-2.jpg",
       "img/products/LC-WL-01-3.jpg"
     ],
     "specs": {
