@@ -11,7 +11,7 @@
     "moq": 1,
     "unit": "套",
     "images": [
-      "img/products/NY-CD-01.svg"
+      "img/products/NY-CD-01.jpg"
     ],
     "specs": {
       "定点充电弓": "机车顶部安装受流装置，充电点架设高压电网，操作安全、充电速度快",
@@ -160,7 +160,7 @@
     "moq": 1,
     "unit": "套",
     "images": [
-      "img/products/NY-DFH5-01.svg"
+      "img/products/NY-DFH5-01.jpg"
     ],
     "specs": {
       "主要参数": "整备重量86t；轴式B-B；外形14900×3373×4755mm；轮周牵引功率550kW；电池电量662kWh；起动牵引力275kN；持续牵引力240kN；电制动功率430kW；日均节约约4000元",
@@ -194,7 +194,7 @@
     "moq": 1,
     "unit": "套",
     "images": [
-      "img/products/NY-DFH5B-01.svg"
+      "img/products/NY-DFH5B-01.jpg"
     ],
     "specs": {
       "主要参数": "整备重量92t；轴式B-B；外形14900×3376×4756mm；轮周牵引功率720kW；电池电量1130kWh；起动牵引力297kN；持续牵引力259kN；电制动功率550kW",
@@ -214,40 +214,6 @@
     "specs_en": {
       "Main parameters": "In-service weight 92t; B-B; 14900×3376×4756mm; wheel traction power 720kW; battery 1130kWh; starting effort 297kN; continuous effort 259kN; electric braking 550kW",
       "Applications": "Shunting at industrial & mining sites and local railways"
-    }
-  },
-  {
-    "sku": "NY-EE-01",
-    "name": "电-电机车（内燃机车电动化改造，双源）",
-    "name_en": "Electric-Electric Locomotive (Dual-Source Electrification)",
-    "vendor": "昆明轨交",
-    "category": "机车改造与新能源机车",
-    "sub_category": "电动化改造",
-    "price": null,
-    "currency": "CNY",
-    "moq": 1,
-    "unit": "套",
-    "images": [
-      "img/products/NY-EE-01.svg"
-    ],
-    "specs": {
-      "主要参数": "4轴改造周期15-17周；通过机车滚动试验台制动/牵引/充放电/淋雨试验（CNAS报告）；西南交大重点实验室延寿评估",
-      "应用场景": "国铁集团、国能集团、浩吉铁路、陕煤集团、青藏铁路等"
-    },
-    "summary": "将内燃机车改造为电-电机车（接触网受电弓/高压电网取电+动力电池），边作业、边充电，兼容充电桩；已承接22台内燃机车电动化改造/新造订单、交付12台投入正式运行，批量应用行业领先。",
-    "description": "将内燃机车改造为电-电机车（接触网受电弓/高压电网取电+动力电池），边作业、边充电，兼容充电桩；已承接22台内燃机车电动化改造/新造订单、交付12台投入正式运行，批量应用行业领先。",
-    "tags": [
-      "电动化改造",
-      "四轴"
-    ],
-    "featured": true,
-    "stock_status": "instock",
-    "status": "publish",
-    "summary_en": "Converts diesel locomotives into dual-source electric-electric locomotives (overhead pantograph / HV grid + traction battery) that charge while working and stay charger-compatible. 22 conversion/new-build orders taken with 12 delivered and in service — industry-leading batch application.",
-    "description_en": "Converts diesel locomotives into dual-source electric-electric locomotives (overhead pantograph / HV grid + traction battery) that charge while working and stay charger-compatible. 22 conversion/new-build orders taken with 12 delivered and in service — industry-leading batch application.",
-    "specs_en": {
-      "Main parameters": "4-axle conversion cycle 15-17 weeks; passed braking / traction / charge-discharge / rain tests on the rolling test rig (CNAS report); life-extension assessment by the SWJTU national key laboratory",
-      "Applications": "National railway, energy & coal transport groups, and mainline customers such as the Qinghai-Tibet Railway"
     }
   },
   {
@@ -390,7 +356,7 @@
     "moq": 1,
     "unit": "套",
     "images": [
-      "img/products/NY-KY-01.svg"
+      "img/products/NY-KY-01.jpg"
     ],
     "specs": {
       "主要参数": "整备质量39.5t；轴式1+Ao-2；动轮直径860mm；外形21300×2990×3650mm；轮周牵引功率197kW；起动牵引力26kN；持续牵引力20kN；最大坡度25‰",
@@ -479,7 +445,7 @@
     "moq": 1,
     "unit": "套",
     "images": [
-      "img/products/NY-QBAA1-01.svg"
+      "img/products/NY-QBAA1-01.jpg"
     ],
     "specs": {
       "主要参数": "整备重量72t；轴式Bo-Bo；外形15000×3284×4650mm；轮周牵引功率480kW；电池电量537kWh；不锈钢车体；日均节约约822元",
@@ -513,7 +479,7 @@
     "moq": 1,
     "unit": "套",
     "images": [
-      "img/products/NY-YDM4-01.svg"
+      "img/products/NY-YDM4-01.jpg"
     ],
     "specs": {
       "主要参数": "整备重量72t；轴式C0-C0；动轮直径965mm；外形15636×2850×3485mm；轮周牵引功率1235kW；改造金额1025万元；最大坡度25‰；最小曲线半径62.4m",
@@ -547,7 +513,8 @@
     "moq": 1,
     "unit": "套",
     "images": [
-      "img/products/NY-ZN-01.svg"
+      "img/products/NY-ZN-01.jpg",
+      "img/products/NY-ZN-01-2.jpg"
     ],
     "specs": {
       "视频监控": "视频监控系统（含拾音），整车多摄像头配置",
@@ -950,7 +917,10 @@
     "moq": 1,
     "unit": "套",
     "images": [
-      "img/products/HZY-CG-01.svg"
+      "img/products/HZY-CG-01.jpg",
+      "img/products/HZY-CG-01-2.jpg",
+      "img/products/HZY-CG-01-3.jpg",
+      "img/products/HZY-CG-01-4.jpg"
     ],
     "specs": {
       "传感器系列": "速度传感器 / 温度传感器 / 数字温度传感器 / 铂热电阻传感器 / 温度熔断器 / 液位传感器",
@@ -998,11 +968,23 @@
     "moq": 1,
     "unit": "台",
     "images": [
-      "img/products/JX-027.svg"
+      "img/products/JX-027.jpg",
+      "img/products/JX-027-2.jpg"
     ],
     "specs": {
-      "主要参数": "工作电压3相5线380V；单台举升160kN；1车位640kN；提升行程约1600mm；升降速度400mm/min；同步精度±4mm；净重约3吨/台",
-      "应用场景": "机车/动车组/城轨车辆检修基地、机务段、车辆段"
+      "应用场景": "机车/动车组/城轨车辆检修基地、机务段、车辆段",
+      "工作电压": "3 相 5 线制 380V",
+      "控制电压": "AC220V DC24V",
+      "同步精度": "+/-4mm",
+      "设备净重": "约 3 吨（单台）",
+      "举升载荷 1 台": "160kN",
+      "1 个车位": "640kN",
+      "架车镐最低位置": "约 760mm",
+      "架车镐最高位置": "约 2554mm",
+      "提升行程": "约 1794mm",
+      "有效提升行程": "约 1600mm",
+      "升降速度": "400mm/min（±10%）",
+      "螺杆直径": "Tr75×12"
     },
     "summary": "移动式架车机用于车辆转向架的更换、车下设备拆装检修，可整列不解编同步架车或单辆架车",
     "description": "移动式架车机用于车辆转向架的更换、车下设备拆装检修，可整列不解编同步架车或单辆架车",
@@ -1016,7 +998,19 @@
     "description_en": "For bogie replacement and under-frame equipment dismantling & repair — simultaneous lifting of a whole train without uncoupling or single-car lifting.",
     "specs_en": {
       "Main parameters": "3-phase 5-wire 380V; 160kN per jack; 640kN per position; stroke ~1600mm; 400mm/min; synchronization ±4mm; ~3t per unit",
-      "Applications": "Locomotive / EMU / metro repair depots and OEM works"
+      "Applications": "Locomotive / EMU / metro repair depots and OEM works",
+      "Working voltage": "3-phase 5-wire 380V",
+      "Net weight": "~3t (per unit)",
+      "Min lifting-claw position": "~760mm",
+      "Max lifting-claw position": "~2554mm",
+      "Lifting stroke": "~1794mm",
+      "Effective lifting stroke": "~1600mm",
+      "Control voltage": "AC220V DC24V",
+      "Synchronization accuracy": "+/-4mm",
+      "Lifting capacity (per jack)": "160kN",
+      "Per position": "640kN",
+      "Lifting speed": "400mm/min（±10%）",
+      "Screw diameter": "Tr75×12"
     }
   },
   {
@@ -1031,10 +1025,15 @@
     "moq": 1,
     "unit": "台",
     "images": [
-      "img/products/JX-028.svg"
+      "img/products/JX-028.jpg"
     ],
     "specs": {
-      "应用场景": "机车/动车组/城轨车辆检修基地、机务段、车辆段"
+      "应用场景": "机车/动车组/城轨车辆检修基地、机务段、车辆段",
+      "输入电源": "AC220V，50Hz",
+      "与轨道垂直的方向": "分辨率＞2mm 测量误差＜2mm",
+      "与地面垂直的方向": "分辨率＞2mm 测量误差＜2mm",
+      "外形尺寸": "宽 5484mm 高 4575mm",
+      "立柱中心距": "4111mm"
     },
     "summary": "检测列车在AW0载荷下以3~5km/h通过时是否超限的机械式固定设备",
     "description": "检测列车在AW0载荷下以3~5km/h通过时是否超限的机械式固定设备",
@@ -1047,7 +1046,12 @@
     "summary_en": "Fixed mechanical device checking whether a train under AW0 load passing at 3-5km/h exceeds the structure gauge.",
     "description_en": "Fixed mechanical device checking whether a train under AW0 load passing at 3-5km/h exceeds the structure gauge.",
     "specs_en": {
-      "Applications": "Locomotive / EMU / metro repair depots and OEM works"
+      "Applications": "Locomotive / EMU / metro repair depots and OEM works",
+      "Vertical (to rail)": "Resolution >2mm, measuring error <2mm",
+      "Vertical (to ground)": "Resolution >2mm, measuring error <2mm",
+      "Dimensions": "Width 5484mm, height 4575mm",
+      "Input power supply": "AC220V，50Hz",
+      "Column center distance": "4111mm"
     }
   },
   {
@@ -1062,10 +1066,21 @@
     "moq": 1,
     "unit": "台",
     "images": [
-      "img/products/JX-029.svg"
+      "img/products/JX-029.jpg",
+      "img/products/JX-029-2.jpg"
     ],
     "specs": {
-      "应用场景": "机车/动车组/城轨车辆检修基地、机务段、车辆段"
+      "应用场景": "机车/动车组/城轨车辆检修基地、机务段、车辆段",
+      "二系加载力": "0～160kN×2，精度±0.5％F.S",
+      "加载油缸行程": "400mm，测量精度±0.1％F.S",
+      "二系加载力位置调节范围": "+500～+1350mm(以转向架中心为准)",
+      "轴距测量范围": "1900mm～2600mm，测量精度±0.1mm",
+      "轮对内侧距测量范围": "1353±20mm，测量误差小于 0.1mm",
+      "轮重测量范围": "＜150kN，测量误差小于±0.1％F.S",
+      "高度数据测量": "二系簧高度、联轴节高度差、转向架四角高",
+      "设备重量": "约 13.5t",
+      "设备功率": "约 30kW（三相 AC380V/50Hz）",
+      "设备外形尺寸（长×宽×高）": "约 4100×4047×4250mm"
     },
     "summary": "用于转向架静载刚度、挠度等静态性能试验",
     "description": "用于转向架静载刚度、挠度等静态性能试验",
@@ -1078,7 +1093,17 @@
     "summary_en": "Static performance testing of bogie stiffness, deflection and related dimensions.",
     "description_en": "Static performance testing of bogie stiffness, deflection and related dimensions.",
     "specs_en": {
-      "Applications": "Locomotive / EMU / metro repair depots and OEM works"
+      "Applications": "Locomotive / EMU / metro repair depots and OEM works",
+      "Secondary-suspension loading force": "0-160kN×2, accuracy ±0.5%FS",
+      "Loading cylinder stroke": "400mm, measuring accuracy ±0.1%FS",
+      "Secondary loading position range": "+500~+1350mm (relative to bogie center)",
+      "Wheelbase measuring range": "1900-2600mm, measuring accuracy ±0.1mm",
+      "Wheel load range": "<150kN, measuring error <±0.1%FS",
+      "Height data measurement": "Secondary spring height, coupling height difference, bogie four-corner height",
+      "Wheelset inner-distance range": "1353±20mm, measuring error <0.1mm",
+      "Equipment weight": "~13.5t",
+      "Equipment power": "~30kW (3-phase AC380V/50Hz)",
+      "Equipment dimensions (L×W×H)": "~4100×4047×4250mm"
     }
   },
   {
@@ -1093,10 +1118,17 @@
     "moq": 1,
     "unit": "台",
     "images": [
-      "img/products/JX-030.svg"
+      "img/products/JX-030.jpg",
+      "img/products/JX-030-2.jpg"
     ],
     "specs": {
-      "应用场景": "机车/动车组/城轨车辆检修基地、机务段、车辆段"
+      "应用场景": "机车/动车组/城轨车辆检修基地、机务段、车辆段",
+      "额定举升能力": "10t",
+      "最大举升高度": "1600mm",
+      "轨距": "1435mm",
+      "升降水平精度": "±3mm",
+      "升降速度": "约 400mm/min",
+      "工作电压": "三相 AC 380V/50 HZ"
     },
     "summary": "转向架部件维修作业升降平台",
     "description": "转向架部件维修作业升降平台",
@@ -1109,7 +1141,13 @@
     "summary_en": "Lifting platform for bogie component maintenance work.",
     "description_en": "Lifting platform for bogie component maintenance work.",
     "specs_en": {
-      "Applications": "Locomotive / EMU / metro repair depots and OEM works"
+      "Applications": "Locomotive / EMU / metro repair depots and OEM works",
+      "Lifting speed": "~400mm/min",
+      "Working voltage": "3-phase AC 380V/50Hz",
+      "Rated lifting capacity": "10t",
+      "Max lifting height": "1600mm",
+      "Gauge": "1435mm",
+      "Lifting leveling accuracy": "±3mm"
     }
   },
   {
@@ -1124,10 +1162,16 @@
     "moq": 1,
     "unit": "台",
     "images": [
-      "img/products/JX-031.svg"
+      "img/products/JX-031.jpg",
+      "img/products/JX-031-2.jpg"
     ],
     "specs": {
-      "应用场景": "机车/动车组/城轨车辆检修基地、机务段、车辆段"
+      "应用场景": "机车/动车组/城轨车辆检修基地、机务段、车辆段",
+      "翻转台承重": "5000kg",
+      "回转速度": "约 1～2r/min",
+      "回转范围": "±180°",
+      "总制动力矩": "≥5400N·m",
+      "操控方式": "电控、手动"
     },
     "summary": "转向架构架检修中的360°翻转作业设备",
     "description": "转向架构架检修中的360°翻转作业设备",
@@ -1140,7 +1184,12 @@
     "summary_en": "360° turnover equipment for bogie frame repair.",
     "description_en": "360° turnover equipment for bogie frame repair.",
     "specs_en": {
-      "Applications": "Locomotive / EMU / metro repair depots and OEM works"
+      "Applications": "Locomotive / EMU / metro repair depots and OEM works",
+      "Control mode": "Electric / manual",
+      "Rotation speed": "~1-2r/min",
+      "Turnover table capacity": "5000kg",
+      "Rotation range": "±180°",
+      "Total braking torque": "≥5400N·m"
     }
   },
   {
@@ -1155,10 +1204,18 @@
     "moq": 1,
     "unit": "台",
     "images": [
-      "img/products/JX-032.svg"
+      "img/products/JX-032.jpg"
     ],
     "specs": {
-      "应用场景": "机车/动车组/城轨车辆检修基地、机务段、车辆段"
+      "应用场景": "机车/动车组/城轨车辆检修基地、机务段、车辆段",
+      "电源": "3AC 380V，200kW",
+      "运行速度": "0～300km/h",
+      "垂直载荷": "0～300kN",
+      "横向载荷": "0～40kN",
+      "轨道轮驱动电机": "75kW×2",
+      "液压站电机": "11kW",
+      "牵引电机": "1.5kW",
+      "外型尺寸": "8000×7300×3500mm"
     },
     "summary": "用于装车前车辆转向架的低速跑合，使润滑脂涂布均匀，并进行实际速度和载荷状态试验；由机械、液压、控制和测试部分组成",
     "description": "用于装车前车辆转向架的低速跑合，使润滑脂涂布均匀，并进行实际速度和载荷状态试验；由机械、液压、控制和测试部分组成",
@@ -1171,7 +1228,15 @@
     "summary_en": "Low-speed running-in of bogies before fitting with uniform grease distribution, plus real-speed and loaded-state testing; mechanical, hydraulic, control and measurement sections.",
     "description_en": "Low-speed running-in of bogies before fitting with uniform grease distribution, plus real-speed and loaded-state testing; mechanical, hydraulic, control and measurement sections.",
     "specs_en": {
-      "Applications": "Locomotive / EMU / metro repair depots and OEM works"
+      "Applications": "Locomotive / EMU / metro repair depots and OEM works",
+      "Power supply": "3AC 380V，200kW",
+      "Running speed": "0～300km/h",
+      "Vertical load": "0～300kN",
+      "Lateral load": "0～40kN",
+      "Rail-wheel drive motor": "75kW×2",
+      "Hydraulic station motor": "11kW",
+      "Traction motor": "1.5kW",
+      "Dimensions": "8000×7300×3500mm"
     }
   },
   {
@@ -1186,10 +1251,17 @@
     "moq": 1,
     "unit": "台",
     "images": [
-      "img/products/JX-033.svg"
+      "img/products/JX-033.jpg"
     ],
     "specs": {
-      "应用场景": "机车/动车组/城轨车辆检修基地、机务段、车辆段"
+      "应用场景": "机车/动车组/城轨车辆检修基地、机务段、车辆段",
+      "型号": "BR-Ⅱ BR-Ⅳ",
+      "试验台形式": "固定速度 变频调速",
+      "适用车种": "客车、货车 客车/货车/地铁车辆",
+      "运转速度": "30 km/h 5-90 km/h",
+      "外形尺寸": "2916×760×780 2880×760×750",
+      "重量": "1250 kg 1450 kg",
+      "电源": "三相四线 380 V，7 kW 三相四线 380 V，10 kW"
     },
     "summary": "用于装车前车辆转向架轴承的低速跑合，含拖车轮对与动车轮对两种形式",
     "description": "用于装车前车辆转向架轴承的低速跑合，含拖车轮对与动车轮对两种形式",
@@ -1202,7 +1274,14 @@
     "summary_en": "Low-speed running-in of bogie bearings before fitting, in trailer and motor wheelset versions.",
     "description_en": "Low-speed running-in of bogie bearings before fitting, in trailer and motor wheelset versions.",
     "specs_en": {
-      "Applications": "Locomotive / EMU / metro repair depots and OEM works"
+      "Applications": "Locomotive / EMU / metro repair depots and OEM works",
+      "Bench type": "Fixed speed / VFD regulation",
+      "Applicable vehicle types": "Passenger & freight coaches / metro vehicles",
+      "Power supply": "3-phase 4-wire 380V, 7kW / 10kW (two models)",
+      "Model": "BR-Ⅱ BR-Ⅳ",
+      "Running speed": "30 km/h 5-90 km/h",
+      "Dimensions": "2916×760×780 2880×760×750",
+      "Weight": "1250 kg 1450 kg"
     }
   },
   {
@@ -1217,10 +1296,22 @@
     "moq": 1,
     "unit": "台",
     "images": [
-      "img/products/JX-034.svg"
+      "img/products/JX-034.jpg",
+      "img/products/JX-034-2.jpg"
     ],
     "specs": {
-      "应用场景": "机车/动车组/城轨车辆检修基地、机务段、车辆段"
+      "应用场景": "机车/动车组/城轨车辆检修基地、机务段、车辆段",
+      "电源": "380V 三相五线",
+      "液压传感器精度": "0.5％FS",
+      "温度传感器精度": "±0.5℃（0～150℃）",
+      "轮对运行转速": "0～160km/h",
+      "垂向最大载荷": "0～200kN",
+      "横向载荷": "0～30kN",
+      "驱动电机": "55kW",
+      "变频器": "SIEMENS 440",
+      "外型尺寸": "6500×3200×2200mm",
+      "环境相对温度": "-5℃～+35℃",
+      "环境相对湿度": "90%"
     },
     "summary": "带载荷的轮对跑合试验，模拟实际运用工况",
     "description": "带载荷的轮对跑合试验，模拟实际运用工况",
@@ -1233,7 +1324,18 @@
     "summary_en": "Loaded wheelset running-in simulating actual service conditions.",
     "description_en": "Loaded wheelset running-in simulating actual service conditions.",
     "specs_en": {
-      "Applications": "Locomotive / EMU / metro repair depots and OEM works"
+      "Applications": "Locomotive / EMU / metro repair depots and OEM works",
+      "Power supply": "380V, 3-phase 5-wire",
+      "Hydraulic sensor accuracy": "0.5％FS",
+      "Temperature sensor accuracy": "±0.5℃（0～150℃）",
+      "Wheelset running speed": "0～160km/h",
+      "Max vertical load": "0～200kN",
+      "Lateral load": "0～30kN",
+      "Drive motor": "55kW",
+      "Frequency converter": "SIEMENS 440",
+      "Dimensions": "6500×3200×2200mm",
+      "Ambient temperature": "-5℃～+35℃",
+      "Ambient relative humidity": "90%"
     }
   },
   {
@@ -1248,10 +1350,16 @@
     "moq": 1,
     "unit": "台",
     "images": [
-      "img/products/JX-035.svg"
+      "img/products/JX-035.jpg",
+      "img/products/JX-035-2.jpg"
     ],
     "specs": {
-      "应用场景": "机车/动车组/城轨车辆检修基地、机务段、车辆段"
+      "应用场景": "机车/动车组/城轨车辆检修基地、机务段、车辆段",
+      "转盘直径": "转向架转盘 3500mm/轮对转盘 2500mm",
+      "承载能力": "转向架转盘 150kN/轮对转盘 90kN（根据用户需求）",
+      "定位锁紧装置": "0°、90°、180°、270°四位置",
+      "旋转驱动方式": "手动/电动",
+      "轨顶高差": "≤2mm"
     },
     "summary": "转向架、轮对检修流转用转盘",
     "description": "转向架、轮对检修流转用转盘",
@@ -1264,7 +1372,12 @@
     "summary_en": "Turntable for bogie and wheelset flow during repair.",
     "description_en": "Turntable for bogie and wheelset flow during repair.",
     "specs_en": {
-      "Applications": "Locomotive / EMU / metro repair depots and OEM works"
+      "Applications": "Locomotive / EMU / metro repair depots and OEM works",
+      "Positioning & locking device": "4 positions: 0°/90°/180°/270°",
+      "Rotation drive mode": "Manual / electric",
+      "Turntable diameter": "Bogie turntable 3500mm / wheelset 2500mm",
+      "Load capacity": "Bogie turntable 150kN / wheelset 90kN (per requirement)",
+      "Rail-top height difference": "≤2mm"
     }
   },
   {
@@ -1279,10 +1392,23 @@
     "moq": 1,
     "unit": "台",
     "images": [
-      "img/products/JX-036.svg"
+      "img/products/JX-036.jpg",
+      "img/products/JX-036-2.jpg"
     ],
     "specs": {
-      "应用场景": "机车/动车组/城轨车辆检修基地、机务段、车辆段"
+      "应用场景": "机车/动车组/城轨车辆检修基地、机务段、车辆段",
+      "电源": "三相五线 380V",
+      "允许测量的最大减振阻力": "25kN",
+      "试验速度": "0.001～0.35m/s",
+      "振幅": "±30mm",
+      "测量垂向减振器范围": "100～700mm",
+      "测量横向减振器范围": "150～1200mm",
+      "力传感器精度为": "±0.1%FS",
+      "位移传感器精度为": "±0.1%FS",
+      "最大激振频率": "10Hz",
+      "最大振幅": "±75mm,0.2%FS",
+      "最大加载力": "25kN,0.1%FS",
+      "减振器安装长度": "100～1300mm"
     },
     "summary": "油压减振器示功、温升等综合性能试验",
     "description": "油压减振器示功、温升等综合性能试验",
@@ -1295,7 +1421,19 @@
     "summary_en": "Comprehensive performance tests of hydraulic dampers (indicator diagram, temperature rise, etc.).",
     "description_en": "Comprehensive performance tests of hydraulic dampers (indicator diagram, temperature rise, etc.).",
     "specs_en": {
-      "Applications": "Locomotive / EMU / metro repair depots and OEM works"
+      "Applications": "Locomotive / EMU / metro repair depots and OEM works",
+      "Power supply": "380V, 3-phase 5-wire",
+      "Max measurable damper force": "25kN",
+      "Test speed": "0.001～0.35m/s",
+      "Amplitude": "±30mm",
+      "Vertical damper range": "100～700mm",
+      "Lateral damper range": "150～1200mm",
+      "Force sensor accuracy": "±0.1%FS",
+      "Displacement sensor accuracy": "±0.1%FS",
+      "Max excitation frequency": "10Hz",
+      "Max amplitude": "±75mm,0.2%FS",
+      "Max loading force": "25kN,0.1%FS",
+      "Damper installation length": "100～1300mm"
     }
   },
   {
@@ -1310,10 +1448,19 @@
     "moq": 1,
     "unit": "台",
     "images": [
-      "img/products/JX-037.svg"
+      "img/products/JX-037.jpg",
+      "img/products/JX-037-2.jpg"
     ],
     "specs": {
-      "应用场景": "机车/动车组/城轨车辆检修基地、机务段、车辆段"
+      "应用场景": "机车/动车组/城轨车辆检修基地、机务段、车辆段",
+      "最大载荷": "200kN",
+      "试验高度": "100 mm～450mm",
+      "最大试验行程": "800mm",
+      "丝杠运动速度": "5mm/min～200mm/min 可调",
+      "空气弹簧最大直径": "1000mm",
+      "电机功率": "5.5kW",
+      "气源压力": "1MPa",
+      "压力传感器测试精度": "0.1%"
     },
     "summary": "空气弹簧气密、刚度、疲劳等性能试验",
     "description": "空气弹簧气密、刚度、疲劳等性能试验",
@@ -1326,7 +1473,15 @@
     "summary_en": "Air-tightness, stiffness and fatigue tests of air springs.",
     "description_en": "Air-tightness, stiffness and fatigue tests of air springs.",
     "specs_en": {
-      "Applications": "Locomotive / EMU / metro repair depots and OEM works"
+      "Applications": "Locomotive / EMU / metro repair depots and OEM works",
+      "Lead-screw speed": "5-200mm/min adjustable",
+      "Max load": "200kN",
+      "Test height": "100 mm～450mm",
+      "Max test stroke": "800mm",
+      "Max air-spring diameter": "1000mm",
+      "Motor power": "5.5kW",
+      "Air source pressure": "1MPa",
+      "Pressure sensor test accuracy": "0.1%"
     }
   },
   {
@@ -1341,10 +1496,18 @@
     "moq": 1,
     "unit": "台",
     "images": [
-      "img/products/JX-038.svg"
+      "img/products/JX-038.jpg",
+      "img/products/JX-038-2.jpg"
     ],
     "specs": {
-      "应用场景": "机车/动车组/城轨车辆检修基地、机务段、车辆段"
+      "应用场景": "机车/动车组/城轨车辆检修基地、机务段、车辆段",
+      "最大载荷为": "100kN",
+      "弹簧试验高度为": "100mm～650mm",
+      "试验台载荷测量精度": "0.3%(FS)",
+      "试验台位移测量精度": "0.3%(FS)",
+      "试验台机体外型尺寸": "1500×800×2200mm",
+      "试验台控制柜外型尺寸": "600×600×1800mm",
+      "试验台重量": "2300kg"
     },
     "summary": "钢弹簧刚度、自由高等静态参数试验",
     "description": "钢弹簧刚度、自由高等静态参数试验",
@@ -1357,7 +1520,14 @@
     "summary_en": "Static tests of steel coil springs: stiffness and free height.",
     "description_en": "Static tests of steel coil springs: stiffness and free height.",
     "specs_en": {
-      "Applications": "Locomotive / EMU / metro repair depots and OEM works"
+      "Applications": "Locomotive / EMU / metro repair depots and OEM works",
+      "Max load": "100kN",
+      "Spring test height": "100mm～650mm",
+      "Bench load accuracy": "0.3%(FS)",
+      "Bench displacement accuracy": "0.3%(FS)",
+      "Bench body dimensions": "1500×800×2200mm",
+      "Bench control cabinet dimensions": "600×600×1800mm",
+      "Bench weight": "2300kg"
     }
   },
   {
@@ -1372,10 +1542,17 @@
     "moq": 1,
     "unit": "台",
     "images": [
-      "img/products/JX-039.svg"
+      "img/products/JX-039.jpg",
+      "img/products/JX-039-2.jpg"
     ],
     "specs": {
-      "应用场景": "机车/动车组/城轨车辆检修基地、机务段、车辆段"
+      "应用场景": "机车/动车组/城轨车辆检修基地、机务段、车辆段",
+      "最大载荷": "100kN",
+      "试验高度测量范围": "200mm～740mm",
+      "试验台载荷测量精度": "2kN～100kN 围内，示值的±0.5%以内",
+      "试验台高度测量精度": "±0.5mm",
+      "横向有效跨距": "560mm",
+      "电源": "三相五线制 AC380V 50Hz，有可靠接地线"
     },
     "summary": "橡胶弹簧（橡胶堆）静态刚度与疲劳性能试验",
     "description": "橡胶弹簧（橡胶堆）静态刚度与疲劳性能试验",
@@ -1388,7 +1565,13 @@
     "summary_en": "Static stiffness and fatigue tests of rubber springs (rubber stacks).",
     "description_en": "Static stiffness and fatigue tests of rubber springs (rubber stacks).",
     "specs_en": {
-      "Applications": "Locomotive / EMU / metro repair depots and OEM works"
+      "Applications": "Locomotive / EMU / metro repair depots and OEM works",
+      "Bench load accuracy": "2-100kN, within ±0.5% of indicated value",
+      "Power supply": "3-phase 5-wire AC380V 50Hz, reliable grounding",
+      "Max load": "100kN",
+      "Test height range": "200mm～740mm",
+      "Bench height accuracy": "±0.5mm",
+      "Effective lateral span": "560mm"
     }
   },
   {
@@ -1403,10 +1586,18 @@
     "moq": 1,
     "unit": "台",
     "images": [
-      "img/products/JX-040.svg"
+      "img/products/JX-040.jpg",
+      "img/products/JX-040-2.jpg"
     ],
     "specs": {
-      "应用场景": "机车/动车组/城轨车辆检修基地、机务段、车辆段"
+      "应用场景": "机车/动车组/城轨车辆检修基地、机务段、车辆段",
+      "输入电压": "AC220V ±10%",
+      "频 率": "50Hz±1 Hz",
+      "功 率": "不大于 5kW",
+      "风源压力": "0.8～1MPa",
+      "压力显示精度": "±1kPa",
+      "采集系统精度": "≤0.1‰",
+      "系统精度": "≤5‰"
     },
     "summary": "动车组制动系统综合性能试验",
     "description": "动车组制动系统综合性能试验",
@@ -1419,7 +1610,14 @@
     "summary_en": "Comprehensive performance testing of EMU braking systems.",
     "description_en": "Comprehensive performance testing of EMU braking systems.",
     "specs_en": {
-      "Applications": "Locomotive / EMU / metro repair depots and OEM works"
+      "Applications": "Locomotive / EMU / metro repair depots and OEM works",
+      "Power": "≤5kW",
+      "Input voltage": "AC220V ±10%",
+      "Frequency": "50Hz±1 Hz",
+      "Air source pressure": "0.8～1MPa",
+      "Pressure display resolution": "±1kPa",
+      "Acquisition system accuracy": "≤0.1‰",
+      "System accuracy": "≤5‰"
     }
   },
   {
@@ -1434,10 +1632,17 @@
     "moq": 1,
     "unit": "台",
     "images": [
-      "img/products/JX-041.svg"
+      "img/products/JX-041.jpg",
+      "img/products/JX-041-2.jpg"
     ],
     "specs": {
-      "应用场景": "机车/动车组/城轨车辆检修基地、机务段、车辆段"
+      "应用场景": "机车/动车组/城轨车辆检修基地、机务段、车辆段",
+      "试验台型号": "DCSY-Ⅰ型",
+      "输入电压": "AC220±10%V，50Hz±2%",
+      "功率": "2kW",
+      "频率": "50±1Hz",
+      "压力传感器精度": "优于 1‰",
+      "采集系统精度": "优于 3‰"
     },
     "summary": "车辆单车制动性能试验设备",
     "description": "车辆单车制动性能试验设备",
@@ -1450,7 +1655,13 @@
     "summary_en": "Single-car braking performance test equipment.",
     "description_en": "Single-car braking performance test equipment.",
     "specs_en": {
-      "Applications": "Locomotive / EMU / metro repair depots and OEM works"
+      "Applications": "Locomotive / EMU / metro repair depots and OEM works",
+      "Bench model": "DCSY-I type",
+      "Pressure sensor accuracy": "Better than 1‰",
+      "Acquisition system accuracy": "Better than 3‰",
+      "Input voltage": "AC220±10%V，50Hz±2%",
+      "Power": "2kW",
+      "Frequency": "50±1Hz"
     }
   },
   {
@@ -1465,10 +1676,18 @@
     "moq": 1,
     "unit": "台",
     "images": [
-      "img/products/JX-042.svg"
+      "img/products/JX-042.jpg",
+      "img/products/JX-042-2.jpg"
     ],
     "specs": {
-      "应用场景": "机车/动车组/城轨车辆检修基地、机务段、车辆段"
+      "应用场景": "机车/动车组/城轨车辆检修基地、机务段、车辆段",
+      "试验台型号": "KYJ-Ⅱ型",
+      "电源": "AC 380V 50Hz,30kW； DC 110V，1kW",
+      "喷嘴直径": "25mm",
+      "排量测量范围": "1.756m",
+      "压力测量范围": "0～1.6MPa，0.25% FS",
+      "排气温度测量范围": "0～200℃",
+      "吸气温度测量范围": "-40～+60℃，±0.2℃"
     },
     "summary": "机车车辆空气压缩机排气量、容积效率等性能试验",
     "description": "机车车辆空气压缩机排气量、容积效率等性能试验",
@@ -1481,7 +1700,14 @@
     "summary_en": "Displacement and volumetric-efficiency tests of rolling-stock air compressors.",
     "description_en": "Displacement and volumetric-efficiency tests of rolling-stock air compressors.",
     "specs_en": {
-      "Applications": "Locomotive / EMU / metro repair depots and OEM works"
+      "Applications": "Locomotive / EMU / metro repair depots and OEM works",
+      "Bench model": "KYJ-II type",
+      "Power supply": "AC 380V 50Hz,30kW； DC 110V，1kW",
+      "Nozzle diameter": "25mm",
+      "Displacement measuring range": "1.756m",
+      "Pressure measuring range": "0～1.6MPa，0.25% FS",
+      "Exhaust temperature range": "0～200℃",
+      "Suction temperature range": "-40～+60℃，±0.2℃"
     }
   },
   {
@@ -1496,10 +1722,18 @@
     "moq": 1,
     "unit": "台",
     "images": [
-      "img/products/JX-043.svg"
+      "img/products/JX-043.jpg",
+      "img/products/JX-043-2.jpg"
     ],
     "specs": {
-      "应用场景": "机车/动车组/城轨车辆检修基地、机务段、车辆段"
+      "应用场景": "机车/动车组/城轨车辆检修基地、机务段、车辆段",
+      "电源": "AC220V+PE，50Hz",
+      "用电量": "≤2kW",
+      "工作介质": "干燥压缩空气",
+      "风源压力": "600～800kPa",
+      "管路系统额定压力": "900kPa",
+      "压力测量范围": "0～1.2MPa",
+      "压力传感器精度": "0.1%"
     },
     "summary": "空气干燥器干燥性能试验",
     "description": "空气干燥器干燥性能试验",
@@ -1512,7 +1746,14 @@
     "summary_en": "Drying-performance tests of air dryers.",
     "description_en": "Drying-performance tests of air dryers.",
     "specs_en": {
-      "Applications": "Locomotive / EMU / metro repair depots and OEM works"
+      "Applications": "Locomotive / EMU / metro repair depots and OEM works",
+      "Working medium": "Dry compressed air",
+      "Power supply": "AC220V+PE，50Hz",
+      "Power consumption": "≤2kW",
+      "Air source pressure": "600～800kPa",
+      "Pipework rated pressure": "900kPa",
+      "Pressure measuring range": "0～1.2MPa",
+      "Pressure sensor accuracy": "0.1%"
     }
   },
   {
@@ -1527,10 +1768,18 @@
     "moq": 1,
     "unit": "台",
     "images": [
-      "img/products/JX-044.svg"
+      "img/products/JX-044.jpg",
+      "img/products/JX-044-2.jpg"
     ],
     "specs": {
-      "应用场景": "机车/动车组/城轨车辆检修基地、机务段、车辆段"
+      "应用场景": "机车/动车组/城轨车辆检修基地、机务段、车辆段",
+      "型号": "ZDFL 型",
+      "电源": "AC 220V 50Hz",
+      "功率": "2kW",
+      "风源": "不低于 1.3MPa",
+      "压力测试精度": "0.3%",
+      "测控台的尺寸（长×宽×高）": "1460×750×1350mm",
+      "试验台可对": "BCU 整体进行试验，并对其它阀进行单独试验。"
     },
     "summary": "制动阀件的性能试验与检修",
     "description": "制动阀件的性能试验与检修",
@@ -1543,7 +1792,13 @@
     "summary_en": "Performance testing and repair of brake valves.",
     "description_en": "Performance testing and repair of brake valves.",
     "specs_en": {
-      "Applications": "Locomotive / EMU / metro repair depots and OEM works"
+      "Applications": "Locomotive / EMU / metro repair depots and OEM works",
+      "Model": "ZDFL type",
+      "Air source": "≥1.3MPa",
+      "Power supply": "AC 220V 50Hz",
+      "Power": "2kW",
+      "Pressure test accuracy": "0.3%",
+      "Console dimensions (L×W×H)": "1460×750×1350mm"
     }
   },
   {
@@ -1558,10 +1813,15 @@
     "moq": 1,
     "unit": "台",
     "images": [
-      "img/products/JX-045.svg"
+      "img/products/JX-045.jpg",
+      "img/products/JX-045-2.jpg"
     ],
     "specs": {
-      "应用场景": "机车/动车组/城轨车辆检修基地、机务段、车辆段"
+      "应用场景": "机车/动车组/城轨车辆检修基地、机务段、车辆段",
+      "电源": "AC220V",
+      "试验台柜体尺寸": "1400×800×1450mm",
+      "气源压力": "最小 0.9Mpa",
+      "压力传感器测试范围": "0～1MPa,0.1%FS"
     },
     "summary": "制动控制单元BCU综合试验",
     "description": "制动控制单元BCU综合试验",
@@ -1574,7 +1834,11 @@
     "summary_en": "Comprehensive testing of brake control units (BCU).",
     "description_en": "Comprehensive testing of brake control units (BCU).",
     "specs_en": {
-      "Applications": "Locomotive / EMU / metro repair depots and OEM works"
+      "Applications": "Locomotive / EMU / metro repair depots and OEM works",
+      "Air source pressure": "≥0.9MPa",
+      "Power supply": "AC220V",
+      "Bench cabinet dimensions": "1400×800×1450mm",
+      "Pressure sensor range": "0～1MPa,0.1%FS"
     }
   },
   {
@@ -1589,10 +1853,18 @@
     "moq": 1,
     "unit": "台",
     "images": [
-      "img/products/JX-046.svg"
+      "img/products/JX-046.jpg",
+      "img/products/JX-046-2.jpg"
     ],
     "specs": {
-      "应用场景": "机车/动车组/城轨车辆检修基地、机务段、车辆段"
+      "应用场景": "机车/动车组/城轨车辆检修基地、机务段、车辆段",
+      "电源": "AC380V 50HZ，三相五线",
+      "功率": "3kW",
+      "风源": "＞0.6MPa",
+      "压力传感器精度": "0.1%",
+      "数据采集板精度": "0.1%",
+      "位移传感器精度": "0.1%",
+      "外形尺寸（长×宽×高）": "1500×800×1350mm"
     },
     "summary": "高度调整阀、差压阀性能试验",
     "description": "高度调整阀、差压阀性能试验",
@@ -1605,7 +1877,14 @@
     "summary_en": "Performance tests of leveling valves and differential pressure valves.",
     "description_en": "Performance tests of leveling valves and differential pressure valves.",
     "specs_en": {
-      "Applications": "Locomotive / EMU / metro repair depots and OEM works"
+      "Applications": "Locomotive / EMU / metro repair depots and OEM works",
+      "Power supply": "AC380V 50Hz, 3-phase 5-wire",
+      "Power": "3kW",
+      "Air source": "＞0.6MPa",
+      "Pressure sensor accuracy": "0.1%",
+      "DAQ board accuracy": "0.1%",
+      "Displacement sensor accuracy": "0.1%",
+      "Dimensions (L×W×H)": "1500×800×1350mm"
     }
   },
   {
@@ -1620,10 +1899,18 @@
     "moq": 1,
     "unit": "台",
     "images": [
-      "img/products/JX-047.svg"
+      "img/products/JX-047.jpg"
     ],
     "specs": {
-      "应用场景": "机车/动车组/城轨车辆检修基地、机务段、车辆段"
+      "应用场景": "机车/动车组/城轨车辆检修基地、机务段、车辆段",
+      "供电电源": "AC220V 50Hz",
+      "供电容量": "2kW",
+      "气源压力": "0.9MPa",
+      "环境温度": "-25℃～+45℃",
+      "压力测量范围": "0～1.0MPa",
+      "压力测量精度": "0.2％FS",
+      "可调电源范围": "DC0～150V，0～2A",
+      "测控台外形尺寸": "1200×800×1450mm"
     },
     "summary": "制动电磁阀性能试验",
     "description": "制动电磁阀性能试验",
@@ -1636,7 +1923,15 @@
     "summary_en": "Performance tests of braking solenoid valves.",
     "description_en": "Performance tests of braking solenoid valves.",
     "specs_en": {
-      "Applications": "Locomotive / EMU / metro repair depots and OEM works"
+      "Applications": "Locomotive / EMU / metro repair depots and OEM works",
+      "Power supply": "AC220V 50Hz",
+      "Power supply capacity": "2kW",
+      "Air source pressure": "0.9MPa",
+      "Ambient temperature": "-25℃～+45℃",
+      "Pressure measuring range": "0～1.0MPa",
+      "Pressure measuring accuracy": "0.2％FS",
+      "Adjustable supply range": "DC0～150V，0～2A",
+      "Console dimensions": "1200×800×1450mm"
     }
   },
   {
@@ -1651,10 +1946,13 @@
     "moq": 1,
     "unit": "台",
     "images": [
-      "img/products/JX-048.svg"
+      "img/products/JX-048.jpg"
     ],
     "specs": {
-      "应用场景": "机车/动车组/城轨车辆检修基地、机务段、车辆段"
+      "应用场景": "机车/动车组/城轨车辆检修基地、机务段、车辆段",
+      "风源压力": "0.65MPa",
+      "三阀试验台外形尺寸(长×宽×高)": "1800×800×1072mm",
+      "单元缸试验台外形尺寸(底盘直径×高)": "Φ700mm×1000mm"
     },
     "summary": "分配阀、控制阀等三阀一缸试验",
     "description": "分配阀、控制阀等三阀一缸试验",
@@ -1667,7 +1965,10 @@
     "summary_en": "Tests of distributing/control valves and the three-valve-one-cylinder set.",
     "description_en": "Tests of distributing/control valves and the three-valve-one-cylinder set.",
     "specs_en": {
-      "Applications": "Locomotive / EMU / metro repair depots and OEM works"
+      "Applications": "Locomotive / EMU / metro repair depots and OEM works",
+      "Air source pressure": "0.65MPa",
+      "Three-valve bench dimensions (L×W×H)": "1800×800×1072mm",
+      "Bench dimensions (base Ø×H)": "Φ700mm×1000mm"
     }
   },
   {
@@ -1682,10 +1983,17 @@
     "moq": 1,
     "unit": "台",
     "images": [
-      "img/products/JX-049.svg"
+      "img/products/JX-049.jpg",
+      "img/products/JX-049-2.jpg"
     ],
     "specs": {
-      "应用场景": "机车/动车组/城轨车辆检修基地、机务段、车辆段"
+      "应用场景": "机车/动车组/城轨车辆检修基地、机务段、车辆段",
+      "外接电源": "3AC380V±10%，50Hz,5kW",
+      "适用速度范围": "0～300km/h",
+      "工作介质": "干燥压缩空气",
+      "工作压力": "0～600kPa",
+      "外形尺寸": "1800×760×1500mm",
+      "试验台总质量": "约 600kg"
     },
     "summary": "防滑器性能试验",
     "description": "防滑器性能试验",
@@ -1698,7 +2006,13 @@
     "summary_en": "Performance tests of anti-slip devices.",
     "description_en": "Performance tests of anti-slip devices.",
     "specs_en": {
-      "Applications": "Locomotive / EMU / metro repair depots and OEM works"
+      "Applications": "Locomotive / EMU / metro repair depots and OEM works",
+      "Working medium": "Dry compressed air",
+      "Bench total mass": "~600kg",
+      "External power supply": "3AC380V±10%，50Hz,5kW",
+      "Applicable speed range": "0～300km/h",
+      "Working pressure": "0～600kPa",
+      "Dimensions": "1800×760×1500mm"
     }
   },
   {
@@ -1713,10 +2027,19 @@
     "moq": 1,
     "unit": "台",
     "images": [
-      "img/products/JX-050.svg"
+      "img/products/JX-050.jpg",
+      "img/products/JX-050-2.jpg"
     ],
     "specs": {
-      "应用场景": "机车/动车组/城轨车辆检修基地、机务段、车辆段"
+      "应用场景": "机车/动车组/城轨车辆检修基地、机务段、车辆段",
+      "电源": "AC220V 50Hz 3kW",
+      "车间气源": "600～800KPa",
+      "附加气源": "大于 2MPa",
+      "水源": "自来水",
+      "气密试验气压": "0.5MPa",
+      "爆破试验气压": "2MPa",
+      "外型尺寸": "2500×800×2000mm",
+      "压力采集精度": "优于 0.2%"
     },
     "summary": "制动软管气密与强度试验",
     "description": "制动软管气密与强度试验",
@@ -1729,7 +2052,15 @@
     "summary_en": "Air-tightness and strength tests of brake hoses.",
     "description_en": "Air-tightness and strength tests of brake hoses.",
     "specs_en": {
-      "Applications": "Locomotive / EMU / metro repair depots and OEM works"
+      "Applications": "Locomotive / EMU / metro repair depots and OEM works",
+      "Water source": "Tap water",
+      "Additional air supply": ">2MPa",
+      "Pressure acquisition accuracy": "Better than 0.2%",
+      "Power supply": "AC220V 50Hz 3kW",
+      "Workshop air supply": "600～800KPa",
+      "Air-tightness test pressure": "0.5MPa",
+      "Burst test pressure": "2MPa",
+      "Dimensions": "2500×800×2000mm"
     }
   },
   {
@@ -1744,10 +2075,14 @@
     "moq": 1,
     "unit": "台",
     "images": [
-      "img/products/JX-051.svg"
+      "img/products/JX-051.jpg",
+      "img/products/JX-051-2.jpg"
     ],
     "specs": {
-      "应用场景": "机车/动车组/城轨车辆检修基地、机务段、车辆段"
+      "应用场景": "机车/动车组/城轨车辆检修基地、机务段、车辆段",
+      "风源压力": "0.9MPa",
+      "控制柜重量": "60kg",
+      "单元缸试验台重量": "80kg"
     },
     "summary": "单元制动缸性能试验与检修",
     "description": "单元制动缸性能试验与检修",
@@ -1760,7 +2095,10 @@
     "summary_en": "Performance testing and repair of unit brake cylinders.",
     "description_en": "Performance testing and repair of unit brake cylinders.",
     "specs_en": {
-      "Applications": "Locomotive / EMU / metro repair depots and OEM works"
+      "Applications": "Locomotive / EMU / metro repair depots and OEM works",
+      "Air source pressure": "0.9MPa",
+      "Control cabinet weight": "60kg",
+      "Bench weight": "80kg"
     }
   },
   {
@@ -1775,10 +2113,18 @@
     "moq": 1,
     "unit": "台",
     "images": [
-      "img/products/JX-052.svg"
+      "img/products/JX-052.jpg",
+      "img/products/JX-052-2.jpg"
     ],
     "specs": {
-      "应用场景": "机车/动车组/城轨车辆检修基地、机务段、车辆段"
+      "应用场景": "机车/动车组/城轨车辆检修基地、机务段、车辆段",
+      "电源": "AC 220V",
+      "试验台柜体尺寸": "1200×800×1350mm",
+      "安装台体尺寸": "1000×360×1103mm",
+      "气源压力": "最小 0.9MPa",
+      "压力表范围": "0～1MPa,0.1% FS",
+      "力传感器测试范围": "50Kn,精度 0.1% FS",
+      "位移传感器测试范围": "0～225mm"
     },
     "summary": "踏面制动单元性能试验",
     "description": "踏面制动单元性能试验",
@@ -1791,7 +2137,14 @@
     "summary_en": "Performance tests of tread braking units.",
     "description_en": "Performance tests of tread braking units.",
     "specs_en": {
-      "Applications": "Locomotive / EMU / metro repair depots and OEM works"
+      "Applications": "Locomotive / EMU / metro repair depots and OEM works",
+      "Air source pressure": "≥0.9MPa",
+      "Force sensor range": "50kN, accuracy 0.1%FS",
+      "Power supply": "AC 220V",
+      "Bench cabinet dimensions": "1200×800×1350mm",
+      "Mounting body dimensions": "1000×360×1103mm",
+      "Pressure gauge range": "0～1MPa,0.1% FS",
+      "Displacement sensor range": "0～225mm"
     }
   },
   {
@@ -1806,10 +2159,17 @@
     "moq": 1,
     "unit": "台",
     "images": [
-      "img/products/JX-053.svg"
+      "img/products/JX-053.jpg",
+      "img/products/JX-053-2.jpg"
     ],
     "specs": {
-      "应用场景": "机车/动车组/城轨车辆检修基地、机务段、车辆段"
+      "应用场景": "机车/动车组/城轨车辆检修基地、机务段、车辆段",
+      "输入电压": "AC380±10%，并有可靠的地线",
+      "频 率": "50Hz±1Hz",
+      "风源": "0～10bar，电动调压，连续可调",
+      "制动力测量(kN)": "0～50，精度 0.1%FS",
+      "制动行程测量范围(mm)": "0～225，精度 0.1%FS",
+      "压力传感器精度": "0.1 级"
     },
     "summary": "夹钳式制动单元性能试验",
     "description": "夹钳式制动单元性能试验",
@@ -1822,7 +2182,13 @@
     "summary_en": "Performance tests of caliper braking units.",
     "description_en": "Performance tests of caliper braking units.",
     "specs_en": {
-      "Applications": "Locomotive / EMU / metro repair depots and OEM works"
+      "Applications": "Locomotive / EMU / metro repair depots and OEM works",
+      "Input voltage": "AC380V±10% with reliable grounding",
+      "Air source": "0-10bar, motorized regulation, continuously adjustable",
+      "Braking force measurement (kN)": "0-50, accuracy 0.1%FS",
+      "Brake stroke range (mm)": "0-225, accuracy 0.1%FS",
+      "Pressure sensor accuracy": "Class 0.1",
+      "Frequency": "50Hz±1Hz"
     }
   },
   {
@@ -1837,10 +2203,17 @@
     "moq": 1,
     "unit": "台",
     "images": [
-      "img/products/JX-054.svg"
+      "img/products/JX-054.jpg",
+      "img/products/JX-054-2.jpg"
     ],
     "specs": {
-      "应用场景": "机车/动车组/城轨车辆检修基地、机务段、车辆段"
+      "应用场景": "机车/动车组/城轨车辆检修基地、机务段、车辆段",
+      "工作环境温度": "-10～35℃",
+      "要求电源条件": "AC380V±10% 50Hz",
+      "系统工作压力": "13MPa",
+      "电机功率": "1.5kW",
+      "系统流量": "3.6L/min",
+      "传感器精度": "0.1%"
     },
     "summary": "液压制动夹钳性能试验",
     "description": "液压制动夹钳性能试验",
@@ -1853,7 +2226,13 @@
     "summary_en": "Performance tests of hydraulic brake calipers.",
     "description_en": "Performance tests of hydraulic brake calipers.",
     "specs_en": {
-      "Applications": "Locomotive / EMU / metro repair depots and OEM works"
+      "Applications": "Locomotive / EMU / metro repair depots and OEM works",
+      "Operating ambient temperature": "-10～35℃",
+      "Required power conditions": "AC380V±10% 50Hz",
+      "System working pressure": "13MPa",
+      "Motor power": "1.5kW",
+      "System flow rate": "3.6L/min",
+      "Sensor accuracy": "0.1%"
     }
   },
   {
@@ -1868,10 +2247,13 @@
     "moq": 1,
     "unit": "台",
     "images": [
-      "img/products/JX-055.svg"
+      "img/products/JX-055.jpg"
     ],
     "specs": {
-      "应用场景": "机车/动车组/城轨车辆检修基地、机务段、车辆段"
+      "应用场景": "机车/动车组/城轨车辆检修基地、机务段、车辆段",
+      "电源": "AC220V±10%，50Hz，3kW",
+      "电压检测精度": "0.001V",
+      "触点电阻检测精度": "1µΩ"
     },
     "summary": "司机控制器性能试验",
     "description": "司机控制器性能试验",
@@ -1884,7 +2266,10 @@
     "summary_en": "Performance tests of driver master controllers.",
     "description_en": "Performance tests of driver master controllers.",
     "specs_en": {
-      "Applications": "Locomotive / EMU / metro repair depots and OEM works"
+      "Applications": "Locomotive / EMU / metro repair depots and OEM works",
+      "Power supply": "AC220V±10%，50Hz，3kW",
+      "Voltage detection accuracy": "0.001V",
+      "Contact resistance accuracy": "1µΩ"
     }
   },
   {
@@ -1899,10 +2284,21 @@
     "moq": 1,
     "unit": "台",
     "images": [
-      "img/products/JX-056.svg"
+      "img/products/JX-056.jpg"
     ],
     "specs": {
-      "应用场景": "机车/动车组/城轨车辆检修基地、机务段、车辆段"
+      "应用场景": "机车/动车组/城轨车辆检修基地、机务段、车辆段",
+      "脱扣电流范围": "DC0～3500A，电流分辨率 0.1A",
+      "电压范围": "直流 DC0～150V（连续可调），误差＜0.5％",
+      "电流范围": "直流 DC0～10A（连续可调），误差＜0.2％",
+      "时间范围": "0～1000ms，测试误差＜0.1ms",
+      "风压范围": "0～10bar，测试误差＜0.5KPa",
+      "接触电阻测量范围": "1mΩ-1000mΩ，测试误差＜0.1mΩ",
+      "采样速度": "25uS",
+      "检测精度": "0.1%Fs 以上",
+      "仪表精度等级": "0.2 级以上",
+      "输入输出接口": "“断路器连接”和“通讯接口”",
+      "输入电源": "AC380V±10%，50HZ，三相四线"
     },
     "summary": "高速断路器性能试验",
     "description": "高速断路器性能试验",
@@ -1915,7 +2311,18 @@
     "summary_en": "Performance tests of high-speed circuit breakers.",
     "description_en": "Performance tests of high-speed circuit breakers.",
     "specs_en": {
-      "Applications": "Locomotive / EMU / metro repair depots and OEM works"
+      "Applications": "Locomotive / EMU / metro repair depots and OEM works",
+      "Time range": "0-1000ms, test error <0.1ms",
+      "Air pressure range": "0-10bar, test error <0.5kPa",
+      "Contact resistance range": "1mΩ-1000mΩ, test error <0.1mΩ",
+      "I/O interfaces": "Breaker connection & communication interface",
+      "Input power supply": "AC380V±10%, 50Hz, 3-phase 4-wire",
+      "Trip current range": "DC 0-3500A, current resolution 0.1A",
+      "Voltage range": "DC 0-150V (adjustable), error <0.5%",
+      "Current range": "DC 0-10A (adjustable), error <0.2%",
+      "Detection accuracy": "≥0.1%FS",
+      "Instrument accuracy class": "Class 0.2 or better",
+      "Sampling speed": "25uS"
     }
   },
   {
@@ -1930,10 +2337,15 @@
     "moq": 1,
     "unit": "台",
     "images": [
-      "img/products/JX-057.svg"
+      "img/products/JX-057.jpg"
     ],
     "specs": {
-      "应用场景": "机车/动车组/城轨车辆检修基地、机务段、车辆段"
+      "应用场景": "机车/动车组/城轨车辆检修基地、机务段、车辆段",
+      "输入电压": "AC380V(±10％) 50Hz±2%",
+      "输入功率": "80kW",
+      "输出电压": "DC 0～1500V （连续可调）",
+      "最大输出电流": "50A",
+      "测量仪表精度等级": "±1.5%"
     },
     "summary": "高压小电流整流试验电源装置",
     "description": "高压小电流整流试验电源装置",
@@ -1946,7 +2358,12 @@
     "summary_en": "High-voltage low-current rectified test power supply.",
     "description_en": "High-voltage low-current rectified test power supply.",
     "specs_en": {
-      "Applications": "Locomotive / EMU / metro repair depots and OEM works"
+      "Applications": "Locomotive / EMU / metro repair depots and OEM works",
+      "Output voltage": "DC 0-1500V (continuously adjustable)",
+      "Input voltage": "AC380V(±10％) 50Hz±2%",
+      "Input power": "80kW",
+      "Max output current": "50A",
+      "Instrument accuracy class": "±1.5%"
     }
   },
   {
@@ -1961,10 +2378,15 @@
     "moq": 1,
     "unit": "台",
     "images": [
-      "img/products/JX-058.svg"
+      "img/products/JX-058.jpg"
     ],
     "specs": {
-      "应用场景": "机车/动车组/城轨车辆检修基地、机务段、车辆段"
+      "应用场景": "机车/动车组/城轨车辆检修基地、机务段、车辆段",
+      " 输入电压": "AC380V(±10％) 50Hz",
+      " 输出功率": "45kW",
+      " 最大输出电压": "DC15V",
+      " 输出电流": "0～3000A （连续可调）",
+      " 测量精度等级": "在 25℃情况下，输出电流稳定度±1.5%"
     },
     "summary": "低压大电流整流试验电源装置",
     "description": "低压大电流整流试验电源装置",
@@ -1977,7 +2399,12 @@
     "summary_en": "Low-voltage high-current rectified test power supply.",
     "description_en": "Low-voltage high-current rectified test power supply.",
     "specs_en": {
-      "Applications": "Locomotive / EMU / metro repair depots and OEM works"
+      "Applications": "Locomotive / EMU / metro repair depots and OEM works",
+      "Input voltage": "AC380V(±10％) 50Hz",
+      "Max output voltage": "DC15V",
+      "Output current": "0-3000A (continuously adjustable)",
+      "Measuring accuracy class": "Output current stability ±1.5% at 25℃",
+      "Output power": "45kW"
     }
   },
   {
@@ -1992,10 +2419,17 @@
     "moq": 1,
     "unit": "台",
     "images": [
-      "img/products/JX-059.svg"
+      "img/products/JX-059.jpg"
     ],
     "specs": {
-      "应用场景": "机车/动车组/城轨车辆检修基地、机务段、车辆段"
+      "应用场景": "机车/动车组/城轨车辆检修基地、机务段、车辆段",
+      "试验台型号": "GZ-DQYJ 型",
+      "输入电源电压": "3AC 380/50HZ",
+      "输入电源容量": "15kVA",
+      "电压输出范围": "AC 0～400V； DC 0～110V",
+      "电流输出范围": "AC 0～1000A；DC 0～1000A",
+      "时间测量范围": "0.05S～999.9S(手动)",
+      "外形尺寸": "2000×712×1350（长×宽×高）mm"
     },
     "summary": "车辆电器元件综合性能试验",
     "description": "车辆电器元件综合性能试验",
@@ -2008,7 +2442,14 @@
     "summary_en": "Comprehensive performance tests of vehicle electrical components.",
     "description_en": "Comprehensive performance tests of vehicle electrical components.",
     "specs_en": {
-      "Applications": "Locomotive / EMU / metro repair depots and OEM works"
+      "Applications": "Locomotive / EMU / metro repair depots and OEM works",
+      "Time measuring range": "0.05S-999.9S (manual)",
+      "Dimensions": "2000×712×1350mm (L×W×H)",
+      "Bench model": "GZ-DQYJ type",
+      "Input supply voltage": "3AC 380/50HZ",
+      "Input supply capacity": "15kVA",
+      "Voltage output range": "AC 0～400V； DC 0～110V",
+      "Current output range": "AC 0～1000A；DC 0～1000A"
     }
   },
   {
@@ -2023,7 +2464,7 @@
     "moq": 1,
     "unit": "台",
     "images": [
-      "img/products/JX-060.svg"
+      "img/products/JX-060.jpg"
     ],
     "specs": {
       "应用场景": "机车/动车组/城轨车辆检修基地、机务段、车辆段"
@@ -2054,10 +2495,20 @@
     "moq": 1,
     "unit": "台",
     "images": [
-      "img/products/JX-061.svg"
+      "img/products/JX-061.jpg",
+      "img/products/JX-061-2.jpg"
     ],
     "specs": {
-      "应用场景": "机车/动车组/城轨车辆检修基地、机务段、车辆段"
+      "应用场景": "机车/动车组/城轨车辆检修基地、机务段、车辆段",
+      "输入电压": "AC220V ±10%",
+      "频 率": "50Hz±1 Hz",
+      "功率": "3kW",
+      "适应环境相对湿度": "10％～95％",
+      "适应环境温度": "0℃～45℃",
+      "速度显示精度": "±0.1km",
+      "模拟信号精度": "1‰",
+      "系统测试精度": "5‰",
+      "外观尺寸": "1600×900×1550mm"
     },
     "summary": "速度传感器性能校验试验",
     "description": "速度传感器性能校验试验",
@@ -2070,7 +2521,16 @@
     "summary_en": "Performance calibration tests of speed sensors.",
     "description_en": "Performance calibration tests of speed sensors.",
     "specs_en": {
-      "Applications": "Locomotive / EMU / metro repair depots and OEM works"
+      "Applications": "Locomotive / EMU / metro repair depots and OEM works",
+      "Input voltage": "AC220V ±10%",
+      "Frequency": "50Hz±1 Hz",
+      "Power": "3kW",
+      "Ambient humidity tolerance": "10％～95％",
+      "Ambient temperature tolerance": "0℃～45℃",
+      "Speed display resolution": "±0.1km",
+      "Analog signal accuracy": "1‰",
+      "System test accuracy": "5‰",
+      "Dimensions": "1600×900×1550mm"
     }
   },
   {
@@ -2085,10 +2545,20 @@
     "moq": 1,
     "unit": "台",
     "images": [
-      "img/products/JX-062.svg"
+      "img/products/JX-062.jpg"
     ],
     "specs": {
-      "应用场景": "机车/动车组/城轨车辆检修基地、机务段、车辆段"
+      "应用场景": "机车/动车组/城轨车辆检修基地、机务段、车辆段",
+      "电源": "AC220V(±10％) 50Hz",
+      "功率": "2kW",
+      "输出电压": "DC 0～150V (连续可调，误差〈0.2%)；",
+      "DC": "24V",
+      "AC": "0～220V (连续可调，误差＜0.2%)",
+      "直流电流输出": "DC 0～20A (连续可调，误差＜0.2%)",
+      "交流电流输出": "AC 0～20A (连续可调，误差＜0.2%)",
+      "时间测量范围": "0.02～9999s 分辨率 0.02s",
+      "外形尺寸（长×宽×高）": "约 1600mm×860mm×1550mm",
+      "重量": "约 360kg"
     },
     "summary": "继电器动作特性试验",
     "description": "继电器动作特性试验",
@@ -2101,7 +2571,17 @@
     "summary_en": "Operation-characteristic tests of relays.",
     "description_en": "Operation-characteristic tests of relays.",
     "specs_en": {
-      "Applications": "Locomotive / EMU / metro repair depots and OEM works"
+      "Applications": "Locomotive / EMU / metro repair depots and OEM works",
+      "Output voltage": "DC 0-150V (adjustable, error <0.2%)",
+      "AC output": "0-220V (continuously adjustable, error <0.2%)",
+      "DC current output": "DC 0-20A (adjustable, error <0.2%)",
+      "AC current output": "AC 0-20A (adjustable, error <0.2%)",
+      "Time measuring range": "0.02-9999s, resolution 0.02s",
+      "Dimensions (L×W×H)": "~1600×860×1550mm",
+      "Weight": "~360kg",
+      "Power supply": "AC220V(±10％) 50Hz",
+      "Power": "2kW",
+      "DC output": "24V"
     }
   },
   {
@@ -2116,10 +2596,17 @@
     "moq": 1,
     "unit": "台",
     "images": [
-      "img/products/JX-063.svg"
+      "img/products/JX-063.jpg"
     ],
     "specs": {
-      "应用场景": "机车/动车组/城轨车辆检修基地、机务段、车辆段"
+      "应用场景": "机车/动车组/城轨车辆检修基地、机务段、车辆段",
+      "输入电压": "AC220V ±10% 三相四线",
+      "频 率": "50Hz±1 Hz",
+      "功 率": "10kW",
+      "输出电流": "DC 0～2500A，AC 0～4000A",
+      "输出电压": "DC 0～2500V，AC 0～2500V",
+      "设备精度等级": "0.5 级",
+      "变送器供电": "±24V，0.5A，±15V，0.5A"
     },
     "summary": "电压/电流传感器校验试验",
     "description": "电压/电流传感器校验试验",
@@ -2132,7 +2619,14 @@
     "summary_en": "Calibration tests of voltage/current sensors.",
     "description_en": "Calibration tests of voltage/current sensors.",
     "specs_en": {
-      "Applications": "Locomotive / EMU / metro repair depots and OEM works"
+      "Applications": "Locomotive / EMU / metro repair depots and OEM works",
+      "Input voltage": "AC220V ±10%, 3-phase 4-wire",
+      "Equipment accuracy class": "Class 0.5",
+      "Frequency": "50Hz±1 Hz",
+      "Power": "10kW",
+      "Output current": "DC 0～2500A，AC 0～4000A",
+      "Output voltage": "DC 0～2500V，AC 0～2500V",
+      "Transmitter power supply": "±24V，0.5A，±15V，0.5A"
     }
   },
   {
@@ -2147,10 +2641,22 @@
     "moq": 1,
     "unit": "台",
     "images": [
-      "img/products/JX-064.svg"
+      "img/products/JX-064.jpg"
     ],
     "specs": {
-      "应用场景": "机车/动车组/城轨车辆检修基地、机务段、车辆段"
+      "应用场景": "机车/动车组/城轨车辆检修基地、机务段、车辆段",
+      "最大压缩试验力": "配置 4 只传感器，并联使用",
+      "每只的测量范围均为": "2N～100N",
+      "最大拉伸试验力及测量范围": "20～1000N",
+      "试验力分辨率": "1/10000",
+      "速度调节范围": "0.01～500mm/min",
+      "位移测量范围": "0～400mm",
+      "拉伸及压缩试验行程": "450mm",
+      "保护功能": "超过最大试验力 2%～5%时自动停机",
+      "电源 功率": "单相 AC 220V 0.2kW",
+      "主机尺寸(长×宽×高)": "700×450×1745mm",
+      "测控柜(长×宽×高)": "1200×800×1350mm",
+      "安装压缩试件的工作台面高": "700mm"
     },
     "summary": "接地装置弹簧压力检测",
     "description": "接地装置弹簧压力检测",
@@ -2163,7 +2669,19 @@
     "summary_en": "Spring-pressure detection of grounding devices.",
     "description_en": "Spring-pressure detection of grounding devices.",
     "specs_en": {
-      "Applications": "Locomotive / EMU / metro repair depots and OEM works"
+      "Applications": "Locomotive / EMU / metro repair depots and OEM works",
+      "Max compression force": "4 sensors in parallel",
+      "Protections": "Auto-stop at 2-5% over max test force",
+      "Power supply power": "Single-phase AC 220V, 0.2kW",
+      "Range per sensor": "2N～100N",
+      "Max tension force & range": "20～1000N",
+      "Test force resolution": "1/10000",
+      "Speed adjustment range": "0.01～500mm/min",
+      "Displacement measuring range": "0～400mm",
+      "Tension & compression stroke": "450mm",
+      "Main unit dimensions (L×W×H)": "700×450×1745mm",
+      "Control cabinet dimensions (L×W×H)": "1200×800×1350mm",
+      "Worktable height (compression)": "700mm"
     }
   },
   {
@@ -2178,10 +2696,17 @@
     "moq": 1,
     "unit": "台",
     "images": [
-      "img/products/JX-065.svg"
+      "img/products/JX-065.jpg"
     ],
     "specs": {
-      "应用场景": "机车/动车组/城轨车辆检修基地、机务段、车辆段"
+      "应用场景": "机车/动车组/城轨车辆检修基地、机务段、车辆段",
+      "1）输入电源": "AC220V±10% 50Hz",
+      "测试电压": "DC500V/1000V",
+      "测量量程（电流）": "0.01～1000mA",
+      "测试量程": "2MΩ～2000MΩ(500V)",
+      "3）定时器": "设置量程 0.5～999s，分辨率≤0.1s",
+      "4）测量精度": "电压测量精度≤2％ F.S",
+      "5）输出功率": "5KVA/10KVA(可根据客户要求定做)"
     },
     "summary": "电气设备绝缘耐压试验",
     "description": "电气设备绝缘耐压试验",
@@ -2194,7 +2719,14 @@
     "summary_en": "Insulation withstand-voltage testing of electrical equipment.",
     "description_en": "Insulation withstand-voltage testing of electrical equipment.",
     "specs_en": {
-      "Applications": "Locomotive / EMU / metro repair depots and OEM works"
+      "Applications": "Locomotive / EMU / metro repair depots and OEM works",
+      "Output power": "5kVA/10kVA (customizable)",
+      "Timer": "Setting range 0.5-999s, resolution ≤0.1s",
+      "Measurement accuracy": "Voltage measuring accuracy ≤2%FS",
+      "Input power supply": "AC220V±10% 50Hz",
+      "Test voltage": "DC500V/1000V",
+      "Current measuring range": "0.01～1000mA",
+      "Test measuring range": "2MΩ～2000MΩ(500V)"
     }
   },
   {
@@ -2209,10 +2741,16 @@
     "moq": 1,
     "unit": "台",
     "images": [
-      "img/products/JX-066.svg"
+      "img/products/JX-066.jpg",
+      "img/products/JX-066-2.jpg"
     ],
     "specs": {
-      "应用场景": "机车/动车组/城轨车辆检修基地、机务段、车辆段"
+      "应用场景": "机车/动车组/城轨车辆检修基地、机务段、车辆段",
+      "总电源": "AC220V，50Hz,3kW",
+      "工作电源电压": "DC24V，波动范围不大于±10%",
+      "气源压力": "≥0.65MPa",
+      "外形尺寸（高×宽×厚）": "1450×1600×800mm",
+      "试验台重量": "200kg"
     },
     "summary": "塞拉门元件综合性能试验",
     "description": "塞拉门元件综合性能试验",
@@ -2225,7 +2763,12 @@
     "summary_en": "Comprehensive performance tests of plug-door components.",
     "description_en": "Comprehensive performance tests of plug-door components.",
     "specs_en": {
-      "Applications": "Locomotive / EMU / metro repair depots and OEM works"
+      "Applications": "Locomotive / EMU / metro repair depots and OEM works",
+      "Power supply voltage": "DC24V, fluctuation ≤±10%",
+      "Main power supply": "AC220V，50Hz,3kW",
+      "Air source pressure": "≥0.65MPa",
+      "Dimensions (H×W×T)": "1450×1600×800mm",
+      "Bench weight": "200kg"
     }
   },
   {
@@ -2240,10 +2783,18 @@
     "moq": 1,
     "unit": "台",
     "images": [
-      "img/products/JX-067.svg"
+      "img/products/JX-067.jpg",
+      "img/products/JX-067-2.jpg"
     ],
     "specs": {
-      "应用场景": "机车/动车组/城轨车辆检修基地、机务段、车辆段"
+      "应用场景": "机车/动车组/城轨车辆检修基地、机务段、车辆段",
+      "输入电源电压": "AC 220±10％",
+      "输入电源容量": "≤10kW",
+      "电压测量范围": "AC0～250V",
+      "电流测量范围": "0～20A",
+      "功率测量范围": "0～8kW",
+      "绝缘电阻测量范围": "0～1000MΩ",
+      "温度测量范围": "-30℃～+250℃"
     },
     "summary": "车辆电热器性能试验",
     "description": "车辆电热器性能试验",
@@ -2256,7 +2807,14 @@
     "summary_en": "Performance tests of vehicle electric heaters.",
     "description_en": "Performance tests of vehicle electric heaters.",
     "specs_en": {
-      "Applications": "Locomotive / EMU / metro repair depots and OEM works"
+      "Applications": "Locomotive / EMU / metro repair depots and OEM works",
+      "Input supply voltage": "AC 220±10％",
+      "Input supply capacity": "≤10kW",
+      "Voltage measuring range": "AC0～250V",
+      "Current measuring range": "0～20A",
+      "Power measuring range": "0～8kW",
+      "Insulation resistance range": "0～1000MΩ",
+      "Temperature measuring range": "-30℃～+250℃"
     }
   },
   {
@@ -2271,10 +2829,17 @@
     "moq": 1,
     "unit": "台",
     "images": [
-      "img/products/JX-068.svg"
+      "img/products/JX-068.jpg"
     ],
     "specs": {
-      "应用场景": "机车/动车组/城轨车辆检修基地、机务段、车辆段"
+      "应用场景": "机车/动车组/城轨车辆检修基地、机务段、车辆段",
+      "输入电源电压": "三相 AC 380V±10%,50Hz",
+      "输入电源容量": "6kW（AC）",
+      "电压测量范围 AC": "0～380V；DC:0～600V,精度 0.5 级",
+      "电流测量范围 AC": "0～20A；DC:0～20A,精度 0.5 级",
+      "功率测量范围": "0～6kW,精度 0.5 级",
+      "绝缘电阻测量范围": "0～1000MΩ,精度 5%",
+      "温度测量范围": "0℃～+150℃,精度 0.5%"
     },
     "summary": "电热开水器性能试验",
     "description": "电热开水器性能试验",
@@ -2287,7 +2852,14 @@
     "summary_en": "Performance tests of electric water boilers.",
     "description_en": "Performance tests of electric water boilers.",
     "specs_en": {
-      "Applications": "Locomotive / EMU / metro repair depots and OEM works"
+      "Applications": "Locomotive / EMU / metro repair depots and OEM works",
+      "Input supply voltage": "3-phase AC 380V±10%, 50Hz",
+      "Voltage measuring range (AC)": "0-380V; DC 0-600V, class 0.5",
+      "Current measuring range (AC)": "0-20A; DC 0-20A, class 0.5",
+      "Power measuring range": "0-6kW, class 0.5",
+      "Insulation resistance range": "0-1000MΩ, accuracy 5%",
+      "Temperature measuring range": "0℃~+150℃, accuracy 0.5%",
+      "Input supply capacity": "6kW（AC）"
     }
   },
   {
@@ -2302,10 +2874,19 @@
     "moq": 1,
     "unit": "台",
     "images": [
-      "img/products/JX-069.svg"
+      "img/products/JX-069.jpg",
+      "img/products/JX-069-2.jpg"
     ],
     "specs": {
-      "应用场景": "机车/动车组/城轨车辆检修基地、机务段、车辆段"
+      "应用场景": "机车/动车组/城轨车辆检修基地、机务段、车辆段",
+      "输入电源": "AC220V",
+      "气源压力": "0.6Mpa",
+      "测力范围": "10N ～150N",
+      "测力精度": "±1.0N",
+      "可测高度": "0～3000mm",
+      "位置精度": "±2mm",
+      "计时范围": "0～99s",
+      "计时精度": "0.1s"
     },
     "summary": "受电弓升降、静态接触压力等综合性能试验",
     "description": "受电弓升降、静态接触压力等综合性能试验",
@@ -2318,7 +2899,15 @@
     "summary_en": "Comprehensive tests of pantograph raising/lowering and static contact pressure.",
     "description_en": "Comprehensive tests of pantograph raising/lowering and static contact pressure.",
     "specs_en": {
-      "Applications": "Locomotive / EMU / metro repair depots and OEM works"
+      "Applications": "Locomotive / EMU / metro repair depots and OEM works",
+      "Input power supply": "AC220V",
+      "Air source pressure": "0.6Mpa",
+      "Force measuring range": "10N ～150N",
+      "Force accuracy": "±1.0N",
+      "Measurable height": "0～3000mm",
+      "Positioning accuracy": "±2mm",
+      "Timing range": "0～99s",
+      "Timing accuracy": "0.1s"
     }
   },
   {
@@ -2333,10 +2922,16 @@
     "moq": 1,
     "unit": "台",
     "images": [
-      "img/products/JX-070.svg"
+      "img/products/JX-070.jpg",
+      "img/products/JX-070-2.jpg"
     ],
     "specs": {
-      "应用场景": "机车/动车组/城轨车辆检修基地、机务段、车辆段"
+      "应用场景": "机车/动车组/城轨车辆检修基地、机务段、车辆段",
+      "输入电源": "AC220V",
+      "气源压力": "1Mpa",
+      "测力范围": "10N～150N",
+      "测力精度": "±1.0N",
+      "计时范围": "0～99s"
     },
     "summary": "第三轨受流器性能试验",
     "description": "第三轨受流器性能试验",
@@ -2349,7 +2944,12 @@
     "summary_en": "Performance tests of third-rail current collectors.",
     "description_en": "Performance tests of third-rail current collectors.",
     "specs_en": {
-      "Applications": "Locomotive / EMU / metro repair depots and OEM works"
+      "Applications": "Locomotive / EMU / metro repair depots and OEM works",
+      "Input power supply": "AC220V",
+      "Air source pressure": "1Mpa",
+      "Force measuring range": "10N～150N",
+      "Force accuracy": "±1.0N",
+      "Timing range": "0～99s"
     }
   },
   {
@@ -2364,10 +2964,19 @@
     "moq": 1,
     "unit": "台",
     "images": [
-      "img/products/JX-071.svg"
+      "img/products/JX-071.jpg",
+      "img/products/JX-071-2.jpg"
     ],
     "specs": {
-      "应用场景": "机车/动车组/城轨车辆检修基地、机务段、车辆段"
+      "应用场景": "机车/动车组/城轨车辆检修基地、机务段、车辆段",
+      "输入电压": "50Hz 三相四线制 380V±10%",
+      "输入功率": "根据 SIV 功率确定",
+      "输出电压": "DC1500V/110V",
+      "稳压精度": "≤±5%",
+      "纹波系数": "≤±15%",
+      "负载功率": "按照额定功率的 5%、10%、20%、25%、25%、25%分配",
+      "功率因数": "PF=0.8/0.85",
+      "SIV": "试验台 DC1500V/DC110V 电源柜、测控操作台、负载箱"
     },
     "summary": "城轨车辆辅助逆变器SIV综合试验",
     "description": "城轨车辆辅助逆变器SIV综合试验",
@@ -2380,7 +2989,15 @@
     "summary_en": "Comprehensive testing of metro auxiliary inverters (SIV).",
     "description_en": "Comprehensive testing of metro auxiliary inverters (SIV).",
     "specs_en": {
-      "Applications": "Locomotive / EMU / metro repair depots and OEM works"
+      "Applications": "Locomotive / EMU / metro repair depots and OEM works",
+      "Input voltage": "50Hz, 3-phase 4-wire 380V±10%",
+      "Input power": "Determined by SIV power",
+      "Load power": "Distributed at 5/10/20/25/25/25% of rated power",
+      "SIV": "Bench with DC1500V/DC110V power cabinets, control console and load bank",
+      "Output voltage": "DC1500V/110V",
+      "Voltage stabilization accuracy": "≤±5%",
+      "Ripple factor": "≤±15%",
+      "Power factor": "PF=0.8/0.85"
     }
   },
   {
@@ -2395,10 +3012,16 @@
     "moq": 1,
     "unit": "台",
     "images": [
-      "img/products/JX-072.svg"
+      "img/products/JX-072.jpg"
     ],
     "specs": {
-      "应用场景": "机车/动车组/城轨车辆检修基地、机务段、车辆段"
+      "应用场景": "机车/动车组/城轨车辆检修基地、机务段、车辆段",
+      "输入电源": "3 AC220V/10A",
+      "稳压精度": "≤±5%",
+      "纹波系数": "≤±15%",
+      "环境温度": "-10～45℃",
+      "环境湿度": "＜90%",
+      "功率": "按照额定功率的 10%、15%、25%、50%、100%、110%分配"
     },
     "summary": "DC600V客车空调逆变器试验",
     "description": "DC600V客车空调逆变器试验",
@@ -2411,7 +3034,13 @@
     "summary_en": "Testing of DC600V coach air-conditioning inverters.",
     "description_en": "Testing of DC600V coach air-conditioning inverters.",
     "specs_en": {
-      "Applications": "Locomotive / EMU / metro repair depots and OEM works"
+      "Applications": "Locomotive / EMU / metro repair depots and OEM works",
+      "Power": "Distributed at 10/15/25/50/100/110% of rated power",
+      "Input power supply": "3 AC220V/10A",
+      "Voltage stabilization accuracy": "≤±5%",
+      "Ripple factor": "≤±15%",
+      "Ambient temperature": "-10～45℃",
+      "Ambient humidity": "＜90%"
     }
   },
   {
@@ -2426,10 +3055,16 @@
     "moq": 1,
     "unit": "台",
     "images": [
-      "img/products/JX-073.svg"
+      "img/products/JX-073.jpg"
     ],
     "specs": {
-      "应用场景": "机车/动车组/城轨车辆检修基地、机务段、车辆段"
+      "应用场景": "机车/动车组/城轨车辆检修基地、机务段、车辆段",
+      "输入电源": "3 AC220V/10A",
+      "稳压精度": "≤±5%",
+      "纹波系数": "≤±15%",
+      "环境温度": "-10～45℃",
+      "环境湿度": "＜90%",
+      "功率": "按照额定功率的 5%、20%、25%、50%、100%分配"
     },
     "summary": "DC600V客车充电机性能试验",
     "description": "DC600V客车充电机性能试验",
@@ -2442,7 +3077,13 @@
     "summary_en": "Performance tests of DC600V coach chargers.",
     "description_en": "Performance tests of DC600V coach chargers.",
     "specs_en": {
-      "Applications": "Locomotive / EMU / metro repair depots and OEM works"
+      "Applications": "Locomotive / EMU / metro repair depots and OEM works",
+      "Power": "Distributed at 5/20/25/50/100% of rated power",
+      "Input power supply": "3 AC220V/10A",
+      "Voltage stabilization accuracy": "≤±5%",
+      "Ripple factor": "≤±15%",
+      "Ambient temperature": "-10～45℃",
+      "Ambient humidity": "＜90%"
     }
   },
   {
@@ -2457,10 +3098,25 @@
     "moq": 1,
     "unit": "台",
     "images": [
-      "img/products/JX-074.svg"
+      "img/products/JX-074.jpg",
+      "img/products/JX-074-2.jpg"
     ],
     "specs": {
-      "应用场景": "机车/动车组/城轨车辆检修基地、机务段、车辆段"
+      "应用场景": "机车/动车组/城轨车辆检修基地、机务段、车辆段",
+      "供电电源": "AC380V±10％/50Hz（三相五线制）",
+      "控制电源": "AC220V/50Hz",
+      "控制接地": "≤4Ω",
+      "额定功率": "≤180kW",
+      "输出电压": "0～600V 交流可调，误差＜0.2％",
+      "输出电流": "0～200A 可调，误差＜0.2％",
+      "输出频率": "0～120 HZ 可调，误差＜0.2％",
+      "回馈频率": "0～120 HZ 可调，误差＜0.2％",
+      "运行时间": "0～5 小时 可调，误差＜0.2％",
+      "测温范围": "-20℃～200℃；误差＜0.2％",
+      "转速测量范围": "0～5000r/min",
+      "分辨率": "1r/min",
+      "检测精度": "0.2% Fs 以上",
+      "仪表精度等级": "0.2 级以上"
     },
     "summary": "牵引电机空载运行试验",
     "description": "牵引电机空载运行试验",
@@ -2473,7 +3129,21 @@
     "summary_en": "No-load running tests of traction motors.",
     "description_en": "No-load running tests of traction motors.",
     "specs_en": {
-      "Applications": "Locomotive / EMU / metro repair depots and OEM works"
+      "Applications": "Locomotive / EMU / metro repair depots and OEM works",
+      "Power supply": "AC380V±10%/50Hz (3-phase 5-wire)",
+      "Temperature range": "-20℃~200℃; error <0.2%",
+      "Output voltage": "0-600V AC adjustable, error <0.2%",
+      "Output current": "0-200A adjustable, error <0.2%",
+      "Output frequency": "0-120Hz adjustable, error <0.2%",
+      "Regeneration frequency": "0-120Hz adjustable, error <0.2%",
+      "Running time": "0-5h adjustable, error <0.2%",
+      "Detection accuracy": "≥0.2%FS",
+      "Instrument accuracy class": "Class 0.2 or better",
+      "Control power supply": "AC220V/50Hz",
+      "Control grounding": "≤4Ω",
+      "Rated power": "≤180kW",
+      "Speed measuring range": "0～5000r/min",
+      "Resolution": "1r/min"
     }
   },
   {
@@ -2488,10 +3158,16 @@
     "moq": 1,
     "unit": "台",
     "images": [
-      "img/products/JX-075.svg"
+      "img/products/JX-075.jpg"
     ],
     "specs": {
-      "应用场景": "机车/动车组/城轨车辆检修基地、机务段、车辆段"
+      "应用场景": "机车/动车组/城轨车辆检修基地、机务段、车辆段",
+      "输入电压": "AC220V ±",
+      "频率": "50HZ±1HZ",
+      "适用电机范围": "额定电压 AC 380V，额定电流≤30A，额定功率≤15kW",
+      "环境条件": "环境温度-25℃～+45℃，相对湿度≤85％",
+      "控制柜（长×宽×高）": "1460×800×1200mm",
+      "电源柜尺寸(长×宽×高)": "1820×600×600 mm"
     },
     "summary": "辅助电机综合试验",
     "description": "辅助电机综合试验",
@@ -2504,7 +3180,13 @@
     "summary_en": "Comprehensive tests of auxiliary motors.",
     "description_en": "Comprehensive tests of auxiliary motors.",
     "specs_en": {
-      "Applications": "Locomotive / EMU / metro repair depots and OEM works"
+      "Applications": "Locomotive / EMU / metro repair depots and OEM works",
+      "Environmental conditions": "Ambient -25℃~+45℃, RH ≤85%",
+      "Applicable motor range": "Rated AC380V, ≤30A, ≤15kW",
+      "Input voltage": "AC220V ±",
+      "Frequency": "50HZ±1HZ",
+      "Control cabinet dimensions (L×W×H)": "1460×800×1200mm",
+      "Power cabinet dimensions (L×W×H)": "1820×600×600 mm"
     }
   },
   {
@@ -2519,10 +3201,17 @@
     "moq": 1,
     "unit": "台",
     "images": [
-      "img/products/JX-076.svg"
+      "img/products/JX-076.jpg"
     ],
     "specs": {
-      "应用场景": "机车/动车组/城轨车辆检修基地、机务段、车辆段"
+      "应用场景": "机车/动车组/城轨车辆检修基地、机务段、车辆段",
+      "DC": "输出电流 0～150A",
+      "AC": "输出电流 0～100A",
+      "中心控制台": "1040×1030×1160mm",
+      "励磁电源": "DC 110V/2",
+      "电动机试验台架": "1600×800×830mm",
+      "微机扭矩测试系统": "数字显示 N·m r/min kW(轴输出功率)",
+      "电涡流测功系统": "1500 转时最大吸收功率 ≤15kW"
     },
     "summary": "交直流电动机综合性能试验",
     "description": "交直流电动机综合性能试验",
@@ -2535,7 +3224,14 @@
     "summary_en": "Comprehensive performance tests of AC/DC motors.",
     "description_en": "Comprehensive performance tests of AC/DC motors.",
     "specs_en": {
-      "Applications": "Locomotive / EMU / metro repair depots and OEM works"
+      "Applications": "Locomotive / EMU / metro repair depots and OEM works",
+      "DC output": "Output current 0-150A",
+      "AC output": "Output current 0-100A",
+      "Microcomputer torque system": "Digital display: N·m, r/min, kW (shaft output)",
+      "Eddy-current dynamometer": "Max absorbed power ≤15kW at 1500rpm",
+      "Central control console": "1040×1030×1160mm",
+      "Excitation power supply": "DC 110V/2",
+      "Motor test rig": "1600×800×830mm"
     }
   },
   {
@@ -2550,7 +3246,8 @@
     "moq": 1,
     "unit": "台",
     "images": [
-      "img/products/JX-077.svg"
+      "img/products/JX-077.jpg",
+      "img/products/JX-077-2.jpg"
     ],
     "specs": {
       "应用场景": "机车/动车组/城轨车辆检修基地、机务段、车辆段"
@@ -2581,10 +3278,17 @@
     "moq": 1,
     "unit": "台",
     "images": [
-      "img/products/JX-078.svg"
+      "img/products/JX-078.jpg"
     ],
     "specs": {
-      "应用场景": "机车/动车组/城轨车辆检修基地、机务段、车辆段"
+      "应用场景": "机车/动车组/城轨车辆检修基地、机务段、车辆段",
+      "电源电压": "3AC 380V 50Hz 功率 30kVA",
+      "控制电源": "AC220V 50Hz",
+      "辅助电加热功率": "12kW",
+      "测试台体承载": "1000kg",
+      "外形尺寸": "3600×2000×1400mm",
+      "温度测试范围": "0～100℃ ±0.2℃",
+      "风速测试范围": "0～10m/s"
     },
     "summary": "空调机组运转状态试验",
     "description": "空调机组运转状态试验",
@@ -2597,7 +3301,14 @@
     "summary_en": "Operation-state tests of A/C units.",
     "description_en": "Operation-state tests of A/C units.",
     "specs_en": {
-      "Applications": "Locomotive / EMU / metro repair depots and OEM works"
+      "Applications": "Locomotive / EMU / metro repair depots and OEM works",
+      "Power supply voltage": "3AC 380V 50Hz, 30kVA",
+      "Control power supply": "AC220V 50Hz",
+      "Aux. heating power": "12kW",
+      "Test bench capacity": "1000kg",
+      "Dimensions": "3600×2000×1400mm",
+      "Temperature test range": "0～100℃ ±0.2℃",
+      "Wind speed test range": "0～10m/s"
     }
   },
   {
@@ -2612,10 +3323,13 @@
     "moq": 1,
     "unit": "台",
     "images": [
-      "img/products/JX-079.svg"
+      "img/products/JX-079.jpg"
     ],
     "specs": {
-      "应用场景": "机车/动车组/城轨车辆检修基地、机务段、车辆段"
+      "应用场景": "机车/动车组/城轨车辆检修基地、机务段、车辆段",
+      "风量测量范围": "500～12000m",
+      "静压测量范围": "0～1000Pa",
+      "用电量": "≤6kW"
     },
     "summary": "空调风机性能试验",
     "description": "空调风机性能试验",
@@ -2628,7 +3342,10 @@
     "summary_en": "Performance tests of A/C fans.",
     "description_en": "Performance tests of A/C fans.",
     "specs_en": {
-      "Applications": "Locomotive / EMU / metro repair depots and OEM works"
+      "Applications": "Locomotive / EMU / metro repair depots and OEM works",
+      "Air flow range": "500～12000m",
+      "Static pressure range": "0～1000Pa",
+      "Power consumption": "≤6kW"
     }
   },
   {
@@ -2643,10 +3360,23 @@
     "moq": 1,
     "unit": "台",
     "images": [
-      "img/products/JX-080.svg"
+      "img/products/JX-080.jpg",
+      "img/products/JX-080-2.jpg",
+      "img/products/JX-080-3.jpg"
     ],
     "specs": {
-      "应用场景": "机车/动车组/城轨车辆检修基地、机务段、车辆段"
+      "应用场景": "机车/动车组/城轨车辆检修基地、机务段、车辆段",
+      "1）试验电源": "AC380V，50Hz，最大用电",
+      "功率": "15kVA",
+      "2）试验车外形尺寸": "3.5 米（长）×2.5",
+      "3）试验淋雨房外形尺寸": "5.85 米（长）",
+      "4）淋雨用水方式": "采用循环水方式进行",
+      "5）喷淋有效面积": "3.25 米（长）×2.5 米（宽）",
+      "6）试验车驱动方式": "通过电动机、减速箱、传动机构驱动轨道车轮，人工控制前进",
+      "或后退，移动速度": "4m/min",
+      "7）喷嘴的喷水处水压范围": "0.1～0.4MPa",
+      "8）喷嘴数量": "54 个",
+      "9）喷嘴与喷水表面的距离": "不大于 1.5m"
     },
     "summary": "空调机组淋雨密封试验",
     "description": "空调机组淋雨密封试验",
@@ -2659,7 +3389,18 @@
     "summary_en": "Rain-tightness tests of A/C units.",
     "description_en": "Rain-tightness tests of A/C units.",
     "specs_en": {
-      "Applications": "Locomotive / EMU / metro repair depots and OEM works"
+      "Applications": "Locomotive / EMU / metro repair depots and OEM works",
+      "Test power supply": "AC380V, 50Hz, max power consumption ≤15kVA",
+      "Water supply mode": "Circulating water mode",
+      "Test vehicle drive mode": "Rail wheels driven by motor, reducer and transmission; manual control",
+      "Test vehicle dimensions": "3.5m (L) × 2.5m",
+      "Rain-test room dimensions": "5.85m (L)",
+      "Effective spray area": "3.25m (L) × 2.5m (W)",
+      "Number of nozzles": "54 pcs",
+      "Nozzle-to-surface distance": "≤1.5m",
+      "Power": "15kVA",
+      "Forward/reverse moving speed": "4m/min",
+      "Nozzle water pressure range": "0.1～0.4MPa"
     }
   },
   {
@@ -2674,10 +3415,14 @@
     "moq": 1,
     "unit": "台",
     "images": [
-      "img/products/JX-081.svg"
+      "img/products/JX-081.jpg"
     ],
     "specs": {
-      "应用场景": "机车/动车组/城轨车辆检修基地、机务段、车辆段"
+      "应用场景": "机车/动车组/城轨车辆检修基地、机务段、车辆段",
+      "电源": "380V 10kW",
+      "模拟测量风速": "2～5m/s",
+      "温度测量精度": "≤1%",
+      "电量测量精度": "≤0.5%"
     },
     "summary": "空气预热器性能试验",
     "description": "空气预热器性能试验",
@@ -2690,7 +3435,11 @@
     "summary_en": "Performance tests of air preheaters.",
     "description_en": "Performance tests of air preheaters.",
     "specs_en": {
-      "Applications": "Locomotive / EMU / metro repair depots and OEM works"
+      "Applications": "Locomotive / EMU / metro repair depots and OEM works",
+      "Power supply": "380V 10kW",
+      "Simulated wind speed": "2～5m/s",
+      "Temperature measuring accuracy": "≤1%",
+      "Electrical measuring accuracy": "≤0.5%"
     }
   },
   {
@@ -2705,10 +3454,17 @@
     "moq": 1,
     "unit": "台",
     "images": [
-      "img/products/JX-082.svg"
+      "img/products/JX-082.jpg",
+      "img/products/JX-082-2.jpg"
     ],
     "specs": {
-      "应用场景": "机车/动车组/城轨车辆检修基地、机务段、车辆段"
+      "应用场景": "机车/动车组/城轨车辆检修基地、机务段、车辆段",
+      "工作电源": "AC 380V，7kVA",
+      "气源压力": "7.5～10bar",
+      "额定功率": "2kW",
+      "油缸行程": "1000mm",
+      "连挂速度": "0.6km/h",
+      "整体尺寸": "5500×1000×1500mm"
     },
     "summary": "车钩连挂、解钩及缓冲性能试验",
     "description": "车钩连挂、解钩及缓冲性能试验",
@@ -2721,7 +3477,13 @@
     "summary_en": "Coupler mating, uncoupling and buffer performance tests.",
     "description_en": "Coupler mating, uncoupling and buffer performance tests.",
     "specs_en": {
-      "Applications": "Locomotive / EMU / metro repair depots and OEM works"
+      "Applications": "Locomotive / EMU / metro repair depots and OEM works",
+      "Power supply": "AC 380V，7kVA",
+      "Air source pressure": "7.5～10bar",
+      "Rated power": "2kW",
+      "Cylinder stroke": "1000mm",
+      "Coupling speed": "0.6km/h",
+      "Overall dimensions": "5500×1000×1500mm"
     }
   },
   {
@@ -2736,10 +3498,16 @@
     "moq": 1,
     "unit": "台",
     "images": [
-      "img/products/JX-083.svg"
+      "img/products/JX-083.jpg",
+      "img/products/JX-083-2.jpg"
     ],
     "specs": {
-      "应用场景": "机车/动车组/城轨车辆检修基地、机务段、车辆段"
+      "应用场景": "机车/动车组/城轨车辆检修基地、机务段、车辆段",
+      "外接电源": "AC220V，50Hz",
+      "试验电源": "DC70～115V",
+      "外接风源": "不低于 0.6MPa",
+      "试验风源": "不低于 1.0MPa",
+      "风压测量精度": "±5kPa"
     },
     "summary": "动车组前端开闭机构性能试验",
     "description": "动车组前端开闭机构性能试验",
@@ -2752,7 +3520,12 @@
     "summary_en": "Performance tests of EMU front end closing mechanisms.",
     "description_en": "Performance tests of EMU front end closing mechanisms.",
     "specs_en": {
-      "Applications": "Locomotive / EMU / metro repair depots and OEM works"
+      "Applications": "Locomotive / EMU / metro repair depots and OEM works",
+      "External air supply": "≥0.6MPa",
+      "Test air source": "≥1.0MPa",
+      "External power supply": "AC220V，50Hz",
+      "Test power supply": "DC70～115V",
+      "Air pressure accuracy": "±5kPa"
     }
   },
   {
@@ -3231,7 +4004,7 @@
     "moq": 1,
     "unit": "项",
     "images": [
-      "img/products/RW-JX-01.svg"
+      "img/products/RW-JX-01.jpg"
     ],
     "specs": {
       "制动检修": "地铁制动系统部件检修车间（上海地铁全系统制动部件）/ 智能制动检修线（SS4B、SS4G、HXD1系列）/ 制动柜智能检修车间（电力机车C5）/ 地铁制动阀类检修线 / 踏面清扫器生产线",
@@ -3473,7 +4246,10 @@
     "moq": 1,
     "unit": "套",
     "images": [
-      "img/products/YX-JX-02.svg"
+      "img/products/YX-JX-02.jpg",
+      "img/products/YX-JX-02-2.jpg",
+      "img/products/YX-JX-02-3.jpg",
+      "img/products/YX-JX-02-4.jpg"
     ],
     "specs": {
       "干线铁路": "DC600V 地面电源（客车空调/供电试验）",
@@ -3521,7 +4297,10 @@
     "moq": 1,
     "unit": "台",
     "images": [
-      "img/products/YX-JX-03.svg"
+      "img/products/YX-JX-03.jpg",
+      "img/products/YX-JX-03-2.jpg",
+      "img/products/YX-JX-03-3.jpg",
+      "img/products/YX-JX-03-4.jpg"
     ],
     "specs": {
       "手持/便携受电弓测试仪": "压力 0-200N（±2%）/ 升降弓时间 0.1s 分辨率 / 滑板厚度 0.1-45mm / 高度 0-3000mm / 存储1000组 / USB·WIFI上传，适配 DSA、TSG 等系列",
@@ -4706,7 +5485,8 @@
     "moq": 1,
     "unit": "套",
     "images": [
-      "img/products/ZM-06.svg"
+      "img/products/ZM-06.jpg",
+      "img/products/ZM-06-2.jpg"
     ],
     "specs": {
       "应用场景": "城轨车辆客室主照明"
@@ -4799,7 +5579,8 @@
     "moq": 1,
     "unit": "套",
     "images": [
-      "img/products/ZM-09.svg"
+      "img/products/ZM-09.jpg",
+      "img/products/ZM-09-2.jpg"
     ],
     "specs": {
       "应用场景": "车辆照明控制、站台/厂房智能照明"
@@ -4830,7 +5611,8 @@
     "moq": 1,
     "unit": "套",
     "images": [
-      "img/products/ZM-10.svg"
+      "img/products/ZM-10.jpg",
+      "img/products/ZM-10-2.jpg"
     ],
     "specs": {
       "应用场景": "轨道车辆电气连接"
@@ -4861,7 +5643,8 @@
     "moq": 1,
     "unit": "套",
     "images": [
-      "img/products/ZM-11.svg"
+      "img/products/ZM-11.jpg",
+      "img/products/ZM-11-2.jpg"
     ],
     "specs": {
       "应用场景": "光伏、储能、氢能场景"
@@ -4892,7 +5675,10 @@
     "moq": 1,
     "unit": "项",
     "images": [
-      "img/products/KN-NY-01.svg"
+      "img/products/KN-NY-01.jpg",
+      "img/products/KN-NY-01-2.jpg",
+      "img/products/KN-NY-01-3.jpg",
+      "img/products/KN-NY-01-4.jpg"
     ],
     "specs": {
       "矿-机电装备": "矿用液压支架 / 带式输送机 / 刮板输送机及非标装备自主研发制造，成套定制+更新改造维修一体化",
@@ -4943,7 +5729,10 @@
     "moq": 1,
     "unit": "套",
     "images": [
-      "img/products/KN-NY-02.svg"
+      "img/products/KN-NY-02.jpg",
+      "img/products/KN-NY-02-2.jpg",
+      "img/products/KN-NY-02-3.jpg",
+      "img/products/KN-NY-02-4.jpg"
     ],
     "specs": {
       "液压支架": "ZY4000/09/20QD 大倾角薄煤层掩护式（适应倾角≤45°，1.75m大中心距防倒防滑）/ ZY6800/25/53 大采高（采高2.8-5.1m，5年无大修）/ ZF8600/18/35D 放顶煤（主力支架稳定使用15年）",
@@ -5042,7 +5831,10 @@
     "moq": 1,
     "unit": "项",
     "images": [
-      "img/products/KN-NY-04.svg"
+      "img/products/KN-NY-04.jpg",
+      "img/products/KN-NY-04-2.jpg",
+      "img/products/KN-NY-04-3.jpg",
+      "img/products/KN-NY-04-4.jpg"
     ],
     "specs": {
       "电气化公路": "榆林示范线95.5公里（近期运量3500万吨/年，总投资约35亿）/ 黄骅港集疏运通道28.4km（挂网改造22.6km，6座牵引变电所，投资约2亿）/ 「刚性+柔性」电气化公路运输系统测控中心（2024年5月建成）",
@@ -5143,7 +5935,8 @@
     "moq": 1,
     "unit": "台",
     "images": [
-      "img/products/QD-01.svg"
+      "img/products/QD-01.jpg",
+      "img/products/QD-01-2.jpg"
     ],
     "specs": {
       "主要参数": "30余种型号规格；ISO9001质量体系认证；CE认证",
@@ -5177,7 +5970,8 @@
     "moq": 1,
     "unit": "台",
     "images": [
-      "img/products/QD-02.svg"
+      "img/products/QD-02.jpg",
+      "img/products/QD-02-2.jpg"
     ],
     "specs": {
       "主要参数": "含加长型S50 EXTENDED；30余种型号",
@@ -5211,7 +6005,9 @@
     "moq": 1,
     "unit": "台",
     "images": [
-      "img/products/QD-03.svg"
+      "img/products/QD-03.jpg",
+      "img/products/QD-03-2.jpg",
+      "img/products/QD-03-3.jpg"
     ],
     "specs": {
       "主要参数": "4/5/6/7英寸四种盘径规格",
@@ -5245,7 +6041,9 @@
     "moq": 1,
     "unit": "台",
     "images": [
-      "img/products/QD-04.svg"
+      "img/products/QD-04.jpg",
+      "img/products/QD-04-2.jpg",
+      "img/products/QD-04-3.jpg"
     ],
     "specs": {
       "应用场景": "精密研磨、表面处理"
@@ -5277,7 +6075,8 @@
     "moq": 1,
     "unit": "台",
     "images": [
-      "img/products/QD-05.svg"
+      "img/products/QD-05.jpg",
+      "img/products/QD-05-2.jpg"
     ],
     "specs": {
       "主要参数": "5/6英寸；工业级与专业级两个档次",
@@ -5311,7 +6110,9 @@
     "moq": 1,
     "unit": "台",
     "images": [
-      "img/products/QD-06.svg"
+      "img/products/QD-06.jpg",
+      "img/products/QD-06-2.jpg",
+      "img/products/QD-06-3.jpg"
     ],
     "specs": {
       "应用场景": "金属端面打磨"
@@ -5343,7 +6144,9 @@
     "moq": 1,
     "unit": "台",
     "images": [
-      "img/products/QD-07.svg"
+      "img/products/QD-07.jpg",
+      "img/products/QD-07-2.jpg",
+      "img/products/QD-07-3.jpg"
     ],
     "specs": {
       "应用场景": "船舶、铸件清理"
@@ -5375,7 +6178,8 @@
     "moq": 1,
     "unit": "台",
     "images": [
-      "img/products/QD-08.svg"
+      "img/products/QD-08.jpg",
+      "img/products/QD-08-2.jpg"
     ],
     "specs": {
       "应用场景": "涂料搅拌、喷涂、喷砂除锈"
@@ -5407,7 +6211,9 @@
     "moq": 1,
     "unit": "台",
     "images": [
-      "img/products/QD-09.svg"
+      "img/products/QD-09.jpg",
+      "img/products/QD-09-2.jpg",
+      "img/products/QD-09-3.jpg"
     ],
     "specs": {
       "主要参数": "100/125两种规格；水冷降温",
@@ -5441,7 +6247,9 @@
     "moq": 1,
     "unit": "台",
     "images": [
-      "img/products/QD-10.svg"
+      "img/products/QD-10.jpg",
+      "img/products/QD-10-2.jpg",
+      "img/products/QD-10-3.jpg"
     ],
     "specs": {
       "应用场景": "工业除尘"
@@ -5473,7 +6281,8 @@
     "moq": 1,
     "unit": "台",
     "images": [
-      "img/products/QD-11.svg"
+      "img/products/QD-11.jpg",
+      "img/products/QD-11-2.jpg"
     ],
     "specs": {
       "应用场景": "螺栓拆装"
@@ -5505,7 +6314,9 @@
     "moq": 1,
     "unit": "台",
     "images": [
-      "img/products/QD-12.svg"
+      "img/products/QD-12.jpg",
+      "img/products/QD-12-2.jpg",
+      "img/products/QD-12-3.jpg"
     ],
     "specs": {
       "应用场景": "高强度螺栓拆装"
@@ -5537,7 +6348,9 @@
     "moq": 1,
     "unit": "台",
     "images": [
-      "img/products/QD-13.svg"
+      "img/products/QD-13.jpg",
+      "img/products/QD-13-2.jpg",
+      "img/products/QD-13-3.jpg"
     ],
     "specs": {
       "应用场景": "钣金切割、表面修整"
@@ -5569,7 +6382,8 @@
     "moq": 1,
     "unit": "台",
     "images": [
-      "img/products/QD-14.svg"
+      "img/products/QD-14.jpg",
+      "img/products/QD-14-2.jpg"
     ],
     "specs": {
       "应用场景": "钻孔作业"
@@ -5601,7 +6415,8 @@
     "moq": 1,
     "unit": "套",
     "images": [
-      "img/products/DY-JY-01.svg"
+      "img/products/DY-JY-01.jpg",
+      "img/products/DY-JY-01-2.jpg"
     ],
     "specs": {
       "规格系列": "10/20/30/40/50/60/70m³（10m³: 6000×2400×2400mm … 70m³: 15700×3000×3000mm），罐壁厚6mm，Q235B 材质，设计压力0.1MPa",
@@ -5653,7 +6468,8 @@
     "moq": 1,
     "unit": "套",
     "images": [
-      "img/products/EN-01.svg"
+      "img/products/EN-01.jpg",
+      "img/products/EN-01-2.jpg"
     ],
     "specs": {
       "主要参数": "接入10/25/35kV AC；单枪最大800kW；整站效率≥97%、整站电损3.5%；标准化交付周期22~28周（报批报建并行）",
@@ -5687,7 +6503,9 @@
     "moq": 1,
     "unit": "套",
     "images": [
-      "img/products/EN-02.svg"
+      "img/products/EN-02.jpg",
+      "img/products/EN-02-2.jpg",
+      "img/products/EN-02-3.jpg"
     ],
     "specs": {
       "主要参数": "接入电压10kV/25kV/35kV AC；输出DC2000V；额定功率2400/3600/4800kW；功率因数>0.98；整站损耗≤5%@满载；谐波畸变率≤5%；防护IP54/噪音≤65dB；风冷；RS-485·以太网·WIFI·4G通讯；6058×2438×2896mm标准集装箱、15~20t可吊装移动；环境温度-35~+55℃",
@@ -5721,7 +6539,8 @@
     "moq": 1,
     "unit": "套",
     "images": [
-      "img/products/EN-03.svg"
+      "img/products/EN-03.jpg",
+      "img/products/EN-03-2.jpg"
     ],
     "specs": {
       "主要参数": "320~2560kW全谱系；单枪最大800A；液冷终端；功率池共享、1拖16；峰值效率≥96.5%；防护IP54/IP65",
@@ -5755,7 +6574,8 @@
     "moq": 1,
     "unit": "套",
     "images": [
-      "img/products/EN-04.svg"
+      "img/products/EN-04.jpg",
+      "img/products/EN-04-2.jpg"
     ],
     "specs": {
       "主要参数": "单舱额定容量5.015MWh；电芯LFP-314Ah；1C充放倍率；额定电压1331.2V/2704A（工作范围1164.8~1497.6V）；环境温度-30~+60℃、海拔≤4000m；6058×2438×2896mm、≤40t；IP55；智能液冷温差≤2.5℃；三级消防（全氟己酮+水喷淋+水浸没）；满足GB/T36276、GB/T44240、GB/T34131、GB/T34120、GB/T34133",
@@ -5789,7 +6609,8 @@
     "moq": 1,
     "unit": "套",
     "images": [
-      "img/products/EN-05.svg"
+      "img/products/EN-05.jpg",
+      "img/products/EN-05-2.jpg"
     ],
     "specs": {
       "主要参数": "单机1672kWh、积木式并联至5016kWh；充电功率1000kW；充电电流1000A；自动对接≤20s；IP55；激光定位+异物检测，司机全程无需下车",
@@ -5823,7 +6644,8 @@
     "moq": 1,
     "unit": "套",
     "images": [
-      "img/products/EN-06.svg"
+      "img/products/EN-06.jpg",
+      "img/products/EN-06-2.jpg"
     ],
     "specs": {
       "主要参数": "MCS充电枪：额定电压1000/1250/2000V DC、额定电流1000/1250/1500A DC；自动充电弓：升弓时间<10s、额定输出DC1000V/1000A；自动充电机械臂：额定1000V/1000A、对接时间<10s",
@@ -5857,7 +6679,8 @@
     "moq": 1,
     "unit": "套",
     "images": [
-      "img/products/EN-07.svg"
+      "img/products/EN-07.jpg",
+      "img/products/EN-07-2.jpg"
     ],
     "specs": {
       "主要参数": "船舶充电功率覆盖720kW~2560kW；光伏廊道适用于日照资源丰沛、场地具备改造条件、用能负荷稳定的铁路场景",
@@ -5891,7 +6714,8 @@
     "moq": 1,
     "unit": "套",
     "images": [
-      "img/products/EN-08.svg"
+      "img/products/EN-08.jpg",
+      "img/products/EN-08-2.jpg"
     ],
     "specs": {
       "应用场景": "矿区绿电开发"
@@ -5922,7 +6746,8 @@
     "moq": 1,
     "unit": "套",
     "images": [
-      "img/products/EN-09.svg"
+      "img/products/EN-09.jpg",
+      "img/products/EN-09-2.jpg"
     ],
     "specs": {
       "应用场景": "矿区绿电、光储充一体化"
@@ -5953,7 +6778,9 @@
     "moq": 1,
     "unit": "套",
     "images": [
-      "img/products/EN-10.svg"
+      "img/products/EN-10.jpg",
+      "img/products/EN-10-2.jpg",
+      "img/products/EN-10-3.jpg"
     ],
     "specs": {
       "主要参数": "单套5MWh；案例100MW/400MWh；峰谷套利降低度电成本",
@@ -5987,7 +6814,9 @@
     "moq": 1,
     "unit": "套",
     "images": [
-      "img/products/EN-11.svg"
+      "img/products/EN-11.jpg",
+      "img/products/EN-11-2.jpg",
+      "img/products/EN-11-3.jpg"
     ],
     "specs": {
       "主要参数": "主机功率2.4MW；终端输出电流1000A",
@@ -6021,7 +6850,8 @@
     "moq": 1,
     "unit": "套",
     "images": [
-      "img/products/EN-12.svg"
+      "img/products/EN-12.jpg",
+      "img/products/EN-12-2.jpg"
     ],
     "specs": {
       "应用场景": "矿区/公路补能驿站"
@@ -6052,7 +6882,9 @@
     "moq": 1,
     "unit": "套",
     "images": [
-      "img/products/EN-13.svg"
+      "img/products/EN-13.jpg",
+      "img/products/EN-13-2.jpg",
+      "img/products/EN-13-3.jpg"
     ],
     "specs": {
       "应用场景": "加油站、油库、国家战略储备库"
@@ -6084,7 +6916,7 @@
     "moq": 1,
     "unit": "套",
     "images": [
-      "img/products/EN-14.svg"
+      "img/products/EN-14.jpg"
     ],
     "specs": {
       "应用场景": "加油站油气回收、环保改造"
@@ -6115,7 +6947,9 @@
     "moq": 1,
     "unit": "套",
     "images": [
-      "img/products/EN-15.svg"
+      "img/products/EN-15.jpg",
+      "img/products/EN-15-2.jpg",
+      "img/products/EN-15-3.jpg"
     ],
     "specs": {
       "应用场景": "加油站新建与改造"
@@ -6147,7 +6981,9 @@
     "moq": 1,
     "unit": "套",
     "images": [
-      "img/products/LC-DQ-01.svg"
+      "img/products/LC-DQ-01.jpg",
+      "img/products/LC-DQ-01-2.jpg",
+      "img/products/LC-DQ-01-3.jpg"
     ],
     "specs": {
       "应用场景": "城轨车辆、机车电气配套"
@@ -6178,7 +7014,8 @@
     "moq": 1,
     "unit": "套",
     "images": [
-      "img/products/LC-DZ-01.svg"
+      "img/products/LC-DZ-01.jpg",
+      "img/products/LC-DZ-01-2.jpg"
     ],
     "specs": {
       "应用场景": "车辆电气系统"
@@ -6209,7 +7046,9 @@
     "moq": 1,
     "unit": "项",
     "images": [
-      "img/products/LC-FC-01.svg"
+      "img/products/LC-FC-01.jpg",
+      "img/products/LC-FC-01-2.jpg",
+      "img/products/LC-FC-01-3.jpg"
     ],
     "specs": {
       "材料体系": "玻璃钢板 / 铝蜂窝板 / 芳纶蜂窝板 / 碳纤维板",
@@ -6262,7 +7101,9 @@
     "moq": 1,
     "unit": "套",
     "images": [
-      "img/products/LC-GTD-01.svg"
+      "img/products/LC-GTD-01.jpg",
+      "img/products/LC-GTD-01-2.jpg",
+      "img/products/LC-GTD-01-3.jpg"
     ],
     "specs": {
       "覆盖类型": "地铁B型车（三块式侧护板 / 一块式柔性侧护板）/ 地铁A型车 / 动车组 / 低地板有轨电车 / 悬挂式单轨车",
@@ -6310,7 +7151,9 @@
     "moq": 1,
     "unit": "套",
     "images": [
-      "img/products/LC-GYQ-01.svg"
+      "img/products/LC-GYQ-01.jpg",
+      "img/products/LC-GYQ-01-2.jpg",
+      "img/products/LC-GYQ-01-3.jpg"
     ],
     "specs": {
       "类型": "电动 / 气动两大类，气动采用双控模式控制系统",
@@ -6358,7 +7201,9 @@
     "moq": 1,
     "unit": "件",
     "images": [
-      "img/products/LC-JG-01.svg"
+      "img/products/LC-JG-01.jpg",
+      "img/products/LC-JG-01-2.jpg",
+      "img/products/LC-JG-01-3.jpg"
     ],
     "specs": {
       "资质认证": "EN15085 焊接体系认证，掌握 22 种先进焊接工艺",
@@ -6410,7 +7255,9 @@
     "moq": 1,
     "unit": "套",
     "images": [
-      "img/products/LC-JP-01.svg"
+      "img/products/LC-JP-01.jpg",
+      "img/products/LC-JP-01-2.jpg",
+      "img/products/LC-JP-01-3.jpg"
     ],
     "specs": {
       "应用场景": "城轨车辆检修与部件维护"
@@ -6441,7 +7288,9 @@
     "moq": 1,
     "unit": "项",
     "images": [
-      "img/products/LC-JX-01.svg"
+      "img/products/LC-JX-01.jpg",
+      "img/products/LC-JX-01-2.jpg",
+      "img/products/LC-JX-01-3.jpg"
     ],
     "specs": {
       "整车级": "整车拆解（长株潭CJ6、广州1号线、深圳1号线、广佛线业绩）/ 整车下线布线（广A1、深圳1号线、广3东延线、广22）/ 地板铺设 / 整车油漆修补",
@@ -6491,7 +7340,8 @@
     "moq": 1,
     "unit": "套",
     "images": [
-      "img/products/LC-JZQ-01.svg"
+      "img/products/LC-JZQ-01.jpg",
+      "img/products/LC-JZQ-01-2.jpg"
     ],
     "specs": {
       "应用车型": "HXD系列电力机车 / A型·B型地铁 / 城际动车组 / 低地板车辆 / 空铁·跨座式单轨·磁悬浮",
@@ -6542,7 +7392,9 @@
     "moq": 1,
     "unit": "套",
     "images": [
-      "img/products/LC-NS-01.svg"
+      "img/products/LC-NS-01.jpg",
+      "img/products/LC-NS-01-2.jpg",
+      "img/products/LC-NS-01-3.jpg"
     ],
     "specs": {
       "主要参数": "碳纤维密度为碳钢1/4~1/5",
@@ -6576,7 +7428,8 @@
     "moq": 1,
     "unit": "套",
     "images": [
-      "img/products/LC-TF-01.svg"
+      "img/products/LC-TF-01.jpg",
+      "img/products/LC-TF-01-2.jpg"
     ],
     "specs": {
       "行业地位": "轨道交通车辆和矿山机械装备冷却系统行业标准起草单位",
@@ -6628,7 +7481,9 @@
     "moq": 1,
     "unit": "项",
     "images": [
-      "img/products/LC-WL-01.svg"
+      "img/products/LC-WL-01.jpg",
+      "img/products/LC-WL-01-2.jpg",
+      "img/products/LC-WL-01-3.jpg"
     ],
     "specs": {
       "供应能力": "依托集团资源，具备轨道交通领域全品类物料供应能力",
