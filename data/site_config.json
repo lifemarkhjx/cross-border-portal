@@ -17,12 +17,12 @@
     "about": [
       "昆明轨交 2010 年在昆明成立，立足云南、辐射南亚东南亚。公司具备城市轨道交通制造、维修、保养能力，是轨道交通装备全寿命周期服务企业，业务涵盖地铁车辆、有轨电车、旅游观光列车等轨道交通装备的新造与维保服务。",
       "公司深耕轨道交通教育培训装备领域：成功研制并交付首台套动力集中式动车组教培控制车，为职业院校定制B型地铁教培车，创新研发 JPCM-01 教培车门、JPSDG-01 教培受电弓、JPZXJ-01 教培转向架等专用教培部件，并配套实训场景布局设计，打造沉浸式轨道交通教育培训装备。",
-      "依托覆盖机车改造、车辆配套部件、新造维保装备、传感器与测量装置、智能运维与信息化、教培实训装备、矿山新能源装备、场站能源配套的产品体系，面向客户提供「产品宣传—方案咨询—采购交付—培训运维」的一站式服务闭环。"
+      "依托覆盖机车改造与新能源机车、传感器与测量装置、检修工艺与智能检修装备、教培实训设备、轨道交通照明产品、矿山能源装备、气动工具与工器具、能源装备、城轨车辆配套部件与服务的 9 大产品体系（180 项产品），面向客户提供「产品宣传—方案咨询—采购交付—培训运维」的一站式服务闭环。"
     ],
     "about_en": [
       "Kunming Rail Transit Equipment, founded in Kunming in 2010, serves Yunnan, Southwest China and South & Southeast Asia with full life-cycle urban rail equipment services: new build, overhaul and maintenance of metro vehicles, trams and tourist trains.",
       "In rail training equipment, we delivered the first DMU training control vehicle, custom B-type metro training vehicles and three innovative training parts (JPCM-01 door, JPSDG-01 pantograph, JPZXJ-01 bogie) for vocational colleges.",
-      "Together with a product ecosystem covering locomotive conversion, vehicle components, maintenance equipment, sensors & measurement, intelligent O&M, training equipment, mine new-energy and station energy supply, we provide a one-stop loop of promotion, consultation, procurement and training & O&M."
+      "Together with a 9-category product system of 180 items — locomotive conversion & new-energy locomotives, sensors & measurement, maintenance process & intelligent repair equipment, training & education equipment, rail transit lighting, mine energy equipment, pneumatic tools, energy equipment, and urban rail components & services — we provide a one-stop loop of showcase, consultation, procurement and training & O&M."
     ],
     "milestones": [
       {
@@ -65,7 +65,7 @@
       },
       {
         "k": "产品体系",
-        "v": "9 大类目 · 50 产品系列 · 30 实训设备"
+        "v": "9 大类目 · 180 产品 · 30 实训设备"
       }
     ],
     "capability_en": [
@@ -87,7 +87,7 @@
       },
       {
         "k": "Product system",
-        "v": "9 categories · 50 product series · 30 training equipment items"
+        "v": "9 categories · 180 products · 30 training equipment items"
       }
     ]
   },
