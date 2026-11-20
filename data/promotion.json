@@ -80,6 +80,77 @@
       "CS-DY-01",
       "CS-YL-01",
       "CS-PQ-01"
+    ],
+    "title_en": "Sensors & Measurement · 7 Series, 1000+ Products",
+    "tagline_en": "Founded 1990 · 6.5M units/year · Drafting unit of rail transit sensor industry standards",
+    "summary_en": "Seven series and over 1,000 products covering current, voltage, pressure, speed, temperature, displacement and measurement devices — a mainstream supplier for rail transit and new-energy sectors, offering complete rail transit sensing & measurement solutions.",
+    "sections_en": [
+      {
+        "h": "Product Spectrum (Industry-leading)",
+        "points": [
+          "Current sensors: 0.1A–3000A full range, five principles — magnetic balance, fluxgate, direct amplification, magnetic modulation and transmitters",
+          "Voltage sensors: 10V–4200V full range, magnetic balance / magnetic modulation / digital isolation / isolated amplification",
+          "Temperature sensors: Pt100 / NTC / K-type thermocouple full principles, 40+ models across axle-temp alarm, traction motor, water-cooling and diesel engine segments",
+          "Speed sensors: magnetic, Hall and photoelectric, 30+ models covering traction, braking, signalling and instability detection",
+          "Pressure transmitters: NCP/TQG14 series, 15 models (4-20mA and 0.5-4.5Vdc outputs)",
+          "Acceleration sensors and power-quality monitoring devices (NSD7 series, complying with EN50463:2012 on-board energy metering)"
+        ]
+      },
+      {
+        "h": "Application Scenarios",
+        "points": [
+          "Traction converters: full coverage of current / voltage / temperature / pressure sensors",
+          "Traction motors: temperature (drive end / non-drive end / stator), speed and current sensors",
+          "Braking system and bogie monitoring: speed / pressure / temperature-vibration composite sensors",
+          "Signalling systems: speed sensors and photoelectric tacho sensors",
+          "Chargers, coach power supplies and power-quality monitoring & analysis systems"
+        ]
+      },
+      {
+        "h": "Three Product Lines & Industry Coverage",
+        "points": [
+          "Rail transit — system support: traction converters, traction motors, braking, signalling, real-time axle-temperature monitoring, bogie instability monitoring, coach power supply, chargers, train supply cabinets and diesel engines",
+          "PV & industrial: empowering wind, solar, storage and UPS sectors, accuracy up to ±0.2%, operating temperature -40℃~125℃",
+          "New-energy vehicles: covering mild-hybrid / plug-in / pure-electric platforms for drive control, BMS and charging",
+          "Technical strengths: ±0.2% accuracy, wide -40℃~125℃ temperature range, smart communication, from household to GW-scale systems"
+        ]
+      },
+      {
+        "h": "Full Vehicle Spectrum & Domestic Substitution",
+        "points": [
+          "Domestic substitution rate: urban rail 100%, EMU 60%, locomotive 75%; overall market share above 35%, leading in China",
+          "Electric locomotives: HXD1/HXD2/HXD3 series, HXN3/HXN5 series, FXD1/FXD2B/FXN3B/C/FXN5C series",
+          "EMUs: CR450AF/BF, CR400AF/BF, CR300AF/BF platforms; CRH1/CRH380D, CRH2/CRH380A, CRH3/CRH380B, CRH5, CRH6 platforms; CR200J 160 dmu platform",
+          "Other vehicles: full coverage of metro cars, trams, medium-low speed maglev trains and tamping machines",
+          "2025 key technology breakthroughs: inductive encoders for hub motors, grid multi-physics high-precision sensors achieving 0-to-1 innovation in transmission monitoring, plus expansion into robotics, special equipment, grid and overseas markets"
+        ]
+      },
+      {
+        "h": "Track Record in PV & Wind Power",
+        "points": [
+          "Wind power: volume supply to leading wind turbine and converter manufacturers, share above 60%, a strong brand in wind-power sensors",
+          "Solar: full coverage of mainstream PV inverter manufacturers, leading share in module power sensors among core customers",
+          "Cube series (NACL.300P-S6/SP4VN etc.) and 0160 series (NACG.500D-S5/DA etc.) cover leakage-current / MPPT / string / AC grid-tie / storage-battery current detection"
+        ]
+      }
+    ],
+    "achievements_en": [
+      {
+        "k": "Scale",
+        "v": "7 series · 1000+ products · 6.5M units/year"
+      },
+      {
+        "k": "Industry position",
+        "v": "Drafting unit of rail sensor standards · overall share above 35%, leading in China"
+      },
+      {
+        "k": "Domestic substitution",
+        "v": "Urban rail 100% · EMU 60% · Locomotive 75%"
+      },
+      {
+        "k": "Applications",
+        "v": "Rail transit / NEV / solar / wind / industrial converters"
+      }
     ]
   },
   {
@@ -151,6 +222,73 @@
         "k": "海外能力",
         "v": "缅甸改造业绩 + 出口标准产品线"
       }
+    ],
+    "title_en": "Product Ecosystem Overview · One-stop Procurement across 6 Segments",
+    "tagline_en": "Diesel-to-electric conversion · Mining equipment · Sensors · Testing & inspection · Training · Lighting & tools",
+    "summary_en": "Centered on full life-cycle urban rail equipment services, we integrate a six-segment product ecosystem — from diesel locomotive conversion and mining new-energy equipment to sensors, testing equipment, training equipment and lighting tools — one entry for showcase, consultation and procurement.",
+    "sections_en": [
+      {
+        "h": "① Diesel-to-Electric Locomotive Conversion",
+        "points": [
+          "Four-axle / six-axle / low-power multi-platform conversions with a parameter library of 8 locomotive types (DF4B/DF7C/DFH5/DFH5B/JN7/GK1E/QBAA1)",
+          "Disclosed per-unit project values in China: DF4B ¥13.68M / JN7 ¥2.75M / GK1E ¥6.48M",
+          "Overseas record: Myanmar YDM-4 locomotive conversion ¥10.25M; Myanmar coach power-source conversion",
+          "Post-conversion field data: DF4B hauling 3000t at 25km/h, 100km range; GK1E hauling 2500t coal at 30km/h, 150km range"
+        ]
+      },
+      {
+        "h": "② Mining Equipment & New Energy",
+        "points": [
+          "Complete sets of mine hydraulic supports, belt conveyors and scraper conveyors applied in Yunnan, Xinjiang, Henan and other mining areas",
+          "Mine-Energy-Transport-Control integration: clean energy, mine emergency storage, electrified roads and intelligent monitoring"
+        ]
+      },
+      {
+        "h": "③ Sensors",
+        "points": [
+          "7 categories (current / voltage / pressure / speed / displacement / temperature / acceleration), 12 series, 1200+ specifications plus energy monitoring systems",
+          "Supporting traction converters, traction motors, braking systems, axle-temperature monitoring and bogie instability monitoring",
+          "Extending into PV-storage and new-energy vehicles (BMS / drive / charging)"
+        ]
+      },
+      {
+        "h": "④ Testing & Inspection Equipment",
+        "points": [
+          "Full spectrum of test benches: hydraulic shock absorbers, bogie static load, air springs, coil springs, wheelset running-in, master controllers, pantographs, breakers, doors, air conditioning, couplers and more",
+          "Maglev braking / EMU braking / monorail rubber-tyre braking test benches, derailment detection test systems",
+          "Intelligent wheelset axle-box bearing assembly lines"
+        ]
+      },
+      {
+        "h": "⑤ Rail Training Equipment & Talent Development",
+        "points": [
+          "Backed by a national rail equipment R&D platform, covering the full training spectrum for EMUs, metro, trams and cross-border freight trains",
+          "A complete metro training base with full-size B-type metro vehicles and electrical / plug-door / lighting / PIS systems",
+          "Joint EMU industry-education practice base with Yunnan universities, 20+ engineers on site",
+          "National excellent case of rail equipment industry-education integration"
+        ]
+      },
+      {
+        "h": "⑥ Lighting & Tools",
+        "points": [
+          "Sixteen series of rail transit lighting",
+          "Complete categories: lighting controllers, button lights, reading lights and more"
+        ]
+      }
+    ],
+    "achievements_en": [
+      {
+        "k": "Segments",
+        "v": "6 segments · 26+ product series · 30 training equipment items"
+      },
+      {
+        "k": "Ecosystem",
+        "v": "9 product series in synergy"
+      },
+      {
+        "k": "Overseas capability",
+        "v": "Myanmar conversion record + export-standard product lines"
+      }
     ]
   },
   {
@@ -215,6 +353,60 @@
       "KN-NY-02",
       "KN-NY-03",
       "KN-NY-04"
+    ],
+    "title_en": "Mine New-Energy Equipment Solutions (Mine-Energy-Transport-Control Integration)",
+    "tagline_en": "One mine, one plan · 3 support families · storage replacing diesel · electrified roads saving ¥56.27M/year",
+    "summary_en": "A mine new-energy equipment system with energy as the source, multi-modal transport and diversified scenarios as carriers, and intelligent control as the core link — forming an ecological loop from single-point demand response to full Mine-Energy-Transport-Control integration.",
+    "sections_en": [
+      {
+        "h": "Mine · Electromechanical Equipment",
+        "points": [
+          "Mine hydraulic supports: Yunnan Guanyinshan ZY4000/09/20QD steep thin seam (≤45°), Xinjiang Tunnan ZY6800/25/53 high mining height (5 years without major repair), Henan Dayou ZF8600/18/35D top-coal caving (main support 15 years)",
+          "Yunnan Guanyinshan belt conveyor: DTC100/40/2×400S permanent-magnet drum drive, 0.9Mt/year, +30% efficiency, -45% downtime, -30% O&M cost, 29% energy saving",
+          "Scraper conveyors and non-standard packages applied in Henan / Yunnan / Xinjiang / Shanxi / Qinghai / Inner Mongolia"
+        ]
+      },
+      {
+        "h": "Energy · Clean Energy Equipment",
+        "points": [
+          "GP-series mine emergency storage (prefab-cabin): intrinsic safety + four-fold fire protection, 88% system efficiency, ≤20ms seamless transfer; -90% annual maintenance vs diesel generators, ~4-year payback",
+          "Flexible charging stack 600–2400kW (2.4MW host, 1000A terminals), peak efficiency >96%, 70+ active protection items",
+          "Wind / solar / hydrogen: turbines, blades, inverters, hydrogen-power supplies, electrolyzers, fuel-cell power systems",
+          "Cases: Luoyang PV-storage-charging station, data-center emergency storage for a major internet company, Henan 100MW/400MWh grid-side storage, Yunnan Chuxiong 10MW/20MWh generation-side storage, mine PV-storage-charging integration (25.69MW PV + 10.88MW/21.76MWh storage, 25.91GWh/year, -21,400t CO₂/year, ¥141M owner revenue)"
+        ]
+      },
+      {
+        "h": "Transport · Intelligent Transport Equipment",
+        "points": [
+          "Electrified roads: Yulin demo line 95.5km (35Mt/year, ~¥3.5B), Huanghua port corridor 28.4km (~¥0.2B); rigid+flexible electrified-road control center (built 2024.5)",
+          "220T mining truck diesel-to-electric field data: diesel ¥150.42/km → overhead-line ¥47.27/km, saving ¥56.27M/year, 2.44-year static payback, -28,300t CO₂/year",
+          "Hydrogen high-power locomotives and battery-electric locomotives (1500–3000kW spectrum, liquid-cooled fast charging), dual-power track machines, storage trolleybuses, battery locos",
+          "Mobile recharging: mobile storage vehicles, emergency power vehicles, towable chargers"
+        ]
+      },
+      {
+        "h": "Control · Intelligent Monitoring",
+        "points": [
+          "AI safety-warning platform: full-area awareness, intelligent prediction of violations, active prevention with linked alarms and shutdown",
+          "Mine-specific robots: autonomous navigation inspection in hazardous areas",
+          "Mine intelligent driving: autonomous navigation and obstacle avoidance for rack-rail transport",
+          "Rail PHM predictive maintenance and digital twins extended to the whole mining chain"
+        ]
+      }
+    ],
+    "achievements_en": [
+      {
+        "k": "Business model",
+        "v": "Invest-build-operate integration · financial leasing / EMC"
+      },
+      {
+        "k": "Conversion record",
+        "v": "220T mining truck saving ¥56.27M/year · 2.44-year payback"
+      },
+      {
+        "k": "Key equipment",
+        "v": "15-year support service life · conveyor saving 29% energy"
+      }
     ]
   },
   {
@@ -275,6 +467,59 @@
     ],
     "skus": [
       "DY-JY-01"
+    ],
+    "title_en": "Explosion-Proof Skid-Mounted Refueling Units (10-70m³)",
+    "tagline_en": "Export-standard anti-corrosion coating · four-fold fire protection · lifetime spares ≤7 working days",
+    "summary_en": "A skid-mounted fueling station integrating explosion-proof tanks, dispensers, explosion-proof electricals, detection & emergency and unloading pipework — the V-type flame-arresting material inside the tank is twice quenched and will not explode under open flame, static, lightning or accidental welding.",
+    "sections_en": [
+      {
+        "h": "Qualifications & Delivery",
+        "points": [
+          "Manufacturer credentials: business license, national industrial production permit, explosion-proof certificate & test report, flame-arresting material test report",
+          "Design-phase deliverables: process flow diagram, electrical schematic, layout plan and equipment foundation drawing"
+        ]
+      },
+      {
+        "h": "Core Composition",
+        "points": [
+          "Double-wall explosion-proof tank (Q235B, 6mm wall, T-steel support) + V-type flame-arresting material (density <28kg/m³)",
+          "Two-nozzle dispenser (Exdibmb II AT 3 Gb, 5–70L/min, ±0.30%) + IC-card management (optional)",
+          "Explosion-proof smart monitoring power box (IP65, T1 surge protection — no separate power room needed for approvals)",
+          "Magnetostrictive level gauge (±1mm), static- bonding alarm (≤4Ω), explosion-proof vertical unloading pump",
+          "Closed loading/unloading: 304 stainless steel DN65/DN80, vapor-recovery pipework, in-tank drain"
+        ]
+      },
+      {
+        "h": "Safety & Anti-corrosion",
+        "points": [
+          "Hanging 68℃ auto fire extinguisher (GA78-94), flame-arresting breather valve, emergency relief (21–35kPa), emergency shutdown (74℃ fuse)",
+          "Oil-gas detection with audible-visual alarm in control area, fire shutters (fire-sealed) and firefighting equipment",
+          "Anti-corrosion: epoxy zinc-rich primer 70μm + mica intermediate 70μm + PU topcoat 70μm — export standard"
+        ]
+      },
+      {
+        "h": "After-sales Service",
+        "points": [
+          "7×24 online after-sales: 1-hour response, 48-hour assistance for common faults, complete solution within 3 days for complex ones",
+          "Free remote installation & commissioning guidance",
+          "12-month free warranty from acceptance (parts cost only for quality replacements)",
+          "Lifetime OEM spare parts: core items ≤7 working days, shipped by international express/sea"
+        ]
+      }
+    ],
+    "achievements_en": [
+      {
+        "k": "Capacity range",
+        "v": "7 models, 10–70m³"
+      },
+      {
+        "k": "Anti-corrosion",
+        "v": "Export-standard 3-coat system, 210μm"
+      },
+      {
+        "k": "Spares",
+        "v": "Lifetime supply · core items ≤7 working days"
+      }
     ]
   },
   {
@@ -331,6 +576,49 @@
       "KM-DT-05",
       "KM-DT-06",
       "KM-DT-07"
+    ],
+    "title_en": "Urban Rail Training Platforms & Portable Test Equipment (In-house by Metro Vehicle Dept.)",
+    "tagline_en": "~500 staff · 84 core R&D engineers · in-house TCMS/PEDC/DCU",
+    "summary_en": "Training and test equipment developed in-house by our vehicle maintenance engineering team: TCMS simulation platform, platform-screen-door and passenger-door training platforms, master-controller testers, laser measuring devices, oxide-film removers and 42 types of maintenance tooling.",
+    "sections_en": [
+      {
+        "h": "Team & R&D Background",
+        "points": [
+          "Since Metro Line 6 opened in 2012, the vehicle department has grown from 10+ pioneers into a ~500-person technical division",
+          "84 core R&D engineers: 8 senior engineers / 57 engineers / 4 senior technicians / 9 technicians / 6 special-skill talents",
+          "Skilled in PCB design (Altium Designer), simulation (smartEDA/PSpice), modelling (SolidWorks/TinkerCAD) and programming"
+        ]
+      },
+      {
+        "h": "Three Training Platforms",
+        "points": [
+          "TCMS simulation platform: 1:1 replication of a 6-car train, in-house DCU/EDCU/BCU and I/O modules, 500 fault records",
+          "Platform-screen-door platform: PEDC+DCU 100% in-house, 20h continuous daily operation, 90s door cycles at peak",
+          "Passenger-door platform: 1:1 plug doors covering dimension measurement, emergency release, obstacle detection and door-controller data download"
+        ]
+      },
+      {
+        "h": "Portable Test Equipment",
+        "points": [
+          "DCT-1 portable master-controller tester: 0.1mΩ resistance accuracy, 10 test modes, 110V contact restoration",
+          "Portable track-leveling & multi-function laser device: 0.5mm accuracy (≤0.1mm error), no dedicated platform needed",
+          "Portable electrical tester & contact oxide-film remover: 3-in-1, <2.5kg, contact resistance 0.81Ω→0.27Ω field-proven"
+        ]
+      }
+    ],
+    "achievements_en": [
+      {
+        "k": "In-house depth",
+        "v": "TCMS/PEDC/DCU/IO fully in-house"
+      },
+      {
+        "k": "Tooling",
+        "v": "42 types in 7 categories"
+      },
+      {
+        "k": "Field-proven",
+        "v": "Validated across the whole metro network"
+      }
     ]
   },
   {
@@ -382,6 +670,49 @@
     "skus": [
       "HZY-ZM-01",
       "HZY-CG-01"
+    ],
+    "title_en": "Rail Transit Lighting System (16 Series)",
+    "tagline_en": "Volume-fitted on Shenzhen Metro Lines 1-13 & 16 · TSI-standard export vehicles",
+    "summary_en": "Sixteen series covering interior main lighting, exterior main lighting, auxiliary lighting and replaceable units — sulfuration-resistant LEDs, redundant current-sharing power supplies and lighting PHM health management.",
+    "sections_en": [
+      {
+        "h": "Product Spectrum",
+        "points": [
+          "16 series: reading lights / spot & downlights / micro-glow decoration / signal lights / information displays / power supplies / smart control / off-vehicle / health / light strips / cables / wallwasher / sensors / bars / headlamps / storage systems",
+          "Interior main lighting: strip + wallwasher + bar combinations; exterior main lighting: headlamps (low-floor and double-deck applications)"
+        ]
+      },
+      {
+        "h": "Technical Strengths",
+        "points": [
+          "High-reliability redundant parallel current-sharing with automatic faulty-supply isolation; TRDP networking and RS485/DALI/CAN communication",
+          "Adaptive light sensing, brightness control and color-temperature tuning; lighting fault prediction and health management (PHM)",
+          "Sulfuration-resistant LED + Zener ESD protection + open-circuit protection per LED; DC flicker-free dimming",
+          "Power units: redundant paralleling, 48Vdc standard output, light-decay compensation, four-fold protection"
+        ]
+      },
+      {
+        "h": "New Industry Extensions",
+        "points": [
+          "Sensor series: speed / temperature / RTD / level sensors with TDS online monitoring & early warning",
+          "Health series: smart disinfection robots, UV sterilizing lamps for A/C, UV disinfection boxes, escalator handrail sterilizers",
+          "Smart lighting: factory / tunnel / platform / light-box / mobile lighting"
+        ]
+      }
+    ],
+    "achievements_en": [
+      {
+        "k": "Domestic projects",
+        "v": "Shenzhen 1-13 & 16 / Wuhan 21 / Ningbo 4 / Chengdu 6-19 / Guangzhou 2·8·12"
+      },
+      {
+        "k": "Export projects",
+        "v": "TSI-standard Austrian double-deck EMUs"
+      },
+      {
+        "k": "Special vehicles",
+        "v": "Shenyang / Shenzhen Longhua 100% low-floor trams"
+      }
     ]
   },
   {
@@ -443,6 +774,58 @@
       "YX-JX-01",
       "YX-JX-02",
       "YX-JX-03"
+    ],
+    "title_en": "Rail Vehicle Maintenance Process Equipment (8 Categories)",
+    "tagline_en": "TB/T2782 static-load test bench · Nanjing/Shenyang/Wuxi metro in service · MO test-approved damper bench",
+    "summary_en": "Six major maintenance & test equipment categories — vehicle & bogie, air-source braking, vehicle electrical, power supply & traction, air conditioning, coupler & draft — plus static-test power supplies and portable testers, dozens of products in total.",
+    "sections_en": [
+      {
+        "h": "Vehicle & Bogie Category",
+        "points": [
+          "Mobile lifting jacks: simultaneous lifting of a whole train without uncoupling, 640kN per position, ±4mm synchronization",
+          "Bogie static-load test bench: per TB/T 2782-1997, in service at Nanjing / Shenyang / Wuxi metro; wheel-load ±0.1% F.S., axle-base ±0.1mm",
+          "Bogie running-in bench: 0-300km/h, 0-300kN vertical load; through-type wheelset bearing running-in and loaded running-in (0-160km/h)",
+          "Hydraulic damper test bench: ministry technical review passed in 1998, J95-III servo type up to 10Hz excitation",
+          "Air-spring / primary-spring (steel/rubber) test benches: both ministry-approved"
+        ]
+      },
+      {
+        "h": "Braking & Electrical Category",
+        "points": [
+          "EMU comprehensive brake bench, single-car test device, compressor & air-dryer benches",
+          "Valve comprehensive bench, BCU bench, level & differential valves, anti-slip devices and braking-unit benches",
+          "Master controller / high-speed breaker / relay / sensor benches, mobile withstand-voltage tester, plug-door component bench"
+        ]
+      },
+      {
+        "h": "Power Supply, Traction & Static-Test Power",
+        "points": [
+          "Pantograph / current-collector benches, SIV auxiliary-inverter bench, DC600V A/C inverter and charger benches",
+          "Traction-motor no-load bench, auxiliary motor bench, AC/DC motor benches",
+          "Static-test power series: DC600V ground supply, high-power locomotive & EMU ground supply, urban-rail static-test cabinets (1500V/750V, 400A)"
+        ]
+      },
+      {
+        "h": "Portable Series (6 types)",
+        "points": [
+          "Handheld pantograph tester: 0-200N (±2%), DSA/TSG compatible, 1000 records via USB/WIFI",
+          "Main-breaker tester (0.1ms) / roof insulation tester (0-29kV) / neutral-section tester (TJ/JW078-2015) / battery-status tester (0.001mΩ)"
+        ]
+      }
+    ],
+    "achievements_en": [
+      {
+        "k": "Approvals",
+        "v": "Damper / air-spring / steel-spring benches ministry-reviewed"
+      },
+      {
+        "k": "Cities in service",
+        "v": "Nanjing · Shenyang · Wuxi metro"
+      },
+      {
+        "k": "Spectrum",
+        "v": "8 categories · dozens of equipment items"
+      }
     ]
   },
   {
@@ -488,6 +871,44 @@
     ],
     "skus": [
       "CL-QD-01"
+    ],
+    "title_en": "Pneumatic Maintenance Tool Series",
+    "tagline_en": "30+ models · ISO9001 · exported to Japan & Singapore",
+    "summary_en": "A full pneumatic tool range — chamfering machines, grinders, angle grinders, air chisels, wrenches, drills and spray guns — widely used for derusting, polishing, chamfering and fastening on metal surfaces.",
+    "sections_en": [
+      {
+        "h": "Company Overview",
+        "points": [
+          "Pneumatic tool manufacturing base with 20+ years of history",
+          "5,000+ m² plant, 80+ staff (10+ technicians), 60+ machining centers, CNC lathes/milling/grinding/drilling machines and inspection devices",
+          "ISO9001 certified since 2003; 5-person QC team performing 100% finished-goods inspection"
+        ]
+      },
+      {
+        "h": "Main Product Lines",
+        "points": [
+          "Pneumatic chamfering machines: CFM-32 / CFMG-32 / PB-10 / ABL-6 (min. radius 16mm, 1-3/45°, CE certified, design & utility patents)",
+          "Air grinders: S40/S50/S60/S80/S100/S150 straight and extended (15,000-25,000 r/min, 0.36-0.6kW)",
+          "Angle grinders: 4\"/5\"/6\"/7\" full sizes (SJ100-SXJ180, standard/CE/safety-clamp switch options)",
+          "Die grinders SD100/SD150, water-cooled cutters & polishers W100/W125, air chisels CZ/C6/C30W, air saws AF/AFS",
+          "Air wrenches B08 (25N.m)/B10 (70N.m)/B16 (200N.m), CN-QB1/QB2/QB3 impact wrenches (550/740/900N.m), CN-QB7 (3000N.m)",
+          "Air drills AD series (3/8\" & 1/4\" chucks, 500-5000 r/min), TJ3 mixer, CL-001 spray gun, CW sandblasting gun, D500 vacuum"
+        ]
+      }
+    ],
+    "achievements_en": [
+      {
+        "k": "Quality system",
+        "v": "ISO9001 (certified 2003)"
+      },
+      {
+        "k": "Models",
+        "v": "30+ models & specifications"
+      },
+      {
+        "k": "Overseas markets",
+        "v": "Japan · Singapore and more"
+      }
     ]
   },
   {
@@ -605,6 +1026,111 @@
       "NY-PT-01",
       "NY-CD-01",
       "NY-ZN-01"
+    ],
+    "title_en": "Diesel Locomotive Power-Source Conversion (Diesel-to-Electric) Solutions",
+    "tagline_en": "Capacity of 40 conversions/year · 22 orders with 12 delivered · 85%+ energy saving, zero carbon",
+    "summary_en": "Conversions performed per TB/T3606-2025 (Specification for locomotive power-source system conversion) and heavy-repair standards: LiFePO4 traction battery + integrated main/auxiliary converter replacing the diesel genset, AC traction motors replacing DC motors, covering four-axle, six-axle and low-power platforms with industry-leading batch application experience at home and abroad.",
+    "sections_en": [
+      {
+        "h": "R&D & Standards",
+        "points": [
+          "Technical innovation committee of academicians and professor-level senior engineers, backed by a first-class rail equipment component R&D team",
+          "Conversions per TB/T3606-2025 and heavy-repair standards",
+          "Main drafter of the group standard Specification for locomotive battery power-source conversion (China Communications & Transportation Association)"
+        ]
+      },
+      {
+        "h": "Manufacturing & Testing Capability",
+        "points": [
+          "1,000 large/medium precision machines (CNC laser, waterjet, high-speed stepping, machining centers, welding robots) — capacity of 40 converted locomotives per year",
+          "Special equipment: induction heating machines, frame turntables, rail car transfer tables, 24V-110V charge/discharge units, dynamic balancing benches, IGM welding robots",
+          "ISO/IEC 17025 accredited lab (CNAS, CMA); ground joint commissioning of traction systems, weighing, rain test, wheelset running-in",
+          "Full-parameter testing: vibration & shock, high/low temperature damp-heat, salt spray, IP rating, heat dissipation, electrical strength, insulation resistance, EMC"
+        ]
+      },
+      {
+        "h": "Conversion Platforms",
+        "points": [
+          "Four-axle platform (DFH, GK series)",
+          "Six-axle platform (DF series)",
+          "Low-power locomotive / track tractor platform (JN, JMY series) + electric-to-electric conversions (SS4G etc.)",
+          "Multiple conversion orders taken; converted locomotives running with stable parameters — industry-leading batch experience"
+        ]
+      },
+      {
+        "h": "Capability Comparison",
+        "points": [
+          "Cycle: 4-axle 15-17 weeks (1-2 weeks faster) / 6-axle 20-22 weeks (2-3 weeks faster) / low-power 12-14 weeks",
+          "Systems: EN15085, ISO22163, ISO9000, ISO45001, ISO14001, OSHMS, DIN6701",
+          "Staff: 55 technical (5 PhDs, 13 senior engineers), 200+ production (100+ senior mechanics), 20+ management",
+          "196 sets of special equipment & tooling: plasma cutters, digital pulse welders, MPI flaw detectors, paint-bake rooms, lifting jacks, heavy AGVs, running-in benches, weighing systems"
+        ]
+      },
+      {
+        "h": "Domestic Record (12 delivered & running)",
+        "points": [
+          "Port DF4B: 380 days, 15,067km, 80% energy saving, ¥1.885M saved",
+          "Port DFH5: 506 days, 8,487km, 85% saving, ¥2.0122M saved",
+          "Steel-mill DFH5B: 482 days, 51,156km, 86% saving; three JN7 units saving 90%",
+          "Inland-port DF4B: 214 days, 29,936km, ¥1.0214M saved; GK1E at logistics parks, DF7C at steel mills, JN5-8 units commissioned successively",
+          "22 diesel-to-electric conversion / new-build orders taken, 12 delivered and running with good indicators"
+        ]
+      },
+      {
+        "h": "Overseas Record",
+        "points": [
+          "Myanmar locomotive power-source conversion: freight, long-distance high-frequency light load, 25‰ max grade, 1235kW wheel power, 2050kWh battery, 1050kW electric braking",
+          "Myanmar coach power-source conversion: passenger, 197kW wheel power, 528kWh battery",
+          "Stable field parameters and remarkable economic benefits"
+        ]
+      },
+      {
+        "h": "Benefits & Life Extension",
+        "points": [
+          "Energy saving above 85%, zero carbon emission",
+          "Extended locomotive service life and better asset utilization",
+          "Improved safety & reliability; easy maintenance, low operating cost, comfortable and healthy environment",
+          "Car-body life study by the National Lab of Rail Transit (Southwest Jiaotong University): acceleration response far below standard fatigue load, overall stress below the material fatigue limit — supporting car-body life extension"
+        ]
+      },
+      {
+        "h": "Custom Functions",
+        "points": [
+          "Video surveillance (with audio) / energy management / remote piloting / high-precision positioning",
+          "Obstacle detection / unmanned intelligent driving / IoV system + mini-program"
+        ]
+      },
+      {
+        "h": "Charging & Business Models",
+        "points": [
+          "Five charging modes: fixed charging pantograph (top current collection + HV grid) / charging robot (laser-guided auto-plug, ≤600kW) / ground chargers (multi-gun) / pantograph charging while working / PV+storage+battery-swap clean-energy solution",
+          "Turnkey: confirm requirements → sign contract → one-time payment",
+          "Leasing: whole-vehicle lease / conversion+lease / key-component lease / acquire+lease+buyback / full life-cycle maintenance",
+          "After-sales network: 200+ service stations and 12 service bases covering national railway, energy groups, Haoji Railway, Shaanxi Coal, Qinghai-Tibet Railway, Hong Kong and more"
+        ]
+      }
+    ],
+    "achievements_en": [
+      {
+        "k": "Orders & delivery",
+        "v": "22 orders · 12 delivered & running"
+      },
+      {
+        "k": "Energy saving",
+        "v": "80%-90% · zero carbon"
+      },
+      {
+        "k": "Cycle",
+        "v": "1-3 weeks faster (12-22 weeks)"
+      },
+      {
+        "k": "After-sales",
+        "v": "200+ stations · 12 service bases"
+      },
+      {
+        "k": "Per-unit value",
+        "v": "DF4B ¥13.68M · GK1E ¥6.48M · JN7 ¥2.75M (per company materials)"
+      }
     ]
   },
   {
@@ -654,6 +1180,48 @@
     ],
     "skus": [
       "LC-TF-01"
+    ],
+    "title_en": "Ventilation & Cooling Systems · Industry-standard Drafter",
+    "tagline_en": "National single champion · exclusive supplier to leading international platforms",
+    "summary_en": "Drafting unit of industry standards for rail-vehicle and mining-equipment cooling systems; the electric-locomotive dedicated fan is a National Manufacturing Single Champion product, with a nationwide market share leading the industry.",
+    "sections_en": [
+      {
+        "h": "Market Position",
+        "points": [
+          "Drafting unit of cooling-system industry standards, an industry-leading enterprise",
+          "Fitted on SS/HX-series locomotives, CRH high-speed EMUs, DMUs and CR400 standard EMUs",
+          "Exclusive supplier of cooling units & systems to a leading international intercity train platform"
+        ]
+      },
+      {
+        "h": "Independent Innovation",
+        "points": [
+          "Industry-first integrated cooling tower combining air, water and oil cooling, applied on China's first new-type intelligent heavy-haul electric locomotive",
+          "Developed the 330-tonne braking resistor, breaking a foreign technology bottleneck",
+          "Non-metallic impellers: strong, light, weather-resistant, 43% lighter than cast metal impellers, with self-identification, self-diagnosis and traceability"
+        ]
+      },
+      {
+        "h": "Intelligent Extensions",
+        "points": [
+          "Auxiliary ventilation PHM: sensors monitor operating parameters, with fault warning and maintenance advice, connected to the intelligent O&M master system for remote monitoring",
+          "Intelligent fire-extinguishing system: real-time temperature & smoke monitoring with automatic alarm and suppression, applied on new intelligent heavy-haul locomotives"
+        ]
+      }
+    ],
+    "achievements_en": [
+      {
+        "k": "Single champion",
+        "v": "Electric-locomotive dedicated fan"
+      },
+      {
+        "k": "Exclusive supply",
+        "v": "Cooling units & systems for a leading intercity platform"
+      },
+      {
+        "k": "Industry first",
+        "v": "3-in-1 air/water/oil cooling tower"
+      }
     ]
   },
   {
@@ -708,6 +1276,52 @@
     "skus": [
       "LC-JG-01",
       "LC-FC-01"
+    ],
+    "title_en": "Structural Parts & New Materials · From Car Bodies to Carbon Fiber",
+    "tagline_en": "EN15085 · exclusive roof export · TSI coatings exported to Europe",
+    "summary_en": "Design, simulation, efficient manufacturing and inspection capability from multi-metal structural parts to complete car bodies; pioneer in applying carbon fiber and aramid honeycomb in rail transit, with coatings exported to Europe on complete vehicles.",
+    "sections_en": [
+      {
+        "h": "Structural Capability",
+        "points": [
+          "Car-body assembly parts rated a provincial Manufacturing Single Champion product",
+          "22 advanced welding processes mastered; EN15085 certified with 348 international welders and 72 IWE engineers",
+          "Annual output: 1,000 car-body large assemblies and 1,300 medium/small parts",
+          "Exclusive export supplier of aluminum locomotive roofs — 2,000+ sets exported, holding an international customer's quality-inspection authorization",
+          "Covering locomotives, EMUs, urban rail, metro, virtual-track trains and suspended systems"
+        ]
+      },
+      {
+        "h": "New Materials",
+        "points": [
+          "First to apply natural plant fiber, carbon fiber and aramid honeycomb; large composite parts technology won a provincial first-class S&T progress award",
+          "Rail carbon-fiber nose cone rated a provincial Single Champion product",
+          "Five product lines: composites, coatings, insulation, painting and castings"
+        ]
+      },
+      {
+        "h": "Coating Capability",
+        "points": [
+          "Full coating R&D: waterborne, metallic flash base, high-solid, fluorocarbon and low-VOC paints",
+          "Finishes: leather-grain, water-transfer, hammer-tone, high-gloss and matte",
+          "High-performance waterborne coatings meet TSI and are exported with complete vehicles to Austria, Germany and Hungary",
+          "Compliant with EN45545 / BS6853 / DIN5510 / TB/T 3138 flame-retardant & environmental standards"
+        ]
+      }
+    ],
+    "achievements_en": [
+      {
+        "k": "Annual capacity",
+        "v": "1,000 car-body assemblies + 1,300 medium/small parts"
+      },
+      {
+        "k": "Export record",
+        "v": "2,000+ locomotive roofs exported"
+      },
+      {
+        "k": "S&T award",
+        "v": "Composite parts · provincial first prize"
+      }
     ]
   },
   {
@@ -762,6 +1376,51 @@
       "LC-JZQ-01",
       "LC-GYQ-01",
       "LC-GTD-01"
+    ],
+    "title_en": "Dampers · Wipers · Gangways · Sensors",
+    "tagline_en": "Three provincial single-champion products · breaking foreign monopolies",
+    "summary_en": "Our hydraulic dampers solved the world-wide oil-leakage problem and last twice as long as foreign equivalents; wipers and urban-rail connection systems are provincial single champions; sensors are among the first batch of the domestic-supplier directory.",
+    "sections_en": [
+      {
+        "h": "Hydraulic Dampers",
+        "points": [
+          "Ceramic-metallic piston-rod spraying: 50M fatigue cycles without visible wear (chromed rods ~15M), internationally leading",
+          "HXD-series damper technology internationally leading, oil-leakage problem solved, service life 2× foreign equivalents",
+          "Approved domestic manufacturer of HXD/HXN-series locomotive dampers; urban-rail share above 25%",
+          "Nearly 60 patents; ISO/IEC 17025 accredited lab with full-item testing"
+        ]
+      },
+      {
+        "h": "Wipers & Car-end",
+        "points": [
+          "Hydraulic dampers, locomotive wipers and urban-rail connection systems rated provincial Single Champions",
+          "Electric/pneumatic dual-control wipers for locomotives, urban rail and low-speed EMUs; urban-rail share above 25%",
+          "Gangways for metro A/B types, EMUs, low-floor trams and suspended monorail; 6/7-DOF and rain test benches fully validate; urban-rail share above 8%",
+          "Anti-bending system for modern trams and low-floor articulation systems appraised internationally advanced"
+        ]
+      },
+      {
+        "h": "Precision Sensors",
+        "points": [
+          "Braking speed & pressure sensors listed in the first batch of the domestic-supplier directory",
+          "Multi-spectrum fitting of EMU temperature, speed and pressure sensors",
+          "160km/h EMU dampers and closing devices appraised internationally advanced"
+        ]
+      }
+    ],
+    "achievements_en": [
+      {
+        "k": "International breakthrough",
+        "v": "2× damper life · approved domestic supplier"
+      },
+      {
+        "k": "Single champions",
+        "v": "Dampers / wipers / connection systems"
+      },
+      {
+        "k": "Fitting coverage",
+        "v": "Domestic + Turkey / Malaysia / India / Iran projects"
+      }
     ]
   },
   {
@@ -817,6 +1476,53 @@
     "skus": [
       "LC-JX-01",
       "LC-WL-01"
+    ],
+    "title_en": "Overhaul Services & Nationwide Maintenance Base Network",
+    "tagline_en": "20+ overhaul projects · four bases in Guangzhou / Ningbo / Wuhan / Nanning",
+    "summary_en": "Full-chain overhaul from complete-vehicle dismantling to component repair: several vehicle-dismantling projects completed with OEM partners, benchmarked by the Guangzhou urban-rail base with nationwide localized deployment.",
+    "sections_en": [
+      {
+        "h": "Vehicle-level Capability",
+        "points": [
+          "Complete-vehicle dismantling: Changsha-Zhuzhou-Xiangtan (CJ6) EMUs, Guangzhou Line 1, Shenzhen Line 1, Guangfo Line",
+          "Car-body repair: flaw detection & repair of gangway joints, coupler seats, bolsters and buffer beams",
+          "Complete-vehicle wiring: Guangzhou A1, Shenzhen Line 1, Guangzhou Line 3 east extension, Guangzhou Line 22 and more",
+          "Flooring: honeycomb panels + two-pass floor-sheet bonding + seam sealing",
+          "Interior upgrade: complete interior upgrade of imported sightseeing mini-train (Shanghai Qingpu)"
+        ]
+      },
+      {
+        "h": "Component-level Repair",
+        "points": [
+          "Damper repair: Wuhan 1/2/4/6, Kunming 1, Changsha, Ningbo, Guangfo lines",
+          "Braking-resistor fan repair: Shanghai 1/4/11/16; wiper upgrades: Kunming 1, Shanghai 11, Wuhan 2, Shenzhen 1",
+          "Pantograph repair: Shanghai & Zhengzhou metro; gangway repair: Kunming metro, Wuhan Dahan-yang",
+          "Cabinet & auxiliary upgrades, battery boxes (metro/locomotive/track machine), anti-bending repair, handrail refits, signalling retrofits (Wuhan 1, Changsha 2)"
+        ]
+      },
+      {
+        "h": "Bases & Assurance",
+        "points": [
+          "Guangzhou (2021, benchmark base) + localized companies in Ningbo, Wuhan, Nanning (2025)",
+          "Process capability: pre-assembly wiring / ultrasonic & MPI flaw detection and repair / cleaning-renovation-painting integration",
+          "Material supply: custom procurement — centralized warehousing — precise distribution",
+          "Service assurance: 7×24 response, ISO9001 quality control, professional operation training"
+        ]
+      }
+    ],
+    "achievements_en": [
+      {
+        "k": "Bases",
+        "v": "Guangzhou + Ningbo / Wuhan / Nanning"
+      },
+      {
+        "k": "Overhaul record",
+        "v": "20+ projects across major metros"
+      },
+      {
+        "k": "Special project",
+        "v": "Interior upgrade of imported sightseeing mini-train"
+      }
     ]
   },
   {
@@ -873,6 +1579,52 @@
       "RW-JX-01",
       "RW-ZC-01",
       "RW-ZT-01"
+    ],
+    "title_en": "Rail New-build & Maintenance Equipment · Test and Repair Lines",
+    "tagline_en": "National specialized \"little giant\" · benchmark metro repair workshop in Shanghai",
+    "summary_en": "Test benches and repair lines covering eight systems — bogie, braking, traction, doors, electrical — built the brake-repair smart workshop for Shanghai Metro, with RWAMS information control throughout.",
+    "sections_en": [
+      {
+        "h": "Company Overview",
+        "points": [
+          "Manufacturing base founded 2006; national specialized & innovative \"little giant\", provincial enterprise technology center",
+          "~20,000 m² own plant, production bases in Changsha and Zhuzhou, 200+ staff with 50% R&D",
+          "Non-standard custom design across mechanical, electrical, hydraulic, pneumatic, control and IT/AI; turnkey projects accepted"
+        ]
+      },
+      {
+        "h": "Test Equipment",
+        "points": [
+          "Bogie: wheelset running-in, static-load, primary-spring / air-spring / damper benches, bogie running-in bench, intelligent bearing assembly line, wheel-axle measuring",
+          "Braking: valve comprehensive bench, EP2002 valve bench, foundation-brake / braking-device / compressor benches",
+          "Traction & converter: motor benches (no-load / locked-rotor / vibration / temperature-rise / insulation), IGBT module testing, TCU test platform",
+          "Doors & electrical: door-system bench, master-controller / speed-sensor / high-speed-breaker / electrical benches, PCB test platform"
+        ]
+      },
+      {
+        "h": "Benchmark Repair Lines",
+        "points": [
+          "Shanghai Metro brake-repair smart workshop: tread brake / valve / air-source / caliper four lines, RWAMS full-process information control",
+          "Intelligent brake repair line: SS4B, SS4G, HXD1-series valve/hose/compressor mid-repair, digital management from removal to refit",
+          "Locomotive brake-cabinet C5 repair line; metro brake-valve intelligent flow line",
+          "Locomotive drive-device repair workshop: HXD1B/C/D, HXD3, HXD3C five types at C5 level",
+          "Guangzhou EMU-depot sensor repair line, Guangzhou metro pantograph repair line, Sujiatun depot bogie repair line"
+        ]
+      }
+    ],
+    "achievements_en": [
+      {
+        "k": "Credential",
+        "v": "National specialized & innovative little giant"
+      },
+      {
+        "k": "Benchmark",
+        "v": "Shanghai Metro brake-repair smart workshop"
+      },
+      {
+        "k": "Vehicle coverage",
+        "v": "SS4/SS4G/HXD1/HXD3 series at C5 level"
+      }
     ]
   },
   {
@@ -927,6 +1679,51 @@
       "RW-XX-01",
       "RW-DD-01",
       "RW-JQR-01"
+    ],
+    "title_en": "IT Systems & Intelligent Maintenance Robots",
+    "tagline_en": "RWAMS repair IT · robot + vision + AGV",
+    "summary_en": "Repair information systems, depot dispatch & O&M management, single-car digital equipment and intelligent robot workstations — a complete product line for depot digitalization and automation upgrades.",
+    "sections_en": [
+      {
+        "h": "Repair IT Systems",
+        "points": [
+          "Repair information management: process / personnel / material / equipment / quality / repair-program modules with 8 types of data collection",
+          "Component deep-repair management; unified upload & analysis of test data",
+          "Depot dispatch: interlocking, train-number recognition and intelligent positioning with automatic planning",
+          "Daily O&M management: fine-grained on-site control of routine inspection and balanced repair"
+        ]
+      },
+      {
+        "h": "Single-car Digitalization",
+        "points": [
+          "Smart operation carts: automatic task receiving, torque standards auto-issued, process auto-advance, traceable data",
+          "Smart tool cabinets: face recognition, full borrow/return logging, accountability to individuals",
+          "Pipeline pressure & cleaning / tightness test rigs, integrated withstand-voltage equipment, weighing devices (portable + fixed) with MES integration"
+        ]
+      },
+      {
+        "h": "Intelligent Maintenance Robots",
+        "points": [
+          "Bogie rod intelligent repair: laser paint removal replacing chemicals + automatic pressing + robot handling, human-robot collaboration",
+          "Grounding device & coupling flexible repair: vision recognition + digital tightening + AGV transfer",
+          "Wheel-axle auto-measuring & repair system: automatic measurement with IT records",
+          "Green cleaning line for couplers, compressors and braking units"
+        ]
+      }
+    ],
+    "achievements_en": [
+      {
+        "k": "IT benchmark",
+        "v": "RWAMS in Shanghai Metro repair workshop"
+      },
+      {
+        "k": "Automation",
+        "v": "Laser paint removal replacing chemical cleaning"
+      },
+      {
+        "k": "Data loop",
+        "v": "Device sensing → management system → reporting"
+      }
     ]
   },
   {
@@ -977,6 +1774,49 @@
     ],
     "skus": [
       "JP-MN-02"
+    ],
+    "title_en": "Driving Simulation & Maintenance Training Systems",
+    "tagline_en": "Logic identical to real vehicles · fault-injection assessment",
+    "summary_en": "Simulation training products for rail intelligent-O&M teaching bases: vehicle / scene / circuit triple simulation, integrating standard-operation drills and emergency handling.",
+    "sections_en": [
+      {
+        "h": "Building Philosophy",
+        "points": [
+          "Concepts of realism, simplification, intelligence and professionalism, benchmarked to world-class rail technology and equipment",
+          "Integrating teaching, social training and S&T innovation, open to schools, communities and enterprises",
+          "Operation model of multi-party co-building, all-round openness, multi-function and smart management"
+        ]
+      },
+      {
+        "h": "Simulation Training Systems",
+        "points": [
+          "Taiyuan Line 2 simulation-test & driving-training system: vehicle + scene + circuit simulation with real-vehicle logic",
+          "Supports common fault injection, whole-train circuit fault injection, troubleshooting and assessment",
+          "Role training for fully-automatic operation in service scenarios"
+        ]
+      },
+      {
+        "h": "Emergency & Maintenance Training",
+        "points": [
+          "Emergency fault-handling system: driving desk + CGI route scenes + fault modules (incl. abnormal operation) + sound simulation + teaching management",
+          "Realistic driving environment for typical faults and emergencies",
+          "Comprehensive metro-vehicle maintenance training system: bogie / A/C / pantograph / coupler / doors / driving desk, layout identical to the field with matching electrical & pneumatic logic"
+        ]
+      }
+    ],
+    "achievements_en": [
+      {
+        "k": "Project",
+        "v": "Taiyuan Line 2 simulation-test & driving-training system"
+      },
+      {
+        "k": "Capability",
+        "v": "Standard operation + fault injection + emergency handling"
+      },
+      {
+        "k": "Maintenance training",
+        "v": "Six major assemblies with field-identical layout"
+      }
     ]
   },
   {
@@ -1040,6 +1880,61 @@
     "skus": [
       "JP-MN-01",
       "JP-SX-01"
+    ],
+    "title_en": "Rail Training Base Turnkey Construction",
+    "tagline_en": "Six tasks · N training platforms · 19 types of training rooms",
+    "summary_en": "Guided by occupational skill standards and emergency-safety training, we build comprehensive training bases integrating crew, station, dispatch and maintenance disciplines, supporting skill training, assessment and certification.",
+    "sections_en": [
+      {
+        "h": "Builder",
+        "points": [
+          "Backed by a national rail-equipment R&D platform, integrating core vehicle technologies of EMUs, metro, trams and cross-border freight trains into a full-spectrum training equipment portfolio",
+          "System solutions for life-cycle maintenance, depot process equipment and training equipment",
+          "Supported by a national industrial design center, national engineering research center and state key laboratory"
+        ]
+      },
+      {
+        "h": "Goals: Six Tasks × N Platforms",
+        "points": [
+          "Skill training: venues, equipment and convenient formats",
+          "Skill certification: standardized talent training & assessment system",
+          "Joint drills: comprehensive emergency drills and operation-safety education",
+          "Skill competitions: venues for national contests, promoting craftsmanship",
+          "Industry-education integration: a high-level vocational base for study tours, teaching, social training and internships",
+          "Technical exchange: venues for new-technology validation, bridging research and industry"
+        ]
+      },
+      {
+        "h": "Training Room Matrix (19 types)",
+        "points": [
+          "Operations: comprehensive operations room (ticketing/security/service), PSD & door room, traffic-organization room (traffic/power/environment dispatch), station-control room",
+          "Vehicles: electric-train preparation yard (1:1 teaching car), driving-simulation room, metro/EMU traction-brake room, coupler test bench, train-network & fault-simulation room",
+          "Maintenance: intelligent repair platform (expert-guided + smart scoring for bogie/brake/wheelset/pantograph/A/C/controller/breaker), four-station AR-guided repair platform, intelligent-O&M room (wheelset & pantograph dynamic detection, inspection robots)",
+          "Basics: electromechanical room, electrical room, first-aid & firefighting room (AED CPR), VR/AR room (digital twin + AI)"
+        ]
+      },
+      {
+        "h": "Value-added Services",
+        "points": [
+          "Cost reduction: tailor-made solutions and reuse of inventoried parts — up to 30% saving",
+          "School-enterprise cooperation: new \"order class\" model linking talent cultivation with hiring",
+          "Certification: training aligned with occupational certification standards"
+        ]
+      }
+    ],
+    "achievements_en": [
+      {
+        "k": "Innovation platforms",
+        "v": "Three national-level innovation platforms"
+      },
+      {
+        "k": "Training rooms",
+        "v": "19 types"
+      },
+      {
+        "k": "Certifications",
+        "v": "IRIS 22163 / EN15085-2 / ISO9001 and more"
+      }
     ]
   },
   {
@@ -1094,6 +1989,52 @@
     "skus": [
       "KM-JP-01",
       "KM-JP-02"
+    ],
+    "title_en": "In-house Training Equipment · First DMU Training Control Car",
+    "tagline_en": "30-working-day design freeze · virtual-real integration · visualized teaching",
+    "summary_en": "Leveraging urban-rail vehicle manufacturing and maintenance capabilities, we developed in-house the DMU training control car, a B-type metro training car and three innovative training parts for immersive rail education.",
+    "sections_en": [
+      {
+        "h": "First DMU Training Control Car (JPC(DJ-KZ)-01)",
+        "points": [
+          "A \"mobile classroom\" customized for rolling-stock, rail electromechanical and train-crew programs",
+          "Innovative door system with 5 mainstream models covering all high/low-speed EMU types",
+          "Physically separated simulation system: high-fidelity driving simulation + an independent driver-control room — virtual-real integration",
+          "PLC replaces real-vehicle network control with visualized processes, lowering the entry barrier",
+          "Transparent roof panel under A/C, movable air-source module door and low-platform doors reveal the internal structure",
+          "2+2 seats + desks for group study plus 20 movable seats"
+        ]
+      },
+      {
+        "h": "B-type Training Car & Three Innovative Parts",
+        "points": [
+          "2024 modern vocational-equipment procurement of a Yunnan transportation vocational college: teaching car built on the B-type metro production platform (TC car with driver's cab, unpowered)",
+          "JPCM-01 training door / JPSDG-01 training pantograph / JPZXJ-01 training bogie",
+          "Training-scene layout design covering structure cognition, fitting & adjustment and fault handling"
+        ]
+      },
+      {
+        "h": "Development Capability & Cost Reduction",
+        "points": [
+          "Youth commando team froze the whole design & BOM check within 30 working days",
+          "Reuse: existing cables powered 80%+ equipment, adaptive refit of large-wheel-diameter process bogie, reuse of overhaul surplus",
+          "Standard-fusion innovation: air-source, lighting and PIS modules adapted from quality civilian products per interface standards, cutting cost significantly"
+        ]
+      }
+    ],
+    "achievements_en": [
+      {
+        "k": "First-of-its-kind",
+        "v": "DMU training control car successfully delivered"
+      },
+      {
+        "k": "Innovative parts",
+        "v": "JPCM-01 / JPSDG-01 / JPZXJ-01"
+      },
+      {
+        "k": "Project record",
+        "v": "2024 vocational procurement of a Yunnan college"
+      }
     ]
   }
 ]

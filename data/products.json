@@ -36,7 +36,20 @@
     "procurement": {
       "scope": "按车型与安装位选型（轴箱/齿轮箱/电机/水冷/柴油机），线长与连接器可定制",
       "delivery": "按项目订单排产交付",
-      "support": "选型手册级技术支持；安装要求与执行标准文档齐备"
+      "support": "选型手册级技术支持；安装要求与执行标准文档齐备",
+      "scope_en": "Selection by vehicle type & mounting position (axle box / gearbox / motor / water cooling / diesel); cable length and connectors customizable",
+      "delivery_en": "Delivered per project production scheduling",
+      "support_en": "Selection-manual-level technical support; installation requirements and standards documents complete"
+    },
+    "summary_en": "Full-principle coverage of Pt100 / NTC / thermocouple: a selection-manual-grade temperature sensor line from EMU axle-temp alarms to traction motor and diesel applications.",
+    "description_en": "Our September 2020 temperature-sensor selection manual covers 40+ models across four segments — axle-temperature alarm systems, traction-converter water cooling, traction motors and diesel control units. BD-CGQT100B-R for standardized EMU axle-box temperature measurement; CGQT100ME-N for CRH2-series motor drive ends; NCTR13E-P1 custom-built for HXD1D electric locomotives; NTP1.251 for urban-rail traction motor temperature (-50℃~250℃, four-wire). Stainless-steel housings, EN45545-compliant cables and dedicated connectors; cable lengths customizable.",
+    "specs_en": {
+      "测量原理": "Pt100 RTD (IEC 60751) / NTC thermistor / K-type thermocouple, tolerance per JB/T 8622-1997 Class B (0℃ within ±0.12Ω)",
+      "轴温报警配套": "BD-CGQT100 series (axle-box / gearbox / motor / water-cooling temperature; dual probes A/B, dedicated connectors, IP68 72h)",
+      "牵引电机配套": "NTP1/7/8/9/10/16/20/21.251 and NCTR13A/B/C/E series (urban-rail traction motors, CRH EMU motor drive/non-drive ends, HXD locomotive custom), four-wire, -50℃~250℃",
+      "水冷系统配套": "NCTR11-P (M20×1.5 thread mounting, IP68)",
+      "柴油机配套": "NCTS7A1 (NTC, 40kΩ @25℃, ±0.5℃, 1/4 NPTF) / 41A296328 series (NTC/thermocouple, +250℃~+1000℃)",
+      "环境能力": "Operating -40℃~+250℃ (probe), IP68, per GB/T 21563-2018 axle mounting, EN45545 fire safety"
     }
   },
   {
@@ -77,7 +90,21 @@
     "procurement": {
       "scope": "按车型与安装位（轴端/电机/齿轮箱）选型，测速齿轮参数与线长定制",
       "delivery": "按项目订单排产交付",
-      "support": "选型手册级技术支持；TB/T 3153 / EN 50343 布线标准符合性支持"
+      "support": "选型手册级技术支持；TB/T 3153 / EN 50343 布线标准符合性支持",
+      "scope_en": "Selection by vehicle type & mounting position (axle end / motor / gearbox); gear parameters and cable length customizable",
+      "delivery_en": "Delivered per project production scheduling",
+      "support_en": "Selection-manual-level support; compliance assistance with TB/T 3153 / EN 50343 wiring standards"
+    },
+    "summary_en": "Full spectrum of magnetic, Hall and photoelectric speed sensors covering locomotive traction, urban-rail traction, braking, signalling and instability detection.",
+    "description_en": "Our September 2020 speed-sensor selection manual (54 pages) covers 30+ models across seven application segments — EMU ride-stability detection, locomotive traction, locomotive diesel systems, urban-rail traction, EMU braking, signalling, and EMU stability detection — plus acceleration sensors. The vehicle spectrum covers HXD/HXN/FX locomotives, CRH/CR400/CR450 EMU platforms, CR200J DMUs, metro cars, trams and medium-low-speed maglev. Gear involute per GB/T 1356 or DIN 867; stainless housings; cable lengths customizable.",
+    "specs_en": {
+      "机车牵引配套": "NCZ7 / TQG2B / NCZ12A / NCZ15 / NCZ16 / TQG19D3·D9·D10 series",
+      "城轨牵引配套": "NSM2.302-W / TQG19D7 / TQG19E / TQG19G3·G4 / NSH2.203-W and more",
+      "制动系统配套": "TAG37D / TAG43E (EMU braking) / NSH2.203-X·SP2, NSH3.203-W (metro braking) / NSMR2.123-X-T1 axle-end integrated sensor",
+      "信号系统配套": "NSH4/NSH6.203-X (EMU/metro signalling), TQG15-G photoelectric tacho sensor",
+      "霍尔式系列": "NCZ14 / NCZ19 / NCZ21 (locomotive diesel systems)",
+      "加速度传感器": "NAMC1-10-IC (EMU stability detection, 1.16m) / NAMC3-2-IC (EMU ride detection, 0.75m)",
+      "技术参数示例": "NCZ7: gear module 2.54/60-tooth involute, JL5-3TJ connector, stainless housing"
     }
   },
   {
@@ -116,7 +143,20 @@
     "procurement": {
       "scope": "按额定电流/测量范围/原理选型，外形安装尺寸图齐备（45 种外形）",
       "delivery": "按项目订单排产交付",
-      "support": "选型手册级支持；电源电压 ±15V/±24V 多规格可选"
+      "support": "选型手册级支持；电源电压 ±15V/±24V 多规格可选",
+      "scope_en": "Selection by rated current / range / principle; outline drawings complete (45 outlines)",
+      "delivery_en": "Delivered per project production scheduling",
+      "support_en": "Selection-manual-level support; supply voltages ±15V/±24V selectable"
+    },
+    "summary_en": "From the drafter of rail current-sensor industry standards: 0.1A–3000A full range with fluxgate accuracy ≤±50ppm.",
+    "description_en": "The current-sensor selection manual covers 60+ models over 0.1A–3000A in five principles — closed-loop Hall, fluxgate, direct amplification, magnetic modulation and transmitters — for traction converters, traction motors, braking, signalling and coach power supplies. The magnetic-modulation NCA5-1000A series measures differential current for mechanical actuation (thresholds 1A/1.5A/50A/75A). In PV & wind we supply leading turbine and inverter makers (60%+ share) with leakage-current / MPPT / string / grid-tie / storage current detection; cube and 0160 series fit cabinet installation.",
+    "specs_en": {
+      "工作原理": "Five principles: closed-loop Hall / fluxgate / direct-amplification Hall / magnetic modulation / transmitter",
+      "量程覆盖": "Five series: 0.1–200A / 300–500A / 500–1000A / 1000–2000A / 2000–3000A",
+      "精度指标": "Linearity error ≤0.1%, fluxgate zero drift ≤±50ppm, response ≤1µs (typical)",
+      "典型型号": "NT100-S/SP5 (100A, 0~±200A) / NT508-S (500A, 0~±800A) / NACL.1000Q-S5/SP2 (1000A, 0~±2400A) / NCA5-1000A (2×1125A magnetic-modulation differential protection) / NT2000C-S/SP2 (2000A, 0~±3500A)",
+      "耐压与温度": "Withstand up to 13.4kV/50Hz/1min; operating -40℃~+85℃",
+      "应用领域": "Rail transit (traction converters / motors / braking / coach power supply), NEV, PV & wind, UPS/TPS"
     }
   },
   {
@@ -155,7 +195,20 @@
     "procurement": {
       "scope": "按额定电压/原理/安装形式选型，板卡式与螺栓式外形可选",
       "delivery": "按项目订单排产交付",
-      "support": "选型手册级支持；电气间隙与爬电距离参数文档齐备"
+      "support": "选型手册级支持；电气间隙与爬电距离参数文档齐备",
+      "scope_en": "Selection by rated voltage / principle / mounting; board-type and bolt-type outlines available",
+      "delivery_en": "Delivered per project production scheduling",
+      "support_en": "Selection-manual-level support; clearance & creepage documentation complete"
+    },
+    "summary_en": "Voltage sensors 10V–4200V full range: magnetic-modulation response ≤4µs, from 1500V urban-rail network voltage to HVDC detection.",
+    "description_en": "The voltage-sensor manual covers 40+ models from 10V to 4200V across multiple principles — magnetic balance (NV100), magnetic modulation (NCV1/NVCT), digital isolation (NVDL) and isolated amplification (NVTF/NVAF board types). NCV1-1500V covers urban-rail network voltage while NVCT.4200C-15 serves HVDC; 18 outline drawings available.",
+    "specs_en": {
+      "量程覆盖": "Three series: 10mA–700V / 750–2000V / 2000–4200V",
+      "工作原理": "Magnetic balance / magnetic modulation / digital isolation / isolated amplification / transmitter",
+      "精度指标": "Linearity error ≤0.1%, response ≤4µs (magnetic-modulation typical), withstand up to 12kV/50Hz/1min",
+      "典型型号": "NV100-200V (200V, 0~±300V) / NCV1-1500V (1500V metro network voltage, 0~±1500V) / NVCT.3000-11/R (3000V, 0~±3900V) / NVCT.4200C-15 (4200V, 0~±6000V)",
+      "工作温度": "-40℃~+85℃ (NVTF board types -25℃~+70℃)",
+      "应用领域": "Rail traction-converter network voltage / electric-braking detection, PV-storage, UPS"
     }
   },
   {
@@ -194,7 +247,20 @@
     "procurement": {
       "scope": "按量程/输出形式/机械接口选型",
       "delivery": "按项目订单排产交付",
-      "support": "选型手册级支持；安装要求与执行标准文档齐备"
+      "support": "选型手册级支持；安装要求与执行标准文档齐备",
+      "scope_en": "Selection by range / output type / mechanical interface",
+      "delivery_en": "Delivered per project production scheduling",
+      "support_en": "Selection-manual-level support; installation requirements and standards documents complete"
+    },
+    "summary_en": "Complete locomotive pressure detection: 12 models of fuel / lubricating / cooling-water / compressor pressure transmitters at ±0.2% FS accuracy.",
+    "description_en": "The pressure-transmitter manual covers 15 models — current-output (NCP1A/NCP3F1/NCP3F3) and voltage-output (NCP5 nine types + TQG14 six types) — designed for direct use in locomotive monitoring systems for automatic measurement and control of operation. Signal circuits feature zero adjustment, sensitivity adjustment and temperature compensation; 304 stainless housings withstand harsh locomotive environments.",
+    "specs_en": {
+      "测量原理": "Piezoresistive silicon + high-accuracy oil-filled cell; NTC thermistor (diesel cooling water / lubricating oil)",
+      "电流型输出": "NCP1A (0–1000kPa, 4-20mA, ±0.2%FS) / NCP3F1 (0–0.6MPa) / NCP3F3 (0–1MPa, ±0.5%FS)",
+      "电压型输出": "NCP5A1/A4/A5/B1/B2/C1/D1/E1/F1 (0.5-4.5Vdc, absolute 0–250psia) + TQG14A/B/C1/G/F (0–5VDC/4-20mA, 0–1000kPa)",
+      "应用场景": "Locomotive converter cabinets, cooling-water & diesel fuel / lubricating-oil supply pressure, compressor gas pressure monitoring",
+      "环境能力": "Operating -40℃~125℃ (NCP5A1 to +125℃), IP65-IP67, 304 stainless housing, GB/T 21563 Class 1B vibration & shock",
+      "连接方式": "M20×1.5 / 1/4-18NPTF / M18×1.5 threads; aviation / waterproof / heavy-duty connectors"
     }
   },
   {
@@ -234,7 +300,20 @@
     "procurement": {
       "scope": "NSD7B/C/D/E 按车型监测需求选配，配套电流传感器与 PC 维护软件",
       "delivery": "按项目订单排产交付",
-      "support": "维护软件培训与网络通信集成支持"
+      "support": "维护软件培训与网络通信集成支持",
+      "scope_en": "NSD7B/C/D/E selected by vehicle monitoring needs, with current sensors and PC maintenance software",
+      "delivery_en": "Delivered per project production scheduling",
+      "support_en": "Maintenance-software training and network integration support"
+    },
+    "summary_en": "On-board power-quality monitoring per EN50463: current-detection + energy-recording devices with error ≤0.5R and 180-day storage.",
+    "description_en": "The power-quality monitoring manual covers the NSD7 family: NSD7B current-detection module monitors main-circuit current anomalies; NSD7C/D/E energy recorders perform multi-channel measurement & recording, distinguish consumed vs regenerated energy, store by time period and dump over Ethernet; PC-level maintenance software queries consumption at any time and charts statistics by period.",
+    "specs_en": {
+      "NSD7B 电流检测模块": "1kHz sampling of main-circuit current; triggers on 'I>3000A per pantograph' or 'di/dt>10A/ms per pantograph for 40ms'; stores 152ms pre- / 100ms post-trigger data; LED fault counter; relay output 110VDC 100mA",
+      "NSD7C 能耗记录仪": "Multi-channel energy acquisition distinguishing consumed/regenerated with cumulative difference, 10kHz sampling, 180-day continuous storage, RMS error ≤±0.5%",
+      "NSD7D 能耗记录仪": "OLED display + dual energy recorders, Ethernet firmware update, 10-year data retention on power loss",
+      "NSD7E 能耗记录仪": "DSP+FPGA architecture (TI OMAP-L138), 8 sensor channels + 3× RS485 + Ethernet, per EN50463:2012 on-board energy metering",
+      "PC级维护软件": "Current-analysis charts / fault lists / statistics / device & working-mode configuration; data dump via USB / Ethernet / network",
+      "环境能力": "Altitude ≤2500m, -40℃~+70℃, 110VDC (77–137.5V) supply, GB/T 21563 vibration & shock, EN50155/EN50121 EMC"
     }
   },
   {
@@ -274,7 +353,20 @@
     "procurement": {
       "scope": "新造配套 + 检修更换；十六大系列按车型选型",
       "delivery": "按项目合同排产交付",
-      "support": "防硫化工艺与四重保护；支持 TRDP/RS485/DALI/CAN 通讯对接"
+      "support": "防硫化工艺与四重保护；支持 TRDP/RS485/DALI/CAN 通讯对接",
+      "scope_en": "New-build fitting + maintenance replacement; 16 series selected by vehicle type",
+      "delivery_en": "Delivered per project contract scheduling",
+      "support_en": "Sulfuration-resistant process & four-fold protection; TRDP/RS485/DALI/CAN integration supported"
+    },
+    "summary_en": "Sixteen series of rail lighting with sulfuration-resistant LEDs, redundant current-sharing supplies and PHM health management — volume-fitted on Shenzhen Metro lines.",
+    "description_en": "Rail lighting covering interior main lighting (strips / wallwashers / bars), exterior main lighting (headlamps), auxiliary lighting (reading / spot / signal / information / micro-glow) and replaceable units (cables / smart control / power / light-source modules). Projects include Shenzhen Metro Lines 1-13 & 16 (first-gen 'blue sky & white cloud'), Wuhan 21, Ningbo 4, Chengdu 6/7/8/9/17/18/19, Guangzhou 2/8/12, Shenyang 100% low-floor, Shenzhen Longhua low-floor and TSI-standard Austrian double-deck EMUs.",
+    "specs_en": {
+      "十六大系列": "Reading lights / spot & downlights / micro-glow decoration / signal lights / information displays / power supplies / smart control / off-vehicle / health / strips / cables / wallwashers / sensors / bars / headlamps / storage systems",
+      "核心技术": "High-reliability redundant parallel current-sharing with automatic faulty-supply isolation; TRDP/RS485/DALI/CAN; adaptive light sensing, brightness & color-temperature control; lighting PHM",
+      "光源组件": "Sulfuration-resistant LED + Zener ESD protection + per-LED open-circuit protection; DC flicker-free dimming",
+      "电源组件": "Redundant paralleling, 48Vdc standard output, light-decay compensation, overvoltage/overload/overcurrent/short-circuit protection",
+      "线缆组件": "Rail rolling-stock cables with special fire / flame-retardant performance",
+      "应用车型": "Metro / high-speed rail / 100% low-floor vehicles / TSI-standard export vehicles"
     }
   },
   {
@@ -311,7 +403,18 @@
     "procurement": {
       "scope": "车用传感器按型号选配；智慧照明按场站/厂房场景定制",
       "delivery": "按项目合同排产交付",
-      "support": "TDS 在线检测预警系统集成支持"
+      "support": "TDS 在线检测预警系统集成支持",
+      "scope_en": "Vehicle sensors by model; smart lighting customized by station/plant scene",
+      "delivery_en": "Delivered per project contract scheduling",
+      "support_en": "TDS online monitoring & early-warning integration support"
+    },
+    "summary_en": "New-industry product matrix from vehicle sensors to trackside smart lighting and hygiene equipment.",
+    "description_en": "New-industry products: ① sensor series covering speed, temperature, RTD and level sensors with TDS online monitoring & early warning; ② health series with smart disinfection robots, A/C UV sterilizing lamps and UV disinfection boxes; ③ smart lighting for plants, tunnels, platforms, light boxes and mobile scenes.",
+    "specs_en": {
+      "传感器系列": "Speed / temperature / digital temperature / RTD / thermal-fuse / level sensors",
+      "在线监测": "TDS online monitoring & early-warning system",
+      "健康系列": "Smart disinfection robots / escalator handrail sterilizer lamps / A/C UV sterilizing lamps / UV disinfection boxes",
+      "智慧照明": "Plant / tunnel / platform / light-box / mobile lighting (trackside, station & plant smart lighting series)"
     }
   },
   {
@@ -350,7 +453,19 @@
     "procurement": {
       "scope": "按检修对象与工艺布局整体规划，单机或成套供货",
       "delivery": "设计—制造—安装—调试交钥匙",
-      "support": "试验数据管理系统与上位机软件配套"
+      "support": "试验数据管理系统与上位机软件配套",
+      "scope_en": "Overall planning by repair object & process layout; single machines or complete sets",
+      "delivery_en": "Design — manufacture — installation — commissioning, turnkey",
+      "support_en": "Test-data management system and host software available"
+    },
+    "summary_en": "A 74-page maintenance-equipment spectrum: dozens of test benches and repair lines in 8 categories, field-proven across multiple metros.",
+    "description_en": "Rail vehicle maintenance process equipment covering six categories — vehicle & bogie, air-source braking, vehicle electrical, power supply & traction, air conditioning, coupler & draft — plus static-test power supplies and portable testers. The bogie static-load bench complies with TB/T 2782-1997 and is in service at Nanjing, Shenyang and Wuxi metro; mobile jacks lift a whole train simultaneously without uncoupling; the damper bench passed ministry technical review (1998).",
+    "specs_en": {
+      "整车转向架类": "Mobile lifting jacks (640kN/position, ±4mm sync) / gauging gates / bogie static-load bench (TB/T2782, Nanjing·Shenyang·Wuxi metro) / maintenance lifts / frame turntables / running-in bench (0-300km/h) / wheelset-bearing running-in / damper·air-spring·steel/rubber-spring benches / turntables",
+      "气源制动类": "EMU comprehensive brake bench / single-car tester / compressor & air-dryer benches / valve & BCU benches / three-valve-one-cylinder / anti-slip / braking-unit benches",
+      "车辆电气类": "Master controller / high-speed breaker / electrical components / relay / sensor benches; mobile withstand-voltage tester; plug-door component bench",
+      "供电牵引类": "Pantograph & current-collector benches / SIV auxiliary-inverter bench / DC600V A/C inverter & charger benches / traction-motor no-load bench",
+      "空调钩缓类": "A/C unit performance / operation / rain-test benches / coupler-mating bench / EMU front closing-mechanism bench"
     }
   },
   {
@@ -387,7 +502,18 @@
     "procurement": {
       "scope": "按车辆制式与静调工艺定制容量与柜型",
       "delivery": "交钥匙工程",
-      "support": "与检修产线试验设备联动供电方案"
+      "support": "与检修产线试验设备联动供电方案",
+      "scope_en": "Capacity & cabinet type customized by vehicle system and test process",
+      "delivery_en": "Turnkey project",
+      "support_en": "Linked power-supply planning with repair-line test equipment"
+    },
+    "summary_en": "Full range of ground power supplies for static vehicle testing: mainline locomotives, EMUs and urban rail.",
+    "description_en": "Ground power for static test & factory inspection: mainline DC600V ground supply, high-power locomotive supply, EMU supply and urban-rail static-test cabinets, supporting wide temperature ranges and different vehicle supply systems.",
+    "specs_en": {
+      "干线铁路": "DC600V ground supply (coach A/C & power-supply testing)",
+      "大功率机车": "High-power locomotive ground supply",
+      "动车组": "EMU ground supply",
+      "城轨": "Urban-rail static-test cabinets: min. system voltage DC1000V (or 500V) / rated 1500V (or 750V) / rated current 400A (max 450A) / cabinet 800×1000×2200 or 1500×1000×1500mm / -25℃~40℃"
     }
   },
   {
@@ -426,7 +552,19 @@
     "procurement": {
       "scope": "单台或按段配检修班组成套配置",
       "delivery": "现货常备机型按订单交付",
-      "support": "后台数据统计分析软件与培训"
+      "support": "后台数据统计分析软件与培训",
+      "scope_en": "Single units or complete sets for depot test teams",
+      "delivery_en": "Stock models delivered per order",
+      "support_en": "Back-end data analysis software and training"
+    },
+    "summary_en": "Six portable testers for on-board inspection of locomotive & metro high-voltage systems with data upload and analysis.",
+    "description_en": "Portable test equipment for depots and metro maintenance sites: pantograph static pressure & raising/lowering characteristics, main-breaker operation characteristics, roof insulation condition, neutral-section passing box performance and battery health — one-stop on-board detection with back-end software for statistics and fault judgment.",
+    "specs_en": {
+      "手持/便携受电弓测试仪": "Force 0-200N (±2%) / raise-lower time 0.1s resolution / pad thickness 0.1-45mm / height 0-3000mm / 1000 records, USB·WIFI upload, DSA & TSG compatible",
+      "主断路器检测仪": "Inherent open/close time 0-999.9ms (0.1ms) / pressure 0-1.0MPa / touch screen + keys",
+      "车顶绝缘检测仪": "HV transformer 0-29kV / leakage 0.1-20mA / lithium battery powered",
+      "过分相系统检测仪": "Per TJ/JW078-2015 / 4 vehicle-sensor inputs / 12 relay outputs",
+      "蓄电池状态检测仪": "Internal resistance 0.001mΩ-3000mΩ / voltage 0.001-150V / 6-8h continuous"
     }
   },
   {
@@ -465,7 +603,19 @@
     "procurement": {
       "scope": "按矿山场景一矿一策：单板块或一体化总包",
       "delivery": "方案设计—装备制造—项目建设—运营管理全流程",
-      "support": "融资租赁/合同能源管理灵活模式；全生命周期运维"
+      "support": "融资租赁/合同能源管理灵活模式；全生命周期运维",
+      "scope_en": "One-mine-one-plan: single segments or integrated EPC",
+      "delivery_en": "Solution design — equipment manufacturing — project construction — operations, full process",
+      "support_en": "Financial leasing / EMC flexible models; full life-cycle O&M"
+    },
+    "summary_en": "An integrated ecological loop from mining equipment to green power, electrified transport and intelligent supervision — 'one mine, one plan' adaptation.",
+    "description_en": "Around three core needs — energy saving, safety & reliability, and clean low-carbon operation — we deliver integrated solutions covering mine electromechanical, clean-energy, intelligent-transport and intelligent-monitoring equipment. Technology derives from rail traction & conversion, intelligent control and safety-protection systems (PHM predictive maintenance and digital twins extended to mining), supporting delivery from single-point demand to full ecological loops.",
+    "specs_en": {
+      "矿-机电装备": "Mine hydraulic supports / belt & scraper conveyors and non-standard equipment, in-house R&D & manufacturing; complete sets + renovation & repair integration",
+      "能-清洁能源": "Wind / solar / user-side storage / smart microgrids / mine emergency storage / direct green power / zero-carbon mine certification",
+      "运-智能运输": "Electrified roads / mobile storage vehicles / truck & excavator conversion / battery tractors / hydrogen locomotives",
+      "控-智能监测": "AI safety-warning platform / mine robots / intelligent driving / PHM + digital twins",
+      "建设模式": "Invest-build-operate integration with financial leasing & EMC options to lower upfront investment"
     }
   },
   {
@@ -502,7 +652,18 @@
     "procurement": {
       "scope": "按煤层条件定制选型，成套供应三机配套",
       "delivery": "按矿井建设与改造计划交付",
-      "support": "更新改造、维修一体化配套服务"
+      "support": "更新改造、维修一体化配套服务",
+      "scope_en": "Selection by seam conditions; complete three-machine packages",
+      "delivery_en": "Delivered per mine construction & conversion plans",
+      "support_en": "Renovation & repair integrated support"
+    },
+    "summary_en": "Field-proven coal machinery: three support families (steep, high-seam, top-caving) and permanent-magnet drum conveyors.",
+    "description_en": "Complete custom mine electromechanical packages: hydraulic supports covering thin, medium-thick, thick and top-caving seams (Guanyinshan Yunnan, Tunnan Xinjiang, Dayou Henan complete projects); belt conveyors driven by permanent-magnet drums with 30% lower O&M cost, adapted to Yunnan's complex geology.",
+    "specs_en": {
+      "液压支架": "ZY4000/09/20QD steep thin-seam shield (≤45°, 1.75m centers, anti-toppling) / ZY6800/25/53 high seam (2.8-5.1m, 5 years without major repair) / ZF8600/18/35D top-caving (15 years stable service)",
+      "带式输送机": "DTC100/40/2×400S etc.: permanent-magnet drum drive, 0.9Mt/year, +30% efficiency, -45% downtime, 29% energy saving",
+      "刮板输送机": "Complete sets with shearers and hydraulic supports",
+      "应用区域": "In service in Henan, Yunnan, Xinjiang, Shanxi, Qinghai, Inner Mongolia and more"
     }
   },
   {
@@ -541,7 +702,19 @@
     "procurement": {
       "scope": "发电侧/电网侧/用户侧储能及充电、微网按场景配置",
       "delivery": "预制舱式即插即用，现场吊装接线",
-      "support": "AI大模型智能运维、智能储能调度引擎"
+      "support": "AI大模型智能运维、智能储能调度引擎",
+      "scope_en": "Generation/grid/user-side storage, charging and microgrids configured by scenario",
+      "delivery_en": "Prefab-cabin plug-and-play, on-site hoisting & wiring",
+      "support_en": "AI-model intelligent O&M and smart storage dispatch engine"
+    },
+    "summary_en": "Full-chain clean energy for mining areas: emergency storage replacing diesel, 2.4MW flexible charging stacks and PV-storage-charging field results.",
+    "description_en": "Full-process new-energy solutions for energy-intensive mines (coal, metal, non-metal): solution design, project initiation, equipment manufacturing, construction and operations. Mine emergency storage with immersed high-safety products replaces diesel generators; flexible charging stacks support mining-truck electrification; smart microgrids raise energy self-sufficiency and supply stability.",
+    "specs_en": {
+      "矿用应急储能": "GP3350L-C20 / GP3727L-C20 / GP4180L-C20 / GP5015L-C20 prefab-cabin storage: intrinsic safety + four-fold fire protection (cell/module/cabin/system), 88% efficiency, ≤3℃ cell delta, ms-level response vs diesel (≤20ms), -90% annual maintenance, ~4-year payback",
+      "风电光伏": "Turbines / blades / motors; string & centralized inverters, combiner boxes",
+      "充电装备": "Flexible charging stack 600-2400kW (2.4MW host, 1000A terminals), peak efficiency >96%, IP65, 70+ active protections",
+      "氢能": "Hydrogen-power supplies / electrolyzers / fuel-cell power systems",
+      "典型案例": "Luoyang PV-storage-charging station / data-center emergency storage for a major internet company / Henan 100MW/400MWh grid-side storage / Yunnan Chuxiong 10MW/20MWh generation-side storage / mine PV-storage-charging integration (25.69MW PV + 10.88MW/21.76MWh storage, 25.91GWh/year, -21,400t CO₂)"
     }
   },
   {
@@ -578,7 +751,18 @@
     "procurement": {
       "scope": "电气化公路系统、整车改造、移动补能按场景组合",
       "delivery": "投建营一体化模式",
-      "support": "全生命周期运维与数字化运营管理"
+      "support": "全生命周期运维与数字化运营管理",
+      "scope_en": "Electrified-road systems, vehicle conversion and mobile recharging combined by scenario",
+      "delivery_en": "Invest-build-operate integration",
+      "support_en": "Full life-cycle O&M and digital operations"
+    },
+    "summary_en": "Rail technology empowering mining transport: electrified roads + truck conversion with ¥56.27M/year field savings.",
+    "description_en": "For open-pit stripping and pit-mouth coal transfer: electrified roads draw power from overhead lines via pantographs with intelligent driving and efficiency management; mining trucks, excavators and bulldozers convert to full electric; hydrogen and battery locomotives cover 1500–3000kW heavy haul; mobile storage vehicles build a dynamic mine-wide recharging system.",
+    "specs_en": {
+      "电气化公路": "Yulin demo line 95.5km (35Mt/year, ~¥3.5B) / Huanghua port corridor 28.4km (22.6km retrofit, 6 traction substations, ~¥0.2B) / rigid+flexible electrified-road control center (built 2024.5)",
+      "矿卡油改电": "220T overhead-line truck field data: diesel ¥150.42/km → line ¥47.27/km, saving ¥103.15/km and ¥56.27M/year, 2.44-year payback, -28,300t CO₂/year",
+      "轨道交通化装备": "Hydrogen & battery-electric locomotives (1500-3000kW full spectrum, liquid-cooled fast charge) / dual-power track machines / storage trolleybuses / battery tractors",
+      "移动补能": "Mobile storage vehicles / emergency power vehicles / towable chargers"
     }
   },
   {
@@ -617,7 +801,20 @@
     "procurement": {
       "scope": "10-70m³ 七种规格按场地与用量选型，含工艺流程/电器原理/平面布局/设备基础四图交付",
       "delivery": "橇装整体吊装交付，免费远程安装调试指导",
-      "support": "12个月免费保修+终身维修支持（仅收零配件成本）+终身原厂备件（核心件≤7个工作日）"
+      "support": "12个月免费保修+终身维修支持（仅收零配件成本）+终身原厂备件（核心件≤7个工作日）",
+      "scope_en": "7 models, 10-70m³, selected by site & consumption; delivered with process-flow / electrical / layout / foundation drawings",
+      "delivery_en": "Skid hoisted as a whole; free remote installation & commissioning guidance",
+      "support_en": "12-month free warranty + lifetime repair (parts cost only) + lifetime OEM spares (core items ≤7 working days)"
+    },
+    "summary_en": "Export-standard explosion-proof skid-mounted fueling stations: 10-70m³ full range with four-fold fire protection and lifetime spares.",
+    "description_en": "Skid-mounted refueling units integrating explosion-proof tanks, dispensers, explosion-proof electricals, detection & emergency and unloading pipework — no separate power room required for approvals. The V-type flame-arresting material is twice quenched and will not explode under open flame, static, lightning or accidental welding. Suitable for mines, ports and logistics parks; complete English & Chinese documentation supports overseas delivery.",
+    "specs_en": {
+      "规格系列": "10/20/30/40/50/60/70m³ (10m³: 6000×2400×2400mm … 70m³: 15700×3000×3000mm), 6mm tank wall, Q235B, design pressure 0.1MPa",
+      "工作条件": "-40℃~+60℃, humidity ≤85%RH, max power 7.8kW, unloading pump 5.5kW/30m³·h",
+      "核心构成": "Double-wall flame-arresting tank (V-type material twice quenched, density <28kg/m³) / two-nozzle dispenser (Exdibmb II AT 3 Gb, 5-70L/min) / explosion-proof smart power box (IP65) / magnetostrictive level gauge (±1mm) / static alarm / closed loading-unloading (304 SS DN65/DN80)",
+      "安全配置": "Hanging 68℃ auto extinguisher / flame-arresting breather valve / emergency relief (21-35kPa) / emergency shutdown (74℃ fuse) / oil-gas audio-visual alarm / fire shutters & equipment",
+      "防腐出口": "Epoxy zinc-rich primer 70μm + mica intermediate 70μm + PU topcoat 70μm — export standard",
+      "售后承诺": "7×24 online, 1h response, 48h fix for common faults; 12-month free warranty; lifetime OEM spares (core items ≤7 working days, international express/sea)"
     }
   },
   {
@@ -657,7 +854,20 @@
     "procurement": {
       "scope": "按车型与编组定制仿真模块，支持按需灵活选配",
       "delivery": "设计—开发—部署—培训一体化交付",
-      "support": "与课程开发、人才测评体系配套"
+      "support": "与课程开发、人才测评体系配套",
+      "scope_en": "Simulation modules customized by vehicle type & train formation, flexibly selectable",
+      "delivery_en": "Design — development — deployment — training, integrated delivery",
+      "support_en": "Paired with course development and talent-assessment systems"
+    },
+    "summary_en": "An immersive TCMS training platform developed in-house by the metro vehicle department: network control & signalling simulation faithfully reproducing train control logic.",
+    "description_en": "Developed by our vehicle maintenance engineering team (since the 2012 opening the department has grown to ~500 staff with 84 core R&D engineers): visual monitoring of electrical control processes and fault simulation analysis, serving research, teaching, skill training, talent assessment and competitions; control network adopts bus-type distributed IO control.",
+    "specs_en": {
+      "产品定位": "Faithful replication of the full electrical-control system of in-service metro vehicles, blending network control & device signal simulation in a 1:1 real-equipment environment",
+      "系统构成": "6-car prototype: full-size driving desks of cars 1 & 6 + 6 standard electrical cabinets; simulated A/C / HV box / BHB / LV box / doors / PIS / compressor / traction-brake actuators etc.",
+      "自主核心": "In-house DCU/EDCU/BCU control modules and IO acquisition modules, self-developed software",
+      "仿真功能": "Full-logic simulation: cab presence / direction control / controller notches / speed control / simulated SIV supply / compressor start-stop / main HV breakers / emergency brake / traction lockout / speed-limit protection",
+      "故障诊断": "Active-fault display / fault history / 500 fault records",
+      "安全保护": "Instant protection against electric shock, miswiring and short circuits"
     }
   },
   {
@@ -695,7 +905,19 @@
     "procurement": {
       "scope": "按站台门制式与场地尺寸定制",
       "delivery": "设计—安装—调试交付",
-      "support": "故障场景库与实训课程配套"
+      "support": "故障场景库与实训课程配套",
+      "scope_en": "Customized by PSD system and site dimensions",
+      "delivery_en": "Design — installation — commissioning",
+      "support_en": "Fault-scenario library and training courses available"
+    },
+    "summary_en": "A fully in-house PEDC+DCU platform-screen-door training platform: minimal installation, intuitive interaction, faithful reproduction of all operating & fault scenarios.",
+    "description_en": "Customized for urban-rail professionals and station staff: minimal installation and intuitive interaction faithfully reproduce full-condition operation and fault scenarios, setting a benchmark for PSD training equipment. Includes the control cabinet (DCU boards, relays, switching power supply, PSL switch, PSL lamp panel) and sliding-door (door-fully-open / door-closed-locked) signal systems.",
+    "specs_en": {
+      "结构组成": "Door leaf + door mechanism + PSD control system + controller PCB sampling MCU driving peripheral circuits",
+      "控制方式": "Three modes: manual notch (manual release) / single-door local (LCB) / station-level (PSL)",
+      "核心部件": "PEDC & DCU 100% in-house, with MCU and high-speed signal-processing chips",
+      "性能指标": "Maintenance-free, self-recovering, well isolated / redundant / multi-checked; 20h continuous daily, 90s cycles at peak, 60s cycle satisfied",
+      "定制能力": "Customized development by customer site size"
     }
   },
   {
@@ -731,7 +953,17 @@
     "procurement": {
       "scope": "按车门型号定制（昆明地铁3号线塞拉门蓝本等）",
       "delivery": "设计—安装—调试交付",
-      "support": "门控器数据下载与分析软件配套"
+      "support": "门控器数据下载与分析软件配套",
+      "scope_en": "Customized by door type (e.g. Kunming Metro Line 3 plug-door blueprint)",
+      "delivery_en": "Design — installation — commissioning",
+      "support_en": "Door-controller data download & analysis software available"
+    },
+    "summary_en": "A 1:1 plug-door training platform: full hands-on flow from dimension measurement to obstacle detection and door-controller data download.",
+    "description_en": "Serves passenger-door theory learning, hands-on training, component rectification, fault simulation, door-controller data download and analysis. Functions cover dimension measurement, emergency release, obstacle detection, isolation, button functions and data download.",
+    "specs_en": {
+      "产品定位": "1:1 replica of EMU passenger doors with microprocessor-controlled electrics, self-diagnosis & fault records, communicating with the train bus network",
+      "机构系统": "Plug-motion four-bar linkage + upper-rail guidance; carrying system of light shafts, slide carriage and door carrier; toothed-belt drive; over-center locking",
+      "实训功能": "Single & cyclic door cycling / cycle counting / isolation & emergency release / all-dimension measuring & adjustment / obstacle detection / door-controller fault monitoring, storage & download"
     }
   },
   {
@@ -769,7 +1001,19 @@
     "procurement": {
       "scope": "按司控器型号定制测试接口与逻辑库",
       "delivery": "整机交付含校准",
-      "support": "数据储存与回信信息查看软件"
+      "support": "数据储存与回信信息查看软件",
+      "scope_en": "Test interfaces & logic library customized by controller model",
+      "delivery_en": "Delivered as a unit with calibration",
+      "support_en": "Data storage and response-viewing software"
+    },
+    "summary_en": "In-house portable master-controller tester: 0.1mΩ resistance accuracy, 10 test modes, 110V contact restoration.",
+    "description_en": "For periodic testing and fault diagnosis of train master controllers: connecting to the controller plug, it tests all-notch switch logic and contact resistance, supports online detection, data storage and calibration; the restoration mode repairs oxidized contacts.",
+    "specs_en": {
+      "产品定位": "Portable integrated tester designed per master-controller structure, mounting, operation modes, control logic and electrical parameters, with built-in independent power",
+      "检测能力": "All-notch switch-logic testing / contact-resistance measuring (0.1mΩ) / voltage acquisition (0.01V)",
+      "修复功能": "110V contact restoration (restoration power interface + selector switch)",
+      "测试模式": "10 modes: logic test free/auto, resistance auto/manual, external resistance, contact restoration, pole-position test, data storage, calibration and more",
+      "接口与扩展": "HAN46EE/HAN3HPR connectors to the controller; USB expansion; 220V power/charging; firmware update port"
     }
   },
   {
@@ -806,7 +1050,18 @@
     "procurement": {
       "scope": "整机交付（基面+激光系统+找平装置）",
       "delivery": "现货或按订单交付",
-      "support": "测量数据支持地板面/车钩/空簧高度调整作业"
+      "support": "测量数据支持地板面/车钩/空簧高度调整作业",
+      "scope_en": "Delivered as a unit (base + laser system + leveling device)",
+      "delivery_en": "Stock or per order",
+      "support_en": "Data supports floor / coupler / air-spring height adjustment"
+    },
+    "summary_en": "Vehicle measurement without a dedicated repair platform: 0.5mm laser accuracy + non-zero-rail leveling, greatly improving efficiency.",
+    "description_en": "A portable device integrating the measuring base, laser system and non-zero-rail leveling: breaks traditional constraints, adapts to various track environments, reduces auxiliary labor cost — an innovative tool for precise measurement and intelligent repair.",
+    "specs_en": {
+      "系统组成": "Portable folding measuring base + laser measuring system + non-zero-rail leveling device",
+      "测量精度": "Self-developed laser ranging, 0.5mm accuracy with error ≤0.1mm, verified in 100+ comparative tests",
+      "测量场景": "Floor / coupler / current-collector height measuring (replacing manual work; data supports floor, coupler and air-spring height adjustment)",
+      "找平装置": "Non-zero-rail leveling device on rails with X/Y spirit levels and four-corner screw height adjustment"
     }
   },
   {
@@ -844,7 +1099,19 @@
     "procurement": {
       "scope": "整机交付（清除模块+电源模块+测量模块）",
       "delivery": "现货或按订单交付",
-      "support": "适配 DC12V/24V/110V 主流继电器"
+      "support": "适配 DC12V/24V/110V 主流继电器",
+      "scope_en": "Delivered as a unit (cleaning + power + measurement modules)",
+      "delivery_en": "Stock or per order",
+      "support_en": "Compatible with DC12V/24V/110V mainstream relays"
+    },
+    "summary_en": "Quick fix for poor relay contact: cleaning + powering + resistance measurement in one <2.5kg device.",
+    "description_en": "One-stop professional solution for on-site fault handling: rapidly cleans relay contact oxide film and verifies the result, powers coils of mainstream relays at multiple voltages, and pinpoints poor contact with high-precision resistance measurement.",
+    "specs_en": {
+      "三合一功能": "Oxide-film cleaning + multi-voltage coil powering + high-precision resistance measurement in one",
+      "测量能力": "Accurate 0-20Ω contact-resistance measurement; fits DC12V/24V/110V mainstream relays",
+      "清除效果": "Contact resistance reduced from ~0.81Ω to ~0.27Ω after cleaning (field-measured case)",
+      "安全保障": "Integrated fuse protection and real-time voltage/current monitoring",
+      "便携设计": "Quick-plug design, <2.5kg overall"
     }
   },
   {
@@ -880,7 +1147,17 @@
     "procurement": {
       "scope": "按线路车型与检修工艺选配，支持非标定制",
       "delivery": "按工装清单分批交付",
-      "support": "与实训课程配套的教学工装可选"
+      "support": "与实训课程配套的教学工装可选",
+      "scope_en": "Selected by line, vehicle type and repair process; non-standard customization supported",
+      "delivery_en": "Delivered in batches per tooling list",
+      "support_en": "Teaching tooling available for training courses"
+    },
+    "summary_en": "42 types of field-developed maintenance tooling: from coupler adjustment to PSD wire-rope setting, covering all train-repair scenarios.",
+    "description_en": "Developed by our vehicle maintenance team (~500 staff, 84 core R&D) from field experience, organized into seven categories — train repair, PSD repair, depot equipment, auxiliary repair, diesel track machines, equipment repair and washing support — solving frontline pain points and improving efficiency and safety.",
+    "specs_en": {
+      "列车检修类": "Coupler-height wrench / coupler-repair ramp boards / controller-lock-nut wrench / door S1-lock dimension gauge / door cotter extractor / door washer locking hammer / A/C bolt assist tool / current-collector nut wrench / height-adjust rod wrench / battery lifting tool / brake-shoe gap gauge / gangway-folding assist tooling / door-motor stop adjuster / damper dismantling tooling / controller repair stand / movable air-spring shim tooling / traction-motor threaded-insert extractor / needle extractor / brake-shoe-pin cotter tool / door repair bench / ground measuring tools / train lighting test board / automatic lubrication tooling / anti-roll bar bearing press-out tooling",
+      "屏蔽门检修类": "Door buzzer pre-tightening tool / relay-contactor slot extractor / PSD isolation-lock keys / PSD roof-panel tools / wire-rope locking adjuster / belt-tension gauge",
+      "场段与辅助": "Iron-films hooks / lifting-jack guards / forklift-wheel socket / repair stools / pit mounting-assist ladder / transition-coupler stand / wiper guards / diesel track-machine oil-pan wrench"
     }
   },
   {
@@ -920,7 +1197,20 @@
     "procurement": {
       "scope": "按工具类别与型号选配，支持 OEM/ODM",
       "delivery": "常规型号现货，整批按订单交付",
-      "support": "完善的售后服务与品质保证体系"
+      "support": "完善的售后服务与品质保证体系",
+      "scope_en": "Selected by tool category & model; OEM/ODM supported",
+      "delivery_en": "Common models in stock; batches per order",
+      "support_en": "Comprehensive after-sales and quality assurance"
+    },
+    "summary_en": "Thirty-plus pneumatic tool models: from body grinding & chamfering to fastening, for shipbuilding, steel structures and rail repair.",
+    "description_en": "Pneumatic tools for derusting, polishing, chamfering and fastening on metal surfaces, made of premium materials with refined workmanship. ISO9001 certified since 2003 with 100% finished-goods QC inspection; customers nationwide plus exports to Japan, Singapore and more.",
+    "specs_en": {
+      "气动倒角机": "CFM-32/CFMG-32/PB-10/ABL-6 (min. radius 16mm, 1-3/45° chamfer, CE certified)",
+      "气砂轮机": "S40/S50/S60/S80/S100/S150 straight & extended (15,000-25,000 r/min, 0.36-0.6kW)",
+      "气动角向磨光机": "4\"/5\"/6\"/7\" series SJ100-SXJ180 (0.5-0.8kW, CE option)",
+      "端面式砂轮机": "SD100-III/SD100-A/SD150 (weld grinding & derusting)",
+      "其他系列": "Air chisels CZ-2/CZ-5/C6/C30W / TJ3 mixer / CL-001 spray gun / CW sandblaster / W100-W125 water-cooled cutters & polishers / D500 vacuum / B08-B16 & CN-QB wrenches (25-3000N.m) / AF air saw / AD drills (3/8-1/4 chucks)",
+      "企业资质": "ISO9001 certified; 30+ models; exported to Japan, Singapore and more"
     }
   },
   {
@@ -966,7 +1256,26 @@
     "procurement": {
       "scope": "整车改造交钥匙：拆除/更新/新增部件清单+保留部件大修+车体转向架适应性改造",
       "delivery": "改造周期20-22周（同比快2-3周），交钥匙模式或改造+租赁模式",
-      "support": "200余个服务段站点、12个服务基地；西南交大延寿评估与全寿命周期维保可选"
+      "support": "200余个服务段站点、12个服务基地；西南交大延寿评估与全寿命周期维保可选",
+      "scope_en": "Turnkey conversion: removal/update/addition lists + heavy repair of retained parts + adaptive car-body & bogie refit",
+      "delivery_en": "20-22 week cycle (2-3 weeks faster than peers); turnkey or conversion+lease",
+      "support_en": "200+ service stations and 12 service bases; optional life-extension assessment (SWJTU) and full life-cycle maintenance"
+    },
+    "summary_en": "Six-axle port/shunting workhorse converted to electric: 1650kW wheel power + 2346kWh LiFePO4, saving ~¥5,000/day with volume application record.",
+    "description_en": "Conversion keeps DF4B outline dimensions basically unchanged: the diesel genset, starting generator, rectifier, exciter, DC traction motors, braking resistor, starting gearbox, preheating boiler and fuel tank are removed; retained frame, wheelsets, coupler & draft and braking system are overhauled per heavy-repair standards (including TB/T1618/1619 axle flaw detection and TB/T1463 wheelset assembly). Car-body underframe mounting is strength-simulated; the power-room modular structure eases replacement and repair. Converted locomotives run stably — port duty record: 380 days, 15,067km, 80% energy saving.",
+    "specs_en": {
+      "改造方式": "Diesel genset & auxiliaries removed, replaced by LiFePO4 traction battery (~2346kWh, DC753.8V) + integrated main/aux converter; three-phase AC traction motors replace DC motors",
+      "结构参数": "In-service weight 138t / Co-Co / gauge 1435mm / wheel diameter 1050mm / dimensions 21100×3309×4700mm",
+      "性能参数": "Traction power 1820kW (wheel 1650kW) / starting tractive effort 436kN / continuous 330kN / electric braking 1300kW",
+      "牵引电机": "6×310kW three-phase asynchronous motors (axle-controlled); a single faulty inverter module loses only 1/6 of power",
+      "制动系统": "JZ-7 air brake with renewed air reservoirs and overhauled piping",
+      "司机室": "Dual cabs + TCMS (computer display) + monitoring display",
+      "充电方案": "Three 400kW dual-gun chargers, 6 guns simultaneously — ~2h for ~2000kWh daily duty",
+      "经济性": "Daily cost cut from ~¥6,249 (fuel) to ~¥1,249.3 (electricity) — saving ~¥4,999.7/day",
+      "适用场景": "Ports / logistics / shunting, long-distance high-frequency heavy haul, max grade 6‰, min. curve 145m, -35℃~+40℃",
+      "实运数据": "Hauling 3000t at 25km/h, 100km range",
+      "改造周期": "20-22 weeks (2-3 weeks faster than peers)",
+      "单台项目参考金额": "¥13.68M (per company materials)"
     }
   },
   {
@@ -1011,7 +1320,25 @@
     "procurement": {
       "scope": "整车改造交钥匙：新增主辅一体变流柜、动力蓄电池系统、交流牵引电机等，保留部件按大修规范检修",
       "delivery": "改造周期15-17周，交钥匙或租赁模式",
-      "support": "BMS 防爆泄压与热管理/消防系统配置；全国服务网络"
+      "support": "BMS 防爆泄压与热管理/消防系统配置；全国服务网络",
+      "scope_en": "Turnkey conversion: integrated main/aux converter, traction battery system and AC traction motors added; retained parts overhauled per standards",
+      "delivery_en": "15-17 week cycle; turnkey or lease",
+      "support_en": "BMS explosion-proof venting, thermal management & firefighting configuration; nationwide service network"
+    },
+    "summary_en": "Four-axle industrial shunter converted to electric: 650kW wheel power, modular machine-room design, already in service at a logistics park.",
+    "description_en": "GK1E outline dimensions basically unchanged: diesel engine with fuel/lubricating/intake-exhaust/cooling-preheating/control-safety systems and instruments removed. The converted machine room is modular (brake, driver, electrical, converter, battery and air-source rooms) while the original single-cab outside-corridor layout is retained. Battery boxes carry BMS sampling modules with explosion-proof venting. Field record: 168 days, 4,143km at a logistics park.",
+    "specs_en": {
+      "改造方式": "Traction battery replaces the diesel engine; three-phase AC motors + intermediate gearbox replace the hydraulic transmission",
+      "结构参数": "In-service weight 92t / B-B / wheel diameter 1050mm (new) / dimensions 15160×3344×4670mm / max 30km/h",
+      "性能参数": "Wheel traction power 650kW / starting 297kN / continuous 234kN / electric braking 500kW (max 150kN)",
+      "动力电池": "993kWh (record basis); design config ~1200kWh (2300Ah, DC672V) — final design prevails (to be verified)",
+      "牵引电机": "2×355kW three-phase asynchronous motors (3AC 460V)",
+      "变流系统": "Integrated main/aux converter cabinet (2 traction + 2 auxiliary inverters + 1 charger); single-module fault isolates 1/2 of power",
+      "控制与充电": "TCMS (VCU/RIOM/HMI, CAN·RS485); two 400kW dual-gun chargers, 4 guns simultaneously, SOC 20%→95% in ~2h",
+      "适用场景": "Industrial & local railways, short-distance high-frequency heavy haul, max grade 6‰, min. curve 60m (70m shunting)",
+      "实运数据": "Hauling 2500t coal at 30km/h, 150km range",
+      "改造周期": "15-17 weeks (1-2 weeks faster)",
+      "单台项目参考金额": "¥6.48M (per company materials)"
     }
   },
   {
@@ -1057,7 +1384,26 @@
     "procurement": {
       "scope": "整车改造交钥匙：动力蓄电池柜+主辅一体变流器+牵引电机+中间齿轮箱+操纵台改造",
       "delivery": "改造周期12-14周，交钥匙或租赁模式",
-      "support": "充电功率可根据用户需求配置；全国服务网络"
+      "support": "充电功率可根据用户需求配置；全国服务网络",
+      "scope_en": "Turnkey conversion: battery cabinet + integrated main/aux converter + traction motors + intermediate gearbox + desk refit",
+      "delivery_en": "12-14 week cycle; turnkey or lease",
+      "support_en": "Charging power configurable; nationwide service network"
+    },
+    "summary_en": "Low-power track tractor converted to electric: three units in service at a steel mill for hot-metal transfer, energy saving up to 90%.",
+    "description_en": "For shunting at railway depots, industrial sites, local railways, ports and tank farms: during electric braking the AC traction motors act as generators, feeding kinetic energy through inverter modules back to the battery. The battery cabinet is lighter than the original diesel system with re-ballasting for adhesion; the bogie retains the original axle gearbox and DC charging sockets are mounted on both underframe sides. Field record: three steel-mill JN7 units save 90%, one unit 719 days and 13,858km with ¥408K energy saved.",
+    "specs_en": {
+      "改造方式": "Water radiator, diesel engine, oil radiator, hydraulic gearbox, starting generator and fuel tank removed; A/C and couplers replaced; desk & body adaptively refitted",
+      "结构参数": "In-service weight 64t / axle load 16t / wheel diameter 840mm / dimensions 13600×3395×3880mm / max 15km/h",
+      "性能参数": "Rated power 240kW (wheel 229kW, record basis 215kW) / starting 176kN / continuous 137kN / electric braking 177kW",
+      "动力电池": "LiFePO4 282kWh (460Ah, 614.4V) with BMS real-time monitoring (diagnosis / SOC / short-circuit / leakage)",
+      "变流系统": "250kW traction inverter (DC500-900V, 3AC380V output) + auxiliary converter (3AC380V/10kW + AC220V/6.5kW + DC24V/5kW)",
+      "制动系统": "JZ-7 (electric + air + hand + parking braking), piping renewed in stainless steel",
+      "操纵与控制": "HMI shows speed / motor current / SOC / battery temperature / overspeed alarms; PLC vehicle controller over CAN; 6 cameras",
+      "充电方案": "One 240kW charger at the usual parking spot, ~1h daily charge",
+      "适用场景": "Depots / industrial & local railways / ports / tank farms; hot-metal transfer ~3km single trip, 1300t max load, 30km/day; -25℃~+40℃, altitude ≤2500m",
+      "实运数据": "Hauling 1000t hot-metal ladle at 10km/h, 30km range",
+      "改造周期": "12-14 weeks",
+      "单台项目参考金额": "¥2.75M (per company materials)"
     }
   },
   {
@@ -1098,7 +1444,21 @@
     "procurement": {
       "scope": "按车型与运用场景定制改造/新造方案，全平台覆盖",
       "delivery": "改造周期12-22周（同比快1-3周）",
-      "support": "商务模式灵活：交钥匙 / 整车租赁 / 改造+租赁 / 部件租赁 / 收购+租赁+回购 / 全寿命周期维保"
+      "support": "商务模式灵活：交钥匙 / 整车租赁 / 改造+租赁 / 部件租赁 / 收购+租赁+回购 / 全寿命周期维保",
+      "scope_en": "Conversion/new-build plans customized by type & duty, full platform coverage",
+      "delivery_en": "12-22 week cycle (1-3 weeks faster)",
+      "support_en": "Flexible commerce: turnkey / whole-vehicle lease / conversion+lease / component lease / acquire+lease+buyback / life-cycle maintenance"
+    },
+    "summary_en": "Multi-platform new-energy locomotive conversion & new-build EPC: 12-type parameter library, cycles 1-3 weeks faster than peers.",
+    "description_en": "Multi-platform conversion solutions covering DFH, GK, DF, JN and TH series diesel power-source conversion, QBAA1-series new-energy locomotive new-build, and SS4G electric-to-electric needs. Converted products are sourced from leading/core suppliers (supply-chain strength); the electric-locomotive localization rate reaches 80% (China's electric-locomotive cradle — the Hunan Zhuzhou industrial belt); cycles are 1-3 weeks faster, and no other converter has low-power or electric-to-electric batch records.",
+    "specs_en": {
+      "四轴平台（DFH、GK系列）": "DFH5→LE1: 550kW/662kWh, ~¥4,000/day saved; DFH5B→LE1: 720kW/1130kWh, ~¥4,274/day; GK1E→LE1: 650kW/993kWh; cycle 15-17 weeks",
+      "六轴平台（DF系列）": "DF7C→LE6: 1200kW/1863.99kWh/428kN/900kW electric braking, steel-mill short-distance heavy haul; DF4B→LE6 see its own page; cycle 20-22 weeks",
+      "小功率平台（JN、TH系列）": "JN7→LE5, JN5-8→LE5 (229kW/310.6kWh); cycle 12-14 weeks",
+      "新造车型": "QBAA1 four-axle new-energy locomotive new build: 72t / Bo-Bo / 480kW / 537kWh / stainless body, ~¥822/day saved",
+      "电改电": "SS4G electric locomotive electric-to-electric conversion: 92t / Bo-Bo / wheel 1200kW / battery 1695kWh",
+      "能力保障": "55 technical staff (5 PhDs, 13 senior engineers) + 200+ production (100+ senior mechanics); 196 sets of special equipment; full systems of EN15085/ISO22163/ISO9000/ISO45001/ISO14001/OSHMS/DIN6701",
+      "批量业绩": "22 orders, 12 delivered: port DF4B/DFH5, steel-mill DFH5B/JN7×3/QBAA1/DF7C/JN5-8×2, inland-port DF4B, logistics-park GK1E"
     }
   },
   {
@@ -1136,7 +1496,19 @@
     "procurement": {
       "scope": "按场站条件与应用工况选配充电模式，与改造机车同步设计",
       "delivery": "随改造项目配套交付或单独实施",
-      "support": "充电功率与枪数按用户需求配置"
+      "support": "充电功率与枪数按用户需求配置",
+      "scope_en": "Charging modes selected by station conditions and duty, designed together with converted locomotives",
+      "delivery_en": "Delivered with conversion projects or implemented standalone",
+      "support_en": "Charging power and gun counts configurable"
+    },
+    "summary_en": "Five charging modes by scenario: from fixed-station fast charge to charge-while-working and clean-energy microgrids.",
+    "description_en": "Full-scenario charging for converted and new-energy locomotives: fixed charging pantographs for centralized fast charge at preparation yards; laser-guided charging robots for space-limited stations; proven multi-gun ground chargers (e.g. DF4B conversion with three 400kW dual-gun chargers, six guns simultaneously, ~2h for 2000kWh daily demand); pantograph charging while working; and PV+storage+swap clean-energy solutions.",
+    "specs_en": {
+      "定点充电弓": "Roof-mounted current collector with HV grid at the charging point — safe and fast",
+      "充电机器人": "Receiver & controller mounted; laser-guided auto-plug, ≤600kW",
+      "地面充电桩": "Low one-time investment, mature technology, easy maintenance, multi-gun simultaneous charging (400kW dual-gun etc.)",
+      "受电弓充": "Charges while working; compatible with ground chargers",
+      "光储换电": "Wind + solar + storage + battery-swap clean-energy solution; line-side/building PV and fast swap improve transport efficiency"
     }
   },
   {
@@ -1175,7 +1547,20 @@
     "procurement": {
       "scope": "按机型与运营需求选配功能模块，随改造或后装实施",
       "delivery": "与改造项目同步交付或单独加装",
-      "support": "车联网平台账号与小程序配套开通"
+      "support": "车联网平台账号与小程序配套开通",
+      "scope_en": "Function modules selected by model & operation needs, fitted during conversion or retrofitted",
+      "delivery_en": "Delivered with conversion projects or added separately",
+      "support_en": "IoV platform account and mini-program provisioned"
+    },
+    "summary_en": "Smart option packages for converted locomotives: visible energy use, remote control, unmanned driving.",
+    "description_en": "Smart customization packages for diesel-to-electric and new-energy locomotives: IoV platform with real-time daily mileage and day/month/year energy statistics & comparison (yesterday's mileage, yesterday's energy, monthly & yearly energy); remote piloting and unmanned intelligent driving; high-precision positioning and obstacle detection improve yard safety.",
+    "specs_en": {
+      "视频监控": "Video surveillance with audio pickup, multi-camera configuration",
+      "能耗管理": "Energy management with daily/monthly/yearly statistics and per-vehicle benchmarking (IoV platform)",
+      "远程遥控驾驶": "Remote piloting device supporting remote driving",
+      "高精度定位": "High-precision positioning with accurate location & mileage statistics",
+      "安全防护": "Obstacle detection and unmanned intelligent driving systems",
+      "车联网": "IoV system + mini-program (workbench / real-time info / statistics)"
     }
   },
   {
@@ -1214,7 +1599,19 @@
     "procurement": {
       "scope": "新造配套供货 + 架大修检修更换；按车型选型定制",
       "delivery": "按项目合同排产交付",
-      "support": "ISO/TS 22163 质量管理体系；仿真计算+台架试验+线路试验数据互相验证的研发模式"
+      "support": "ISO/TS 22163 质量管理体系；仿真计算+台架试验+线路试验数据互相验证的研发模式",
+      "scope_en": "New-build supply + overhaul replacement; customized by vehicle type",
+      "delivery_en": "Delivered per project contract scheduling",
+      "support_en": "ISO/TS 22163 quality system; R&D validated jointly by simulation, rig tests and line tests"
+    },
+    "summary_en": "Solved the worldwide oil-leakage problem of hydraulic dampers with 2× service life vs foreign products — a provincial Manufacturing Single Champion product.",
+    "description_en": "Urban-rail damper line built on core hydraulic damping technology: cermet-sprayed piston rods are hard and self-lubricating, sustaining 50M fatigue cycles without visible wear (chromed foreign rods ~15M) — internationally leading. Applied on A/B-type metro cars, intercity EMUs and low-floor vehicles, fitted on metro lines in Guangzhou, Zhengzhou, Shenzhen, Nanning, Urumqi, Nanchang, Ningbo and Kunming, Ankara metro (Turkey), Ampang LRT (Malaysia) and LRT3; damper repair services with records on Wuhan, Kunming, Changsha and Ningbo lines.",
+    "specs_en": {
+      "应用车型": "HXD electric locomotives / A & B-type metro / intercity EMUs / low-floor vehicles / suspended & straddle monorail & maglev",
+      "核心技术": "Cermet-sprayed piston rods (50M fatigue cycles, ~3× chrome plating)",
+      "知识产权": "Nearly 60 patents (incl. US invention patents)",
+      "市场地位": "Approved domestic manufacturer of HXD/HXN-series locomotive dampers; urban-rail share above 25%",
+      "试验资质": "ISO/IEC 17025 accredited lab with full-item testing"
     }
   },
   {
@@ -1251,7 +1648,18 @@
     "procurement": {
       "scope": "新造配套 + 技改升级（智能刮雨器改造）",
       "delivery": "按项目合同排产交付",
-      "support": "提供产品使用、维护和操作培训"
+      "support": "提供产品使用、维护和操作培训",
+      "scope_en": "New-build fitting + technical upgrading (smart wiper retrofits)",
+      "delivery_en": "Delivered per project contract scheduling",
+      "support_en": "Usage, maintenance and operation training provided"
+    },
+    "summary_en": "Full coverage of locomotives, urban rail and low-speed EMUs, with new-build and refit records on multiple metro lines; smart upgrades supported.",
+    "description_en": "Wiper series for locomotives, metro and low-speed EMUs in electric and pneumatic types. Our lab is CNAS/IEC17025-accredited with a comprehensive wiper test rig. Projects cover Chengdu, Guangzhou, Shanghai, Shenzhen, Wuxi, Wuhan, Changsha, Zhengzhou, Nanning, Ningbo, Luoyang, Kunming metro and Istanbul airport line, plus wiper upgrades on Kunming Line 1, Shanghai Line 11, Wuhan Line 2 and Shenzhen Line 1.",
+    "specs_en": {
+      "类型": "Electric / pneumatic categories, pneumatic with dual-control mode",
+      "智能升级": "Optional brushless direct drive, rain-sensing adaptive wiping, CAN-connected PHM, voice control",
+      "试验能力": "Comprehensive wiper test bench + CNAS-accredited sensor lab",
+      "市场地位": "Locomotive wiper rated provincial Single Champion; urban-rail share above 25%"
     }
   },
   {
@@ -1288,7 +1696,18 @@
     "procurement": {
       "scope": "新造配套 + 贯通道检修（昆明地铁、武汉大汉阳业绩）",
       "delivery": "按项目合同排产交付",
-      "support": "型式试验报告齐全（隔音隔热/载荷/气密/水密）"
+      "support": "型式试验报告齐全（隔音隔热/载荷/气密/水密）",
+      "scope_en": "New-build fitting + gangway repair (Kunming metro, Wuhan Dahan-yang records)",
+      "delivery_en": "Delivered per project contract scheduling",
+      "support_en": "Complete type-test reports (sound & heat insulation / load / air & water tightness)"
+    },
+    "summary_en": "R&D and manufacturing of all gangway types, volume-fitted on Changsha, Kunming, Nanning and Ningbo metro, with Kunming gangway repair records.",
+    "description_en": "Years of dedicated gangway R&D and production cover metro B-type, A-type, EMUs, low-floor trams and suspended monorail. B-type records include Changsha Lines 1-5, Kunming 1/2/6, Ningbo 3/4/5, Nanning 2-5; A-type records include 176 sets for Istanbul airport line, 260 sets for Changsha Line 6 and Kolkata metro; tram records include Huangpu, Wuhan Dahan-yang and Yunnan Mile.",
+    "specs_en": {
+      "覆盖类型": "Metro B-type (3-panel / 1-panel flexible side screens) / metro A-type / EMUs / low-floor trams / suspended monorail",
+      "试验验证": "6/7-DOF rigs (curve capability + fatigue) and rain-test bench; tested by CABR, CARS, CRCC, CNAS",
+      "制造能力": "6,000㎡ plant, 1,000 sets/year",
+      "市场地位": "Domestic urban-rail share above 8%"
     }
   },
   {
@@ -1327,7 +1746,20 @@
     "procurement": {
       "scope": "新造配套 + 制动电阻检修 + 非金属叶轮节能升级",
       "delivery": "按项目合同排产交付",
-      "support": "复合冷却系统、风机综合试验等 CNAS 试验能力"
+      "support": "复合冷却系统、风机综合试验等 CNAS 试验能力",
+      "scope_en": "New-build fitting + braking-resistor repair + impeller energy-saving upgrades",
+      "delivery_en": "Delivered per project contract scheduling",
+      "support_en": "CNAS test capabilities for composite cooling systems and comprehensive fan tests"
+    },
+    "summary_en": "Drafting unit of cooling-system industry standards, a National Manufacturing Single Champion, exclusive supplier to a leading international platform.",
+    "description_en": "Ventilation & cooling: the independently owned electric-locomotive fan is a National Manufacturing Single Champion product with nationwide share leading the industry; the 3-in-1 air/water/oil integrated cooling tower is an industry first. Also provides braking-resistor new-build & repair (Shanghai metro, Guangzhou metro, SS4B locomotives) and non-metallic impeller lightweight upgrades (43% lighter than cast impellers).",
+    "specs_en": {
+      "行业地位": "Drafting unit of industry standards for rail-vehicle & mining cooling systems",
+      "单项冠军": "Electric-locomotive fan rated National Manufacturing Single Champion and first Hunan Famous Brand",
+      "独创技术": "3-in-1 air/water/oil integrated cooling tower (applied on China's first new intelligent heavy-haul locomotive)",
+      "配套车型": "SS/HX-series locomotives, CRH high-speed EMUs, DMUs, CR400 standard EMUs",
+      "独家供应": "Exclusive supplier of cooling units & systems to a leading international intercity platform",
+      "突破垄断": "330-tonne braking resistor developed, breaking a foreign bottleneck"
     }
   },
   {
@@ -1366,7 +1798,20 @@
     "procurement": {
       "scope": "新造配套供货 + 车体薄弱处探伤评估与修复改造",
       "delivery": "按项目合同排产交付",
-      "support": "有限元分析及仿真计算、工艺和材料研发团队支撑定制"
+      "support": "有限元分析及仿真计算、工艺和材料研发团队支撑定制",
+      "scope_en": "New-build supply + flaw assessment & repair of weak car-body areas",
+      "delivery_en": "Delivered per project contract scheduling",
+      "support_en": "FEA & simulation plus process/material R&D teams supporting customization"
+    },
+    "summary_en": "Design, simulation, manufacturing and inspection from multi-metal parts to complete car bodies; 2,000+ locomotive roofs exported exclusively.",
+    "description_en": "Capability across design, simulation, efficient manufacturing and inspection for multi-metal structural parts and complete car bodies. Products cover car bodies, end parts, roofs, underframes, sidewalls, fuel tanks and cabinets — large, medium and small complex structures for locomotives, EMUs, urban rail, metro, virtual-track and suspended systems.",
+    "specs_en": {
+      "资质认证": "EN15085 welding certification; 22 advanced welding processes mastered",
+      "焊接团队": "348 international welders, 72 IWE engineers",
+      "产能": "1,000 car-body large assemblies + 1,300 medium/small parts per year",
+      "覆盖车型": "Locomotives / EMUs / urban rail & metro / virtual-track trains / suspended systems",
+      "独家地位": "Exclusive export supplier of aluminum locomotive roofs — 2,000+ sets, with an international customer's quality-inspection authorization",
+      "单项冠军": "Car-body assemblies rated provincial Manufacturing Single Champion"
     }
   },
   {
@@ -1406,7 +1851,20 @@
     "procurement": {
       "scope": "新造配套 + 内装升级改造（上海青浦进口小火车升级业绩）",
       "delivery": "按项目合同排产交付",
-      "support": "整套涂料研发与涂装工艺定制"
+      "support": "整套涂料研发与涂装工艺定制",
+      "scope_en": "New-build fitting + interior upgrade (Shanghai Qingpu imported mini-train record)",
+      "delivery_en": "Delivered per project contract scheduling",
+      "support_en": "Complete coating R&D and painting process customization"
+    },
+    "summary_en": "Pioneer in rail carbon fiber / aramid honeycomb; coatings exported to Europe on complete vehicles.",
+    "description_en": "Five product lines — composites, coatings, insulation, painting and castings — with forming technology internationally advanced. Full coating R&D (waterborne / metallic flash / high-solid / fluorocarbon / low-VOC) and painting processes (leather-grain / water-transfer / hammer-tone / high-gloss / matte); functional structural products include infrared heating floors, fire-resistant cab partitions, closing devices and large composite cabins.",
+    "specs_en": {
+      "材料体系": "FRP sheets / aluminum honeycomb / aramid honeycomb / carbon-fiber panels",
+      "单项冠军": "Rail carbon-fiber nose cone rated provincial Single Champion",
+      "涂料标准": "Waterborne coatings meet TSI and are exported with complete vehicles to Austria, Germany, Hungary",
+      "阻燃标准": "Compliant with EN45545 / BS6853 / DIN5510 / TB/T 3138",
+      "内装产品": "Nose cones / floors / driving desks / cab interiors / passenger seats / side & ceiling panels / end partitions / sidewall pillar covers",
+      "技术荣誉": "Large composite parts technology won provincial first-class S&T progress award; urban-rail share above 15%"
     }
   },
   {
@@ -1445,7 +1903,19 @@
     "procurement": {
       "scope": "按试验对象与工艺需求非标定制，交钥匙工程",
       "delivery": "设计—制造—安装—调试一体化交付",
-      "support": "可独立完成机械、电气、电子和软件设计开发"
+      "support": "可独立完成机械、电气、电子和软件设计开发",
+      "scope_en": "Non-standard customization by test object & process; turnkey",
+      "delivery_en": "Design — manufacture — installation — commissioning, integrated",
+      "support_en": "Independent mechanical, electrical, electronic and software development"
+    },
+    "summary_en": "From a national specialized 'little giant': component-level test benches covering eight rail-vehicle systems.",
+    "description_en": "Rail testing equipment line from a national specialized & innovative 'little giant' base (founded 2006): complete bench solutions for routine factory or post-repair testing of air-source devices, braking controls & components, foundation brakes, traction motors, converters, door systems and electrical components, with non-standard custom design across mechanical, electrical, hydraulic, pneumatic, control and IT domains.",
+    "specs_en": {
+      "转向架类": "Wheelset running-in / bogie static-load / primary-spring·air-spring·damper benches / bogie running-in bench / wheel-axle measuring / intelligent bearing assembly line",
+      "制动系统": "Valve comprehensive bench / EP2002 valve bench / foundation-brake·braking-device·compressor benches",
+      "牵引系统": "Motor benches (no-load / locked-rotor / vibration / temperature-rise / insulation) / IGBT module testing / TCU test platform",
+      "车门类": "Door-system bench (mechanism performance tests) / door dismantling carts",
+      "电器类": "Master-controller / speed-sensor / high-speed-breaker / electrical benches / PCB test platform / voltage & current sensor benches"
     }
   },
   {
@@ -1484,7 +1954,19 @@
     "procurement": {
       "scope": "产线总体规划 + 设备供货 + 信息系统部署",
       "delivery": "交钥匙工程及技术服务",
-      "support": "工艺目视化、防错防呆、质量追溯体系搭建"
+      "support": "工艺目视化、防错防呆、质量追溯体系搭建",
+      "scope_en": "Line planning + equipment supply + IT system deployment",
+      "delivery_en": "Turnkey and technical services",
+      "support_en": "Process visualization, error-proofing and quality-traceability system setup"
+    },
+    "summary_en": "Benchmark records such as the Shanghai Metro brake-repair smart workshop, with IT-controlled repair processes.",
+    "description_en": "Overall planning and construction of component repair lines for metro and locomotive depots: braking, bogie, traction-motor and electrical/sensor lines infused with lean, automation, information and intelligence — visualized processes, error-proofing, inline quality inspection and SPC analysis; production is monitorable, recordable and traceable.",
+    "specs_en": {
+      "制动检修": "Metro brake-component repair workshop (full brake systems for Shanghai Metro) / intelligent brake repair line (SS4B, SS4G, HXD1) / brake-cabinet smart workshop (C5) / metro brake-valve repair line / tread-cleaner production line",
+      "转向架检修": "Sujiatun depot bogie repair line / damper repair line / drive-device workshop (HXD1B/C/D, HXD3, HXD3C at C5)",
+      "牵引电机": "Multi-model metro traction-motor repair lines (mainstream traction suppliers' types covered)",
+      "电器检修": "Guangzhou EMU-depot sensor repair line / Guangzhou metro pantograph repair line",
+      "信息化": "RWAMS on all lines — digital management from removal to refit"
     }
   },
   {
@@ -1520,7 +2002,17 @@
     "procurement": {
       "scope": "按车型配置试验参数与管路，扩展性好",
       "delivery": "交钥匙工程及技术服务",
-      "support": "软件自动上传检修作业数据，实时跟进作业状态"
+      "support": "软件自动上传检修作业数据，实时跟进作业状态",
+      "scope_en": "Test parameters & pipework configured by vehicle type; highly extensible",
+      "delivery_en": "Turnkey and technical services",
+      "support_en": "Software auto-uploads repair data with real-time status tracking"
+    },
+    "summary_en": "Full-flow equipment for single-car assembly and testing in new build & overhaul: guided operations, error-proofing, traceable data.",
+    "description_en": "Covers single-car assembly and testing: smart operation carts standardize work and prevent wrong/missing assembly; smart tool cabinets control and trace tools; tightness/pressure-hold cleaning/withstand-voltage/weighing rigs support manual & automatic modes and connect to MES for real-time upload, enabling paperless test archives and quality analysis.",
+    "specs_en": {
+      "组装作业": "Smart operation carts (auto task receiving / torque standards / process auto-advance / traceable data) / smart tool cabinets (face recognition / borrow-return logs / traceability) / movable self-propelled work platforms",
+      "单车试验": "Pipeline pressure-hold cleaning rig (manual & auto, two independent circuits, MES-linked) / integrated withstand-voltage equipment (wireless camera / voice prompts / self-diagnosis) / weighing devices (portable + fixed, wheel/axle/total weight)",
+      "数据管理": "Test-data management system (unified upload, query, analysis)"
     }
   },
   {
@@ -1556,7 +2048,17 @@
     "procurement": {
       "scope": "按车型与调试工艺定制",
       "delivery": "交钥匙工程及技术服务",
-      "support": "调试过程作业指导与数据自动化采集"
+      "support": "调试过程作业指导与数据自动化采集",
+      "scope_en": "Customized by vehicle type & commissioning process",
+      "delivery_en": "Turnkey and technical services",
+      "support_en": "Commissioning guidance and automatic data collection"
+    },
+    "summary_en": "Digital & intelligent complete-vehicle commissioning: less labor intensity and skill dependency, assured quality.",
+    "description_en": "For new-build and overhaul commissioning: signal-simulation test equipment controls and inspects the vehicle under test; the digital commissioning system builds data visualization & sharing of test states across terminals, achieving guided operations, automatic data collection and safety management.",
+    "specs_en": {
+      "信号模拟": "On-board signal-simulation tester (industrial board + display + IO unit + MVB card, RS-485/parallel bus)",
+      "数字化调试": "Receives commissioning tasks from upper systems, multi-terminal data visualization & sharing — guided operations, automatic data collection, safety management",
+      "车头检修": "Cab repair platform + static brake-test equipment"
     }
   },
   {
@@ -1593,7 +2095,18 @@
     "procurement": {
       "scope": "系统部署 + 设备感知层对接 + 报表体系搭建",
       "delivery": "按车间现状分阶段实施",
-      "support": "与既有产线/试验设备的数据接口定制"
+      "support": "与既有产线/试验设备的数据接口定制",
+      "scope_en": "System deployment + device sensing integration + reporting framework",
+      "delivery_en": "Implemented in phases per workshop status",
+      "support_en": "Data-interface customization with existing lines/test equipment"
+    },
+    "summary_en": "Fine-grained whole-process management of depot repair operations: full digitalization from process to quality.",
+    "description_en": "The repair information management system is customized for depot on-site management, digitalizing repair-procedure execution: work records, quality monitoring, repair traceability, flaw detection, special-inspection parts records and pressure-curve management — data support for repair quality and efficiency.",
+    "specs_en": {
+      "核心模块": "Process / personnel / material (kitting·distribution·traceability) / equipment / quality / repair-program / outsourcing & planning management",
+      "数据采集": "Eight data types — personnel/equipment/material/process/quality/operation/test/interface — connected to torque wrenches, pressing machines and test devices",
+      "管控终端": "Management center + mobile terminals + reporting & analysis",
+      "应用业绩": "Applied on whole lines such as the Shanghai Metro brake-repair smart workshop"
     }
   },
   {
@@ -1629,7 +2142,17 @@
     "procurement": {
       "scope": "系统实施 + 与既有联锁/车号识别系统对接",
       "delivery": "按车厂现状分阶段实施",
-      "support": "计划自动编排与运维数据分析"
+      "support": "计划自动编排与运维数据分析",
+      "scope_en": "Implementation + integration with existing interlocking/train-number systems",
+      "delivery_en": "Implemented in phases per depot status",
+      "support_en": "Automatic planning and O&M data analysis"
+    },
+    "summary_en": "Optimized shunting organization in service depots + fine-grained whole-process repair management.",
+    "description_en": "The depot dispatch system optimizes planning algorithms and dispatch for shunting in service depots, ensuring train safety through reasonable service & repair plans and raising capacity of operation depots and repair bases; the daily O&M system focuses on fine-grained on-site repair management, eliminating hidden faults and improving reliability.",
+    "specs_en": {
+      "调度联动": "Integrates interlocking, train-number recognition and intelligent positioning systems",
+      "核心价值": "Optimized & automatic service/repair planning; higher train utilization and lower repair cost under safety assurance",
+      "运维管理": "Digitalizes routine inspection & balanced-repair procedures, standardizing work and ensuring quality"
     }
   },
   {
@@ -1667,7 +2190,18 @@
     "procurement": {
       "scope": "按检修对象选配工作站模块",
       "delivery": "交钥匙工程及技术服务",
-      "support": "人机协同作业模式设计"
+      "support": "人机协同作业模式设计",
+      "scope_en": "Workstation modules selected by repair object",
+      "delivery_en": "Turnkey and technical services",
+      "support_en": "Human-robot collaboration model design"
+    },
+    "summary_en": "Robot + vision + AGV automation for repair: laser paint removal replacing chemical cleaning — green and efficient.",
+    "description_en": "A cluster of robot-based intelligent repair systems for rail components: bogie-rod repair with mechatronic design and safety light grids; grounding-device & coupling flexible repair with automatic assembly and digital tightening; wheel-axle auto-measurement with line automation and IT records; green cleaning line for overhauled couplers, compressors and braking units.",
+    "specs_en": {
+      "杆件检修": "Laser paint removal (replacing chemicals) + automatic joint pressing + robot-assisted handling, with vision positioning and human-robot collaboration",
+      "柔性检修": "Grounding-device & coupling flexible repair (robot handling / tightening / vision / greasing / AGV transfer)",
+      "自动测量": "Wheel-axle auto-measuring & repair system (automatic measurement + part-number recognition + IT records)",
+      "绿色清洗": "Green cleaning line for couplers / compressors / dryers / braking units / axle-box speed covers / grounding devices"
     }
   },
   {
@@ -1707,7 +2241,20 @@
     "procurement": {
       "scope": "按院校专业教学需求定制（车辆+模拟驾驶系统+内饰场景）",
       "delivery": "联合设计—研制—交付一体化（参照首台套30个工作日设计冻结节奏）",
-      "support": "青年突击队技术组联合设计；培训使用支持"
+      "support": "青年突击队技术组联合设计；培训使用支持",
+      "scope_en": "Customized by college program needs (vehicle + simulation system + interior scenes)",
+      "delivery_en": "Joint design — development — delivery (30-working-day design freeze rhythm)",
+      "support_en": "Joint design with the youth commando team; training-use support"
+    },
+    "summary_en": "Our first-of-its-kind DMU training control car: full teaching coverage of DMU core systems, an immersive virtual-real training vehicle.",
+    "description_en": "A DMU training vehicle customized for a Yunnan transportation college, integrating a driving-simulation system into one training carrier. The door system innovatively carries 5 mainstream models; simulation and real driving desks are physically separated for virtual-real integration; train control uses PLC with visualized processes; interiors are deeply customized for teaching (transparent windows, movable maintenance doors, group-study + movable seats). Costs were reduced by reuse (existing cables powering 80%+ equipment, adaptive process-bogie refit, reuse of overhaul surplus) and by adapting quality civilian products for air-source, lighting and PIS per interface standards.",
+    "specs_en": {
+      "产品定位": "Our first DMU training control car — a mobile classroom for rolling-stock, rail electromechanical and train-crew programs",
+      "车门教学": "Innovative 5 mainstream door models covering all high/low-speed EMU types",
+      "驾驶教学": "Simulation and real driving desks physically separated — dual virtual-real teaching",
+      "可视化教学": "Transparent roof under A/C / movable air-source module door / PLC train control with visualized processes / low-platform doors",
+      "内饰布局": "2+2 seats + desks for group study + 20 movable seats",
+      "研制效率": "Whole design frozen and BOM verified in 30 working days"
     }
   },
   {
@@ -1745,7 +2292,18 @@
     "procurement": {
       "scope": "教培整车 + 单项教培部件（车门/受电弓/转向架）+ 场景布局设计",
       "delivery": "按职教项目采购周期交付",
-      "support": "与课程体系配套的实训场景设计"
+      "support": "与课程体系配套的实训场景设计",
+      "scope_en": "Training vehicle + individual training parts (door/pantograph/bogie) + scene layout design",
+      "delivery_en": "Delivered per vocational procurement cycles",
+      "support_en": "Training-scene design paired with course systems"
+    },
+    "summary_en": "A teaching car built on the B-type metro production platform plus three in-house innovative training parts (door / pantograph / bogie).",
+    "description_en": "Leveraging urban-rail vehicle manufacturing capability, we provide vocational colleges with real-vehicle teaching carriers: a training car configured as a TC car with driver's cab, plus innovative JPCM-01 training doors, JPSDG-01 training pantographs and JPZXJ-01 training bogies with training-scene layout design — covering structure cognition, fitting & adjustment and fault handling.",
+    "specs_en": {
+      "载体平台": "Teaching car built on the B-type metro production platform (TC car with driver's cab, unpowered)",
+      "创新部件": "JPCM-01 training door / JPSDG-01 training pantograph / JPZXJ-01 training bogie",
+      "场景设计": "Training-scene layout design",
+      "项目背景": "2024 modern vocational-equipment procurement of a Yunnan transportation vocational college"
     }
   },
   {
@@ -1783,7 +2341,18 @@
     "procurement": {
       "scope": "按车型蓝本与专业配置选型",
       "delivery": "按实训基地建设计划交付",
-      "support": "培训/考核灵活选择，自定义考核标准"
+      "support": "培训/考核灵活选择，自定义考核标准",
+      "scope_en": "Selected by vehicle blueprint and program configuration",
+      "delivery_en": "Delivered per training-base construction plans",
+      "support_en": "Flexible training/assessment with customizable standards"
+    },
+    "summary_en": "Simulators covering urban rail, DMU and high-speed blueprints, plus driving training rooms.",
+    "description_en": "The driving-simulation line of our training equipment portfolio: simulation rooms configured 1:1 with urban-rail typical trains, scene systems and virtual train-control equipment; CR200J/CR400AF·BF simulators restore the driver environment per the corresponding vehicle blueprints; the electric-train preparation yard provides a 1:1 teaching car for practice.",
+    "specs_en": {
+      "城轨型": "1:1 simulator + forward/side scene systems + virtual train control + electrical-cabinet simulation",
+      "CR200J型": "CR200J DMU blueprint (driving desk / instrument switches / cab radio / PA console / TCMS / ATC / CCTV displays / seats)",
+      "CR400型": "CR400AF/CR400BF high-speed blueprint, same configuration",
+      "配套整备": "Electric-train preparation yard (1:1 teaching car + forward scene system + three-level platforms + chargers)"
     }
   },
   {
@@ -1819,7 +2388,17 @@
     "procurement": {
       "scope": "按线路与车型定制仿真场景库",
       "delivery": "设计—开发—部署—培训一体化交付",
-      "support": "教学管理系统配套，培训/考核数据管理"
+      "support": "教学管理系统配套，培训/考核数据管理",
+      "scope_en": "Simulation scene libraries customized by line & vehicle type",
+      "delivery_en": "Design — development — deployment — training, integrated",
+      "support_en": "Teaching-management system with training/assessment data"
+    },
+    "summary_en": "Simulation systems with logic identical to real trains: standard-operation drills + fault-injection troubleshooting + emergency assessment.",
+    "description_en": "Training products combining simulation devices and software via system modelling to recreate a realistic driving environment: learners practice standard operations, whole-train circuit fault-injection troubleshooting and emergency handling of sudden events; the comprehensive maintenance training system serves structure cognition, part replacement, fault handling and component repair teaching.",
+    "specs_en": {
+      "仿真培训": "Taiyuan Line-2 simulation-test & driving-training system (vehicle + scene + circuit simulation with real-train logic, fault injection & assessment, FAO role training)",
+      "应急处置": "Emergency fault-handling system (desk + CGI scenes + fault modules + sound simulation + teaching management, typical faults & emergencies)",
+      "检修实训": "Comprehensive metro maintenance training system (bogie / A/C / pantograph / coupler / doors / desk — field-identical layout with matching electrical & pneumatic logic)"
     }
   },
   {
@@ -1859,7 +2438,20 @@
     "procurement": {
       "scope": "基地总体规划 + 实训室设备 + 信息化平台 + 课程体系",
       "delivery": "按院校建设分期实施",
-      "support": "定制化方案精准适配需求避免过度投资，库存旧件再利用降本"
+      "support": "定制化方案精准适配需求避免过度投资，库存旧件再利用降本",
+      "scope_en": "Base planning + training-room equipment + IT platform + course systems",
+      "delivery_en": "Implemented in phases per college construction plans",
+      "support_en": "Tailor-made solutions avoid over-investment; reuse of inventoried parts cuts cost"
+    },
+    "summary_en": "A comprehensive training-base EPC for colleges & operators: crew, station, dispatch and maintenance joint drills.",
+    "description_en": "Guided by occupational skill standards and emergency-safety training, we build leading comprehensive bases with platforms for crew, station, dispatch and maintenance disciplines — independent yet jointly exercisable — supporting talent training, assessment and certification. Training centers are designed around full-system simulation, flexible scenes, skill learn-train-test-contest and smart management analysis, with order-class models, certification systems, self-editable courses and flexible fault setting.",
+    "specs_en": {
+      "建设理念": "Modular skill training · standardized occupational skills · scenario-based joint drills",
+      "六项任务": "Skill training / certification / joint drills / contests / industry-education integration / technical exchange",
+      "实训平台": "Comprehensive training for dispatchers / vehicle repair / station service / signalling repair / drivers / communication repair / power supply / electromechanical repair / test lines",
+      "设计理念": "Full-system simulation · flexible scenes · learn-train-test-contest · smart management & analysis",
+      "实训室": "19 types: comprehensive operations / PSD & doors / traffic organization / station control / first-aid & firefighting / electromechanical / electrical / VR simulation / preparation yard / driving simulation / metro & EMU traction-brake / coupler / smart repair / AR repair / network fault simulation / intelligent O&M and more",
+      "增值服务": "Up to 30% saving via tailored plans / order-class school-enterprise cultivation / certification system building"
     }
   },
   {
@@ -1897,7 +2489,19 @@
     "procurement": {
       "scope": "整车架大修 / 专项改造 / 部件检修按需组合",
       "delivery": "属地化基地就近实施",
-      "support": "7×24小时客服快速响应；ISO9001质量控制；操作培训支持"
+      "support": "7×24小时客服快速响应；ISO9001质量控制；操作培训支持",
+      "scope_en": "Vehicle overhaul / special refits / component repair combined on demand",
+      "delivery_en": "Implemented at localized bases nearby",
+      "support_en": "7×24 response; ISO9001 quality control; operation training"
+    },
+    "summary_en": "20+ overhaul records: full-chain service from vehicle dismantling to component repair, four nationwide bases.",
+    "description_en": "One-stop overhaul & upgrade relying on welding, interior and wiring teams: multiple vehicle-dismantling projects completed with OEMs and a mature dismantling process; repair records cover metro lines in Guangzhou, Shenzhen, Shanghai, Kunming, Wuhan, Ningbo and Nanning, plus special projects such as the imported sightseeing mini-train upgrade.",
+    "specs_en": {
+      "整车级": "Vehicle dismantling (CJ6 Changsha-Zhuzhou-Xiangtan, Guangzhou L1, Shenzhen L1, Guangfo Line) / complete-vehicle wiring (Guangzhou A1, Shenzhen L1, L3 east extension, L22) / flooring / paint repair",
+      "车体级": "Flaw assessment & repair of weak areas — gangway joints, coupler seats, bolsters, buffer beams + refit plans",
+      "内装级": "Ceiling / cabinet covers / sidewall panels / duct repairs and interior upgrades (Shanghai Qingpu imported mini-train record)",
+      "部件级": "Damper / wiper / pantograph / braking-resistor / battery-box / axle-box / brake-disc / anti-bending repair; handrail & brake-piping refits; cabinet upgrades; signalling retrofits (Wuhan L1, Changsha L2)",
+      "检修基地": "Guangzhou (benchmark) + localized bases in Ningbo / Wuhan / Nanning — a nationwide service network"
     }
   },
   {
@@ -1933,7 +2537,17 @@
     "procurement": {
       "scope": "按运维项目物料清单定制供应计划",
       "delivery": "全网络覆盖准时配送",
-      "support": "集中仓储管理与齐套配送"
+      "support": "集中仓储管理与齐套配送",
+      "scope_en": "Supply plans customized per project material lists",
+      "delivery_en": "Network-wide on-time distribution",
+      "support_en": "Centralized warehousing and kitting delivery"
+    },
+    "summary_en": "Full-category rail material supply: procurement-warehousing-distribution assurance for O&M projects.",
+    "description_en": "Full-category rail material supply for metro companies and O&M providers: custom procurement matched precisely to vehicle types & scenes, centralized warehousing, precise on-time distribution — an integrated supply chain for cost reduction and efficient project delivery.",
+    "specs_en": {
+      "供应能力": "Full-category rail material supply backed by group resources",
+      "服务模式": "Custom procurement (precise matching by type & scene) / centralized warehousing (modern systems) / precise distribution (network-wide on-time)",
+      "客户价值": "Procurement-warehousing-distribution integration for shorter cycles and lower total cost"
     }
   }
 ]

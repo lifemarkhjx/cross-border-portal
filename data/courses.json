@@ -17,6 +17,12 @@
           "城轨车辆编组形式与TC车/B车/M车功能定位",
           "车体结构组成与车体总成部件（顶盖/底架/侧墙/端部件）",
           "内装系统构成：地板/司机台/座椅/顶板/隔墙"
+        ],
+        "title_en": "Vehicle Overview & Car-body Systems",
+        "points_en": [
+          "Metro formation and TC/B/M car functions",
+          "Car-body structure and assemblies (roof / underframe / sidewalls / end parts)",
+          "Interior systems: floors / desks / seats / ceilings / partitions"
         ]
       },
       {
@@ -28,6 +34,12 @@
           "转向架总体构成：轮对轴箱/一系二系悬挂/牵引电机/齿轮箱",
           "油压减振器的功能与安装位置（利用JPZXJ-01教培转向架认知）",
           "轮对轴箱轴承组装与压装工艺认知"
+        ],
+        "title_en": "Bogie Systems",
+        "points_en": [
+          "Bogie composition: wheelset axle-boxes / primary & secondary suspension / traction motors / gearboxes",
+          "Damper functions & mounting positions (with JPZXJ-01 training bogie)",
+          "Wheelset bearing assembly & pressing cognition"
         ]
       },
       {
@@ -39,6 +51,12 @@
           "车门系统类型：利用5种主流车门型号教学（JPCM-01教培车门）",
           "门机机构组成与动作原理",
           "贯通道与防折弯系统功能认知"
+        ],
+        "title_en": "Doors & Gangway Systems",
+        "points_en": [
+          "Door types: teaching with 5 mainstream models (JPCM-01)",
+          "Door-mechanism composition & principles",
+          "Gangway & anti-bending system cognition"
         ]
       },
       {
@@ -50,6 +68,12 @@
           "风源装置与制动控制装置（阀类/基础制动器）构成",
           "牵引电机与变流器基本原理",
           "受电弓与高压系统认知（JPSDG-01教培受电弓）"
+        ],
+        "title_en": "Braking & Traction Systems",
+        "points_en": [
+          "Air-source and brake-control devices (valves / foundation brakes)",
+          "Traction motor & converter basics",
+          "Pantograph & high-voltage cognition (JPSDG-01)"
         ]
       }
     ],
@@ -59,7 +83,9 @@
       "B型地铁",
       "认知实训"
     ],
-    "status": "publish"
+    "status": "publish",
+    "audience_en": "Rail-program freshmen / crew & maintenance staff in transition",
+    "summary_en": "Using the B-type metro car and DMU as carriers, builds an overall cognition of five systems — vehicle overview, car body, bogie, doors, braking & traction."
   },
   {
     "id": "C002",
@@ -79,6 +105,12 @@
           "轮对轴箱轴承智能组装产线流程：自动识别/输送/测量/涂脂/选配/压装",
           "轮轴几何尺寸自动检测项目（车轮直径/轮缘厚/踏面摩耗/内侧距等）",
           "螺栓轴箱拆装作业规范"
+        ],
+        "title_en": "Wheelset & Axle-box Assembly",
+        "points_en": [
+          "Smart bearing assembly line: identification / transfer / measuring / greasing / matching / pressing",
+          "Auto-detection of wheel-axle geometry (diameter / flange / tread / back-to-back)",
+          "Bolted axle-box disassembly norms"
         ]
       },
       {
@@ -90,6 +122,12 @@
           "一系弹簧/空气弹簧/油压减振器性能试验方法（轴向刚度/气密性/阻尼特性）",
           "油压减振器检修线工艺要点与防错防呆",
           "活塞杆表面处理技术对寿命的影响"
+        ],
+        "title_en": "Springs & Dampers Fitting",
+        "points_en": [
+          "Performance tests of primary springs / air springs / dampers (stiffness / tightness / damping)",
+          "Damper-line process essentials & error-proofing",
+          "Effect of rod surface treatment on life"
         ]
       },
       {
@@ -101,6 +139,12 @@
           "静载试验：加载称重、气密性试验、轴距等尺寸测量",
           "跑合试验：模拟车体加载，轴箱/齿轮箱/电机温升与振动检测",
           "轮对跑合试验台操作（温度/振动/转速测量，正反转功能）"
+        ],
+        "title_en": "Bogie Tests",
+        "points_en": [
+          "Static-load test: loading & weighing, tightness, dimension measuring",
+          "Running-in test: simulated body load, temperature-rise & vibration detection",
+          "Wheelset running-in bench operation (temperature / vibration / speed, forward & reverse)"
         ]
       },
       {
@@ -112,6 +156,12 @@
           "检修作业平台+专家引导系统使用",
           "工具及物料管理系统与智能评分系统",
           "转向架/制动装置/轮对驱动/受电弓等智能检修实训流程"
+        ],
+        "title_en": "Smart Repair Platform Practice",
+        "points_en": [
+          "Platform + expert-guidance system usage",
+          "Tool & material management and smart scoring",
+          "Intelligent repair flows for bogie / braking / wheelset / pantograph"
         ]
       }
     ],
@@ -122,7 +172,9 @@
       "跑合试验",
       "智能检修"
     ],
-    "status": "publish"
+    "status": "publish",
+    "audience_en": "Rolling-stock maintenance students / pre-job repair training",
+    "summary_en": "From wheelset assembly to running-in tests, master the full bogie repair process and test methods with smart-repair-platform practice."
   },
   {
     "id": "C003",
@@ -142,6 +194,12 @@
           "高、低速动车组车门类型概览（5种主流型号）",
           "地铁滑动门/塞拉门结构差异",
           "车门教学区域布局：实操空间设计"
+        ],
+        "title_en": "Door System Structures & Types",
+        "points_en": [
+          "High/low-speed EMU door types overview (5 mainstream models)",
+          "Structural differences of sliding vs plug doors",
+          "Door teaching-area layout: practice-space design"
         ]
       },
       {
@@ -153,6 +211,12 @@
           "门机机构组成与拆装小车使用",
           "车门拆装作业规范与防错要点",
           "驱动机构与锁闭机构调整"
+        ],
+        "title_en": "Door Mechanism Fitting",
+        "points_en": [
+          "Mechanism composition & dismantling cart usage",
+          "Door dismantling norms & error-proofing",
+          "Drive & locking mechanism adjustment"
         ]
       },
       {
@@ -164,6 +228,12 @@
           "车门系统试验台性能参数测试方法",
           "常见故障现象与排查路径",
           "站台门与客室门联动实训（站台门实训室场景）"
+        ],
+        "title_en": "Performance Tests & Fault Handling",
+        "points_en": [
+          "Bench performance test methods",
+          "Common symptoms & troubleshooting paths",
+          "PSD & door linked training (PSD room scene)"
         ]
       }
     ],
@@ -174,7 +244,9 @@
       "装调",
       "故障处理"
     ],
-    "status": "publish"
+    "status": "publish",
+    "audience_en": "Vehicle electromechanical students / door-specialist maintainers",
+    "summary_en": "Based on 5 mainstream door models (JPCM-01), covers structure cognition, mechanism fitting, performance tests and fault handling."
   },
   {
     "id": "C004",
@@ -194,6 +266,12 @@
           "模拟驾驶器构成：司机操作台/视景系统/虚拟列控/TCMS·ATC·CCTV显示",
           "模拟驾驶与实车司机台的关系（虚实结合设计理念）",
           "教员管理台与故障设置功能"
+        ],
+        "title_en": "Driving Simulation System Composition",
+        "points_en": [
+          "Simulator: desk / scene system / virtual train control / TCMS·ATC·CCTV displays",
+          "Relation between simulation & real desks (virtual-real design)",
+          "Instructor console & fault setting"
         ]
       },
       {
@@ -205,6 +283,12 @@
           "出乘检查与整备作业流程",
           "正线运行标准作业",
           "站台门/车门联动操作规范"
+        ],
+        "title_en": "Standard Operation Drills",
+        "points_en": [
+          "Pre-departure checks & preparation flows",
+          "Mainline operation standards",
+          "PSD/door linked operation norms"
         ]
       },
       {
@@ -216,6 +300,12 @@
           "车辆常见故障注入方法",
           "整车电路原理故障排查思路",
           "故障处置考核标准"
+        ],
+        "title_en": "Fault Injection & Troubleshooting",
+        "points_en": [
+          "Common fault-injection methods",
+          "Whole-train circuit troubleshooting approach",
+          "Fault-handling assessment standards"
         ]
       },
       {
@@ -227,6 +317,12 @@
           "典型突发事件应急处置流程",
           "非正常行车场景演练",
           "应急安全教育（急救消防实训室联动）"
+        ],
+        "title_en": "Emergency Handling & Abnormal Operation",
+        "points_en": [
+          "Typical emergency response flows",
+          "Abnormal-operation scene drills",
+          "Emergency-safety education (with first-aid room)"
         ]
       }
     ],
@@ -237,7 +333,9 @@
       "故障注入",
       "CR200J"
     ],
-    "status": "publish"
+    "status": "publish",
+    "audience_en": "Driver trainees / operation crew",
+    "summary_en": "Based on CR200J/CR400 simulators and the emergency training system, completes standard-operation, fault-injection and emergency drills."
   },
   {
     "id": "C005",
@@ -257,6 +355,12 @@
           "昆明首期 YQ-190-6：190kW / 568V，3号线 YQ-190-20，4号线 YJ260B5：190kW / 1080V",
           "联轴节选型：首期 KWD ZK141-1、3号线 KWD ZK190-5BE、4号线 ESCO FTRN 70",
           "电机自通风结构与进风口过滤器"
+        ],
+        "title_en": "Motor Selection & Basic Parameters",
+        "points_en": [
+          "Phase-1 YQ-190-6: 190kW / 568V; Line-3 YQ-190-20; Line-4 YJ260B5: 190kW / 1080V",
+          "Coupling selection: Phase-1 KWD ZK141-1, Line-3 KWD ZK190-5BE, Line-4 ESCO FTRN 70",
+          "Self-ventilation structure and inlet filters"
         ]
       },
       {
@@ -268,6 +372,12 @@
           "非传动端轴承 6215M/C4VL0241 与传动端轴承 NU216ECM/C4VA3091",
           "轴承室润滑脂型号选用与首期注油量（传动端140+5g / 非传动端160+5g，4号线约64g/约93g）",
           "轴承内圈加热温度 110~120℃，轴承游隙测量与轴伸端着色检查工具选用"
+        ],
+        "title_en": "Bearing System & Lubrication",
+        "points_en": [
+          "Non-drive-end bearing 6215M/C4VL0241 and drive-end NU216ECM/C4VA3091",
+          "Bearing-grease grade selection & first filling (drive end 140+5g / non-drive 160+5g; Line-4 ~64g / ~93g)",
+          "Inner-ring heating 110~120℃, clearance measurement and shaft-end dye check tools"
         ]
       },
       {
@@ -279,6 +389,12 @@
           "压装保压压力限值：首期300KN、3号线160KN、4号线134KN，压装后静置24h进行平齐度测量",
           "联轴节注油：首期0.35L、3号线0.4L、4号线加注122g",
           "拆卸气动泵压力限值：首期2300bar、3号线2400bar；压装/拆卸安全纪律"
+        ],
+        "title_en": "Coupling Assembly & Disassembly",
+        "points_en": [
+          "Pressing pressure limits: Phase-1 300kN, Line-3 160kN, Line-4 134kN; flushness measured after 24h standing",
+          "Coupling greasing: Phase-1 0.35L, Line-3 0.4L, Line-4 122g",
+          "Disassembly pump pressure limits: Phase-1 2300bar, Line-3 2400bar; pressing/dismantling safety discipline"
         ]
       },
       {
@@ -291,6 +407,13 @@
           "振动试验标准：2000/3000r/min小于3.50，4300余转小于5.25；轴承温升不超过35K",
           "绝缘电阻测试：大修定子绕组大于10MΩ、1/3/6架修大于5MΩ、4架修大于100MΩ；温度/速度传感器DC250V兆欧表大于1MΩ",
           "螺栓紧固纪律：M16螺栓扭力170N·m，拆卸可用风炮、安装不能用风炮"
+        ],
+        "title_en": "Tests & Quality Control",
+        "points_en": [
+          "Rotor balancing: unbalance ≤1.5g, actually adjusted to ≤1.0g",
+          "Vibration standards: <3.50 at 2000/3000 r/min, <5.25 at 4300+ r/min; bearing temperature rise ≤35K",
+          "Insulation: overhauled stator >10MΩ; 1/3/6 repairs >5MΩ; 4th repair >100MΩ; sensors >1MΩ at DC250V",
+          "Bolt discipline: M16 torque 170N·m — pneumatic wrench allowed for removal, not for installation"
         ]
       }
     ],
@@ -302,6 +425,8 @@
       "联轴节",
       "动平衡"
     ],
-    "status": "publish"
+    "status": "publish",
+    "audience_en": "Traction-motor technicians / depot motor maintainers",
+    "summary_en": "Based on Kunming Phase-1 / Line 3 / Line 4 traction motors (YQ-190-6 / YQ-190-20 / YJ260B5), covering selection, bearing lubrication, coupling assembly and test quality control."
   }
 ]

@@ -8,6 +8,14 @@
       "覆盖动力集中型动车组核心系统教学点",
       "虚实结合双重教学体验",
       "20组活动座椅 + 2+2分组研讨环境"
+    ],
+    "group_en": "In-house Training Equipment",
+    "name_en": "JPC(DJ-KZ)-01 DMU Training Control Car",
+    "summary_en": "First-of-its-kind DMU training control car: 5 mainstream door models, physically separated simulation, PLC-based visualized train control, transparent roof and movable maintenance doors.",
+    "points_en": [
+      "Covers core DMU teaching points",
+      "Dual virtual-real teaching experience",
+      "20 movable seats + 2+2 group-study desks"
     ]
   },
   {
@@ -18,6 +26,13 @@
     "points": [
       "真实车辆教学载体",
       "云南交通运输职业学院2024现代职教设备采购项目"
+    ],
+    "group_en": "In-house Training Equipment",
+    "name_en": "B-type Metro Training Car (TC)",
+    "summary_en": "Teaching car built on the B-type metro production platform, TC type with driver's cab (unpowered), for structure cognition and systems teaching.",
+    "points_en": [
+      "Real-vehicle teaching carrier",
+      "2024 procurement of a Yunnan transportation vocational college"
     ]
   },
   {
@@ -28,6 +43,13 @@
     "points": [
       "配套B型地铁教培车",
       "车门机构实操训练"
+    ],
+    "group_en": "In-house Training Equipment",
+    "name_en": "JPCM-01 Training Door",
+    "summary_en": "Innovative training door supporting door-structure cognition, fitting & adjustment and fault-handling practice.",
+    "points_en": [
+      "Paired with the B-type training car",
+      "Door-mechanism hands-on training"
     ]
   },
   {
@@ -38,6 +60,13 @@
     "points": [
       "配套实训场景布局设计",
       "弓网系统教学支撑"
+    ],
+    "group_en": "In-house Training Equipment",
+    "name_en": "JPSDG-01 Training Pantograph",
+    "summary_en": "Innovative training pantograph for pantograph-structure cognition and maintenance training.",
+    "points_en": [
+      "Paired with training-scene layout design",
+      "Supports pantograph-OCS system teaching"
     ]
   },
   {
@@ -48,6 +77,13 @@
     "points": [
       "配套实训场景布局设计",
       "一系/二系悬挂系统教学"
+    ],
+    "group_en": "In-house Training Equipment",
+    "name_en": "JPZXJ-01 Training Bogie",
+    "summary_en": "Innovative training bogie for bogie-structure cognition and maintenance training.",
+    "points_en": [
+      "Paired with training-scene layout design",
+      "Primary/secondary suspension teaching"
     ]
   },
   {
@@ -58,6 +94,13 @@
     "points": [
       "1:1 司机台还原",
       "视景+列控+电气柜仿真联动"
+    ],
+    "group_en": "Driving Simulation & Training",
+    "name_en": "Urban-Rail Driving Simulation Room",
+    "summary_en": "1:1 simulator with forward & side scene systems, virtual train control and electrical-cabinet simulation per typical metro trains.",
+    "points_en": [
+      "1:1 driving desk replication",
+      "Scene + train-control + cabinet simulation linked"
     ]
   },
   {
@@ -68,6 +111,13 @@
     "points": [
       "动集蓝本还原",
       "配套教培动集控制车教学"
+    ],
+    "group_en": "Driving Simulation & Training",
+    "name_en": "CR200J Driving Simulator",
+    "summary_en": "Modeled on the CR200J DMU: driving desk, instrument switches, cab radio, PA console, TCMS/ATC/CCTV displays and seats.",
+    "points_en": [
+      "DMU blueprint replication",
+      "Teaching with the DMU training control car"
     ]
   },
   {
@@ -78,6 +128,13 @@
     "points": [
       "高铁蓝本还原",
       "高速动车组驾驶教学"
+    ],
+    "group_en": "Driving Simulation & Training",
+    "name_en": "CR400AF/CR400BF Driving Simulator",
+    "summary_en": "Simulator modeled on CR400AF/CR400BF high-speed EMUs with driving desk and full display systems.",
+    "points_en": [
+      "High-speed blueprint replication",
+      "High-speed driving teaching"
     ]
   },
   {
@@ -88,6 +145,13 @@
     "points": [
       "整车级实训练习",
       "三层作业平台登顶作业"
+    ],
+    "group_en": "Driving Simulation & Training",
+    "name_en": "Electric Train Preparation Yard",
+    "summary_en": "1:1 teaching car, forward scene system, three-level work platforms and chargers per typical metro trains.",
+    "points_en": [
+      "Vehicle-level hands-on training",
+      "Roof-level work on three-level platforms"
     ]
   },
   {
@@ -98,6 +162,13 @@
     "points": [
       "常见故障注入与整车电路原理故障排查",
       "运营场景角色培训"
+    ],
+    "group_en": "Driving Simulation & Training",
+    "name_en": "Simulation Test & Driving Training System (Taiyuan L2 type)",
+    "summary_en": "Vehicle + scene + circuit simulation with real-train logic, supporting fault injection, troubleshooting assessment and FAO role training.",
+    "points_en": [
+      "Common & circuit-level fault injection and troubleshooting",
+      "Service-scenario role training"
     ]
   },
   {
@@ -108,6 +179,13 @@
     "points": [
       "典型故障与突发事件应急处置演练",
       "标准作业实作演练"
+    ],
+    "group_en": "Driving Simulation & Training",
+    "name_en": "Emergency Fault-handling Training System",
+    "summary_en": "Driving desk + CGI route scenes + fault modules (incl. abnormal operation) + sound simulation + teaching management, recreating realistic driving.",
+    "points_en": [
+      "Typical fault & emergency drills",
+      "Standard-operation practice"
     ]
   },
   {
@@ -119,6 +197,14 @@
       "具备与原车一致的电/气控制逻辑",
       "本地与远程联动控制",
       "结构认知、部件更换、故障处理及部件检修教学"
+    ],
+    "group_en": "Driving Simulation & Training",
+    "name_en": "Comprehensive Metro Maintenance Training System",
+    "summary_en": "Bogie, A/C, pantograph, coupler, doors and driving desk with tooling — layout and environment identical to the field.",
+    "points_en": [
+      "Electrical/pneumatic logic identical to real vehicles",
+      "Local & remote linked control",
+      "Cognition, replacement, fault handling & repair teaching"
     ]
   },
   {
@@ -128,6 +214,12 @@
     "summary": "模拟站厅层配置自动售检票系统、安检、客服、车站信息展示屏等。",
     "points": [
       "站务全流程实训"
+    ],
+    "group_en": "Professional Training Rooms",
+    "name_en": "Comprehensive Operations Training Room",
+    "summary_en": "Simulated concourse with AFC, security check, customer service and station information displays.",
+    "points_en": [
+      "Full-process station-work training"
     ]
   },
   {
@@ -138,6 +230,13 @@
     "points": [
       "PSD+车门联动实训",
       "紧急场景处置演练"
+    ],
+    "group_en": "Professional Training Rooms",
+    "name_en": "PSD & Passenger Door Training Room",
+    "summary_en": "Simulated platform with PSDs, platform operation panels, doors, emergency stop buttons, PIS and PA systems.",
+    "points_en": [
+      "PSD + door linked training",
+      "Emergency-scenario drills"
     ]
   },
   {
@@ -147,6 +246,12 @@
     "summary": "模拟控制中心配置行车调度、电力调度、环控调度、主任调度等终端和语音通信、CCTV仿真。",
     "points": [
       "多调度岗位联合演练"
+    ],
+    "group_en": "Professional Training Rooms",
+    "name_en": "Traffic Organization Training Room",
+    "summary_en": "Simulated control center with traffic/power/environment dispatch terminals, voice communication and CCTV simulation.",
+    "points_en": [
+      "Multi-dispatcher joint drills"
     ]
   },
   {
@@ -157,6 +262,13 @@
     "points": [
       "值班员岗位实训",
       "BAS/FAS仿真联动"
+    ],
+    "group_en": "Professional Training Rooms",
+    "name_en": "Station Control Training Room",
+    "summary_en": "Simulated station control room with duty-desk workstation, backup panel, BAS simulation, fire-alarm training and station computer systems.",
+    "points_en": [
+      "Duty-station training",
+      "BAS/FAS simulated linkage"
     ]
   },
   {
@@ -167,6 +279,13 @@
     "points": [
       "应急安全教育",
       "AED心肺复苏实训"
+    ],
+    "group_en": "Professional Training Rooms",
+    "name_en": "First-aid & Firefighting Training Room",
+    "summary_en": "Virtual firefighting drills, fire-safety education, equipment cognition drills, AED & CPR simulators.",
+    "points_en": [
+      "Emergency-safety education",
+      "AED CPR training"
     ]
   },
   {
@@ -176,6 +295,12 @@
     "summary": "模拟车站配置给排水、通风、照明、扶梯和升降梯等机电实训设备。",
     "points": [
       "车站机电系统运维实训"
+    ],
+    "group_en": "Professional Training Rooms",
+    "name_en": "Electromechanical Equipment Training Room",
+    "summary_en": "Simulated station with water supply & drainage, ventilation, lighting, escalators and lifts.",
+    "points_en": [
+      "Station electromechanical O&M training"
     ]
   },
   {
@@ -186,6 +311,13 @@
     "points": [
       "五大电气实训台",
       "装调检修全流程"
+    ],
+    "group_en": "Professional Training Rooms",
+    "name_en": "Electrical Equipment Training Room",
+    "summary_en": "Per typical metro trains: A/C fitting & repair bench, pantograph bench, master-controller bench, high-speed-breaker bench and comprehensive electrical bench.",
+    "points_en": [
+      "Five electrical benches",
+      "Full fitting-repair process"
     ]
   },
   {
@@ -196,6 +328,13 @@
     "points": [
       "VR/AR交互教学",
       "数字孪生+AI"
+    ],
+    "group_en": "Professional Training Rooms",
+    "name_en": "VR/AR Training Room",
+    "summary_en": "Scene decoration, VR/AR devices and digital workstations blending virtual reality, digital twins and AI for interactive teaching.",
+    "points_en": [
+      "VR/AR interactive teaching",
+      "Digital twin + AI"
     ]
   },
   {
@@ -206,6 +345,13 @@
     "points": [
       "实物+虚拟结合",
       "教员管理台统一设置故障"
+    ],
+    "group_en": "Professional Training Rooms",
+    "name_en": "Metro Traction & Braking Training Room",
+    "summary_en": "Metro-vehicle based 'real equipment + virtual simulation': driving desk, under-frame devices, circuit/air schematics and instructor console.",
+    "points_en": [
+      "Real + virtual combined",
+      "Faults set from the instructor console"
     ]
   },
   {
@@ -216,6 +362,13 @@
     "points": [
       "动集原型实训",
       "机械间认知"
+    ],
+    "group_en": "Professional Training Rooms",
+    "name_en": "EMU Traction & Braking Training Room",
+    "summary_en": "DMU-based 'real equipment + virtual simulation': driving desk, machine-room devices, schematics and instructor console.",
+    "points_en": [
+      "DMU-based training",
+      "Machine-room cognition"
     ]
   },
   {
@@ -225,6 +378,12 @@
     "summary": "按城轨典型列车配置固定端车钩、移动端车钩、可移动导轨车，可实现车钩自动连挂、自动解钩与手动解钩动作。",
     "points": [
       "自动/手动解钩演练"
+    ],
+    "group_en": "Professional Training Rooms",
+    "name_en": "Coupler Training Test Bench",
+    "summary_en": "Fixed-end coupler, movable-end coupler and movable rail cart per typical metro trains — automatic coupling, automatic & manual uncoupling.",
+    "points_en": [
+      "Automatic/manual uncoupling drills"
     ]
   },
   {
@@ -235,6 +394,13 @@
     "points": [
       "七大部件智能检修实训",
       "智能评分自动考核"
+    ],
+    "group_en": "Professional Training Rooms",
+    "name_en": "Intelligent Repair Platform",
+    "summary_en": "Repair platform, expert-guidance system, tool & material management and smart scoring — for bogie, braking, wheelset, pantograph, A/C, controller and breaker training.",
+    "points_en": [
+      "Seven assemblies, intelligent repair training",
+      "Automatic smart scoring"
     ]
   },
   {
@@ -245,6 +411,13 @@
     "points": [
       "AR装配信息投影",
       "制动阀件四工位"
+    ],
+    "group_en": "Professional Training Rooms",
+    "name_en": "Four-station AR Repair Platform",
+    "summary_en": "AR-guided assembly projecting information onto complex parts — for solenoid, empty-load and relay valve fitting training.",
+    "points_en": [
+      "AR assembly projection",
+      "Four brake-valve stations"
     ]
   },
   {
@@ -255,6 +428,13 @@
     "points": [
       "TCMS网络仿真",
       "真实故障复现"
+    ],
+    "group_en": "Professional Training Rooms",
+    "name_en": "Train Network & Fault Simulation Room",
+    "summary_en": "1:1 driving console, control and electrical cabinets with TCMS network simulation per typical metro trains; real faults can be set & simulated.",
+    "points_en": [
+      "TCMS network simulation",
+      "Real fault reproduction"
     ]
   },
   {
@@ -265,6 +445,13 @@
     "points": [
       "状态检测四系统",
       "巡检机器人实操"
+    ],
+    "group_en": "Professional Training Rooms",
+    "name_en": "Intelligent O&M Training Room",
+    "summary_en": "Image-based train-number recognition, wheelset & pantograph dynamic detection, 360° train image inspection and inspection robots.",
+    "points_en": [
+      "Four condition-monitoring systems",
+      "Inspection-robot practice"
     ]
   },
   {
@@ -276,6 +463,14 @@
       "1:1 司机操作台 + 6组标准电气柜",
       "母线高速断路器等全逻辑仿真",
       "科研创新/教学实践/技能实训/人才测评多元场景"
+    ],
+    "group_en": "Urban-Rail Training Platforms",
+    "name_en": "Metro TCMS Simulation Training Platform",
+    "summary_en": "6-car 1:1 replication of in-service metro electrical control, with in-house DCU/EDCU/BCU and IO modules and 500 fault records.",
+    "points_en": [
+      "1:1 driving desk + 6 standard electrical cabinets",
+      "Full-logic simulation incl. main HV breakers",
+      "Research / teaching / training / assessment scenarios"
     ]
   },
   {
@@ -287,6 +482,14 @@
       "高峰期90s开/关门1次",
       "免维护自恢复·多重校验",
       "按场地大小定制化开发"
+    ],
+    "group_en": "Urban-Rail Training Platforms",
+    "name_en": "Platform Screen Door Training Platform",
+    "summary_en": "PEDC & DCU 100% in-house, three control modes (manual release / LCB / PSL), 20h continuous daily operation.",
+    "points_en": [
+      "90s door cycles at peak",
+      "Maintenance-free self-recovery with multi-checks",
+      "Customized to site dimensions"
     ]
   },
   {
@@ -298,6 +501,14 @@
       "单次/循环开关门与次数累计",
       "隔离、紧急解锁、障碍物探测",
       "门控器故障监测与数据下载"
+    ],
+    "group_en": "Urban-Rail Training Platforms",
+    "name_en": "Passenger Door Training Platform",
+    "summary_en": "1:1 plug-door platform (Kunming Metro Line 3 blueprint) with microprocessor self-diagnosis and fault records.",
+    "points_en": [
+      "Single/cyclic door cycling with counters",
+      "Isolation, emergency release, obstacle detection",
+      "Door-controller fault monitoring & data download"
     ]
   }
 ]
