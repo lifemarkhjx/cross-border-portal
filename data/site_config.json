@@ -275,7 +275,40 @@
       "footer_disclaimer": "本站内容用于产品宣传与采购咨询，具体技术方案与商务条款以双方合同约定为准。",
       "tip_copy": "已复制",
       "placeholder_note": "图片占位 · 实拍图更新中",
-      "sec_pts": "{n} 个板块 · {m} 条要点"
+      "sec_pts": "{n} 个板块 · {m} 条要点",
+      "login_btn": "登录",
+      "register_btn": "注册",
+      "user_my_inquiries": "我的询盘",
+      "user_logout": "退出登录",
+      "login_title": "来访者登录",
+      "login_sub": "欢迎回来！登录后可保存询盘记录、加快询价沟通。",
+      "login_ok": "登录成功",
+      "logout_ok": "已退出登录",
+      "reg_ok": "注册成功，已自动登录",
+      "reg_title": "来访人员注册",
+      "reg_sub": "注册即成为来访客户：询盘自动记录、方案沟通更高效。",
+      "reg_name": "称呼 / 姓名",
+      "reg_org": "单位 / 公司",
+      "reg_email": "电子邮箱（作为账号）",
+      "reg_country": "国家 / 地区",
+      "reg_phone": "联系电话",
+      "reg_pw": "设置密码（至少 6 位）",
+      "reg_confirm": "确认密码",
+      "reg_btn": "创建账号",
+      "no_account": "还没有账号？",
+      "have_account": "已有账号？",
+      "err_name": "请输入称呼 / 姓名",
+      "err_email": "电子邮箱格式不正确",
+      "err_pw": "密码至少 6 位",
+      "err_pw_match": "两次输入的密码不一致",
+      "err_exists": "该邮箱已注册，请直接登录",
+      "err_nouser": "邮箱或密码不正确",
+      "my_inq_title": "我的询盘记录",
+      "my_inq_empty": "暂无询盘记录——浏览产品并点击「询价」即可自动记录。",
+      "f_email_ph": "电子邮箱",
+      "f_pw_ph": "密码",
+      "login_note": "阶段1演示版：账号信息仅保存在您的浏览器本地（密码加密存储、不上传）；阶段2将升级为云端加密账号体系。",
+      "purpose_opts": "产品采购咨询|技术方案交流|培训实训合作|代理 / 经销合作|其他"
     },
     "en": {
       "nav_home": "Home",
@@ -417,7 +450,40 @@
       "footer_disclaimer": "Content for showcase & procurement consultation; final specs and commercial terms subject to contract.",
       "tip_copy": "Copied",
       "placeholder_note": "Placeholder · photo coming soon",
-      "sec_pts": "{n} sections · {m} points"
+      "sec_pts": "{n} sections · {m} points",
+      "login_btn": "Sign In",
+      "register_btn": "Register",
+      "user_my_inquiries": "My Inquiries",
+      "user_logout": "Sign Out",
+      "login_title": "Visitor Sign In",
+      "login_sub": "Welcome back! Sign in to keep your inquiry history and speed up communication.",
+      "login_ok": "Signed in",
+      "logout_ok": "Signed out",
+      "reg_ok": "Registered & signed in",
+      "reg_title": "Visitor Registration",
+      "reg_sub": "Register as a visitor: inquiries are logged automatically for faster follow-up.",
+      "reg_name": "Full name",
+      "reg_org": "Company / Organization",
+      "reg_email": "Email (used as account)",
+      "reg_country": "Country / Region",
+      "reg_phone": "Phone",
+      "reg_pw": "Set password (min. 6 chars)",
+      "reg_confirm": "Confirm password",
+      "reg_btn": "Create Account",
+      "no_account": "No account yet?",
+      "have_account": "Already have an account?",
+      "err_name": "Full name is required",
+      "err_email": "Invalid email address",
+      "err_pw": "Password must be at least 6 characters",
+      "err_pw_match": "Passwords do not match",
+      "err_exists": "Email already registered — please sign in",
+      "err_nouser": "Invalid email or password",
+      "my_inq_title": "My Inquiries",
+      "my_inq_empty": "No inquiries yet — browse products and click Inquire to log one.",
+      "f_email_ph": "Email",
+      "f_pw_ph": "Password",
+      "login_note": "Demo phase: your account is stored only in this browser (password hashed, never uploaded); encrypted cloud accounts arrive in Phase 2.",
+      "purpose_opts": "Product procurement|Technical consultation|Training cooperation|Agency / distribution|Other"
     },
     "vi": {
       "nav_home": "Trang chủ",
@@ -490,7 +556,11 @@
       "cta_sub": "Liên hệ tư vấn qua điện thoại & email trong ngày làm việc",
       "equip_title": "Thiết bị đào tạo",
       "quiz_cta": "Học xong? Làm bài kiểm tra →",
-      "promo_back": "Quay lại"
+      "promo_back": "Quay lại",
+      "login_btn": "Đăng nhập",
+      "register_btn": "Đăng ký",
+      "user_logout": "Đăng xuất",
+      "user_my_inquiries": "Yêu cầu của tôi"
     },
     "th": {
       "nav_home": "หน้าแรก",
@@ -563,7 +633,11 @@
       "cta_sub": "ติดต่อที่ปรึกษาผ่านโทรศัพท์ & อีเมลในวันทำการ",
       "equip_title": "อุปกรณ์ฝึกอบรม",
       "quiz_cta": "เรียนจบแล้ว? ทำแบบทดสอบ →",
-      "promo_back": "กลับ"
+      "promo_back": "กลับ",
+      "login_btn": "เข้าสู่ระบบ",
+      "register_btn": "ลงทะเบียน",
+      "user_logout": "ออกจากระบบ",
+      "user_my_inquiries": "คำขอของฉัน"
     },
     "ms": {
       "nav_home": "Utama",
@@ -636,7 +710,11 @@
       "cta_sub": "Hubungi perunding melalui telefon & e-mel pada hari bekerja",
       "equip_title": "Peralatan Latihan",
       "quiz_cta": "Siap belajar? Cuba kuiz →",
-      "promo_back": "Kembali"
+      "promo_back": "Kembali",
+      "login_btn": "Log Masuk",
+      "register_btn": "Daftar",
+      "user_logout": "Log Keluar",
+      "user_my_inquiries": "Pertanyaan Saya"
     },
     "id": {
       "nav_home": "Beranda",
@@ -709,7 +787,11 @@
       "cta_sub": "Hubungi konsultan via telepon & email pada hari kerja",
       "equip_title": "Peralatan Pelatihan",
       "quiz_cta": "Selesai belajar? Coba kuis →",
-      "promo_back": "Kembali"
+      "promo_back": "Kembali",
+      "login_btn": "Masuk",
+      "register_btn": "Daftar",
+      "user_logout": "Keluar",
+      "user_my_inquiries": "Permintaan Saya"
     },
     "lo": {
       "nav_home": "ໜ້າຫຼັກ",
@@ -782,7 +864,11 @@
       "cta_sub": "ຕິດຕໍ່ທີມງານຜ່ານໂທລະສັບ & ອີເມວໃນວັນເຮັດວຽກ",
       "equip_title": "ອຸປະກອນຝຶກອົບຮົມ",
       "quiz_cta": "ຮຽນຈົບແລ້ວ? ລອງທົດສອບ →",
-      "promo_back": "ກັບຄືນ"
+      "promo_back": "ກັບຄືນ",
+      "login_btn": "ເຂົ້າສູ່ລະບົບ",
+      "register_btn": "ລົງທະບຽນ",
+      "user_logout": "ອອກຈາກລະບົບ",
+      "user_my_inquiries": "ຄຳສອບຖາມຂອງຂ້ອຍ"
     },
     "km": {
       "nav_home": "ទំព័រដើម",
@@ -855,7 +941,11 @@
       "cta_sub": "ទាក់ទងក្រុមប្រឹក្សាតាមទូរស័ព្ទ និងអ៊ីមែលក្នុងថ្ងៃធ្វើការ",
       "equip_title": "ឧបករណ៍បណ្តុះបណ្តាល",
       "quiz_cta": "រៀនចប់ហើយ? សាកល្បងប្រឡង →",
-      "promo_back": "ត្រឡប់ក្រោយ"
+      "promo_back": "ត្រឡប់ក្រោយ",
+      "login_btn": "ចូល",
+      "register_btn": "ចុះឈ្មោះ",
+      "user_logout": "ចេញ",
+      "user_my_inquiries": "សំណួររបស់ខ្ញុំ"
     },
     "my": {
       "nav_home": "ပင်မ",
@@ -928,7 +1018,11 @@
       "cta_sub": "အလုပ်ရက်များတွင် ဖုန်းနှင့် အီးမေးလ်ဖြင့် အကြံပေးသူများကို ဆက်သွယ်ပါ",
       "equip_title": "ပညာပေးပစ္စည်းများ",
       "quiz_cta": "သင်ပြီးပါပြီလား? စမ်းသပ်မေးခွန်း →",
-      "promo_back": "နောက်သို့"
+      "promo_back": "နောက်သို့",
+      "login_btn": "ဝင်ရောက်ခြင်း",
+      "register_btn": "မှတ်ပုံတင်",
+      "user_logout": "ထွက်ခြင်း",
+      "user_my_inquiries": "ကျွန်ုပ်၏မေးမြန်းမှုများ"
     },
     "hi": {
       "nav_home": "होम",
@@ -1001,7 +1095,11 @@
       "cta_sub": "कार्यदिवसों में फ़ोन और ईमेल से परामर्शदाता से संपर्क करें",
       "equip_title": "प्रशिक्षण उपकरण",
       "quiz_cta": "पढ़ाई पूरी? क्विज़ आज़माएँ →",
-      "promo_back": "वापस"
+      "promo_back": "वापस",
+      "login_btn": "साइन इन",
+      "register_btn": "पंजीकरण",
+      "user_logout": "साइन आउट",
+      "user_my_inquiries": "मेरी पूछताछ"
     },
     "bn": {
       "nav_home": "হোম",
@@ -1074,7 +1172,11 @@
       "cta_sub": "কর্মদিবসে ফোন ও ইমেলে পরামর্শদাতার সঙ্গে যোগাযোগ করুন",
       "equip_title": "প্রশিক্ষণ সরঞ্জাম",
       "quiz_cta": "পড়া শেষ? কুইজ দিন →",
-      "promo_back": "ফিরে যান"
+      "promo_back": "ফিরে যান",
+      "login_btn": "সাইন ইন",
+      "register_btn": "নিবন্ধন",
+      "user_logout": "সাইন আউট",
+      "user_my_inquiries": "আমার জিজ্ঞাসা"
     }
   }
 }
