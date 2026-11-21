@@ -323,7 +323,8 @@
       "chat_ph": "输入您的问题…",
       "chat_staff_only": "仅客服 / 员工可清空会话",
       "chat_clear_confirm": "确定清空本演示会话记录吗？",
-      "chat_title_btn": "在线咨询"
+      "chat_title_btn": "在线咨询",
+      "goback": "返回"
     },
     "en": {
       "nav_home": "Home",
@@ -513,7 +514,8 @@
       "chat_ph": "Type your question…",
       "chat_staff_only": "Only staff / agents can clear the session",
       "chat_clear_confirm": "Clear this demo conversation?",
-      "chat_title_btn": "Live Chat"
+      "chat_title_btn": "Live Chat",
+      "goback": "Back"
     },
     "vi": {
       "nav_home": "Trang chủ",
@@ -693,7 +695,8 @@
       "role_visitor": "Khách",
       "role_staff": "Nhân viên",
       "role_agent": "Chăm sóc khách hàng",
-      "chat_ph": "Nhập câu hỏi…"
+      "chat_ph": "Nhập câu hỏi…",
+      "goback": "Quay lại"
     },
     "th": {
       "nav_home": "หน้าแรก",
@@ -873,7 +876,8 @@
       "role_visitor": "ผู้เยี่ยมชม",
       "role_staff": "พนักงาน",
       "role_agent": "ฝ่ายบริการลูกค้า",
-      "chat_ph": "พิมพ์คำถามของคุณ…"
+      "chat_ph": "พิมพ์คำถามของคุณ…",
+      "goback": "ย้อนกลับ"
     },
     "ms": {
       "nav_home": "Utama",
@@ -1053,7 +1057,8 @@
       "role_visitor": "Pelawat",
       "role_staff": "Kakitangan",
       "role_agent": "Ejen Khidmat",
-      "chat_ph": "Taip soalan anda…"
+      "chat_ph": "Taip soalan anda…",
+      "goback": "Kembali"
     },
     "id": {
       "nav_home": "Beranda",
@@ -1233,7 +1238,8 @@
       "role_visitor": "Pengunjung",
       "role_staff": "Staf",
       "role_agent": "Agen Layanan",
-      "chat_ph": "Tulis pertanyaan…"
+      "chat_ph": "Tulis pertanyaan…",
+      "goback": "Kembali"
     },
     "lo": {
       "nav_home": "ໜ້າຫຼັກ",
@@ -1413,7 +1419,8 @@
       "role_visitor": "ຜູ້ມາຢ້ຽມ",
       "role_staff": "ພະນັກງານ",
       "role_agent": "ພະນັກງານບໍລິການ",
-      "chat_ph": "ປ້ອນຄຳຖາມ…"
+      "chat_ph": "ປ້ອນຄຳຖາມ…",
+      "goback": "ກັບຄືນ"
     },
     "km": {
       "nav_home": "ទំព័រដើម",
@@ -1593,7 +1600,8 @@
       "role_visitor": "ភ្ញៀវ",
       "role_staff": "បុគ្គលិក",
       "role_agent": "បុគ្គលិកសេវា",
-      "chat_ph": "សូមសរសំណួរ…"
+      "chat_ph": "សូមសរសំណួរ…",
+      "goback": "ត្រឡប់ក្រោយ"
     },
     "my": {
       "nav_home": "ပင်မ",
@@ -1773,7 +1781,8 @@
       "role_visitor": "လည်ပတ်သူ",
       "role_staff": "ဝန်ထမ်း",
       "role_agent": "စျေးပွဲစဉ်ဝန်ဆောင်",
-      "chat_ph": "မေးခွန်းရေးပါ…"
+      "chat_ph": "မေးခွန်းရေးပါ…",
+      "goback": "နောက်သို့"
     },
     "hi": {
       "nav_home": "होम",
@@ -1953,7 +1962,8 @@
       "role_visitor": "आगंतुक",
       "role_staff": "कर्मचारी",
       "role_agent": "ग्राहक सेवा",
-      "chat_ph": "अपना प्रश्न लिखें…"
+      "chat_ph": "अपना प्रश्न लिखें…",
+      "goback": "वापस"
     },
     "bn": {
       "nav_home": "হোম",
@@ -2133,7 +2143,8 @@
       "role_visitor": "আগন্তুক",
       "role_staff": "কর্মচারী",
       "role_agent": "গ্রাহকসেবা",
-      "chat_ph": "প্রশ্ন লিখুন…"
+      "chat_ph": "প্রশ্ন লিখুন…",
+      "goback": "ফিরে যান"
     }
   },
   "chat": {
