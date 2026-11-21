@@ -1559,6 +1559,11 @@ function initChat() {
     '<button class="chat-send" onclick="sendChat()">➤</button></div></div>';
   document.body.appendChild(bar);
 }
+window.addEventListener('hashchange', function () {
+  document.getElementById('mainnav') && document.getElementById('mainnav').classList.remove('open');
+  render();
+  window.scrollTo({ top: 0 });
+});
 document.body.classList.add('site-ft-dark');
 initChat();
 render();
