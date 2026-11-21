@@ -6039,8 +6039,7 @@
     "images": [
       "img/products/QD-01.jpg",
       "img/products/QD-01-2.jpg",
-      "img/products/QD-01-3.jpg",
-      "img/products/QD-01-4.jpg"
+      "img/products/QD-01-3.jpg"
     ],
     "specs": {
       "主要参数": "30余种型号规格；ISO9001质量体系认证；CE认证",
@@ -6074,8 +6073,7 @@
     "moq": 1,
     "unit": "台",
     "images": [
-      "img/products/QD-02.jpg",
-      "img/products/QD-02-2.jpg"
+      "img/products/QD-02.jpg"
     ],
     "specs": {
       "主要参数": "含加长型S50 EXTENDED；30余种型号",
@@ -6609,8 +6607,6 @@
     "unit": "套",
     "images": [
       "img/products/EN-02.jpg",
-      "img/products/EN-02-2.jpg",
-      "img/products/EN-02-3.jpg",
       "img/products/EN-02-4.jpg"
     ],
     "specs": {
@@ -6714,9 +6710,7 @@
     "moq": 1,
     "unit": "套",
     "images": [
-      "img/products/EN-05.jpg",
-      "img/products/EN-05-2.jpg",
-      "img/products/EN-05-3.jpg"
+      "img/products/EN-05.jpg"
     ],
     "specs": {
       "主要参数": "单机1672kWh、积木式并联至5016kWh；充电功率1000kW；充电电流1000A；自动对接≤20s；IP55；激光定位+异物检测，司机全程无需下车",
@@ -7144,7 +7138,6 @@
     "unit": "项",
     "images": [
       "img/products/LC-FC-01.jpg",
-      "img/products/LC-FC-01-2.jpg",
       "img/products/LC-FC-01-3.jpg"
     ],
     "specs": {
@@ -7199,8 +7192,6 @@
     "unit": "套",
     "images": [
       "img/products/LC-GTD-01.jpg",
-      "img/products/LC-GTD-01-2.jpg",
-      "img/products/LC-GTD-01-3.jpg",
       "img/products/LC-GTD-01-4.jpg"
     ],
     "specs": {
