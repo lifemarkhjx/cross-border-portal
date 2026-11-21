@@ -400,9 +400,7 @@
     "moq": 1,
     "unit": "项",
     "images": [
-      "img/products/NY-PT-01.jpg",
-      "img/products/NY-PT-01-2.jpg",
-      "img/products/NY-PT-01-3.jpg"
+      "img/products/NY-PT-01.svg"
     ],
     "specs": {
       "四轴平台（DFH、GK系列）": "DFH5→LE1：550kW/662kWh，日省约4000元；DFH5B→LE1：720kW/1130kWh，日省约4274元；GK1E→LE1：650kW/993kWh；改造周期15-17周",
@@ -993,9 +991,6 @@
     "unit": "套",
     "images": [
       "img/products/HZY-CG-01.jpg",
-      "img/products/HZY-CG-01-2.jpg",
-      "img/products/HZY-CG-01-3.jpg",
-      "img/products/HZY-CG-01-4.jpg",
       "img/products/HZY-CG-01-5.jpg"
     ],
     "specs": {
@@ -2810,8 +2805,7 @@
     "moq": 1,
     "unit": "台",
     "images": [
-      "img/products/JX-066.jpg",
-      "img/products/JX-066-2.jpg"
+      "img/products/JX-066.jpg"
     ],
     "specs": {
       "应用场景": "机车/动车组/城轨车辆检修基地、机务段、车辆段",
@@ -3739,7 +3733,7 @@
     "moq": 1,
     "unit": "台",
     "images": [
-      "img/products/KM-DT-04.jpg"
+      "img/products/KM-DT-04.svg"
     ],
     "specs": {
       "产品定位": "依据司控器结构、安装方式、操作模式、控制逻辑及电气参数设计的便携式一体化检测设备，内置独立电源",
@@ -3789,7 +3783,7 @@
     "moq": 1,
     "unit": "台",
     "images": [
-      "img/products/KM-DT-05.jpg"
+      "img/products/KM-DT-05.svg"
     ],
     "specs": {
       "系统组成": "便携式测量基面（可折叠伸缩、轻量便携）+ 激光测量系统 + 非零轨找平装置",
@@ -3887,7 +3881,7 @@
     "moq": 1,
     "unit": "批",
     "images": [
-      "img/products/KM-DT-07.jpg"
+      "img/products/KM-DT-07.svg"
     ],
     "specs": {
       "列车检修类": "车钩高度专用调节扳手 / 车钩检修渡板 / 司控器锁紧螺母专用扳手 / 车门S1锁到位尺寸测量块 / 车门开口销取出器 / 车门平垫锁紧锤 / 空调固定螺栓安装辅助工具 / 受流器螺母专用扳手 / 高度调节杆螺母专用扳手 / 蓄电池提取工具 / 闸瓦间隙卡规 / 贯通道折棚安装辅助工装 / 车门电机止挡专用调整工具 / 油压减振器拆解工装 / 司控器检修支座 / 可移动式电客列车空簧加垫工装 / 牵引电机安装孔螺纹套专用取出螺栓 / 取针套管 / 闸瓦钎固定开口销专用拆卸工具 / 车门检修台 / 地面测量工具 / 电客列车灯光调试牌 / 润滑油自动加油工装 / 抗侧滚扭杆轴承退压工装",
@@ -4191,10 +4185,8 @@
     "unit": "套",
     "images": [
       "img/products/RW-ZC-01.jpg",
-      "img/products/RW-ZC-01-2.jpg",
       "img/products/RW-ZC-01-3.jpg",
-      "img/products/RW-ZC-01-4.jpg",
-      "img/products/RW-ZC-01-5.jpg"
+      "img/products/RW-ZC-01-4.jpg"
     ],
     "specs": {
       "组装作业": "智能作业小车（任务自动接收/扭矩标准下发/工序自动跳转/作业数据追溯）/ 智能工具柜（人脸识别/借用归还记录/工具追溯）/ 移动式自走行作业平台",
@@ -5695,8 +5687,7 @@
     "moq": 1,
     "unit": "套",
     "images": [
-      "img/products/ZM-09.jpg",
-      "img/products/ZM-09-2.jpg"
+      "img/products/ZM-09.jpg"
     ],
     "specs": {
       "应用场景": "车辆照明控制、站台/厂房智能照明"
@@ -5727,7 +5718,7 @@
     "moq": 1,
     "unit": "套",
     "images": [
-      "img/products/ZM-10.svg"
+      "img/products/ZM-10.jpg"
     ],
     "specs": {
       "应用场景": "轨道车辆电气连接"
@@ -5758,7 +5749,7 @@
     "moq": 1,
     "unit": "套",
     "images": [
-      "img/products/ZM-11.svg"
+      "img/products/ZM-11.jpg"
     ],
     "specs": {
       "应用场景": "光伏、储能、氢能场景"
@@ -6689,9 +6680,7 @@
     "moq": 1,
     "unit": "套",
     "images": [
-      "img/products/EN-04.jpg",
-      "img/products/EN-04-2.jpg",
-      "img/products/EN-04-3.jpg"
+      "img/products/EN-04.jpg"
     ],
     "specs": {
       "主要参数": "单舱额定容量5.015MWh；电芯LFP-314Ah；1C充放倍率；额定电压1331.2V/2704A（工作范围1164.8~1497.6V）；环境温度-30~+60℃、海拔≤4000m；6058×2438×2896mm、≤40t；IP55；智能液冷温差≤2.5℃；三级消防（全氟己酮+水喷淋+水浸没）；满足GB/T36276、GB/T44240、GB/T34131、GB/T34120、GB/T34133",
@@ -6929,8 +6918,7 @@
     "moq": 1,
     "unit": "套",
     "images": [
-      "img/products/EN-11.jpg",
-      "img/products/EN-11-3.jpg"
+      "img/products/EN-11.jpg"
     ],
     "specs": {
       "主要参数": "主机功率2.4MW；终端输出电流1000A",
@@ -6964,8 +6952,7 @@
     "moq": 1,
     "unit": "套",
     "images": [
-      "img/products/EN-12.jpg",
-      "img/products/EN-12-2.jpg"
+      "img/products/EN-12.jpg"
     ],
     "specs": {
       "应用场景": "矿区/公路补能驿站"
@@ -6996,7 +6983,7 @@
     "moq": 1,
     "unit": "套",
     "images": [
-      "img/products/EN-13-2.jpg"
+      "img/products/EN-13.jpg"
     ],
     "specs": {
       "应用场景": "加油站、油库、国家战略储备库"
@@ -7059,7 +7046,7 @@
     "moq": 1,
     "unit": "套",
     "images": [
-      "img/products/EN-15-2.jpg"
+      "img/products/EN-15.jpg"
     ],
     "specs": {
       "应用场景": "加油站新建与改造"
