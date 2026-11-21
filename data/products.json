@@ -585,15 +585,20 @@
       "img/products/CS-DL-01.jpg"
     ],
     "specs": {
-      "工作原理": "磁平衡式霍尔 / 磁通门 / 直接放大式霍尔 / 磁调制 / 变送器五大原理",
-      "量程覆盖": "0.1A~200A / 300~500A / 500~1000A / 1000~2000A / 2000~3000A 五个系列",
-      "精度指标": "线性度误差低至 ≤0.1%，磁通门系列零点漂移 ≤±50ppm，响应时间 ≤1us（典型）",
-      "典型型号": "NT100-S/SP5（100A，0~±200A）/ NT508-S（500A，0~±800A）/ NACL.1000Q-S5/SP2（1000A，0~±2400A）/ NCA5-1000A（2×1125A 磁调制差分保护）/ NT2000C-S/SP2（2000A，0~±3500A）",
-      "耐压与温度": "耐压最高 13.4kV/50Hz/1min，工作温度 -40℃~+85℃",
-      "应用领域": "轨道交通（牵引变流器/牵引电机/制动系统/充电机客车电源）、新能源汽车、光伏风电、UPS/TPS"
+      "系列谱系": "0.1~200A / 300~500A / 500~1000A / 1000~2000A / 2000~3000A 五大系列，60 余个型号",
+      "工作原理": "磁平衡式霍尔 / 磁通门 / 磁调制 / 直接放大式霍尔 / 变送器五大原理",
+      "精度水平": "磁平衡式 ≤±0.1%~±1%；磁通门 / 磁调制 ≤±50ppm（磁调制系列）",
+      "响应时间": "≤1µs（磁平衡式典型）；磁调制差分保护按动作阈值响应",
+      "耐压水平": "最高 13.4kV/50Hz/1min",
+      "工作温度": "-45℃~+85℃（宽温型号）、-40℃~+85℃（主流）、-25℃~+70℃（部分）",
+      "典型型号": "NT108-S、NT100-T/SP5、NT208-S、NACL.200B4-S5（0.1~200A）；NT500C-S、NACL.500H-T1/SP4、NT508-S/SP2、NA505-S、NACF.400-S1/SP1V（300~500A）；NACL.600Q-S3、NACL.700Q-S3/R、NACF.800-S1/SP2V、NT1000C-S/SP2·SP3（500~1000A）；NCA5-1000A/SP1·SP2、NCA1N-2000A、NCA1P-2000A、NACF.1000C-S5/VR、NACGL.1000B-S3/R（1000~2000A）；NACF.2500-S1/SP3V、NT2000C-S/SP1·SP2、NCA1Q-2000A、NCA1A-3000A（2000~3000A）",
+      "输出形式": "±15V/±24V 电源，10V/5V/4V 电压输出，100~500mA 电流输出，4~20mA（变送器型）",
+      "磁调制差分保护": "NCA5-1000A 系列：动作阈值 1A/50A 与 1.5A/75A，动作精度 10%",
+      "外形与连接": "45 种外形安装尺寸图；M5/M6 螺栓、molex/heavy-duty rectangular/AMP CPC 连接器、母排式安装",
+      "应用领域": "牵引变流器、牵引电机、制动系统、充电机客车电源、新能源汽车、光伏风电、UPS/TPS"
     },
     "summary": "轨道交通电量传感器行业标准制定者出品：0.1A~3000A 全量程电流传感器，磁通门精度 ≤±50ppm。",
-    "description": "电量传感器选型手册覆盖电流传感器 0.1A~3000A 全量程 60 余个型号：磁平衡式霍尔、磁通门、直接放大式、磁调制、变送器五种工作原理，应用于牵引变流器、牵引电机、制动系统、信号系统与充电机客车电源；磁调制 NCA5-1000A 系列测差分电流控制机械动作（动作阈值 1A/1.5A/50A/75A）。光伏风电领域批量配套头部风电整机与光伏逆变器厂商（占有率 60% 以上），提供漏电流/MPPT/组串支路/交流并网/储能电池电流检测全套方案；小方块系列与 0160 系列适配机柜安装。",
+    "description": "电量传感器选型手册（2020 年 9 月编制）电流部分覆盖 0.1A~3000A 全量程 60 余个型号，磁平衡式霍尔、磁通门、磁调制、直接放大式、变送器五大原理并存：0.1~200A 系列适配控制回路小电流检测，300~3000A 系列覆盖牵引变流器与牵引电机主回路；磁调制 NCA5-1000A 系列测差分电流控制机械动作（动作阈值 1A/1.5A/50A/75A）。光伏风电领域批量配套头部风电整机与光伏逆变器厂商（占有率 60% 以上），提供漏电流/MPPT/组串支路/交流并网/储能电池电流检测全套方案；小方块系列与 0160 系列适配机柜安装。",
     "tags": [
       "电流传感器",
       "磁通门",
@@ -612,14 +617,19 @@
       "support_en": "Selection-manual-level support; supply voltages ±15V/±24V selectable"
     },
     "summary_en": "From the drafter of rail current-sensor industry standards: 0.1A–3000A full range with fluxgate accuracy ≤±50ppm.",
-    "description_en": "The current-sensor selection manual covers 60+ models over 0.1A–3000A in five principles — closed-loop Hall, fluxgate, direct amplification, magnetic modulation and transmitters — for traction converters, traction motors, braking, signalling and coach power supplies. The magnetic-modulation NCA5-1000A series measures differential current for mechanical actuation (thresholds 1A/1.5A/50A/75A). In PV & wind we supply leading turbine and inverter makers (60%+ share) with leakage-current / MPPT / string / grid-tie / storage current detection; cube and 0160 series fit cabinet installation.",
+    "description_en": "The current-sensor selection manual (compiled Sep 2020) covers 60+ models over 0.1A-3000A across five principles - closed-loop Hall, fluxgate, magnetic modulation, direct-amplification Hall and transmitters: the 0.1-200A series fits control-loop detection while 300-3000A covers traction converter and motor main circuits; the magnetic-modulation NCA5-1000A series measures differential current for mechanical actuation (thresholds 1A/1.5A/50A/75A). In PV & wind we supply leading turbine and inverter makers (60%+ share) with leakage-current / MPPT / string / grid-tie / storage current detection; the Cube and 0160 series fit cabinet installation.",
     "specs_en": {
-      "工作原理": "Five principles: closed-loop Hall / fluxgate / direct-amplification Hall / magnetic modulation / transmitter",
-      "量程覆盖": "Five series: 0.1–200A / 300–500A / 500–1000A / 1000–2000A / 2000–3000A",
-      "精度指标": "Linearity error ≤0.1%, fluxgate zero drift ≤±50ppm, response ≤1µs (typical)",
-      "典型型号": "NT100-S/SP5 (100A, 0~±200A) / NT508-S (500A, 0~±800A) / NACL.1000Q-S5/SP2 (1000A, 0~±2400A) / NCA5-1000A (2×1125A magnetic-modulation differential protection) / NT2000C-S/SP2 (2000A, 0~±3500A)",
-      "耐压与温度": "Withstand up to 13.4kV/50Hz/1min; operating -40℃~+85℃",
-      "应用领域": "Rail transit (traction converters / motors / braking / coach power supply), NEV, PV & wind, UPS/TPS"
+      "Series spectrum": "Five series: 0.1-200A / 300-500A / 500-1000A / 1000-2000A / 2000-3000A, 60+ models",
+      "Principle": "Five principles: closed-loop Hall / fluxgate / magnetic modulation / direct-amplification Hall / transmitter",
+      "Accuracy": "Closed-loop ≤±0.1%-±1%; fluxgate / magnetic modulation ≤±50ppm",
+      "Response time": "≤1µs typical (closed-loop); magnetic-modulation differential protection per action threshold",
+      "Withstand voltage": "Up to 13.4kV/50Hz/1min",
+      "Operating temperature": "-45℃~+85℃ (wide-range) / -40℃~+85℃ (mainstream) / -25℃~+70℃ (part)",
+      "Typical models": "NT108-S, NT100-T/SP5, NT208-S, NACL.200B4-S5 (0.1-200A); NT500C-S, NACL.500H-T1/SP4, NT508-S/SP2, NA505-S, NACF.400-S1/SP1V (300-500A); NACL.600Q-S3, NACL.700Q-S3/R, NACF.800-S1/SP2V, NT1000C-S/SP2·SP3 (500-1000A); NCA5-1000A/SP1·SP2, NCA1N-2000A, NCA1P-2000A, NACF.1000C-S5/VR, NACGL.1000B-S3/R (1000-2000A); NACF.2500-S1/SP3V, NT2000C-S/SP1·SP2, NCA1Q-2000A, NCA1A-3000A (2000-3000A)",
+      "Output forms": "±15V/±24V supply, 10V/5V/4V voltage output, 100-500mA current output, 4-20mA (transmitter)",
+      "Magnetic-modulation differential protection": "NCA5-1000A series: thresholds 1A/50A and 1.5A/75A, accuracy 10%",
+      "Outline & connection": "45 outline drawings; M5/M6 bolts, molex/heavy-duty rectangular/AMP CPC connectors, busbar mounting",
+      "Applications": "Traction converters, traction motors, braking, coach power supply, NEV, PV & wind, UPS/TPS"
     }
   },
   {
@@ -637,15 +647,17 @@
       "img/products/CS-DY-01.jpg"
     ],
     "specs": {
-      "量程覆盖": "10mA~700V / 750~2000V / 2000~4200V 三个系列",
+      "系列谱系": "10~700V / 750~2000V / 2000~4200V 三大系列，40 余个型号",
       "工作原理": "磁平衡式 / 磁调制 / 数字隔离 / 隔离放大 / 变送器",
-      "精度指标": "线性度误差低至 ≤0.1%，响应时间 ≤4us（磁调制典型），耐压最高 12kV/50Hz/1min",
-      "典型型号": "NV100-200V（200V，0~±300V）/ NCV1-1500V（1500V 城轨网压，0~±1500V）/ NVCT.3000-11/R（3000V，0~±3900V）/ NVCT.4200C-15（4200V，0~±6000V）",
-      "工作温度": "-40℃~+85℃（NVTF 系列 -25℃~+70℃ 板卡式）",
-      "应用领域": "轨道交通牵引变流器网压/电制动检测、新能源光伏储能、UPS 电源"
+      "精度水平": "数字隔离 ≤±0.1%；磁平衡式 ≤±0.2%~±1%；磁调制 ≤±0.1%~±0.7%",
+      "响应时间": "≤4µs（磁调制典型）",
+      "耐压水平": "最高 12kV/50Hz/1min",
+      "典型型号": "NV100-200V、NVDL.150B/250B/500B/750B/1000B/2000B-11/R（数字隔离）、NVCL.600C/1000E-11、NCV1-750/1500/3000/SP3（磁调制）、NV100-1500V/2000V/SP6·SP7（磁平衡）、NVTF.1500/2000/3000-11/VR（隔离放大）、NVCT.140D-11/SP1VR、NVCT.2000C/3000/4000C-11/R、NVCT.4200C-15（磁调制高压）",
+      "输出形式": "±24V 电源、10V/6.667V/2.5V 电压输出、50mA 电流输出",
+      "应用场景": "城轨 750V/1500V 网压检测、干线牵引网高压检测、新能源高压直流、UPS 电源"
     },
     "summary": "10V~4200V 全量程电压传感器：磁调制响应 ≤4us，覆盖城轨 1500V 网压到高压直流检测。",
-    "description": "电压传感器型号规格及技术参数覆盖 10V~4200V 全量程 40 余个型号：磁平衡式（NV100 系列）、磁调制（NCV1/NVCT 系列）、数字隔离（NVDL 系列）、隔离放大（NVTF/NVAF 板卡式）多原理并存；NCV1-1500V 等城轨网压检测型号与 NVCT.4200C-15 高压直流型号配套齐全，外形安装尺寸图 18 种。",
+    "description": "电压传感器型号规格及技术参数覆盖 10V~4200V 全量程 40 余个型号：磁平衡式（NV100 系列）、磁调制（NCV1/NVCT 系列）、数字隔离（NVDL 系列）、隔离放大（NVTF/NVAF 板卡式）、变送器多原理并存。NCV1-750/1500V 覆盖城轨网压检测，NVCT.2000C/3000/4000C-15 覆盖高压直流与干线牵引网检测，NVCT.4200C-15 测量范围 0~±6000V；外形安装尺寸图 18 种。",
     "tags": [
       "电压传感器",
       "磁调制",
@@ -664,14 +676,16 @@
       "support_en": "Selection-manual-level support; clearance & creepage documentation complete"
     },
     "summary_en": "Voltage sensors 10V–4200V full range: magnetic-modulation response ≤4µs, from 1500V urban-rail network voltage to HVDC detection.",
-    "description_en": "The voltage-sensor manual covers 40+ models from 10V to 4200V across multiple principles — magnetic balance (NV100), magnetic modulation (NCV1/NVCT), digital isolation (NVDL) and isolated amplification (NVTF/NVAF board types). NCV1-1500V covers urban-rail network voltage while NVCT.4200C-15 serves HVDC; 18 outline drawings available.",
+    "description_en": "The voltage-sensor manual covers 40+ models from 10V to 4200V across multiple principles - magnetic balance (NV100), magnetic modulation (NCV1/NVCT), digital isolation (NVDL), isolated amplification (NVTF/NVAF board types) and transmitters. NCV1-750/1500V covers urban-rail network voltage while NVCT.2000C/3000/4000C-15 serves HVDC and mainline detection; NVCT.4200C-15 measures 0~±6000V; 18 outline drawings available.",
     "specs_en": {
-      "量程覆盖": "Three series: 10mA–700V / 750–2000V / 2000–4200V",
-      "工作原理": "Magnetic balance / magnetic modulation / digital isolation / isolated amplification / transmitter",
-      "精度指标": "Linearity error ≤0.1%, response ≤4µs (magnetic-modulation typical), withstand up to 12kV/50Hz/1min",
-      "典型型号": "NV100-200V (200V, 0~±300V) / NCV1-1500V (1500V metro network voltage, 0~±1500V) / NVCT.3000-11/R (3000V, 0~±3900V) / NVCT.4200C-15 (4200V, 0~±6000V)",
-      "工作温度": "-40℃~+85℃ (NVTF board types -25℃~+70℃)",
-      "应用领域": "Rail traction-converter network voltage / electric-braking detection, PV-storage, UPS"
+      "Series spectrum": "Three series: 10-700V / 750-2000V / 2000-4200V, 40+ models",
+      "Principle": "Magnetic balance / magnetic modulation / digital isolation / isolated amplification / transmitter",
+      "Accuracy": "Digital isolation ≤±0.1%; magnetic balance ≤±0.2%-±1%; magnetic modulation ≤±0.1%-±0.7%",
+      "Response time": "≤4µs (magnetic-modulation typical)",
+      "Withstand voltage": "Up to 12kV/50Hz/1min",
+      "Typical models": "NV100-200V, NVDL.150B/250B/500B/750B/1000B/2000B-11/R (digital isolation), NVCL.600C/1000E-11, NCV1-750/1500/3000/SP3 (magnetic modulation), NV100-1500V/2000V/SP6·SP7 (magnetic balance), NVTF.1500/2000/3000-11/VR (isolated amplification), NVCT.140D-11/SP1VR, NVCT.2000C/3000/4000C-11/R, NVCT.4200C-15 (HV magnetic modulation)",
+      "Output forms": "±24V supply, 10V/6.667V/2.5V voltage output, 50mA current output",
+      "Applications": "Metro 750V/1500V network voltage, mainline catenary high-voltage detection, NEV HVDC, UPS"
     }
   },
   {
@@ -690,10 +704,13 @@
     ],
     "specs": {
       "主要参数": "NAMC1-10-IC、NAMC3-2-IC等型号",
-      "应用场景": "转向架失稳监测、车辆运行品质监测"
+      "应用场景": "转向架失稳监测、车辆运行品质监测",
+      "型号谱系": "NAMC1-10-IC（动车失稳检测，电缆长 1.16m）/ NAMC3-2-IC（动车平稳检测，电缆长 0.75m）",
+      "配套场景": "与速度传感器构成走行部状态监测完整方案（转向架失稳 + 轴箱振动 + 平稳性检测）",
+      "安装方式": "车体/转向架安装（按检测部位定制电缆长度）"
     },
     "summary": "用于转向架失稳监测、轴箱振动监测等场景的加速度检测。",
-    "description": "用于转向架失稳监测、轴箱振动监测等场景的加速度检测。",
+    "description": "用于转向架失稳监测、轴箱振动监测等场景的加速度检测：NAMC1-10-IC 用于动车组失稳检测（电缆长 1.16m），NAMC3-2-IC 用于动车组平稳性检测（电缆长 0.75m），配套速度传感器构成走行部状态监测完整方案。",
     "tags": [
       "速度传感器",
       "NAMC系列"
@@ -702,10 +719,12 @@
     "stock_status": "instock",
     "status": "publish",
     "summary_en": "Acceleration detection for bogie instability monitoring, axle-box vibration monitoring and ride-quality assessment.",
-    "description_en": "Acceleration detection for bogie instability monitoring, axle-box vibration monitoring and ride-quality assessment.",
+    "description_en": "Acceleration detection for bogie instability monitoring, axle-box vibration monitoring and EMU ride-quality assessment: NAMC1-10-IC for EMU stability detection (1.16m cable), NAMC3-2-IC for ride detection (0.75m cable), forming a complete running-gear condition-monitoring solution with speed sensors.",
     "specs_en": {
       "Main parameters": "NAMC1-10-IC, NAMC3-2-IC and other models",
-      "Applications": "Bogie instability monitoring, vehicle ride-quality monitoring"
+      "Applications": "Bogie instability monitoring, axle-box vibration monitoring, EMU ride-quality assessment",
+      "Model spectrum": "NAMC1-10-IC (EMU stability, 1.16m cable) / NAMC3-2-IC (EMU ride, 0.75m cable)",
+      "Mounting": "Car-body / bogie mounting (cable length customized by detection position)"
     }
   },
   {
@@ -782,10 +801,21 @@
       "信号系统配套": "NSH4/NSH6.203-X（动车/城轨信号）、TQG15-G 光电转速传感器",
       "霍尔式系列": "NCZ14 / NCZ19 / NCZ21（机车柴油机系统）",
       "加速度传感器": "NAMC1-10-IC（动车失稳检测，1.16m）/ NAMC3-2-IC（动车平稳检测，0.75m）",
-      "技术参数示例": "NCZ7：测速齿轮模数2.54/60齿渐开线，JL5-3TJ 连接器，不锈钢壳体"
+      "技术参数示例": "NCZ7：测速齿轮模数2.54/60齿渐开线，JL5-3TJ 连接器，不锈钢壳体",
+      "系列谱系": "7 大应用板块 30 余个型号：机车牵引 NCZ7/TQG2B/NCZ12A/NCZ15/NCZ16/TQG19D3·D9·D10 / 城轨牵引 NSM2.302-W/TQG19D7/TQG19E/TQG19G3·G4/NSH2.203-W / 制动 TAG37D·TAG43E/NSH2.203-X·SP2/NSH3.203-W/NSMR2.123-X-T1 / 信号 NSH4·NSH6.203-X/TQG15-G / 霍尔 NCZ14/NCZ19/NCZ21 / 加速度 NAMC 系列",
+      "工作原理": "磁电感应式（无源，近似正弦波）/ 霍尔式（有源方波）/ 光电式（TQG15-G 光电转速）",
+      "工作频率": "18Hz~2700Hz（NCZ7）/ 50Hz~3000Hz（TQG2B）/ 30Hz~2000Hz / 5Hz~1200Hz（各型号覆盖）",
+      "工作气隙": "0.3mm~1.5mm，标准气隙 0.9mm",
+      "防护等级": "IP68（30 款）/ IP67（5 款）/ IP66（6 款）",
+      "工作温度": "-40℃~+125℃（主流 25 款）/ -40℃~+85℃ / -40℃~+70℃（覆盖各安装位）",
+      "环境能力": "海拔 ≤2500m、相对湿度 0~100%（MIL-STD-202 Method 106）、满足 GB/T 21563-2018 三类车轴安装",
+      "测速齿轮": "渐开线齿形符合 GB/T 1356 或 DIN 867（模数 2.54/60 齿等）；碳素结构钢或低碳导磁钢",
+      "特殊耐压": "特殊系列满足 AC5000V/50Hz/60s",
+      "绝缘电阻": "≥500MΩ@500VDC（磁电式）/ ≥100MΩ@500VDC",
+      "连接方式": "JL5-3TJ / JL5-4TJ 电连接器、法兰式安装、线长可定制"
     },
     "summary": "磁电式/霍尔式/光电式速度传感器全谱系：覆盖机车牵引、城轨牵引、制动、信号、失稳检测全场景。",
-    "description": "2020年9月编制的速度传感器选型手册（54页）覆盖动车平稳检测系统、机车牵引系统、机车柴油机系统、城轨牵引系统、动车制动系统、城轨/机车信号系统、动车失稳检测系统七大应用板块 30 余个型号，配套加速度传感器；车型谱系覆盖 HXD/HXN/FX 系列机车、CRH/CR400/CR450 各平台动车组、CR200J 动集、城轨车辆、有轨电车与中低速磁悬浮列车。传感器测速齿轮渐开线齿形符合 GB/T 1356 或 DIN 867 要求，壳体不锈钢，线长可根据客户要求定制。",
+    "description": "速度传感器选型手册（2020 年 9 月编制，54 页）覆盖动车平稳检测系统、机车牵引系统、机车柴油机系统、城轨牵引系统、动车制动系统、城轨/机车信号系统、动车失稳检测系统七大应用板块 30 余个型号，配套加速度传感器：机车牵引 NCZ7（磁电感应，测速齿轮模数 2.54/60 齿渐开线，JL5-3TJ 连接器，不锈钢壳体）、TQG2B；城轨牵引 NSM2.302-W；制动系统 TAG37D/TAG43E（动车制动）与 NSH2.203-X·SP2、NSH3.203-W（城轨制动）；信号系统 NSH4/NSH6.203-X 与 TQG15-G 光电转速传感器；霍尔式 NCZ14/NCZ19/NCZ21 用于机车柴油机系统；NSMR2.123-X-T1 轴端集成传感器；加速度 NAMC1-10-IC（动车失稳检测 1.16m）与 NAMC3-2-IC（平稳检测 0.75m）。车型谱系覆盖 HXD/HXN/FX 系列机车、CRH/CR400/CR450 各平台动车组、CR200J 动集、城轨车辆、有轨电车与中低速磁悬浮列车。防护等级覆盖 IP66/IP67/IP68；工作温度 -40℃~+125℃；测速齿轮渐开线齿形符合 GB/T 1356 或 DIN 867 要求；壳体不锈钢；线长可定制。",
     "tags": [
       "速度传感器",
       "磁电式",
@@ -805,7 +835,7 @@
       "support_en": "Selection-manual-level support; compliance assistance with TB/T 3153 / EN 50343 wiring standards"
     },
     "summary_en": "Full spectrum of magnetic, Hall and photoelectric speed sensors covering locomotive traction, urban-rail traction, braking, signalling and instability detection.",
-    "description_en": "Our September 2020 speed-sensor selection manual (54 pages) covers 30+ models across seven application segments — EMU ride-stability detection, locomotive traction, locomotive diesel systems, urban-rail traction, EMU braking, signalling, and EMU stability detection — plus acceleration sensors. The vehicle spectrum covers HXD/HXN/FX locomotives, CRH/CR400/CR450 EMU platforms, CR200J DMUs, metro cars, trams and medium-low-speed maglev. Gear involute per GB/T 1356 or DIN 867; stainless housings; cable lengths customizable.",
+    "description_en": "The speed-sensor selection manual (Sep 2020, 54 pages) covers 30+ models across seven application segments - EMU ride-stability, locomotive traction, locomotive diesel, urban-rail traction, EMU braking, signalling, and stability detection - plus acceleration sensors: NCZ7 (magnetic induction, gear module 2.54/60-tooth involute, JL5-3TJ connector, stainless housing), TQG2B; NSM2.302-W for urban-rail traction; TAG37D/TAG43E (EMU braking) and NSH2.203-X·SP2, NSH3.203-W (metro braking); NSH4/NSH6.203-X and TQG15-G photoelectric tacho for signalling; Hall-type NCZ14/NCZ19/NCZ21 for diesel systems; NSMR2.123-X-T1 axle-end integrated sensor; acceleration NAMC1-10-IC (stability, 1.16m) and NAMC3-2-IC (ride, 0.75m). Vehicle spectrum: HXD/HXN/FX locomotives, CRH/CR400/CR450 EMU platforms, CR200J DMUs, metro cars, trams and medium-low-speed maglev. IP66/67/68 ratings; -40℃~+125℃; gear involute per GB/T 1356 or DIN 867; stainless housings; customizable cable length.",
     "specs_en": {
       "机车牵引配套": "NCZ7 / TQG2B / NCZ12A / NCZ15 / NCZ16 / TQG19D3·D9·D10 series",
       "城轨牵引配套": "NSM2.302-W / TQG19D7 / TQG19E / TQG19G3·G4 / NSH2.203-W and more",
@@ -813,7 +843,18 @@
       "信号系统配套": "NSH4/NSH6.203-X (EMU/metro signalling), TQG15-G photoelectric tacho sensor",
       "霍尔式系列": "NCZ14 / NCZ19 / NCZ21 (locomotive diesel systems)",
       "加速度传感器": "NAMC1-10-IC (EMU stability detection, 1.16m) / NAMC3-2-IC (EMU ride detection, 0.75m)",
-      "技术参数示例": "NCZ7: gear module 2.54/60-tooth involute, JL5-3TJ connector, stainless housing"
+      "技术参数示例": "NCZ7: gear module 2.54/60-tooth involute, JL5-3TJ connector, stainless housing",
+      "Series spectrum": "Seven application segments, 30+ models: locomotive traction NCZ7/TQG2B/NCZ12A/NCZ15/NCZ16/TQG19D3·D9·D10; urban-rail traction NSM2.302-W/TQG19D7/TQG19E/TQG19G3·G4/NSH2.203-W; braking TAG37D·TAG43E/NSH2.203-X·SP2/NSH3.203-W/NSMR2.123-X-T1; signalling NSH4·NSH6.203-X/TQG15-G; Hall NCZ14/NCZ19/NCZ21; acceleration NAMC series",
+      "Principle": "Magnetic induction (passive, near-sine) / Hall (active, square wave) / photoelectric (TQG15-G)",
+      "Working frequency": "18Hz-2700Hz (NCZ7) / 50Hz-3000Hz (TQG2B) / 30Hz-2000Hz / 5Hz-1200Hz (per model)",
+      "Working air gap": "0.3-1.5mm, standard 0.9mm",
+      "Protection rating": "IP68 (30 models) / IP67 (5) / IP66 (6)",
+      "Operating temperature": "-40℃~+125℃ (mainstream, 25 models) / -40℃~+85℃ / -40℃~+70℃ (all mounting positions)",
+      "Environment": "Altitude ≤2500m, RH 0-100% (MIL-STD-202 Method 106), GB/T 21563-2018 Class-3 axle mounting",
+      "Target gear": "Involute per GB/T 1356 or DIN 867 (module 2.54 / 60-tooth etc.); carbon steel or low-carbon magnetic steel",
+      "Special withstand": "Special series to AC5000V/50Hz/60s",
+      "Insulation": "≥500MΩ@500VDC (magnetic) / ≥100MΩ@500VDC",
+      "Connection": "JL5-3TJ / JL5-4TJ connectors, flange mounting, customizable cable length"
     }
   },
   {
@@ -831,15 +872,20 @@
       "img/products/CS-WD-01.jpg"
     ],
     "specs": {
-      "测量原理": "Pt100 铂热电阻（IEC 60751）/ NTC 热敏电阻 / K 型热电偶，允差符合 JB/T 8622-1997 B级（0℃容差≤±0.12Ω）",
-      "轴温报警配套": "BD-CGQT100 系列（轴箱/齿轮箱/电机/水冷系统温度，双探头 A/B、专用连接器，IP68 72h）",
-      "牵引电机配套": "NTP1/7/8/9/10/16/20/21.251 与 NCTR13A/B/C/E 系列（城轨牵引电机、CRH 动车组电机传动端/非传动端、HXD 机车定制），四线制、-50℃~250℃",
-      "水冷系统配套": "NCTR11-P（M20×1.5 螺纹安装，IP68）",
-      "柴油机配套": "NCTS7A1（NTC，25℃ 40kΩ，精度±0.5℃，1/4 NPTF）/ 41A296328 系列（NTC/热电偶，测温至 +250℃~+1000℃）",
-      "环境能力": "工作温度 -40℃~+250℃（探头），IP68，满足 GB/T 21563-2018 车轴安装要求，EN45545 防火"
+      "系列谱系": "四大板块 42 款：轴温报警 BD-CGQT100 系列 12 款（NTP22~34.251）/ 城轨 CGQT100-N 系列 6 款 / 水冷 NCTR11-P / 牵引电机 NTP 系列 8 款 + NCTR13 系列 9 款 / 柴油机 NCTS7A1 + 41A296328 系列 6 款",
+      "敏感元件": "Pt100 铂热电阻（IEC 60751，R=100Ω@0℃）/ NTC 热敏电阻 / K 型热电偶",
+      "允差等级": "JB/T 8622-1997 B 级：0℃ 容差 ≤±0.12Ω（±0.3℃），100℃ ≤±0.30Ω（±0.8℃）",
+      "测温范围": "-40℃~+250℃（探头），-40℃~+125℃（其余部件）",
+      "防护等级": "IP68（72h）",
+      "环境能力": "海拔 ≤1500m、相对湿度 ≤95%、满足 GB/T 21563-2018 三类车轴安装、耐盐雾 96h",
+      "电缆与连接": "2 芯整体屏蔽电缆（护套 14.6mm / 芯线 0.2mm²）、重载矩形连接器、线长可定制",
+      "防火性能": "电缆满足 EN45545",
+      "电气参数": "二线制，测量电流 ≤5mA（推荐 1mA），绝缘 >200MΩ@500VDC，绝缘强度 AC2500V/50Hz/60s",
+      "双探头版本": "BD-CGQT100GA/GB 系列支持 A/B 双探头（10 针连接器，轴箱+齿轮箱双测点）",
+      "壳体材料": "不锈钢；电缆保护管连接可靠，可承受 ≥500N 拉力"
     },
     "summary": "Pt100/NTC/热电偶全原理覆盖：从动车组轴温报警到牵引电机、柴油机配套的温度传感器选型手册级产品线。",
-    "description": "2020年9月编制的温度传感器选型手册覆盖轴温报警系统、牵引变流器水冷系统、牵引电机、柴油机控制单元四大配套板块共 40 余个型号：BD-CGQT100B-R 标准化动车组轴箱温度测量、CGQT100ME-N 用于 CRH2 系列动车组电机传动端、NCTR13E-P1 为 HXD1D 电力机车定制、NTP1.251 用于城轨牵引电机温度测量（-50℃~250℃、四线制）。传感器壳体不锈钢、电缆满足 EN45545 防火要求，配套专用系列连接器，线长可根据客户需求定制。",
+    "description": "温度传感器选型手册（2020 年 9 月编制）按四大配套板块组织 42 款产品：①轴温报警系统配套——BD-CGQT100B/BC/ME/GA/GB/M 及双探头 BT/BCT/GAT/GBT/MET 系列用于标准化动车组轴箱、齿轮箱、电机温度测量（NTP22~34.251）；②牵引变流器水冷系统配套——NCTR11-P；③牵引电机配套——NTP1/7/8/9/10/16/20/21.251 与 NCTR13A/B/C/E/J 系列（含 HXD1D 定制 NCTR13E-P1、城轨 NTP1.251 四线制 -50℃~250℃）；④柴油机控制单元配套——NCTS7A1 与 41A296328 系列。共性九段式规格：Pt100（IEC 60751）铂热电阻、JB/T 8622-1997 B 级允差、IP68（72h）、EN45545 电缆、不锈钢壳体、heavy-duty rectangular 连接器、线长可定制。",
     "tags": [
       "温度传感器",
       "Pt100",
@@ -859,14 +905,19 @@
       "support_en": "Selection-manual-level technical support; installation requirements and standards documents complete"
     },
     "summary_en": "Full-principle coverage of Pt100 / NTC / thermocouple: a selection-manual-grade temperature sensor line from EMU axle-temp alarms to traction motor and diesel applications.",
-    "description_en": "Our September 2020 temperature-sensor selection manual covers 40+ models across four segments — axle-temperature alarm systems, traction-converter water cooling, traction motors and diesel control units. BD-CGQT100B-R for standardized EMU axle-box temperature measurement; CGQT100ME-N for CRH2-series motor drive ends; NCTR13E-P1 custom-built for HXD1D electric locomotives; NTP1.251 for urban-rail traction motor temperature (-50℃~250℃, four-wire). Stainless-steel housings, EN45545-compliant cables and dedicated connectors; cable lengths customizable.",
+    "description_en": "The temperature-sensor selection manual (compiled Sep 2020) organizes 42 models into four fitment segments: (1) axle-temperature alarm - BD-CGQT100B/BC/ME/GA/GB/M and dual-probe BT/BCT/GAT/GBT/MET series for standardized EMU axle-box, gearbox and motor temperature (NTP22-34.251); (2) converter water-cooling - NCTR11-P; (3) traction motors - NTP1/7/8/9/10/16/20/21.251 and NCTR13A/B/C/E/J series (incl. HXD1D-custom NCTR13E-P1, urban-rail NTP1.251 four-wire -50℃~250℃); (4) diesel control units - NCTS7A1 and 41A296328 series. Common nine-section specs: Pt100 (IEC 60751), JB/T 8622-1997 Class B tolerance, IP68 (72h), EN45545 cables, stainless housing, Heavy-duty rectangular connectors, customizable cable length.",
     "specs_en": {
-      "测量原理": "Pt100 RTD (IEC 60751) / NTC thermistor / K-type thermocouple, tolerance per JB/T 8622-1997 Class B (0℃ within ±0.12Ω)",
-      "轴温报警配套": "BD-CGQT100 series (axle-box / gearbox / motor / water-cooling temperature; dual probes A/B, dedicated connectors, IP68 72h)",
-      "牵引电机配套": "NTP1/7/8/9/10/16/20/21.251 and NCTR13A/B/C/E series (urban-rail traction motors, CRH EMU motor drive/non-drive ends, HXD locomotive custom), four-wire, -50℃~250℃",
-      "水冷系统配套": "NCTR11-P (M20×1.5 thread mounting, IP68)",
-      "柴油机配套": "NCTS7A1 (NTC, 40kΩ @25℃, ±0.5℃, 1/4 NPTF) / 41A296328 series (NTC/thermocouple, +250℃~+1000℃)",
-      "环境能力": "Operating -40℃~+250℃ (probe), IP68, per GB/T 21563-2018 axle mounting, EN45545 fire safety"
+      "Series spectrum": "Four segments, 42 models: axle-temp alarm BD-CGQT100 series (12) / urban-rail CGQT100-N series (6) / water-cooling NCTR11-P / traction-motor NTP series (8) + NCTR13 series (9) / diesel NCTS7A1 + 41A296328 series (6)",
+      "Sensing element": "Pt100 RTD (IEC 60751, R=100Ω@0℃) / NTC thermistor / K-type thermocouple",
+      "Tolerance class": "JB/T 8622-1997 Class B: 0℃ within ±0.12Ω (±0.3℃), 100℃ within ±0.30Ω (±0.8℃)",
+      "Measuring range": "-40℃~+250℃ (probe), -40℃~+125℃ (other parts)",
+      "Protection rating": "IP68 (72h)",
+      "Environment": "Altitude ≤1500m, RH ≤95%, GB/T 21563-2018 Class-3 axle mounting, salt spray 96h",
+      "Cable & connection": "2-core shielded cable (sheath 14.6mm / core 0.2mm²), Heavy-duty rectangular connectors, customizable length",
+      "Fire performance": "Cables per EN45545",
+      "Electrical": "Two-wire, measuring current ≤5mA (1mA recommended), insulation >200MΩ@500VDC, AC2500V/50Hz/60s",
+      "Dual-probe versions": "BD-CGQT100GA/GB support A/B probes (10-pin connector, axle-box + gearbox)",
+      "Housing material": "Stainless steel; cable guard endures ≥500N pull"
     }
   },
   {
@@ -884,15 +935,19 @@
       "img/products/CS-YL-01.jpg"
     ],
     "specs": {
+      "系列谱系": "15 款：电流型输出 NCP1A / NCP3F1 / NCP3F3；电压型输出 NCP5A1/A4/A5/B1/B2/C1/D1/E1/F1 + TQG14A/B/C1/G/F",
       "测量原理": "硅压阻 + 高精度充油芯体；NTC 热敏电阻（柴油机冷却水/机油）",
-      "电流型输出": "NCP1A（0~1000kPa，4-20mA，误差±0.2%FS）/ NCP3F1（0~0.6MPa）/ NCP3F3（0~1MPa，±0.5%FS）",
-      "电压型输出": "NCP5A1/A4/A5/B1/B2/C1/D1/E1/F1（0.5-4.5Vdc，绝压 0psia~250psia）+ TQG14A/B/C1/G/F（0~5VDC/4-20mA，0~1000kPa）",
-      "应用场景": "机车变流柜、监控冷却水压力、柴油机燃油压力、润滑油供油压力及空压机气体压力",
-      "环境能力": "工作温度 -40℃~125℃（NCP5A1 达 +125℃），IP65-IP67，304 不锈钢壳体，满足 GB/T 21563 中1类B级振动冲击",
-      "连接方式": "M20×1.5 / 1/4-18NPTF / M18×1.5 螺纹安装，航空/防水/重载连接器"
+      "量程明细": "NCP1A 0~1000kPa；NCP3F1 0~0.6MPa；NCP3F3 0~1MPa；NCP5 系列 0.5-4.5Vdc 绝压 0~250psia；TQG14 0~5VDC·4-20mA（0~1000kPa）",
+      "精度明细": "NCP1A ±0.2%FS；NCP3F1 ±1%FS；NCP3F3 ±0.5%FS；NCP5 ±1%FS；TQG14 ±0.5%FS",
+      "环境能力": "工作温度 -40~125℃（NCP5A1 达 +125℃）、IP65-IP67、海拔 ≤2500m、满足 GB/T 21563 中 1 类 B 级振动冲击",
+      "过载能力": "过载 2~3 倍额定压力、破坏压力 4~5 倍额定压力",
+      "信号处理": "零点调节、灵敏度调节、温度补偿",
+      "稳定性": "年稳定性 ≤0.1%FS/年（NCP5A1），响应时间 ≤15ms",
+      "连接方式": "M20×1.5 / 1/4-18NPTF / M18×1.5 螺纹安装，航空/防水/重载连接器",
+      "应用场景": "机车变流柜、冷却水压力监控、柴油机燃油压力、润滑油供油压力、空压机气体压力"
     },
     "summary": "机车压力检测全套：燃油/润滑油/冷却水/空压机压力变送器 12 个型号，±0.2%FS 高精度。",
-    "description": "压力变送器选型手册覆盖电流型输出（NCP1A/NCP3F1/NCP3F3）与电压型输出（NCP5 系列 9 型 + TQG14 系列 6 型）共 15 个型号：专为机车监控系统直接配用实现行车自动测量和控制而设计；信号处理电路具有零点调节、灵敏度调节和温度补偿功能；304 不锈钢壳体适应机车恶劣应用环境。",
+    "description": "压力变送器选型手册覆盖 15 个型号：电流型输出（NCP1A/NCP3F1/NCP3F3）与电压型输出（NCP5 系列 9 型 + TQG14 系列 6 型）专为机车监控系统直接配用实现行车自动测量和控制而设计。基于硅压阻原理与高精度充油芯体；304 不锈钢壳体适应机车恶劣环境；信号处理电路具有零点调节、灵敏度调节和温度补偿功能；过载 2~3 倍、破坏 4~5 倍额定压力；年稳定性 ≤0.1%FS（NCP5A1）。",
     "tags": [
       "压力变送器",
       "4-20mA",
@@ -911,14 +966,18 @@
       "support_en": "Selection-manual-level support; installation requirements and standards documents complete"
     },
     "summary_en": "Complete locomotive pressure detection: 12 models of fuel / lubricating / cooling-water / compressor pressure transmitters at ±0.2% FS accuracy.",
-    "description_en": "The pressure-transmitter manual covers 15 models — current-output (NCP1A/NCP3F1/NCP3F3) and voltage-output (NCP5 nine types + TQG14 six types) — designed for direct use in locomotive monitoring systems for automatic measurement and control of operation. Signal circuits feature zero adjustment, sensitivity adjustment and temperature compensation; 304 stainless housings withstand harsh locomotive environments.",
+    "description_en": "The pressure-transmitter manual covers 15 models - current-output (NCP1A/NCP3F1/NCP3F3) and voltage-output (nine NCP5 types + six TQG14 types) - designed for direct use in locomotive monitoring systems for automatic measurement and control. Piezoresistive silicon with oil-filled cells; 304 stainless housings for harsh locomotive environments; signal circuits with zero/sensitivity adjustment and temperature compensation; 2-3× overload and 4-5× burst ratings; annual stability ≤0.1%FS (NCP5A1).",
     "specs_en": {
-      "测量原理": "Piezoresistive silicon + high-accuracy oil-filled cell; NTC thermistor (diesel cooling water / lubricating oil)",
-      "电流型输出": "NCP1A (0–1000kPa, 4-20mA, ±0.2%FS) / NCP3F1 (0–0.6MPa) / NCP3F3 (0–1MPa, ±0.5%FS)",
-      "电压型输出": "NCP5A1/A4/A5/B1/B2/C1/D1/E1/F1 (0.5-4.5Vdc, absolute 0–250psia) + TQG14A/B/C1/G/F (0–5VDC/4-20mA, 0–1000kPa)",
-      "应用场景": "Locomotive converter cabinets, cooling-water & diesel fuel / lubricating-oil supply pressure, compressor gas pressure monitoring",
-      "环境能力": "Operating -40℃~125℃ (NCP5A1 to +125℃), IP65-IP67, 304 stainless housing, GB/T 21563 Class 1B vibration & shock",
-      "连接方式": "M20×1.5 / 1/4-18NPTF / M18×1.5 threads; aviation / waterproof / heavy-duty connectors"
+      "Series spectrum": "15 models: current-output NCP1A / NCP3F1 / NCP3F3; voltage-output NCP5A1/A4/A5/B1/B2/C1/D1/E1/F1 + TQG14A/B/C1/G/F",
+      "Principle": "Piezoresistive silicon + high-accuracy oil-filled cell; NTC thermistor (diesel cooling water / lubricating oil)",
+      "Range details": "NCP1A 0-1000kPa; NCP3F1 0-0.6MPa; NCP3F3 0-1MPa; NCP5 0.5-4.5Vdc absolute 0-250psia; TQG14 0-5VDC·4-20mA (0-1000kPa)",
+      "Accuracy details": "NCP1A ±0.2%FS; NCP3F1 ±1%FS; NCP3F3 ±0.5%FS; NCP5 ±1%FS; TQG14 ±0.5%FS",
+      "Environment": "-40~125℃ (NCP5A1 to +125℃), IP65-IP67, altitude ≤2500m, GB/T 21563 Class 1B",
+      "Overload": "2-3× rated overload, 4-5× burst pressure",
+      "Signal conditioning": "Zero adjustment, sensitivity adjustment, temperature compensation",
+      "Stability": "Annual drift ≤0.1%FS (NCP5A1), response ≤15ms",
+      "Connection": "M20×1.5 / 1/4-18NPTF / M18×1.5 threads; aviation / waterproof / heavy-duty connectors",
+      "Applications": "Locomotive converter cabinets, cooling-water monitoring, diesel fuel / lubricating-oil pressure, compressor gas pressure"
     }
   },
   {
@@ -926,8 +985,8 @@
     "name": "轨道交通传感器与智慧照明新产业系列",
     "name_en": "Rail Sensors & Smart Lighting (New Industries)",
     "vendor": "昆明轨交",
-    "category": "传感器与测量装置",
-    "sub_category": "传感监测",
+    "category": "轨道交通照明产品",
+    "sub_category": "新产业延伸",
     "price": null,
     "currency": "CNY",
     "moq": 1,
